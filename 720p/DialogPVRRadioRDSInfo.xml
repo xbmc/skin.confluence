@@ -67,7 +67,7 @@
 			<description>Normal song info group</description>
 			<left>0</left>
 			<top>70</top>
-			<visible>IsEmpty(RDS.IsClassical)</visible>
+			<visible>![StringCompare(RDS.RadioStyle, classical) | StringCompare(RDS.RadioStyle, lightclassics) | StringCompare(RDS.RadioStyle, seriousclassics)]</visible>
 			<control type="label">
 				<description>Artist Title</description>
 				<left>10</left>
@@ -207,7 +207,7 @@
 			<description>Classic concert music group</description>
 			<left>0</left>
 			<top>70</top>
-			<visible>!IsEmpty(RDS.IsClassical)</visible>
+			<visible>StringCompare(RDS.RadioStyle, classical) | StringCompare(RDS.RadioStyle, lightclassics) | StringCompare(RDS.RadioStyle, seriousclassics)</visible>
 			<control type="label">
 				<description>Composer Title</description>
 				<left>10</left>
