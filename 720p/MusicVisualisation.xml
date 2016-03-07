@@ -286,7 +286,7 @@
 			<depth>DepthOSD+</depth>
 			<left>0</left>
 			<top>50</top>
-			<visible>Player.ShowCodec + ![Window.IsVisible(script-cu-lrclyrics-main.xml) | Window.IsVisible(VisualisationSettings) | Window.IsVisible(VisualisationPresetList) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide) | Window.IsVisible(PVRRadioRDSInfo) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(Addon)]</visible>
+			<visible>![Window.IsVisible(script-cu-lrclyrics-main.xml) | Window.IsVisible(VisualisationSettings) | Window.IsVisible(VisualisationPresetList) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVROSDGuide) | Window.IsVisible(PVRRadioRDSInfo) | Window.IsVisible(OSDAudioDSPSettings) | Window.IsVisible(Addon)]</visible>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<control type="image">
 				<description>media info background image</description>
@@ -336,7 +336,7 @@
 				<font>font12</font>
 			</control>
 			<control type="group">
-				<visible>Player.ShowCodec + MusicPlayer.Content(LiveTV) + system.getbool(pvrplayback.signalquality)</visible>
+				<visible>MusicPlayer.Content(LiveTV) + system.getbool(pvrplayback.signalquality)</visible>
 				<top>185</top>
 				<control type="image">
 					<description>media info background image</description>
