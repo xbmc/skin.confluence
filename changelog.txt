@@ -1,3 +1,7 @@
+[B]3.0.2[/B]
+
+- Merged setting dialogs into DialogSettings
+
 [B]3.0.1[/B]
 
 - Updated language files from Transifex
