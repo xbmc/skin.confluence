@@ -150,7 +150,7 @@ msgstr "Fișiere de muzică în sistem"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr "Listă de redare curentă"
+msgstr "Listă de redare actuală"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
@@ -158,7 +158,7 @@ msgstr "Acest fișier este în stivă, selectați partea din care doriți să re
 
 msgctxt "#31061"
 msgid "Current selected"
-msgstr "Selectat curent"
+msgstr "Selectat actual"
 
 msgctxt "#31101"
 msgid "Home screen options"
@@ -294,7 +294,7 @@ msgstr "Episoade viitoare"
 
 msgctxt "#31300"
 msgid "Current temperature"
-msgstr "Temperatură curentă"
+msgstr "Temperatură actuală"
 
 msgctxt "#31301"
 msgid "Last updated"
@@ -326,7 +326,7 @@ msgstr "Imagine creație artistică[CR][CR]Indisponibilă[CR][CR] Clic pe buton 
 
 msgctxt "#31312"
 msgid "Current scraper"
-msgstr "Catalog curent"
+msgstr "Catalog actual"
 
 msgctxt "#31313"
 msgid "Choose a scraper"

@@ -118,7 +118,7 @@ msgstr "DÉPLACEMENT"
 
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr "Présélections de visualisation"
+msgstr "Préréglages de visualisation"
 
 msgctxt "#31049"
 msgid "End time"
@@ -154,7 +154,7 @@ msgstr "Liste de lecture actuelle"
 
 msgctxt "#31060"
 msgid "This file is stacked, select the part you want to play from."
-msgstr "Ce fichier est empilé, sélectionner le point à partir duquel le lire."
+msgstr "Ce fichier est empilé, sélectionner le point à partir duquel débuter la lecture."
 
 msgctxt "#31061"
 msgid "Current selected"
@@ -170,7 +170,7 @@ msgstr "Arrière-plan"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr "Afficher « Pause » dans le diaporama d'images"
+msgstr "Afficher « En pause » dans le diaporama d'images"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -182,7 +182,7 @@ msgstr "Options diverses"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Masquer l'indicateur de fichiers vidéo déjà vus [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Masquer l'indicateur lu depuis les noms de fichier vidéo [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -206,11 +206,11 @@ msgstr "Options"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
-msgstr "Afficher les albums ajoutés récemment"
+msgstr "Afficher les albums Ajoutés récemment"
 
 msgctxt "#31117"
 msgid "Show recently added videos"
-msgstr "Afficher les vidéos ajoutées récemment"
+msgstr "Afficher les vidéos Ajoutées récemment"
 
 msgctxt "#31118"
 msgid "Home page programs submenu"
@@ -478,19 +478,19 @@ msgstr "Sous-titres locaux disponibles"
 
 msgctxt "#31420"
 msgid "Login"
-msgstr "Connexion"
+msgstr "Identification"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Choisir le profil utilisateur Kodi[CR]pour s'identifier et poursuivre"
+msgstr "Sélectionner le profil utilisateur Kodi[CR]pour s'identifier et poursuivre"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr "Affiche ou masque l'écran de connexion au démarrage."
+msgstr "Affiche ou masque l'écran d'identification au démarrage."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Sélection du profil utilisé au démarrage lorsque l'écran de connexion est désactivé."
+msgstr "Sélection du profil utilisé au démarrage lorsque l'écran d'identification est désactivé."
 
 msgctxt "#31501"
 msgid "Scheduled time"
@@ -538,11 +538,11 @@ msgstr "Prévisions heure par heure"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
-msgstr "Prévisions du week-end"
+msgstr "Prévisions pour le week-end"
 
 msgctxt "#31904"
 msgid "Daily forecast"
-msgstr "Prévisions journalières"
+msgstr "Prévisions quotidiennes"
 
 msgctxt "#31905"
 msgid "Forecast"

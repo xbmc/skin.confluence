@@ -530,19 +530,19 @@ msgstr "Kanaal opties"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
-msgstr "36-Uur Vooruitzicht"
+msgstr "36-uurs Voorspelling"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr "Uur vooruitzicht"
+msgstr "Uur voorspelling"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
-msgstr "Weekend vooruitzicht"
+msgstr "Weekend voorspelling"
 
 msgctxt "#31904"
 msgid "Daily forecast"
-msgstr "Dagelijkse vooruitzicht"
+msgstr "Dagelijkse voorspelling"
 
 msgctxt "#31905"
 msgid "Forecast"
