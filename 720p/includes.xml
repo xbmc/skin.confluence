@@ -95,7 +95,7 @@
 		<value condition="String.Contains(Listitem.mpaa,Not Rated)">mpaa_notrated</value>
 	</variable>
 	<variable name="videocodec">
-		<value condition="[String.Contains(ListItem.VideoCodec,div,left) | String.IsEqual(ListItem.VideoCodec,dx50)]">divx</value>
+		<value condition="[String.StartsWith(ListItem.VideoCodec,div) | String.IsEqual(ListItem.VideoCodec,dx50)]">divx</value>
 		<value>$INFO[ListItem.VideoCodec]</value>
 	</variable>
 	<variable name="SeekLabel">
