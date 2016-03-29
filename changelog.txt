@@ -1,3 +1,11 @@
+[B]3.0.6[/B]
+
+- Added game controller support
+- Added DefaultAddonInputstream.png and DefaultAddonLookAndFeel.png
+- Changed unknown-user.png to DefaultUser.png
+- Removed obsolete fanart code from DialogVideoInfo.xml
+- Updated boolean conditions
+
 [B]3.0.5[/B]
 
 - Updated language files from Transifex
