@@ -570,7 +570,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font13caps</font>
+				<font>font13_title</font>
 				<textcolor>blue</textcolor>
 				<label>$LOCALIZE[29908]:</label>
 				<visible>!String.IsEmpty(RDS.ProgNow) | !String.IsEmpty(RDS.ProgNext)</visible>
@@ -590,7 +590,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font13caps</font>
+				<font>font13_title</font>
 				<textcolor>blue</textcolor>
 				<label>$LOCALIZE[29909]:</label>
 				<visible>!String.IsEmpty(RDS.PhoneStudio) | !String.IsEmpty(RDS.EmailStudio) | !String.IsEmpty(RDS.SMSStudio)</visible>
@@ -746,7 +746,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font13caps</font>
+				<font>font13_title</font>
 				<textcolor>blue</textcolor>
 				<label>$LOCALIZE[29913]:</label>
 				<visible>!String.IsEmpty(RDS.PhoneHotline) | !String.IsEmpty(RDS.EmailHotline)</visible>
@@ -884,7 +884,7 @@
 				<height>25</height>
 				<align>right</align>
 				<aligny>center</aligny>
-				<font>font13caps</font>
+				<font>font13_title</font>
 				<textcolor>blue</textcolor>
 				<label>$LOCALIZE[29915]:</label>
 			</control>
@@ -921,7 +921,7 @@
 				<top>30</top>
 				<width>800</width>
 				<height>120</height>
-				<font>font11</font>
+				<font>font12</font>
 				<align>justify</align>
 				<pagecontrol>60</pagecontrol>
 				<label>-</label>
