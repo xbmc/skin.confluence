@@ -1380,7 +1380,6 @@
 									<top>5</top>
 									<width>150</width>
 									<height>90</height>
-									<aspectratio>scale</aspectratio>
 									<texture background="true">$INFO[ListItem.Icon]</texture>
 									<aspectratio>keep</aspectratio>
 								</control>
@@ -1435,7 +1434,6 @@
 									<top>5</top>
 									<width>150</width>
 									<height>90</height>
-									<aspectratio>scale</aspectratio>
 									<texture background="true">$INFO[ListItem.Icon]</texture>
 									<aspectratio>keep</aspectratio>
 								</control>
