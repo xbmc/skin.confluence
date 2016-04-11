@@ -28,10 +28,6 @@ msgctxt "#31008"
 msgid "Full screen"
 msgstr "Toàn màn hình"
 
-msgctxt "#31022"
-msgid "Music - Files"
-msgstr "Nhạc - Tập tin"
-
 msgctxt "#31023"
 msgid "Playing"
 msgstr "Đang phát"
@@ -112,10 +108,6 @@ msgctxt "#31059"
 msgid "Current playlist"
 msgstr "Danh sách hiện tại"
 
-msgctxt "#31060"
-msgid "This file is stacked, select the part you want to play from."
-msgstr "Tập tin này đã bị lỗi, hãy chọn một đối tượng khác để phát."
-
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Tùy chọn màn hình chính"
@@ -148,10 +140,6 @@ msgctxt "#31140"
 msgid "Music OSD"
 msgstr "Bảng điều khiển Nhạc"
 
-msgctxt "#31141"
-msgid "Video OSD"
-msgstr "Bảng điều khiển Video"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Mức độ hiệu chỉnh"
@@ -167,10 +155,6 @@ msgstr "Đã tìm thấy"
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Nhà cung cấp dữ liệu"
-
-msgctxt "#31311"
-msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
-msgstr "Ảnh tự vẽ[CR][CR]Không có[CR][CR] Bấm nút để đặt"
 
 msgctxt "#31322"
 msgid "Aired"
