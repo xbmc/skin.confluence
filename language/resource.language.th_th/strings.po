@@ -212,6 +212,10 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "ซ่อนพื้นหลังแฟนอาร์ต"
 
+msgctxt "#31122"
+msgid "Hide EPG if RDS is present on channel window"
+msgstr "ซ่อน EPG ถ้า RDS ถูกนำเสนอบนหน้าต่างช่องรายการ"
+
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
 msgstr "แสดงพื้นหลังวิดีโอ \"ที่กำลังเล่น\""
@@ -395,6 +399,10 @@ msgstr "[B]ปรับเปลี่ยนค่าการแสดงผล
 msgctxt "#31401"
 msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
 msgstr "[B]ปรับเปลี่ยนการตั้งค่าวิดีโอ[/B][CR][CR]จัดการคลังข้อมูลวิดีโอของคุณ · ตั้งค่าตัวเลือกการเล่นวิดีโอ · เปลี่ยนตัวเลือกจัดเรียงรายการวิดีโอ[CR]ตั้งค่าแบบอักษรคำบรรยาย"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission"
+msgstr "[B]ปรับเปลี่ยนการตั้งค่าเพลง[/B][CR][CR]จัดการคลังข้อมูลเพลงของคุณ · ตั้งค่าตัวเลือกการเล่นเพลง · เปลี่ยนตัวเลือกจัดเรียงรายการเพลง[CR]ตั้งค่าการส่งเพลง"
 
 msgctxt "#31403"
 msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence"
-  version="3.0.8"
+  version="3.0.9"
   name="Confluence"
   provider-name="Jezz_X, Team Kodi">
   <requires>
@@ -62,8 +62,8 @@
     <summary lang="sk_SK">Confluence skin od Jezz_X. (predvolený skin Kodi)</summary>
     <summary lang="sl_SI">Preobleka Confluence avtorja Jezz_X. (Privzeta preobleka za Kodi)</summary>
     <summary lang="sq_AL">Maska Confluence nga Jazz_X (maska kryesore së Kodi)</summary>
-    <summary lang="sr_RS">Confluence маска аутора Jezz_X. (подразумевана Kodi маска)</summary>
-    <summary lang="sr_RS@latin">Confluence maska autora Jezz_X. (podrazumevana Kodi maska)</summary>
+    <summary lang="sr_RS">Confluence маска аутора Jezz_X.</summary>
+    <summary lang="sr_RS@latin">Confluence maska autora Jezz_X.</summary>
     <summary lang="sv_SE">Confluence, ett skal av Jezz_X. (Kodi:s standardskal)</summary>
     <summary lang="szl">Skōra Confluence zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)</summary>
     <summary lang="tg_TJ">Пӯсти ҳамҷараёнӣ аз ҷониби Jezz_X. (Пӯсти пешфарзи Kodi)</summary>
@@ -120,8 +120,8 @@
     <description lang="sk_SK">Confluence je predvolený pre Kodi 9.11 a vyššie. Je kombináciou konceptov z mnoho populárnych skinov a pokusom integrovať ich dobré nápady do skinu, ktorý by bol ľahko zrozumiteľný a použiteľný pre nových používateľov Kodi.</description>
     <description lang="sl_SI">Confluence je privzeta preobleka za Kodi 14.0 in novejše. Je kombinacija konceptov mnogih priljubljenih preoblek in poskuša zaobjeti in integrirati njihove dobre ideje v preobleko, ki bi bila preprosta za uporabo in razumevanje tudi novim uporabnikom.</description>
     <description lang="sq_AL">Confluence është maska kryesore për Kodi 9.11 dhe verzionet më të lartë. Është nje kombinim nga shumë maska e popullarizuar dhe përpjeket për të përqafuar dhe integruar idetë më të mira në një maskë që të jetë sa më lehtë në përdorim dhe kuptim për përdoruasit duke e përdorur Kodi për herë të parë.</description>
-    <description lang="sr_RS">Confluence је подразумевана маска за Kodi 14.0 и навише. То је мешавина концепата из многих других популарних маски, и покушај да се обједине њихове добре идеје у маску која би трабала да буде лака за разумевање и употребу новим корисницима Kodi-а.</description>
-    <description lang="sr_RS@latin">Confluence je podrazumevana maska za Kodi 14.0 i naviše. To je mešavina koncepata iz mnogih drugih popularnih maski, i pokušaj da se objedine njihove dobre ideje u masku koja bi trabala da bude laka za razumevanje i upotrebu novim korisnicima Kodi-a.</description>
+    <description lang="sr_RS">Confluence је мешавина концепата из многих других популарних маски, и покушај да се обједине њихове добре идеје у маску која би трабала да буде лака за разумевање и употребу новим корисницима Kodi-а.</description>
+    <description lang="sr_RS@latin">Confluence je mešavina koncepata iz mnogih drugih popularnih maski, i pokušaj da se objedine njihove dobre ideje u masku koja bi trabala da bude laka za razumevanje i upotrebu novim korisnicima Kodi-a.</description>
     <description lang="sv_SE">Confluence är standardskal för Kodi 14.0 och senare. Det kombinerar koncept från många populära skal och försöker återanvända och integrera goda idéer för att skapa ett skal som är enkelt att förstå och använda för nya Kode-användare.</description>
     <description lang="szl">Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw Kodi.</description>
     <description lang="tg_TJ">Пӯсти ҳамҷараёнӣ ҳамчун пӯсти пешфарз барои Kodi 9.11 ё версияи навтар истифода мешавад. Ин пӯст аз унсурҳои пӯстҳои машҳури дигар сохта шудааст ва ва ҳамаи фикрҳои беҳтарин дар як пӯст ҷамъ мекунад, то ки корбарони навомад тавонанд Kodi-ро ба осонӣ фаҳманд ва истифода баранд.</description>
