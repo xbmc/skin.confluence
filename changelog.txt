@@ -1,3 +1,7 @@
+[B]3.0.10[/B]
+
+- Remove the set of ADSP manager dialog list types, becomes done from Kodi itself
+
 [B]3.0.9[/B]
 
 - Updated language files from Transifex
