@@ -1,3 +1,9 @@
+[B]3.0.10[/B]
+
+- Updated global search
+- Updated music and video info
+- Added DefaultAddonsRecentlyUpdated.png and DefaultMusicRoles.png
+
 [B]3.0.9[/B]
 
 - Updated language files from Transifex
