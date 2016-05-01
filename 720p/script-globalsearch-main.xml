@@ -440,7 +440,7 @@
 							<ondown>221</ondown>
 							<viewtype label="535">list</viewtype>
 							<preloaditems>2</preloaditems>
-							<pagecontrol>178</pagecontrol>
+							<pagecontrol>228</pagecontrol>
 							<itemlayout width="750" height="106">
 								<control type="image">
 									<left>0</left>
@@ -826,7 +826,7 @@
 							<ondown>211</ondown>
 							<viewtype label="535">panel</viewtype>
 							<preloaditems>2</preloaditems>
-							<pagecontrol>118</pagecontrol>
+							<pagecontrol>218</pagecontrol>
 							<itemlayout width="375" height="130">
 								<control type="image">
 									<left>0</left>
