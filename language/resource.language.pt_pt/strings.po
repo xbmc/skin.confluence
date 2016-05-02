@@ -392,42 +392,6 @@ msgctxt "#31392"
 msgid "Arial based"
 msgstr "Baseada em Arial"
 
-msgctxt "#31400"
-msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
-msgstr "[B]Configurar definições de aparência[/B][CR][CR]Mudar de tema · Definir o idioma e a região · Opções de listagem de ficheiros[CR]Definir uma proteção de ecrã"
-
-msgctxt "#31401"
-msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
-msgstr "[B]Configurar definições de vídeo[/B][CR][CR]Gerir coleção de vídeos · Opções de reprodução de vídeos · Opções de listagem de vídeos[CR]Definir tipo de letra das legendas"
-
-msgctxt "#31402"
-msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission"
-msgstr "[B]Configurar definições de músicas[/B][CR][CR]Gerir a coleção de músicas · Opções de reprodução de músicas · Opções de listagem de músicas[CR]Configurar submissão de músicas"
-
-msgctxt "#31403"
-msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
-msgstr "[B]Configurar definições de imagens[/B][CR][CR]Opções de listagem de imagens · Configurar apresentação"
-
-msgctxt "#31404"
-msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
-msgstr "[B]Configurar definições meteorológicas[/B][CR][CR]Definir várias cidades para obtenção de informação meterológica"
-
-msgctxt "#31406"
-msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
-msgstr "[B]Configurar definições do sistema[/B][CR][CR]Configurar e calibrar ecrãs · Configurar saída de áudio · Configurar controlo remoto[CR]Opções de poupança de energia · Ativar depuração · Configurar bloqueio geral"
-
-msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
-msgstr "[B]Configurar add-ons[/B][CR][CR]Gerir add-ons instalados · Procurar e instalar add-ons a partir de kodi.tv[CR]Alterar definições de add-ons"
-
-msgctxt "#31409"
-msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
-msgstr "[B]Configurar definições de TV[/B][CR][CR]Informação em ecrã completo· Gerir definições de dados do EPG"
-
-msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]Configurar definições dos serviços[/B][CR][CR]Controlar o Kodi via UPnP e HTTP · Configurar partilha de ficheiros[CR]Ativar ZeroConf · Configurar AirPlay"
-
 msgctxt "#31411"
 msgid "First run help..."
 msgstr "Ajuda da primeira execução..."

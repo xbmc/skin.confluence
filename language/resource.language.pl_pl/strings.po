@@ -392,42 +392,6 @@ msgctxt "#31392"
 msgid "Arial based"
 msgstr "Bazujące na Arialu"
 
-msgctxt "#31400"
-msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
-msgstr "[B]KONFIGURACJA WYGLĄDU[/B][CR][CR]Wybór skóry · Ustawienia regionalne · Listy plików · Wygaszacz ekranu"
-
-msgctxt "#31401"
-msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
-msgstr "[B]KONFIGURACJA WIDEO[/B][CR][CR]Biblioteka wideo · Odtwarzanie · Akceleracja · Listy wideo · Napisy"
-
-msgctxt "#31402"
-msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission"
-msgstr "[B]KONFIGURACJA MUZYKI[/B][CR][CR]Biblioteka muzyki · Odtwarzanie · Listy utworów · CD-Audio"
-
-msgctxt "#31403"
-msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshow"
-msgstr "[B]KONFIGURACJA OBRAZÓW[/B][CR][CR]Listy obrazów · Pokaz slajdów"
-
-msgctxt "#31404"
-msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set various cities to collect weather information"
-msgstr "[B]KONFIGURACJA POGODY[/B][CR][CR]Wybór lokalizacji pobierania informacji pogodowych"
-
-msgctxt "#31406"
-msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
-msgstr "[B]KONFIGURACJA SYSTEMU[/B][CR][CR]Wyświetlanie obrazu · Odtwarzanie dźwięku · Urządzenia wejściowe · Internet[CR]Oszczędzanie energii · Diagnostyka · Kontrola dostępu"
-
-msgctxt "#31408"
-msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed add-ons · Browse for and install add-ons from kodi.tv[CR]Modify add-on settings"
-msgstr "[B]KONFIGURACJA DODATKÓW[/B][CR][CR]Zarządzanie zainstalowanymi dodatkami · Przeglądanie i instalacja dodatków[CR]Modyfikacja ustawień dodatków"
-
-msgctxt "#31409"
-msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
-msgstr "[B]KONFIGURACJA TELEWIZJI[/B][CR][CR]Menu ekranowe · Przewodnik · Nagrywanie · Kontrola rodzicielska"
-
-msgctxt "#31410"
-msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
-msgstr "[B]KONFIGURACJA USŁUG[/B][CR][CR]Zdalne sterowanie przez uPnP i HTTP · Współdzielenie plików[CR]Aktywacja Zeroconf · Ustawienia AirPlay"
-
 msgctxt "#31411"
 msgid "First run help..."
 msgstr "Wskazówki na początek..."
