@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Pasirinkite profilį, kuris bus naudojamas paleidimo metu, kai prisijungimo langas išjungtas."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]GROTUVO NUSTATYMAI[/B][CR][CR]Konfigūruoti veiksmus, kurie gali būti naudojami atkūrimo metu · Konfigūruoti kaip atkuriamas media turinys"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]BIBLIOTEKOS NUSTATYMAI[/B][CR][CR]Konfigūruoti kaip bibliotekos/failų rodiniai atvaizduoja turinį · Konfigūruoti naršymą bibliotekos sąrašuose/rodiniuose · Konfigūruoti duomenų bazės parinktis"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR NUSTATYMAI[/B][CR][CR]Konfigūruoti kaip turi būti tvarkomi kanalai ir gidas · Konfigūruoti kaip turi būti tvarkomi televizijos įrašymai"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]PRIEDŲ NUSTATYMAI[/B][CR][CR]Konfigūruoti įdiegtus priedus · Naršyti ir įdiegti priedus iš kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]PASLAUGŲ NUSTATYMAI[/B][CR][CR]Konfigūruoti ir tvarkyti dalinimosi media įrašais paslaugas · Konfigūruoti žiniatinklio serverį · Konfigūruoti ir tvarkyti orų paslaugą"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]SISTEMOS NUSTATYMAI[/B][CR][CR]Konfigūruoti ekraną · Konfigūruoti garsą · Konfigūruoti interneto prieigą · Konfigūruoti energijos taupymą · Konfigūruoti derinimą"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]SĄSAJOS NUSTATYMAI[/B][CR][CR]Konfigūruoti teminę išvaizdą · Konfigūruoti regioną · Konfigūruoti valdymą · Konfigūruoti ekrano užsklandą · Konfigūruoti valdytojo užraktą"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Suplanuotas laiaks"

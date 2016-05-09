@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Seleziona il profilo che sarà usato all'avvio quando la schermata di login è disabilitata."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]IMPOSTAZIONI LETTORE[/B][CR][CR]Configura le azioni che possono essere usate durante la riproduzione · Configura come viene visualizzato il contenuto multimediale"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]IMPOSTAZIONI LIBRERIA[/B][CR][CR]Configura la visualizzazione del contenuto delle viste file/libreria · Configura la navigazione delle liste/viste libreria · Configura le opzioni dei database multimediali"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei Canali e delle Guide · Configura la gestione della TV e delle Registrazioni"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli Add-on installati · Sfoglia e installa Add-on da kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]IMPOSTAZIONI SERVIZI[/B][CR][CR]Configura e gestisci i servizi di condivisione multimediale · Configura il web server · Configura e gestisci il servizio meteo"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]IMPOSTAZIONI SISTEMA[/B][CR][CR]Configura il display · Configura l'audio · Configura l'accesso a internet · Configura il risparmio energetico · Configura il logging"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]IMPOSTAZIONI INTERFACCIA[/B][CR][CR]Configura la skin · Configura la regione · Configura i controlli · Configura lo screensaver · Configura il master lock"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Ora programmata"

@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Aukeratu hasieran erabiliko den profila saio hasierako pantaila ezgaitua dagoenean."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]ERREPRODUZIGAILUAREN EZARPENAK[/B][CR][CR]Erreprodukzioan erabil daitezken ekintzak konfiguratu · Konfiguratu nola erreproduzituko den multimedia edukia  "
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]LIBURUTEGIAREN EZARPENAK[/B][CR][CR]Konfiguratu nola erakutsiko duten multimedia edukia liburutegi/fitxategi bistek · Konfiguratu nola nabigatuko diren liburutegi zerrenda/bistak · Konfiguratu multimedia datu basearen aukerak "
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR EZARPENAK[/B][CR][CR]Konfiguratu nola kudeatuko diren kateak eta gida · Konfiguratu nola kudeatuko diren Zuzeneko TB eta grabazioak"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]GEHIGARRIEN EZARPENAK[/B][CR][CR]Konfiguratu zuk instalatutako gehigarriak · Arakatu eta instalatu gehigarriak kodi.tv-tik"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]ZERBITZUEN EZARPENAK[/B][CR][CR]Konfiguratu eta kudeatu multimedia partekatzeko zerbitzuak · Konfiguratu web zerbitzaria · Konfiguratu eta kudeatu eguraldi zerbitzua"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]SISTEMAREN EZARPENAK[/B][CR][CR]Konfiguratu pantaila · Konfiguratu audioa · Konfiguratu internet konexioa · Konfiguratu energia aurreztea · Konfiguratu erregistroa"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]INTERFAZEAREN EZARPENAK[/B][CR][CR]Konfiguratu azala · Konfiguratu eskualdea · Konfiguratu kontrola · Konfiguratu pantaila babeslea · Konfiguratu blokeo maisua"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Programatutako ordua"
@@ -447,6 +475,10 @@ msgstr "Eskuragarri dauden[CR]Taldeak"
 msgctxt "#31509"
 msgid "Channel group"
 msgstr "Kate taldea"
+
+msgctxt "#31510"
+msgid "Timer set"
+msgstr "Programazioa ezarrita"
 
 msgctxt "#31511"
 msgid "Channel options"

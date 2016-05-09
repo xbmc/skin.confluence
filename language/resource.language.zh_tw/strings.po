@@ -418,7 +418,35 @@ msgstr "啟動時顯示或隱藏登入畫面"
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "選擇登入畫面停用是要使用的設定檔。"
+msgstr "選擇當不使用登入畫面時使用的設定檔。"
+
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]播放器設定[/B][CR][CR]設定播放中可執行的動作 · 設定媒體檔案播放的方式"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]資料庫設定[/B][CR][CR]設定如何以各種檢視方式顯示資料庫或檔案 · 設定如何進行資料庫或檔案的導覽 · 設定媒體資料庫的選項"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR設定[/B][CR][CR]設定管理頻道及節目表的方式 · 設定管理即時電視節目及錄影的方式"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]附加元件設定[/B][CR][CR]設定已安裝的附加元件 · 瀏覽並安裝來自kodi.tv的附加元件"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]服務設定[/B][CR][CR]設定並管理媒體共享服務 · 設定網頁伺服器 · 設定並管理天氣服務"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]系統設定[/B][CR][CR]設定顯示器 · 設定音效 · 設定網路存取 · 設定電力節約 · 設定記錄檔"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]介面設定[/B][CR][CR]設定佈景主題 · 設定地區 · 設定控制項 · 設定螢幕保護程式 ·  設定主密碼鎖"
 
 msgctxt "#31501"
 msgid "Scheduled time"

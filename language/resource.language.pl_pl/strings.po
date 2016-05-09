@@ -162,7 +162,7 @@ msgstr "Tło"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr "Pokazuj \"Pauza\" poczas pokazu slajdów"
+msgstr "Pokazuj \"Pauza\" podczas pokazu slajdów"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -419,6 +419,34 @@ msgstr "Określa widoczność ekranu logowania podczas uruchomienia."
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Wybierz profil, który będzie używany w przypadku dezaktywacji ekranu logowania."
+
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]USTAWIENIA ODTWARZA[/B][CR][CR]Konfiguracja dostępnych funkcji odtwarzacza · Konfiguracja odtwarzania mediów"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]USTAWIENIA BIBLIOTEKI[/B][CR][CR]Konfiguracja wyświetlania widoków mediów · Konfiguracja przeglądania multimediów · Konfiguracja baz danych multimediów"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]USTAWIENIA TELEWIZJI[/B][CR][CR]Konfiguracja obsługi kanałów i funkcji przewodnika · Konfiguracja obsługi odtwarzania i nagrywania"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]USTAWIENIA DODATKÓW[/B][CR][CR]Konfiguracja zainstalowanych dodatków · Przeglądanie i instalacja dodatków z kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]USTAWIENIA USŁUG[/B][CR][CR]Konfiguracja i zarządzanie usługami udostępniania · Konfiguracja serwera webowego · Konfiguracja i zarządzanie usługą informacji pogodowych"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]USTAWIENIA SYSTEMU[/B][CR][CR]Konfiguracja wyświetlania · Konfiguracja dźwięku · Konfiguracja dostępu do Internetu · Konfiguracja zasilania · Konfiguracja rejestru zdarzeń"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]USTAWIENIA INTERFEJSU[/B][CR][CR]Konfiguracja skóry · Konfiguracja regionu · Konfiguracja sterowania · Konfiguracja wygaszacza · Konfiguracja blokad"
 
 msgctxt "#31501"
 msgid "Scheduled time"

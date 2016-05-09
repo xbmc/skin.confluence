@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Profil, das beim Start verwendet werden soll, wenn der Anmeldebildschirm deaktiviert ist."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]PLAYER EINSTELLUNGEN[/B][CR][CR]Aktionen einstellen, die während der Wiedergabe genutzt werden können · Konfiguriere, wie Medieninhalte wiedergegeben werden"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]BIBLIOTHEKEN EINSTELLUNGEN[/B][CR][CR]Konfiguriere die Ansichten für Bibliotheken/Dateien · Konfiguriere die Navigation in Listen/Ansichten der Bibliotheken · Konfiguriere die Optionen der Medien-Datenbanken"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR EINSTELLUNGEN[/B][CR][CR]Konfiguriere die Verwaltung der Sender und des EPG · Konfiguriere die Verwaltung von Live TV und Aufnahmen"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]ADDONS EINSTELLUNGEN[/B][CR][CR]Konfiguriere deine installierten Addons · Durchsuche und installiere Addons von kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]DIENSTE EINSTELLUNGEN[/B][CR][CR]Konfigurieren und Verwalten von Medienfreigabediensten · Konfigurieren des Webservers · Konfigurieren und Verwalten des Wetterdienstes"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]SYSTEM EINSTELLUNGEN[/B][CR][CR]Bildschirm konfigurieren · Audio konfigurieren · Internetzugriff konfigurieren · Stromsparfunktion konfigurieren · Protokollierung konfigurieren"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]OBERFLÄCHEN-EINSTELLUNGEN[/B][CR][CR]Skin konfigurieren · Region konfigurieren · Steuerung konfigurieren · Bildschrimschoner konfigurieren · Master-Sperre konfigurieren"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Geplante Zeit"
