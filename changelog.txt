@@ -1,3 +1,7 @@
+[B]3.0.14[/B]
+
+- Updated language files from Transifex
+
 [B]3.0.13[/B]
 
 - Updated language files from Transifex

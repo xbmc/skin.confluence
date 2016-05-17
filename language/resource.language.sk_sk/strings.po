@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Zvoľte profil, ktorý bude použitý pri štarte, ak je prihlasovacia obrazovka vypnutá."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]NASTAVENIA PREHRÁVAČA[/B][CR][CR]Konfigurujte akcie, ktoré je možné použiť počas prehrávania · Konfigurujte ako sa má zobraziť mediálny obsah"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]NASTAVENIA KNIŽNICE[/B][CR][CR]Konfigurujte ako zobrazenia knižnice/súborov zobrazia mediálny obsah ·  Konfigurujte ako sa má navigovať v zoznamoch/zobrazeniach knižnice · Konfigurujte možnosti databázy médií"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR NASTAVENIA[/B][CR][CR]Nakonfigurujte ako sa majú spravovať kanály a tv program  · Nakonfigurujte ako sa má spravovať televízia a nahrávky"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]NASTAVENIA DOPLNKOV[/B][CR][CR]Konfigurujte vaše nainštalované doplnky · Prehľadávajte a inštalujte si doplnky z kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]NASTAVENIA SLUŽIEB[/B][CR][CR]Konfigurujte a spravujte služby pre zdieľanie médií · Konfigurujte webový server · Konfigurujte a spravujte službu pre počasie"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]NASTAVENIA SYSTÉMU[/B][CR][CR]Konfigurujte obrazovku · Konfigurujte zvuk · Konfigurujte prístup k internetu · Konfigurujte úsporný režim· Konfigurujte záznam udalostí"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]NASTAVENIA PROSTREDIA[/B][CR][CR]Konfigurujte vzhľad · Konfigurujte región · Konfigurujte ovládanie · Konfigurujte šetrič obrazovky · Konfigurujte hlavný zámok"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Naplánovaný čas"

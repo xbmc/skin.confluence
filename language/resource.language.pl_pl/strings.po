@@ -122,11 +122,11 @@ msgstr "Koniec"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Sortuj: Rosnąco"
+msgstr "Porządek: Rosnąco"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Sortuj: Malejąco"
+msgstr "Porządek: Malejąco"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -426,7 +426,7 @@ msgstr "[B]USTAWIENIA ODTWARZA[/B][CR][CR]Konfiguracja dostępnych funkcji odtwa
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]USTAWIENIA BIBLIOTEKI[/B][CR][CR]Konfiguracja wyświetlania widoków mediów · Konfiguracja przeglądania multimediów · Konfiguracja baz danych multimediów"
+msgstr "[B]USTAWIENIA BIBLIOTEKI[/B][CR][CR]Konfiguracja wyświetlania widoków mediów · Konfiguracja przeglądania multimediów · Konfiguracja opcji baz danych"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
@@ -442,11 +442,11 @@ msgstr "[B]USTAWIENIA USŁUG[/B][CR][CR]Konfiguracja i zarządzanie usługami ud
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr "[B]USTAWIENIA SYSTEMU[/B][CR][CR]Konfiguracja wyświetlania · Konfiguracja dźwięku · Konfiguracja dostępu do Internetu · Konfiguracja zasilania · Konfiguracja rejestru zdarzeń"
+msgstr "[B]USTAWIENIA SYSTEMU[/B][CR][CR]Konfiguracja wyświetlacza · Konfiguracja dźwięku · Konfiguracja dostępu do Internetu · Konfiguracja zasilania · Konfiguracja diagnostyki"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "[B]USTAWIENIA INTERFEJSU[/B][CR][CR]Konfiguracja skóry · Konfiguracja regionu · Konfiguracja sterowania · Konfiguracja wygaszacza · Konfiguracja blokad"
+msgstr "[B]USTAWIENIA INTERFEJSU[/B][CR][CR]Konfiguracja skóry · Konfiguracja regionu · Konfiguracja sterowania · Konfiguracja wygaszacza · Konfiguracja dostępu"
 
 msgctxt "#31501"
 msgid "Scheduled time"

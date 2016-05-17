@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence"
-  version="3.0.13"
+  version="3.0.14"
   name="Confluence"
   provider-name="Jezz_X, Team Kodi">
   <requires>
@@ -72,7 +72,7 @@
     <summary lang="tr_TR">Confluence dış görünümü. Jezz_X (Kodi'nin varsayılan dış görünümü)</summary>
     <summary lang="uk_UA">Обкладинка Confluence (стандартна обкладинка Kodi). Автор: Jezz_X.</summary>
     <summary lang="vi_VN">Giao diện Confluence bởi Jezz_X. (Giao diện mặc định của Kodi)</summary>
-    <summary lang="zh_CN">Jezz_X 开发的 Confluence 皮肤（Kodi 的默认皮肤）。</summary>
+    <summary lang="zh_CN">Jezz_X 开发的 Confluence 皮肤。</summary>
     <summary lang="zh_TW">Jezz_X 製作的佈景主題（Kodi的預設佈景主題）</summary>
     <description lang="af_ZA">Confluence is die standaard oortreksel vir Kodi 9.11 en op. Dit is 'n kombinasie van konsepte van 'n klomp gewilde oortreksels, en 'n poging om hulle goeie idees te omvat en te integreer in 'n oortreksel wat maklik behoort te wees vir eerste keer Kodi gebruikers om te verstaan en te gebruik.</description>
     <description lang="ar_SA">"كونفليونس" هو الجلد المبدأى لبرنامج إكس بى إم سى اﻹصدار 9.11 وما فوق. هو خلط بين اشهر اﻷجلده الاخرى معاً ومحاوله لتبنى ودمج افكارهم للخروج بِنِتَاج يُفترض به ان يكون سهل اﻹستيعاب بمجرد النظر لمستخدمى إكس بى إم سى المبتدئين.</description>
@@ -131,7 +131,7 @@
     <description lang="tr_TR">Confluence Kodi 14.0 ve yukarısı için varsayılan dış görünümdür. Birçok popüler dış görünümün kavramlarını bir araya getirip ilk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
     <description lang="uk_UA">Confluence — це стандартна обкладинка Kodi, починаючи з версії 9.11. Концепції багатьох популярних обкладинок поєднано у спробі використати та інтегрувати їхні вдалі ідеї в обкладинці, що стала б зрозумілою та простою в застосуванні для нових користувачів Kodi.</description>
     <description lang="vi_VN">Confluence là giao diện mặc định cho Kodi 9.11 and các phiên bản trở về trước. Đây là sự kết hợp các khái niệm đến từ các giao diện khác nhau nhằm hướng người dùng đến sự đơn giản và dễ sử dụng.</description>
-    <description lang="zh_CN">Confluence 是 Kodi 14.0 的默认皮肤。它集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次使用 Kodi 的用户能更容易上手。</description>
+    <description lang="zh_CN">Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次使用 Kodi 的用户能更容易上手。</description>
     <description lang="zh_TW">Confluence 是從 Kodi 9.11 開始預設的佈景主題。它結合了許多受歡迎的佈景主題的概念，且試圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。</description>
     <platform>all</platform>
     <license>GNU General Public License version 2</license>

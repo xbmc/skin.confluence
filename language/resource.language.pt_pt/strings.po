@@ -420,6 +420,22 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Selecione o perfil a utilizar no arranque se o ecrã de início de sessão estiver desativado."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]Definições do reprodutor[/B][CR][CR]Configurar ações que podem ser utilizadas durante a reprodução · Configurar reprodução do conteúdo multimédia."
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]definições da coleção[/B][CR][CR]Configurar modo de exibição doas ficheiros/coleção ·  Configurar modos de navegação nas vistas e listas da coleção · Configurar opções da base de dados multimédia"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]Definições PVR[/B][CR][CR]Configurar métodos de gestão de canais e guias · Configurar métodos de gestão da TV em direto e das gravações"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]definições de add-ons[/B][CR][CR]Configurar os add-ons instalados · Procurar e instalar add-ons de kodi.tv"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Hora do agendamento"

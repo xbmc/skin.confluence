@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "选择禁用登录界面时使用的用户配置文件。"
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]播放器设置[/B][CR][CR]设置播放时使用的动作 · 设置媒体内容播放方式"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]资料库设置[/B][CR][CR]设置资料库/文件视图如何显示媒体内容 · 设置资料库列表/视图导航方式 · 设置媒体数据库选项"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR 设置[/B][CR][CR]设置频道和指南管理方式 · 设置直播电视和录像管理方式"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]插件设置[/B][CR][CR]设置已安装的插件 · 在 kodi.tv 浏览并安装插件"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]服务设置[/B][CR][CR]设置和管理媒体共享服务 · 设置 Web 服务器 · 设备和管理天气服务"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]系统设置[/B][CR][CR]设置显示 · 设置音频 · 设置互联网访问 · 设置节电 · 设置日志"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]界面设置[/B][CR][CR]设置皮肤 · 设置区域 · 设置控制 ·设置屏幕保护 · 设置管理员锁定"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "预定时间"
