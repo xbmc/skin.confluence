@@ -420,6 +420,34 @@ msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Profil kiválasztása amely használatra kerül ha a bejelentkező képernyő ki van kapcsolva."
 
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]LEJÁTSZÓBEÁLLÍTÁSOK[/B][CR][CR]A lejátszás során elérhető műveletek beállítása · A médiatartalom lejátszásának beállítása"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]MÉDIATÁR BEÁLLÍTÁSOK[/B][CR][CR]A médiatár/fájlnézetek médiatartalom megjelenítésének beállítása ·  A médialisták/médianézetek navigációjának beállítása · Média-adatbázis beállításai"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR BEÁLLÍTÁSOK[/B][CR][CR]A csatornák és a műsorújság kezelési beállításai  · Az Elő TV-műsor és a rögzítések beállításai"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]KIEGÉSZÍTŐK BEÁLLÍTÁSAI[/B][CR][CR]A telepített kiegészítők beállításai · Kiegészítők keresése és telepítése a kodi.tv oldalról"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]SZOLGÁLTATÁSOK BEÁLLÍTÁSAI[/B][CR][CR]Médiamegosztási szolgáltatások beállítása és kezelése · Webkiszolgáló beállítása · Időjárási szolgáltatás beállítása és kezelése"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]REDNSZERBEÁLLÍTÁSOK[/B][CR][CR]Kijelző beállítása · Hang beállítása · Internetelérés beállítása · Energiagazdálkodás beállítása · Naplózás beállítása"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]KEZELŐFELÜLET BEÁLLÍTÁSAI[/B][CR][CR]Felület beállítása · Régió beállítása · Vezérlés beállítása · Képernyővédő beállítása · Mesterzár beállítása"
+
 msgctxt "#31501"
 msgid "Scheduled time"
 msgstr "Ütemezett időzítés"
