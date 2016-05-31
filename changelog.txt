@@ -1,3 +1,7 @@
+[B]3.0.18[/B]
+
+- Fix text width for buttons in addon settings
+
 [B]3.0.17[/B]
 
 - Updated language files from Transifex
