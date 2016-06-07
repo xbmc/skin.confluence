@@ -1,3 +1,8 @@
+[B]3.0.19[/B]
+
+- Fix include problem
+- Case change for Defaults.xml and Includes.xml
+
 [B]3.0.18[/B]
 
 - Fix text width for buttons in addon settings
