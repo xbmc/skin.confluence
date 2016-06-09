@@ -1,3 +1,7 @@
+[B]3.0.21[/B]
+
+- Remove startup window heading
+
 [B]3.0.20[/B]
 
 - Fix case issue with Defaults.xml
