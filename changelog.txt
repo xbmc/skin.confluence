@@ -1,3 +1,7 @@
+[B]3.0.22[/B]
+
+- Cleanup after removal of Player.ShowCodec
+
 [B]3.0.21[/B]
 
 - Remove startup window heading
