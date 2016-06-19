@@ -1,3 +1,7 @@
+[B]3.0.24[/B]
+
+- Removed changelog button from addon info dialog
+
 [B]3.0.23[/B]
 
 - Updated language files from Transifex
