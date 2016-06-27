@@ -39,8 +39,8 @@
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
 	<variable name="AddonLabel2">
-		<value condition="!String.IsEmpty(ListItem.AddonSize)">$INFO[ListItem.AddonSize]</value>
 		<value condition="!String.IsEmpty(ListItem.Property(Addon.Status))">$INFO[ListItem.Property(Addon.Status)]</value>
+		<value condition="!String.IsEmpty(ListItem.AddonSize)">$INFO[ListItem.AddonSize]</value>
 	</variable>
 	<variable name="MusicInfoHeader">
 		<value condition="Container.Content(Artists)">$INFO[ListItem.Artist]</value>

@@ -1,3 +1,7 @@
+[B]3.0.26[/B]
+
+- Show addon status if available, instead of size
+
 [B]3.0.25[/B]
 
 - Added size label to addon browser
