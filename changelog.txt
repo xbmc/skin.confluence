@@ -1,3 +1,7 @@
+[B]3.0.27[/B]
+
+- Updated language files from Transifex
+
 [B]3.0.26[/B]
 
 - Show addon status if available, instead of size
