@@ -1,3 +1,7 @@
+[B]3.0.28[/B]
+
+- Added player processing info to video osd
+
 [B]3.0.27[/B]
 
 - Updated language files from Transifex
