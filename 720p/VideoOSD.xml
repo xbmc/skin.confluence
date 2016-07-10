@@ -643,7 +643,7 @@
 				<top>175</top>
 				<width>165</width>
 				<height>25</height>
-				<label>$LOCALIZE[31010]:</label>
+				<label>$LOCALIZE[31012]:</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
