@@ -1,3 +1,7 @@
+[B]3.0.29[/B]
+
+- Updated video osd player process info
+
 [B]3.0.28[/B]
 
 - Added player processing info to video osd

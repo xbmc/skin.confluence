@@ -709,19 +709,11 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 			</control>
-			<control type="progress">
-				<description>Progressbar</description>
-				<left>220</left>
-				<top>267</top>
-				<width>275</width>
-				<height>14</height>
-				<info>System.CpuUsage</info>
-			</control>
 			<control type="label">
 				<description>CPU value</description>
-				<left>545</left>
+				<left>220</left>
 				<top>260</top>
-				<width>180</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[System.CpuUsage]</label>
 				<align>left</align>
@@ -932,7 +924,7 @@
 				<description>BER value</description>
 				<left>220</left>
 				<top>165</top>
-				<width>165</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamBER]</label>
 				<align>left</align>
@@ -956,7 +948,7 @@
 				<description>UNC value</description>
 				<left>220</left>
 				<top>190</top>
-				<width>165</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamUNC]</label>
 				<align>left</align>
@@ -980,7 +972,7 @@
 				<description>Service value</description>
 				<left>220</left>
 				<top>215</top>
-				<width>330</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamServiceName]</label>
 				<align>left</align>
@@ -1004,7 +996,7 @@
 				<description>Encryption value</description>
 				<left>220</left>
 				<top>240</top>
-				<width>165</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamEncryptionName]</label>
 				<align>left</align>
@@ -1028,7 +1020,7 @@
 				<description>Provider value</description>
 				<left>220</left>
 				<top>265</top>
-				<width>165</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamProviderName]</label>
 				<align>left</align>
@@ -1052,7 +1044,7 @@
 				<description>Mux value</description>
 				<left>220</left>
 				<top>290</top>
-				<width>330</width>
+				<width>345</width>
 				<height>25</height>
 				<label>$INFO[PVR.ActStreamMux]</label>
 				<align>left</align>
