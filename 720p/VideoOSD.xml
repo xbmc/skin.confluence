@@ -756,7 +756,7 @@
 		</control>
 		<control type="group">
 			<depth>DepthOSD+</depth>
-			<visible>Control.HasFocus(256) + VideoPlayer.Content(LiveTV)</visible>
+			<visible>Control.HasFocus(256) + VideoPlayer.Content(LiveTV) + system.getbool(pvrplayback.signalquality)</visible>
 			<left>640</left>
 			<top>40</top>
 			<control type="label">
