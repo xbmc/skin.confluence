@@ -382,11 +382,11 @@ msgstr "Activé"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Prédéfini par l'habillage"
+msgstr "Prédéfinie par l'habillage"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
-msgstr "Prédéfini par l'habillage, sans majuscules"
+msgstr "Prédéfinie par l'habillage, sans majuscules"
 
 msgctxt "#31392"
 msgid "Arial based"

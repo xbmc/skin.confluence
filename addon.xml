@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.confluence"
-  version="3.0.30"
+  version="3.0.31"
   name="Confluence"
   provider-name="Jezz_X, Team Kodi">
   <requires>
@@ -34,7 +34,7 @@
     <summary lang="et_EE">Confluence rüü autorilt Jezz_X. (Kodi vaikerüü)</summary>
     <summary lang="eu_ES">Confluence azala Jezz_X-ek egina.</summary>
     <summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X. (پوسته پیش فرض Kodi) </summary>
-    <summary lang="fi_FI">Confluence-ulkoasu Jezz_X:ltä. (Kodi:n oletus ulkoasu)</summary>
+    <summary lang="fi_FI">Confluence-ulkoasu Jezz_X:ltä. (Kodi:n oletusulkoasu)</summary>
     <summary lang="fo_FO">Confluence útsjónd av Jezz_X. (Kodi's vanliga útsjónd)</summary>
     <summary lang="fr_CA">Habillage Confluence par Jezz_X.</summary>
     <summary lang="fr_FR">Confluence par Jezz_X. (Habillage d'origine de Kodi)</summary>

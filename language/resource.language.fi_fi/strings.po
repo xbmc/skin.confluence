@@ -34,7 +34,7 @@ msgstr "Piilota tiedot"
 
 msgctxt "#31006"
 msgid "View options"
-msgstr "Näkymä valinnat"
+msgstr "Näkymävalinnat"
 
 msgctxt "#31008"
 msgid "Full screen"
@@ -206,7 +206,7 @@ msgstr "Näytä viimeksi lisätyt videot"
 
 msgctxt "#31118"
 msgid "Home page programs submenu"
-msgstr "Kotisivu Ohjelmat Alavalikko"
+msgstr "Päävalikon ohjelmaosion alavalikko"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
@@ -214,7 +214,7 @@ msgstr "Piilota taustan fanitaide"
 
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
-msgstr "Piilota EPG jos RDS on nähtävillä kanavaikkunassa"
+msgstr "Piilota EPG, jos RDS on nähtävillä kanavaikkunassa"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
@@ -230,7 +230,7 @@ msgstr "Sanoitukset"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Piilot fanitaide kun visualisointi toistetaan koko ruudussa"
+msgstr "Piilot fanitaide, kun visualisointi toistetaan koko ruudussa"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -238,15 +238,15 @@ msgstr "Sanoitukset-lisäosa"
 
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Kotisivu Videot Alavalikko"
+msgstr "Päävalikon video-osion alavalikko"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
-msgstr "Kotisivu Musiikki Alavalikko"
+msgstr "Päävalikon musiikkiosion alavalikko"
 
 msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
-msgstr "Kotisivu Kuvat Alavalikko"
+msgstr "Päävalikon kuvaosion alavalikko"
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -390,7 +390,7 @@ msgstr "Ulkoasun oletus ilman isoja kirjaimia"
 
 msgctxt "#31392"
 msgid "Arial based"
-msgstr "Arial pohjainen"
+msgstr "Arial-pohjainen"
 
 msgctxt "#31411"
 msgid "First run help..."
@@ -526,4 +526,4 @@ msgstr "JÄRJESTELMÄ"
 
 msgctxt "#31960"
 msgid "RADIO"
-msgstr "Radio"
+msgstr "RADIO"

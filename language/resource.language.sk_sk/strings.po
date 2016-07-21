@@ -122,11 +122,11 @@ msgstr "Čas konca"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Ukázať: Vzostupne"
+msgstr "Triediť: Vzostupne"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Ukázať: Zostupne"
+msgstr "Triediť: Zostupne"
 
 msgctxt "#31055"
 msgid "Open playlist"

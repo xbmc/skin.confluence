@@ -1,3 +1,7 @@
+[B]3.0.31[/B]
+
+- Updated language files from Transifex
+
 [B]3.0.30[/B]
 
 - Updated DialogSelect.xml
