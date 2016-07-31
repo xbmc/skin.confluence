@@ -1,3 +1,9 @@
+[B]3.0.32[/B]
+
+- Added DialogPlayerProcessInfo.xml
+- Removed player process info from video OSD
+- Added 'assets' to addon.xml
+
 [B]3.0.31[/B]
 
 - Updated language files from Transifex
