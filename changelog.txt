@@ -1,3 +1,7 @@
+[B]3.0.33[/B]
+
+- Changed LibrarySettings to MediaSettings
+
 [B]3.0.32[/B]
 
 - Added DialogPlayerProcessInfo.xml
