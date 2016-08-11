@@ -87,7 +87,10 @@
 				<texturenofocus>OSDRewindNF.png</texturenofocus>
 				<enable>Player.SeekEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
-				<onclick>PlayerControl(Rewind)</onclick>
+				<onclick condition="!Player.Paused + !Player.IsTempo">PlayerControl(Rewind)</onclick>
+				<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(Play)</onclick>
+				<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(TempoDown)</onclick>
+				<onclick condition="Player.IsTempo + Player.TempoEnabled">PlayerControl(TempoDown)</onclick>
 			</control>
 			<control type="togglebutton" id="202">
 				<width>55</width>
@@ -122,7 +125,10 @@
 				<texturenofocus>OSDForwardNF.png</texturenofocus>
 				<enable>Player.SeekEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
-				<onclick>PlayerControl(Forward)</onclick>
+				<onclick condition="!Player.Paused + !Player.IsTempo">PlayerControl(Forward)</onclick>
+				<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(Play)</onclick>
+				<onclick condition="Player.Paused + Player.TempoEnabled">PlayerControl(TempoUp)</onclick>
+				<onclick condition="Player.IsTempo + Player.TempoEnabled">PlayerControl(TempoUp)</onclick>
 			</control>
 			<control type="button" id="205">
 				<width>55</width>
