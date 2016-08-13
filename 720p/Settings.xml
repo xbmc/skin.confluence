@@ -122,7 +122,7 @@
 						<icon>-</icon>
 					</item>
 					<item id="2">
-						<label>14202</label>
+						<label>14211</label>
 						<label2>31431</label2>
 						<onclick>ActivateWindow(MediaSettings)</onclick>
 						<icon>-</icon>
