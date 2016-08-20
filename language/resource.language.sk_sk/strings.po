@@ -36,6 +36,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Zobrazenie"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Informácie o spracovaní videa"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Celá obrazovka"
@@ -43,6 +47,26 @@ msgstr "Celá obrazovka"
 msgctxt "#31009"
 msgid "Total duration"
 msgstr "Celkové trvanie"
+
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Hardwérové dekódovanie"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Neaktívne"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Dekóder"
+
+msgctxt "#31013"
+msgid "Audio process information"
+msgstr "Informácie o spracovaní zvuku"
+
+msgctxt "#31014"
+msgid "Memory used"
+msgstr "Použitá pamäť"
 
 msgctxt "#31023"
 msgid "Playing"

@@ -36,6 +36,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "表示オプション"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "ビデオプロセス情報"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "フルスクリーン"
@@ -43,6 +47,26 @@ msgstr "フルスクリーン"
 msgctxt "#31009"
 msgid "Total duration"
 msgstr "総時間"
+
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "ハードウェア デコーディング"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "非アクティブ"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "デコーダー"
+
+msgctxt "#31013"
+msgid "Audio process information"
+msgstr "オーディオプロセス情報"
+
+msgctxt "#31014"
+msgid "Memory used"
+msgstr "メモリ使用量"
 
 msgctxt "#31023"
 msgid "Playing"
