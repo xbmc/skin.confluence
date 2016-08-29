@@ -42,7 +42,7 @@
 			</itemlayout>
 			<focusedlayout height="1" width="1">
 			</focusedlayout>
-			<content target="video" limit="6">library://music/</content>
+			<content target="music" limit="6">library://music/</content>
 			<visible>Library.HasContent(Music)</visible>
 		</control>
 		<include>CommonBackground</include>
