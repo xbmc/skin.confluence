@@ -48,6 +48,7 @@
 				<top>40</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$LOCALIZE[19074]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -61,6 +62,7 @@
 				<top>40</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$LOCALIZE[31011]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -86,6 +88,7 @@
 				<top>65</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label fallback="1446">$INFO[Player.Process(videodecoder)]$INFO[Player.Process(pixformat),$COMMA ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -110,6 +113,7 @@
 				<top>90</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label fallback="1446">$INFO[Player.Process(deintmethod)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -134,6 +138,7 @@
 				<top>115</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label fallback="1446">$INFO[Player.Process(videowidth),,x]$INFO[Player.Process(videoheight),, px]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -170,6 +175,7 @@
 				<top>175</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label fallback="1446">$INFO[Player.Process(audiodecoder)]$INFO[Player.Process(audiobitspersample),$COMMA , bit]$INFO[Player.Process(audiosamplerate),$COMMA , Hz]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -194,6 +200,7 @@
 				<top>200</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label fallback="1446">$INFO[Player.Process(audiochannels)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -230,6 +237,7 @@
 				<top>260</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[System.CpuUsage]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -254,6 +262,7 @@
 				<top>285</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[System.Memory(used.percent)]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -295,6 +304,7 @@
 				<top>40</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamClient]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -319,6 +329,7 @@
 				<top>65</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamDevice]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -343,6 +354,7 @@
 				<top>90</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamStatus]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -432,6 +444,7 @@
 				<top>165</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamBER]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -456,6 +469,7 @@
 				<top>190</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamUNC]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -480,6 +494,7 @@
 				<top>215</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamServiceName]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -504,6 +519,7 @@
 				<top>240</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamEncryptionName]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -528,6 +544,7 @@
 				<top>265</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamProviderName]</label>
 				<align>left</align>
 				<aligny>center</aligny>
@@ -552,6 +569,7 @@
 				<top>290</top>
 				<width>450</width>
 				<height>25</height>
+				<scroll>true</scroll>
 				<label>$INFO[PVR.ActStreamMux]</label>
 				<align>left</align>
 				<aligny>center</aligny>
