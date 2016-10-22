@@ -1,3 +1,7 @@
+[B]3.0.38[/B]
+
+- Fix using DeafultUser.png added in v3.0.6 and remove unknown-user.png
+
 [B]3.0.36[/B]
 
 - Added customisable home submenus that use library nodes
