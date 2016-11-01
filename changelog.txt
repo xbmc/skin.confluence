@@ -1,8 +1,13 @@
+[B]3.0.40[/B]
+
+- Restore settings dialog height
+
 [B]3.0.39[/B]
 
 - Fixed home Weather item
 - Added 'Privacy Policy' to system info
 - Updated background video conditions
+- Add numeric seek label
 
 [B]3.0.38[/B]
 
