@@ -15,7 +15,7 @@
 
 [B]3.0.36[/B]
 
-- Added customisable home submenus that use library nodes
+- Added customizable home submenus that use library nodes
 - Added news feature
 
 [B]3.0.35[/B]
@@ -46,11 +46,11 @@
 
 [B]3.0.29[/B]
 
-- Updated video osd player process info
+- Updated video OSD player process info
 
 [B]3.0.28[/B]
 
-- Added player processing info to video osd
+- Added player processing info to video OSD
 
 [B]3.0.27[/B]
 
@@ -58,15 +58,15 @@
 
 [B]3.0.26[/B]
 
-- Show addon status if available, instead of size
+- Show add-on status if available, instead of size
 
 [B]3.0.25[/B]
 
-- Added size label to addon browser
+- Added size label to add-on browser
 
 [B]3.0.24[/B]
 
-- Removed changelog button from addon info dialog
+- Removed changelog button from add-on info dialog
 
 [B]3.0.23[/B]
 
@@ -91,7 +91,7 @@
 
 [B]3.0.18[/B]
 
-- Fix text width for buttons in addon settings
+- Fix text width for buttons in add-on settings
 
 [B]3.0.17[/B]
 
@@ -322,7 +322,7 @@
 [B]2.1.0[/B]
 
 - Changed the home menu to Horizontal Layout instead of Vertical
-- Added support for the TvTunes Addon enable it in skin settings\General (if you have it installed)
+- Added support for the TvTunes Add-on enable it in skin settings\General (if you have it installed)
 - Added support for the Weather+ script (install it and select it in weather settings)
 - Updated translation files
 - Added some more codec flagging images (eg: pcm_bluray, wav files, etc)
@@ -336,7 +336,7 @@
 
 - All media views now follow a similar layout off File List on the Left hand side and icons/data on the right
 - Views are all now in content panels (no fullscreen black)
-- Added a thumb view for addons
+- Added a thumb view for add-ons
 - Non full screen Now Playing Media info (Bottom left) has more info
 - Full screen Now Playing Media info trimmed down
 - Fullscreen Player controls changed
@@ -350,7 +350,7 @@
 
 - Redesigned the video and Music OSD Info and controls
 - Added more images for codec flagging on videos and audio
-- Added all the windows needed for the new Addon Browser
+- Added all the windows needed for the new Add-on Browser
 - Removed the right hand side bar graphic from all windows and only made the left hand one visible if a menu is there
 - Lots of other little changes
 
