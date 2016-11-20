@@ -962,10 +962,11 @@
 				<content>
 					<item id="7">
 						<label>31950</label>
-						<onclick>ActivateWindow(Weather)</onclick>
+						<onclick condition="!String.IsEmpty(Weather.Plugin)">ActivateWindow(Weather)</onclick>
+						<onclick condition="String.IsEmpty(Weather.Plugin)">ActivateWindow(servicesettings,weather)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + !String.IsEmpty(Weather.Plugin)</visible>
+						<visible>!Skin.HasSetting(HomeMenuNoWeatherButton)</visible>
 					</item>
 					<item id="4">
 						<label>31951</label>
