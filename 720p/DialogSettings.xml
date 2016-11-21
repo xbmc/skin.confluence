@@ -3,7 +3,7 @@
 	<defaultcontrol always="true">5</defaultcontrol>
 	<coordinates>
 		<left>240</left>
-		<top>142</top>
+		<top>50</top>
 	</coordinates>
 	<include>dialogeffect</include>
 	<controls>
@@ -13,7 +13,7 @@
 			<animation effect="fade" start="100" end="0" time="400" condition="Window.Is(osdaudiodspsettings) + Window.IsVisible(SliderDialog)">Conditional</animation>
 			<include content="DialogBackgroundCommons">
 				<param name="DialogBackgroundWidth" value="800" />
-				<param name="DialogBackgroundHeight" value="458" />
+				<param name="DialogBackgroundHeight" value="625" />
 				<param name="DialogHeaderWidth" value="720" />
 				<param name="DialogHeaderId" value="2" />
 				<param name="CloseButtonLeft" value="710" />
@@ -23,9 +23,9 @@
 				<animation effect="slide" start="0,0" end="-10,0" time="0" condition="Control.IsVisible(60)">Conditional</animation>
 				<description>control area</description>
 				<left>35</left>
-				<top>70</top>
-				<width>730</width>
-				<height>308</height>
+				<top>60</top>
+				<width>720</width>
+				<height>495</height>
 				<itemgap>4</itemgap>
 				<pagecontrol>60</pagecontrol>
 				<onup>9001</onup>
@@ -34,10 +34,10 @@
 				<onright>60</onright>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>758</left>
-				<top>70</top>
+				<left>760</left>
+				<top>55</top>
 				<width>25</width>
-				<height>308</height>
+				<height>500</height>
 				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -107,7 +107,7 @@
 			</control>
 			<control type="grouplist" id="9001">
 				<left>170</left>
-				<top>393</top>
+				<top>560</top>
 				<width>460</width>
 				<align>center</align>
 				<itemgap>20</itemgap>
