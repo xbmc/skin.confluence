@@ -18,7 +18,7 @@ msgstr ""
 
 msgctxt "#31000"
 msgid "Change your"
-msgstr "Byt ditt"
+msgstr "Ändra dina"
 
 msgctxt "#31003"
 msgid "Power options"
@@ -43,6 +43,18 @@ msgstr "Fullskärm"
 msgctxt "#31009"
 msgid "Total duration"
 msgstr "Total längd"
+
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Hårdvaruavkodning"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Ej aktiv"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Avkodare"
 
 msgctxt "#31014"
 msgid "Memory used"
@@ -423,6 +435,10 @@ msgstr "Visa eller dölj inloggningsskärmen vid start."
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Välj den profil som skall användas vid start då inloggningsskärmen inte visas."
+
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]PLAYER SETTINGS[/B][CR][CR]Ändra inställningar för vad du kan göra under uppsspelning · Ställ in hur medieinnehåll spelas upp"
 
 msgctxt "#31501"
 msgid "Scheduled time"

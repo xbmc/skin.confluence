@@ -28,6 +28,10 @@ msgctxt "#31008"
 msgid "Full screen"
 msgstr "Pilnekrāns"
 
+msgctxt "#31014"
+msgid "Memory used"
+msgstr "Izmantotā atmiņa"
+
 msgctxt "#31023"
 msgid "Playing"
 msgstr "Atskaņo"
@@ -39,6 +43,10 @@ msgstr "Lapa"
 msgctxt "#31025"
 msgid "Items"
 msgstr "Ieraksti"
+
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "Dažādas opcijas"
 
 msgctxt "#31027"
 msgid "Location"
@@ -63,6 +71,10 @@ msgstr "Info"
 msgctxt "#31039"
 msgid "Actions"
 msgstr "Darbības"
+
+msgctxt "#31040"
+msgid "Now playing"
+msgstr "Pašreiz atskaņo"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -168,9 +180,17 @@ msgctxt "#31303"
 msgid "Data provider"
 msgstr "Datu piegādātājs"
 
+msgctxt "#31320"
+msgid "Last logged in"
+msgstr "Pēdējoreiz pieslēdzies"
+
 msgctxt "#31322"
 msgid "Aired"
 msgstr "Ēterā"
+
+msgctxt "#31325"
+msgid "Playlist options"
+msgstr "Spēļsaraksta opcijas"
 
 msgctxt "#31326"
 msgid "Created"
@@ -191,6 +211,10 @@ msgstr "Pauze"
 msgctxt "#31352"
 msgid "Stop"
 msgstr "Apturēt"
+
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Patīt uz priekšu"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -228,6 +252,10 @@ msgctxt "#31420"
 msgid "Login"
 msgstr "Pieteikšanās"
 
+msgctxt "#31421"
+msgid "Select your Kodi user profile[CR]to login and continue"
+msgstr "Atlasiet savu Kodi lietotāja profilu,[CR]lai pieslēgtos un turpinātu"
+
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
 msgstr "Uzsākot rādīt vai paslēpt pieteikšanās logu."
@@ -240,9 +268,25 @@ msgctxt "#31502"
 msgid "TV"
 msgstr "TV"
 
+msgctxt "#31503"
+msgid "Add group"
+msgstr "Pievienot grupu"
+
+msgctxt "#31504"
+msgid "Rename group"
+msgstr "Pārsaukt grupu"
+
+msgctxt "#31505"
+msgid "Delete group"
+msgstr "Dzēst grupu"
+
 msgctxt "#31506"
 msgid "Available[CR]Groups"
 msgstr "Pieejamās[CR]grupas"
+
+msgctxt "#31511"
+msgid "Channel options"
+msgstr "Kanāla opcijas"
 
 msgctxt "#31905"
 msgid "Forecast"

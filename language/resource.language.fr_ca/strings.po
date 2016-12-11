@@ -22,7 +22,7 @@ msgstr "Changez vos"
 
 msgctxt "#31003"
 msgid "Power options"
-msgstr "Options d'extinction"
+msgstr "Options de fermeture"
 
 msgctxt "#31004"
 msgid "Working..."

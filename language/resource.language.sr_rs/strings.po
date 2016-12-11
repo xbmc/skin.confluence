@@ -44,6 +44,18 @@ msgctxt "#31009"
 msgid "Total duration"
 msgstr "Укупно трајање"
 
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Хардверско декодирање"
+
+msgctxt "#31011"
+msgid "Inactive"
+msgstr "Неактивно"
+
+msgctxt "#31012"
+msgid "Decoder"
+msgstr "Декодер"
+
 msgctxt "#31014"
 msgid "Memory used"
 msgstr "Искоришћена меморија"
