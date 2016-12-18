@@ -38,7 +38,7 @@ msgstr "Opcje widoku"
 
 msgctxt "#31007"
 msgid "Video process information"
-msgstr "Przetwarzanie wideo"
+msgstr "O przetwarzaniu wideo"
 
 msgctxt "#31008"
 msgid "Full screen"
