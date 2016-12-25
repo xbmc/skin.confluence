@@ -202,7 +202,7 @@ msgstr "Oculta els indicadors de lectura dels fitxers de vídeo [COLOR=grey3](p.
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Oculta els botons del menú principal"
+msgstr "Ocultació dels botons del menú principal"
 
 msgctxt "#31109"
 msgid "Enable custom background"
@@ -334,7 +334,7 @@ msgstr "Perfil seleccionat"
 
 msgctxt "#31320"
 msgid "Last logged in"
-msgstr "Última entrada"
+msgstr "Última autenticació"
 
 msgctxt "#31322"
 msgid "Aired"
@@ -430,19 +430,19 @@ msgstr "Subtítol local disponible"
 
 msgctxt "#31420"
 msgid "Login"
-msgstr "Entrada"
+msgstr "Autenticació"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Seleccioneu el vostre perfil d'usuari de Kodi[CR]per entrar i continuar"
+msgstr "Seleccioneu el vostre perfil d'usuari de Kodi[CR]per autenticar-vos i continuar"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr "Mostra o oculta la pantalla d'inici de sessió a l'inici."
+msgstr "Mostra o oculta la pantalla d'autenticació a l'inici"
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Seleccioneu el perfil que s'utilitzarà a l'inici quan la pantalla d'entrada estigui inhabilitada."
+msgstr "Seleccioneu el perfil que s'utilitzarà a l'inici quan la pantalla d'autenticació estigui inhabilitada."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"

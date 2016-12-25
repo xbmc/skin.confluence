@@ -450,7 +450,7 @@ msgstr "[B]PARAMÈTRES DU LECTEUR[/B][CR][CR]Configuration des actions pouvant �
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]PARAMÈTRES DE BIBLIOTHÈQUE[/B][CR][CR]Configuration de l'affichage du média selon les vues bibliothèque/fichier ·  Configuration de la navigation des vues/listes de la bibliothèque · Configuration des options de la base de données de media"
+msgstr "[B]PARAMÈTRES DE BIBLIOTHÈQUE[/B][CR][CR]Configuration de l'affichage du média selon les vues médiathèque/fichier ·  Configuration de la navigation des vues/listes de la médiathèque · Configuration des options de la base de données de media"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
