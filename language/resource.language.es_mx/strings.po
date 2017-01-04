@@ -88,6 +88,10 @@ msgctxt "#31027"
 msgid "Location"
 msgstr "Ubicación"
 
+msgctxt "#31028"
+msgid "Poster wrap"
+msgstr "Ajuste del poster"
+
 msgctxt "#31029"
 msgid "Fanart"
 msgstr "Fanart"
@@ -95,6 +99,10 @@ msgstr "Fanart"
 msgctxt "#31031"
 msgid "Pic thumbs"
 msgstr "Img miniaturas"
+
+msgctxt "#31032"
+msgid "Image wrap"
+msgstr "Ajuste de la imagen"
 
 msgctxt "#31033"
 msgid "Info"
@@ -398,7 +406,11 @@ msgstr "Activado"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Según skin"
+msgstr "Máscara predeterminada"
+
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Máscara predeterminada sin mayúsculas"
 
 msgctxt "#31392"
 msgid "Arial based"

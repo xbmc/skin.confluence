@@ -58,7 +58,7 @@ msgstr "Etkin değil"
 
 msgctxt "#31012"
 msgid "Decoder"
-msgstr "Çözücü"
+msgstr "Kod Çözücü"
 
 msgctxt "#31013"
 msgid "Audio process information"

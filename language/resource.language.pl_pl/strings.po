@@ -110,7 +110,7 @@ msgstr "Informacje"
 
 msgctxt "#31039"
 msgid "Actions"
-msgstr "Operacje"
+msgstr "Akcje"
 
 msgctxt "#31040"
 msgid "Now playing"
