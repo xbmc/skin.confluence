@@ -26,7 +26,7 @@ msgstr "Opciones de energía"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "Cargando..."
+msgstr "Trabajando..."
 
 msgctxt "#31005"
 msgid "Hide information"
@@ -138,7 +138,7 @@ msgstr "BUSCANDO"
 
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr "Visualizaciones preestablecidas"
+msgstr "Ajustes preestablecidos de visualización"
 
 msgctxt "#31049"
 msgid "End time"
@@ -186,7 +186,7 @@ msgstr "Fondo"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr "Mostrar \"Pausa\" en modo presentación de imágenes"
+msgstr "Mostrar \"Pausado\" en modo presentación de imágenes"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -222,7 +222,7 @@ msgstr "Opciones"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
-msgstr "Mostrar últimos discos añadidos"
+msgstr "Mostrar últimos álbums añadidos"
 
 msgctxt "#31117"
 msgid "Show recently added videos"
@@ -570,7 +570,7 @@ msgstr "PROGRAMAS"
 
 msgctxt "#31958"
 msgid "PLAY DISC"
-msgstr "REPRODUCCIÓN DE DISCOS"
+msgstr "REPRODUCIR DISCO"
 
 msgctxt "#31959"
 msgid "SYSTEM"

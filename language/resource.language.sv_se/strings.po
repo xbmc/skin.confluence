@@ -36,6 +36,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Vyalternativ"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Video process information"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Fullskärm"
@@ -55,6 +59,10 @@ msgstr "Ej aktiv"
 msgctxt "#31012"
 msgid "Decoder"
 msgstr "Avkodare"
+
+msgctxt "#31013"
+msgid "Audio process information"
+msgstr "Ljud process information"
 
 msgctxt "#31014"
 msgid "Memory used"
@@ -438,7 +446,31 @@ msgstr "Välj den profil som skall användas vid start då inloggningsskärmen i
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]PLAYER SETTINGS[/B][CR][CR]Ändra inställningar för vad du kan göra under uppsspelning · Ställ in hur medieinnehåll spelas upp"
+msgstr "[B]SPELARE INSTÄLLNINGAR[/B][CR][CR]Konfigurera inställningar för vad du kan göra under uppsspelning · Konfigurera hur medieinnehåll spelas upp"
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr "[B]BIBLIOTEK INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur biblioteket/filer-vy presenterar medieinnehåll · Konfigurera hur bibliotekets listor/vyer navigeras · Konfigurera mediedatabasens alternativ"
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr "[B]PVR INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur kanaler & guider hanteras · Konfigurera hur Live-TV och inspelningar hanteras"
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr "[B]TILLÄGG INSTÄLLNINGAR[/B][CR][CR]Konfigurera dina installerade tillägg  · Bläddra och installera tillägg från kodi.tv"
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr "[B]TJÄNST INSTÄLLNINGAR[/B][CR][CR]Konfigurera & hantera media delningstjänster · Konfigurera webbserver · Konfigurera & hantera vädertjänsten"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]SYSTEM INSTÄLLNINGAR[/B][CR][CR]Konfigurera skärmen · Konfigurera ljud · Konfigurera internetaccess · Konfigurera energialternativ · Konfigurera loggning"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]GRÄNSSNITT INSTÄLLNINGAR[/B][CR][CR]Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlås"
 
 msgctxt "#31501"
 msgid "Scheduled time"

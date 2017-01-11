@@ -36,6 +36,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Prikaži opcije"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Podaci video procesa"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Ceo ekran"
@@ -43,6 +47,10 @@ msgstr "Ceo ekran"
 msgctxt "#31009"
 msgid "Total duration"
 msgstr "Ukupno trajanje"
+
+msgctxt "#31010"
+msgid "Hardware decoding"
+msgstr "Hardversko dekodiranje"
 
 msgctxt "#31014"
 msgid "Memory used"

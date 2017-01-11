@@ -36,6 +36,10 @@ msgctxt "#31006"
 msgid "View options"
 msgstr "Прикажи опције"
 
+msgctxt "#31007"
+msgid "Video process information"
+msgstr "Подаци видео процеса"
+
 msgctxt "#31008"
 msgid "Full screen"
 msgstr "Цео екран"
