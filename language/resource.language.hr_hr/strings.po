@@ -94,7 +94,7 @@ msgstr "Omot postera"
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr "Slika omota"
+msgstr "Poster obožavatelja"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -146,11 +146,11 @@ msgstr "Vrijeme završetka"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Složi: Padajući"
+msgstr "Poredaj: Padajući"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Složi: Rastući"
+msgstr "Poredaj: Rastući"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -234,7 +234,7 @@ msgstr "Početna stranica \"Programi\" podizbornika"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Sakrij pozadinu slike omota"
+msgstr "Sakrij pozadinu postera obožavatelja"
 
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
@@ -254,7 +254,7 @@ msgstr "Tekstovi pjesama"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Sakrij sliku omota u vizualizaciji cijelog zaslona"
+msgstr "Sakrij poster obožavatelja u vizualizaciji cijelog zaslona"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
