@@ -37,7 +37,7 @@
 			<include>SmallMusicInfo</include>
 		</control>
 		<control type="button">
-			<visible>SlideShow.IsVideo + [!SlideShow.IsActive | SlideShow.IsPaused]</visible>
+			<visible>SlideShow.IsVideo + [![Player.Playing + Player.HasVideo] | SlideShow.IsPaused]</visible>
 			<description>Video Play Button</description>
 			<left>540</left>
 			<top>260</top>
