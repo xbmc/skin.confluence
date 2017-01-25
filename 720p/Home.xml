@@ -16,7 +16,7 @@
 			</itemlayout>
 			<focusedlayout height="1" width="1">
 			</focusedlayout>
-			<content target="video" limit="6">library://video/movies/</content>
+			<content target="video" limit="7">library://video/movies/</content>
 			<visible>Library.HasContent(Movies)</visible>
 		</control>
 		<control type="list" id="90170">
@@ -29,7 +29,7 @@
 			</itemlayout>
 			<focusedlayout height="1" width="1">
 			</focusedlayout>
-			<content target="video" limit="6">library://video/tvshows/</content>
+			<content target="video" limit="7">library://video/tvshows/</content>
 			<visible>Library.HasContent(TVShows)</visible>
 		</control>
 		<control type="list" id="90110">

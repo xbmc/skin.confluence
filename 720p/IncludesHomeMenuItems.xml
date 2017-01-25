@@ -87,6 +87,12 @@
 			<onclick>ActivateWindow(Videos,$INFO[Container(90160).ListItemNoWrap(5).FileNameAndPath],return)</onclick>
 			<visible>!String.IsEmpty(Container(90160).ListItemNoWrap(5).Label)</visible>
 		</control>
+		<control type="button" id="90168">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Container(90160).ListItemNoWrap(6).Label]</label>
+			<onclick>ActivateWindow(Videos,$INFO[Container(90160).ListItemNoWrap(6).FileNameAndPath],return)</onclick>
+			<visible>!String.IsEmpty(Container(90160).ListItemNoWrap(6).Label)</visible>
+		</control>
 		<control type="image" id="90168">
 			<width>35</width>
 			<height>35</height>
@@ -133,6 +139,12 @@
 			<label>$INFO[Container(90170).ListItemNoWrap(5).Label]</label>
 			<onclick>ActivateWindow(Videos,$INFO[Container(90170).ListItemNoWrap(5).FileNameAndPath],return)</onclick>
 			<visible>!String.IsEmpty(Container(90170).ListItemNoWrap(5).Label)</visible>
+		</control>
+		<control type="button" id="90178">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>$INFO[Container(90170).ListItemNoWrap(6).Label]</label>
+			<onclick>ActivateWindow(Videos,$INFO[Container(90170).ListItemNoWrap(6).FileNameAndPath],return)</onclick>
+			<visible>!String.IsEmpty(Container(90170).ListItemNoWrap(6).Label)</visible>
 		</control>
 		<control type="image" id="90178">
 			<width>35</width>
