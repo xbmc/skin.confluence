@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence" version="3.0.45" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence" version="3.0.46" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -12,7 +12,7 @@
 		<summary lang="be_BY">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
 		<summary lang="bg_BG">Confluence облик от Jezz_X. (стандартния облик за Kodi)</summary>
 		<summary lang="ca_ES">Aparença Confluence per Jezz_X.</summary>
-		<summary lang="cs_CZ">Vzhled Confluence od Jezz_X. (výchozí vzhled Kodi)</summary>
+		<summary lang="cs_CZ">Vzhled Confluence od Jezz_X.</summary>
 		<summary lang="cy_GB">Croen Confluence gan Jezz_X. (Croen rhagosodedig Kodi)</summary>
 		<summary lang="da_DK">Confluence-tema af Jezz_X. (Kodis standardtema)</summary>
 		<summary lang="de_DE">Confluence Skin von Jezz_X. (Standard-Skin von Kodi)</summary>
@@ -22,7 +22,7 @@
 		<summary lang="en_NZ">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
 		<summary lang="en_US">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
 		<summary lang="es_AR">Skin Confluence por Jezz_X.</summary>
-		<summary lang="es_ES">Confluence skin por Jezz_X. (skin por defecto)</summary>
+		<summary lang="es_ES">Skin Confluence por Jezz_X.</summary>
 		<summary lang="es_MX">Skin confluende por Jezz_X. (skin por defecto de Kodi)</summary>
 		<summary lang="et_EE">Confluence rüü autorilt Jezz_X. (Kodi vaikerüü)</summary>
 		<summary lang="eu_ES">Confluence azala Jezz_X-ek egina.</summary>
@@ -42,11 +42,11 @@
 		<summary lang="ja_JP">Confluence スキン by Jezz_X. (Kodi デフォルトスキン)</summary>
 		<summary lang="ko_KR">Confluence 스킨 Jezz_X 만듦 (Kodi 기본 스킨)</summary>
 		<summary lang="lt_LT">Confluence teminė išvaizda, kurią sukūrė Jezz_X. (Kodi numatytoji teminė išvaizda)</summary>
-		<summary lang="lv_LV">Confluence apvalks no Jeez_X. (Kodi noklusētais apvalks)</summary>
+		<summary lang="lv_LV">Confluence apvalks no Jeez_X.</summary>
 		<summary lang="mk_MK">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
 		<summary lang="ms_MY">Penyatuan, kulit daripada Jezz_X. (Kulit lalai Kodi)</summary>
 		<summary lang="mt_MT">Dehra Confluence magħmula minn Jezz_X. (Id-dehra normali ta' Kodi)</summary>
-		<summary lang="nb_NO">Confluence-skall av Jezz_X. (Kodis standardskall)</summary>
+		<summary lang="nb_NO">Confluence-drakt av Jezz_X. (Kodis forvalgte drakt)</summary>
 		<summary lang="nl_NL">Confluence skin door Jezz_X. (Kodi's standaard skin)</summary>
 		<summary lang="pl_PL">Skóra Confluence autorstwa Jezz_X</summary>
 		<summary lang="pt_BR">Skin Confluence por Jezz_X. (Skin padrão do Kodi)</summary>
@@ -72,7 +72,7 @@
 		<description lang="be_BY">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
 		<description lang="bg_BG">Confluence е стандартният облик на Kodi 9.11 и по-новите версии. Представлява смесица от концепциите на много от популярните облици. Целта е да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се сблъскват за първи път с Kodi.</description>
 		<description lang="ca_ES">Confluence és una combinació de conceptes de moltes aparences populars i intenta adoptar i integrar les seves bones idees en una aparença que sigui senzilla d'entendre i utilitzar per als nous usuaris de Kodi.</description>
-		<description lang="cs_CZ">Confluence je výchozí vzhled pro Kodi 9.11 a novější. Jedná se o kombinaci konceptů z mnoha jiných populárních vzhledů, která se pokouší uchopit a integrovat jejich dobré nápady do vzhledu, který by měl být pro nového uživatele Kodi jednoduchý na pochopení a používání.</description>
+		<description lang="cs_CZ">Confluence je kombinací konceptů z mnoha oblíbených vzhledů a pokouší se pojmout a integrovat jejich dobré nápady do vzhledu, který by měl být pro nové uživatele Kodi jednoduchý na pochopení a používání.</description>
 		<description lang="cy_GB">Confluence yw croen rhagosodedig Kodi 9.11 ac uwch. Mae'n gyfuniad o gysyniadau o nifer o grwyn poblogaidd ac mae'n ymdrechu i gyfuno eu syniadau da hwy i groen ddylai fod yn hawdd i ddefnyddiwr cyntaf Kodi ei deall a'i ddefnyddio.</description>
 		<description lang="da_DK">Confluence er standardskin'et til Kodi 9.11 og senere versioner. Det er en kombination af koncepter fra mange populære skins, og det forsøger at omfavne og integrere de gode ideer i et skin, der er let for førstegangsbrugere af Kodi at forstå og bruge.</description>
 		<description lang="de_DE">Confluence ist der Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei, die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen.</description>

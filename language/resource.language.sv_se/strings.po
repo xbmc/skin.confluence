@@ -250,7 +250,7 @@ msgstr "Visa \"Spelas nu\" backgrundsvisualisering"
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr "Sångtext"
+msgstr "Sångtexter"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
@@ -258,7 +258,7 @@ msgstr "Dölj fanart i fullskärmsvisualisering"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
-msgstr "Sångtext tillägg"
+msgstr "Sångtexter tillägg"
 
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
@@ -290,7 +290,7 @@ msgstr "Välj din låt"
 
 msgctxt "#31205"
 msgid "Lyrics source"
-msgstr "Sångtext källa"
+msgstr "Sångtexter källa"
 
 msgctxt "#31206"
 msgid "Found"

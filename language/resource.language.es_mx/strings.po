@@ -50,7 +50,7 @@ msgstr "Duración total"
 
 msgctxt "#31010"
 msgid "Hardware decoding"
-msgstr "Descodificación de hardware"
+msgstr "Decodificación por hardware"
 
 msgctxt "#31011"
 msgid "Inactive"

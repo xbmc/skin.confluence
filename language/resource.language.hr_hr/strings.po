@@ -310,7 +310,7 @@ msgstr "Trenutna temperatura"
 
 msgctxt "#31301"
 msgid "Last updated"
-msgstr "Posljednje nadopunjeno"
+msgstr "Posljednja nadopuna"
 
 msgctxt "#31303"
 msgid "Data provider"
