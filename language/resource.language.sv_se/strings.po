@@ -38,7 +38,7 @@ msgstr "Vyalternativ"
 
 msgctxt "#31007"
 msgid "Video process information"
-msgstr "Video process information"
+msgstr "Videoprocess information"
 
 msgctxt "#31008"
 msgid "Full screen"
@@ -54,7 +54,7 @@ msgstr "Hårdvaruavkodning"
 
 msgctxt "#31011"
 msgid "Inactive"
-msgstr "Ej aktiv"
+msgstr "Inaktiv"
 
 msgctxt "#31012"
 msgid "Decoder"
@@ -62,11 +62,11 @@ msgstr "Avkodare"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr "Ljud process information"
+msgstr "Ljudprocess information"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr "Använd minne"
+msgstr "Använt minne"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -82,7 +82,7 @@ msgstr "Objekt"
 
 msgctxt "#31026"
 msgid "Misc options"
-msgstr "Övriga val"
+msgstr "Övriga alternativ"
 
 msgctxt "#31027"
 msgid "Location"
@@ -90,7 +90,7 @@ msgstr "Plats"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr "Omslagssvep"
+msgstr "Affischomslag"
 
 msgctxt "#31029"
 msgid "Fanart"
@@ -102,7 +102,7 @@ msgstr "Bildminiatyrer"
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr "Bildsvep"
+msgstr "Bildomslag"
 
 msgctxt "#31033"
 msgid "Info"
@@ -114,7 +114,7 @@ msgstr "Åtgärder"
 
 msgctxt "#31040"
 msgid "Now playing"
-msgstr "Spelas nu"
+msgstr "Nu spelas"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -146,11 +146,11 @@ msgstr "Sluttid"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Sortering: Stigande"
+msgstr "Sortera: Stigande"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Sortering: Fallande"
+msgstr "Sortera: Fallande"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -410,7 +410,7 @@ msgstr "Skalets standard"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
-msgstr "Skalets standard utan VERSALER"
+msgstr "Skalets standard utan versaler"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -490,7 +490,7 @@ msgstr "Byt namn på grupp"
 
 msgctxt "#31505"
 msgid "Delete group"
-msgstr "Ta bort grupp"
+msgstr "Radera grupp"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"

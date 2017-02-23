@@ -406,7 +406,7 @@ msgstr "Activado"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Máscara predeterminada"
+msgstr "Según skin"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
@@ -450,7 +450,7 @@ msgstr "[B]CONFIGURACION REPRODUCTOR[/B][CR][CR]Configura acciones que pueden se
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]CONFIGURACION LIBRERIA[/B][CR][CR]Configura como la vista de librería/archivo muestra el contenido de los medios · Configura como la vista/lista de librería es navegada · Configura opciones de base de datos de los medios"
+msgstr "[B]CONFIGURACION BIBLIOTECA[/B][CR][CR]Configura como la vista de librería/archivo muestra el contenido de los medios · Configura como la vista/lista de librería es navegada · Configura opciones de base de datos de los medios"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
@@ -558,7 +558,7 @@ msgstr "PELICULAS"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "PROGRAMAS DE TV"
+msgstr "SERIES"
 
 msgctxt "#31956"
 msgid "MUSIC"

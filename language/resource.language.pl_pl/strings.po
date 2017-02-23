@@ -210,7 +210,7 @@ msgstr "Pokazuj niestandardowe tło"
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr "Ścieżka do folderu z obrazami tła:"
+msgstr "Folder obrazów tła:"
 
 msgctxt "#31111"
 msgid "Hide"
