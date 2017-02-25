@@ -287,8 +287,8 @@
 				</focusedlayout>
 				<content>
 					<item>
-						<label>-</label>
-						<icon>-</icon>
+						<label></label>
+						<icon></icon>
 						<onclick>noop</onclick>
 						<visible>!Weather.IsFetched</visible>
 					</item>
@@ -442,8 +442,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>
@@ -664,8 +664,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>
@@ -1146,7 +1146,7 @@
 				<top>565</top>
 				<width>25</width>
 				<height>25</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>scroll-right-focus.png</texturefocus>
 				<texturenofocus>scroll-right.png</texturenofocus>
 				<onleft>991</onleft>
@@ -1158,7 +1158,7 @@
 				<top>565</top>
 				<width>25</width>
 				<height>25</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>scroll-left-focus.png</texturefocus>
 				<texturenofocus>scroll-left.png</texturenofocus>
 				<onleft>9000</onleft>
@@ -1287,8 +1287,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>

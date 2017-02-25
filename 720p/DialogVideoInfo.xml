@@ -20,8 +20,8 @@
 				<top>0</top>
 				<width>64</width>
 				<height>32</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -140,7 +140,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -326,7 +326,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -477,7 +477,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -648,7 +648,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -816,12 +816,12 @@
 					<left>120r</left>
 					<top>485</top>
 					<subtype>page</subtype>
-					<font>-</font>
+					<font></font>
 					<onleft>61</onleft>
 					<onright>61</onright>
 					<ondown>9000</ondown>
 					<onup>49</onup>
-					<textcolor>-</textcolor>
+					<textcolor></textcolor>
 					<showonepage>true</showonepage>
 				</control>
 				<control type="textbox" id="400">
