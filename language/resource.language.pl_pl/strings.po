@@ -154,15 +154,15 @@ msgstr "Porządek: Malejąco"
 
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr "Otwórz listę odtwarzania"
+msgstr "Otwórz listę"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "Zapisz listę odtwarzania"
+msgstr "Zapisz listę"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr "Zamknij listę odtwarzania"
+msgstr "Zamknij listę"
 
 msgctxt "#31058"
 msgid "System music files"
@@ -170,7 +170,7 @@ msgstr "Systemowe pliki muzyczne"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr "Aktualna lista odtwarzania"
+msgstr "Aktualna lista"
 
 msgctxt "#31061"
 msgid "Current selected"
@@ -342,7 +342,7 @@ msgstr "Premiera"
 
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr "Opcje listy odtwarzania"
+msgstr "Opcje listy"
 
 msgctxt "#31326"
 msgid "Created"

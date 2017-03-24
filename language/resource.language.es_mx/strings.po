@@ -134,7 +134,7 @@ msgstr "REBOBINAR"
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr "BUSQUEDA"
+msgstr "BUSCANDO"
 
 msgctxt "#31048"
 msgid "Visualisation presets"

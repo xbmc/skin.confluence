@@ -234,7 +234,7 @@ msgstr "Submenú de programas de la pantalla principal"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Ocultar el Fanart del fondo"
+msgstr "Ocultar fanart del fondo"
 
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
@@ -254,7 +254,7 @@ msgstr "Letra"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Ocultar Fanart en visualizaciones a pantalla completa"
+msgstr "Ocultar fanart en visualizaciones a pantalla completa"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
