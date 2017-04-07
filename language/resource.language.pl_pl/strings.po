@@ -502,7 +502,7 @@ msgstr "Grupa kanałów"
 
 msgctxt "#31510"
 msgid "Timer set"
-msgstr "Zaplanowane zamknięcie"
+msgstr "Zaplanuj zamknięcie"
 
 msgctxt "#31511"
 msgid "Channel options"
