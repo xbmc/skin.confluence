@@ -40,6 +40,10 @@ msgctxt "#31025"
 msgid "Items"
 msgstr "እቃዎች"
 
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "የ ተለያዩ ምርጫዎች"
+
 msgctxt "#31027"
 msgid "Location"
 msgstr "አካባቢ "
@@ -139,6 +143,10 @@ msgstr "ምርጫዎች"
 msgctxt "#31128"
 msgid "Lyrics"
 msgstr "ግጥም"
+
+msgctxt "#31132"
+msgid "Lyrics add-on"
+msgstr "ግጥም መጨ-መሪያ "
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -303,6 +311,10 @@ msgstr "የ ጣቢያ ቡድን"
 msgctxt "#31510"
 msgid "Timer set"
 msgstr "ሰአት ማሰናጃ"
+
+msgctxt "#31511"
+msgid "Channel options"
+msgstr "የጣቢያ ምርጫዎች "
 
 msgctxt "#31902"
 msgid "Hourly forecast"
