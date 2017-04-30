@@ -287,9 +287,8 @@
 				</focusedlayout>
 				<content>
 					<item>
-						<label>-</label>
-						<icon>-</icon>
-						<onclick>noop</onclick>
+						<label></label>
+						<icon></icon>
 						<visible>!Weather.IsFetched</visible>
 					</item>
 					<include content="WeatherDefaultItem">
@@ -398,7 +397,6 @@
 			<property name="LowTemp">$INFO[Window.Property(Day$PARAM[item_id].LowTemp)]</property>
 			<property name="Outlook">$INFO[Window.Property(Day$PARAM[item_id].Outlook)]</property>
 			<property name="TempUnits">$INFO[System.TemperatureUnits]</property>
-			<onclick>noop</onclick>
 			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Day$PARAM[item_id].Outlook)) + String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 		</item>
 	</include>
@@ -408,7 +406,6 @@
 			<label2>$INFO[Window.Property(Daily.$PARAM[item_id].HighTemperature),[COLOR=grey2]$LOCALIZE[419] :[/COLOR][B] ,[/B]]  $INFO[Window.Property(Daily.$PARAM[item_id].LowTemperature),[COLOR=grey2]$LOCALIZE[418] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Daily.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Daily.$PARAM[item_id].Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label2>
 			<thumb>resource://resource.images.weathericons.default/$INFO[Window.Property(Daily.$PARAM[item_id].OutlookIcon)]</thumb>
 			<icon>$INFO[Window.Property(Daily.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Window.Property(Daily.$PARAM[item_id].WindSpeed)] $INFO[Window.Property(Daily.$PARAM[item_id].WindDirection)]</icon>
-			<onclick>noop</onclick>
 			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Daily.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 		</item>
 	</include>
@@ -418,7 +415,6 @@
 			<label2>$INFO[Window.Property(Hourly.$PARAM[item_id].Temperature),[COLOR=grey2]$LOCALIZE[401] :[/COLOR][B] ,[/B]]  $INFO[Window.Property(Hourly.$PARAM[item_id].FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Hourly.$PARAM[item_id].Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Hourly.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[1448] :[/COLOR][B] ,[/B]]</label2>
 			<thumb>resource://resource.images.weathericons.default/$INFO[Window.Property(Hourly.$PARAM[item_id].OutlookIcon)]</thumb>
 			<icon>$INFO[Window.Property(Hourly.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Window.Property(Hourly.$PARAM[item_id].WindSpeed)] $INFO[Window.Property(Hourly.$PARAM[item_id].WindDirection)]</icon>
-			<onclick>noop</onclick>
 			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Hourly.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 		</item>
 	</include>
@@ -428,7 +424,6 @@
 			<label2>$INFO[Window.Property(Map.$PARAM[item_id].Legend)]</label2>
 			<icon>$INFO[Window.Property(Map.$PARAM[item_id].Area)]</icon>
 			<property name="Layer">$INFO[Window.Property(Map.$PARAM[item_id].Layer)]</property>
-			<onclick>noop</onclick>
 			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.$PARAM[item_id].Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 		</item>
 	</include>
@@ -442,8 +437,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>
@@ -664,8 +659,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>
@@ -1004,7 +999,6 @@
 				<content>
 					<item>
 						<icon>$LOCALIZE[31909]</icon>
-						<onclick>noop</onclick>
 						<visible>String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 					</item>
 					<include content="WeatherHourlyItem">
@@ -1146,7 +1140,7 @@
 				<top>565</top>
 				<width>25</width>
 				<height>25</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>scroll-right-focus.png</texturefocus>
 				<texturenofocus>scroll-right.png</texturenofocus>
 				<onleft>991</onleft>
@@ -1158,7 +1152,7 @@
 				<top>565</top>
 				<width>25</width>
 				<height>25</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>scroll-left-focus.png</texturefocus>
 				<texturenofocus>scroll-left.png</texturenofocus>
 				<onleft>9000</onleft>
@@ -1287,8 +1281,8 @@
 				<top>-20</top>
 				<width>1</width>
 				<height>1</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
 			</control>

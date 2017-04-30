@@ -20,8 +20,8 @@
 				<top>0</top>
 				<width>64</width>
 				<height>32</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -140,7 +140,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -207,7 +207,6 @@
 							<item>
 								<label>$LOCALIZE[20376]:</label>
 								<label2>$INFO[ListItem.OriginalTitle]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.OriginalTitle) + !String.IsEqual(ListItem.OriginalTitle,Listitem.Title)</visible>
 							</item>
 							<item>
@@ -219,67 +218,56 @@
 							<item>
 								<label>$LOCALIZE[20417]:</label>
 								<label2>$INFO[ListItem.Writer]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Writer)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[572]:</label>
 								<label2>$INFO[ListItem.Studio]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Studio)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[515]:</label>
 								<label2>$INFO[ListItem.Genre]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[562]:</label>
 								<label2>$INFO[ListItem.Year]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
-								<onclick>noop</onclick>
+								<label2>$VAR[DurationInMinutes]</label2>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[38018]:</label>
 								<label2>$INFO[ListItem.Userrating]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[563]:</label>
 								<label2>$INFO[ListItem.RatingAndVotes]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[202]:</label>
 								<label2>$INFO[ListItem.TagLine]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.TagLine)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[203]:</label>
 								<label2>$INFO[ListItem.PlotOutline]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.PlotOutline)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[20074]:</label>
 								<label2>$INFO[ListItem.mpaa]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.mpaa)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.FilenameAndPath)</visible>
 							</item>
 						</content>
@@ -326,7 +314,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -393,43 +381,36 @@
 							<item>
 								<label>$LOCALIZE[20360]:</label>
 								<label2>$INFO[listitem.episode] [COLOR=grey] ($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])[/COLOR]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Episode)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[31322]:</label>
 								<label2>$INFO[ListItem.Premiered]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Premiered)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[515]:</label>
 								<label2>$INFO[ListItem.Genre]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[562]:</label>
 								<label2>$INFO[ListItem.Year]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[38018]:</label>
 								<label2>$INFO[ListItem.Userrating]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[563]:</label>
 								<label2>$INFO[ListItem.RatingAndVotes]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.FilenameAndPath)</visible>
 							</item>
 						</content>
@@ -477,7 +458,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -544,31 +525,26 @@
 							<item>
 								<label>$LOCALIZE[20364]:</label>
 								<label2>$INFO[ListItem.TVShowTitle]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.TVShowTitle)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[20373]:</label>
 								<label2>$INFO[ListItem.Season]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Season)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[20359]:</label>
 								<label2>$INFO[ListItem.Episode]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Episode)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[31322]:</label>
 								<label2>$INFO[ListItem.Premiered]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Premiered)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[515]:</label>
 								<label2>$INFO[ListItem.Genre]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
 							</item>
 							<item>
@@ -580,37 +556,31 @@
 							<item>
 								<label>$LOCALIZE[20417]:</label>
 								<label2>$INFO[ListItem.Writer]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Writer)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[562]:</label>
 								<label2>$INFO[ListItem.Year]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
-								<onclick>noop</onclick>
+								<label2>$VAR[DurationInMinutes]</label2>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[38018]:</label>
 								<label2>$INFO[ListItem.Userrating]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[563]:</label>
 								<label2>$INFO[ListItem.RatingAndVotes]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.FilenameAndPath)</visible>
 							</item>
 						</content>
@@ -648,7 +618,7 @@
 						<onright>49</onright>
 						<onup>9000</onup>
 						<ondown>61</ondown>
-						<pagecontrol>-</pagecontrol>
+						<pagecontrol></pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="30">
 							<control type="label">
@@ -715,61 +685,51 @@
 							<item>
 								<label>$LOCALIZE[557]:</label>
 								<label2>$INFO[ListItem.Artist]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Artist)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[558]:</label>
 								<label2>$INFO[ListItem.Album]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Album)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[515]:</label>
 								<label2>$INFO[ListItem.Genre]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[572]:</label>
 								<label2>$INFO[ListItem.Studio]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Studio)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[20417]:</label>
 								<label2>$INFO[ListItem.Writer]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Writer)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[20339]:</label>
 								<label2>$INFO[ListItem.Director]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Director)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[562]:</label>
 								<label2>$INFO[ListItem.Year]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Year)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[2050]:</label>
-								<label2>$INFO[ListItem.Duration] $LOCALIZE[12391]</label2>
-								<onclick>noop</onclick>
+								<label2>$VAR[DurationInMinutes]</label2>
 								<visible>!String.IsEmpty(ListItem.Duration)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[38018]:</label>
 								<label2>$INFO[ListItem.Userrating]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 							</item>
 							<item>
 								<label>$LOCALIZE[15311]</label>
 								<label2>$INFO[ListItem.FilenameAndPath]</label2>
-								<onclick>noop</onclick>
 								<visible>!String.IsEmpty(ListItem.FilenameAndPath)</visible>
 							</item>
 						</content>
@@ -816,12 +776,12 @@
 					<left>120r</left>
 					<top>485</top>
 					<subtype>page</subtype>
-					<font>-</font>
+					<font></font>
 					<onleft>61</onleft>
 					<onright>61</onright>
 					<ondown>9000</ondown>
 					<onup>49</onup>
-					<textcolor>-</textcolor>
+					<textcolor></textcolor>
 					<showonepage>true</showonepage>
 				</control>
 				<control type="textbox" id="400">

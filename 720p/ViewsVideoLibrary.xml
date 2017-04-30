@@ -510,7 +510,7 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Duration,, $LOCALIZE[12391]]</label>
+					<label>$VAR[DurationInMinutes]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
 				</control>

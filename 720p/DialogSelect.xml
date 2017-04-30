@@ -83,8 +83,8 @@
 				<top>15</top>
 				<width>64</width>
 				<height>32</height>
-				<label>-</label>
-				<font>-</font>
+				<label></label>
+				<font></font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -307,7 +307,7 @@
 						<description>Manual button</description>
 						<width>200</width>
 						<height>40</height>
-						<label>-</label>
+						<label></label>
 						<font>font12_title</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -317,7 +317,7 @@
 						<description>Cancel button</description>
 						<width>200</width>
 						<height>40</height>
-						<label>-</label>
+						<label></label>
 						<font>font12_title</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>

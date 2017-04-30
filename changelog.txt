@@ -1,3 +1,16 @@
+[B]4.0.0[/B]
+
+* Leia (v18) updates
+- Bumped xbmc.gui to 5.13.0
+- Removed hyphens as a none value
+- Added Game sections
+- Changed DialogPVRGuideOSD.xml to DialogPVRChannelGuide.xml
+- Updated duration labels
+- Removed 'noop' values
+- Added 'TV/Radio toggle' button to DialogPVRGroupManager.xml
+- Removed views 11 and 13 from MyPVRGuide.xml
+- Added 'All/Watched/Unwatched' to MyPVRRecordings.xml 
+
 [B]3.0.39[/B]
 
 - Fixed home Weather item
@@ -6,7 +19,7 @@
 
 [B]3.0.38[/B]
 
-- Fix using DeafultUser.png added in v3.0.6 and remove unknown-user.png
+- Fix using DefaultUser.png added in v3.0.6 and remove unknown-user.png
 
 [B]3.0.36[/B]
 

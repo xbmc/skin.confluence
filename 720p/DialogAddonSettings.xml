@@ -166,7 +166,7 @@
 		<control type="label" id="7">
 			<height>35</height>
 			<font>font13_title</font>
-			<label>-</label>
+			<label></label>
 			<textcolor>blue</textcolor>
 			<shadowcolor>black</shadowcolor>
 			<align>left</align>

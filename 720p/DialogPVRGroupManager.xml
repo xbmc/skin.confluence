@@ -37,8 +37,8 @@
 				<top>0</top>
 				<width>64</width>
 				<height>32</height>
-				<label>-</label>
-				<font>-</font>
+				<label/>
+				<font/>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -441,6 +441,14 @@
 						<width>200</width>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>31505</label>
+					</control>
+					<control type="togglebutton" id="34">
+						<description>TV/Radio toggle</description>
+						<width>200</width>
+						<include>ButtonInfoDialogsCommonValues</include>
+						<label>$LOCALIZE[19174]</label>
+						<altlabel>$LOCALIZE[19173]</altlabel>
+						<usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
 					</control>
 					<control type="button" id="29">
 						<description>OK</description>
