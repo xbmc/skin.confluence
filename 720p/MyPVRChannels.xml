@@ -269,8 +269,8 @@
 						<control type="image">
 							<left>5</left>
 							<top>37</top>
-							<width>30</width>
-							<height>20</height>
+							<width>16</width>
+							<height>16</height>
 							<texture>PVR-IsRecording.png</texture>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -365,8 +365,8 @@
 						<control type="image">
 							<left>5</left>
 							<top>37</top>
-							<width>30</width>
-							<height>20</height>
+							<width>16</width>
+							<height>16</height>
 							<texture>PVR-IsRecording.png</texture>
 							<visible>ListItem.IsRecording</visible>
 						</control>
