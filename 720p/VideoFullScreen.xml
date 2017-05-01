@@ -25,7 +25,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<label>-</label>
+				<label></label>
 			</control>
 			<control type="label" id="11">
 				<description>row 2 label</description>
@@ -36,7 +36,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<label>-</label>
+				<label></label>
 			</control>
 			<control type="label" id="12">
 				<description>row 3 label</description>
@@ -47,7 +47,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
-				<label>-</label>
+				<label></label>
 			</control>
 		</control>
 		<!-- media infos -->
