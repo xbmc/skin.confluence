@@ -818,7 +818,7 @@
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9011</onleft>
 					<onright>9011</onright>
-					<visible>Container(9000).HasFocus(3) + !String.IsEmpty(Container(90110).ListItemNoWrap(0).Label</visible>
+					<visible>Container(9000).HasFocus(3) + !String.IsEmpty(Container(90110).ListItemNoWrap(0).Label)</visible>
 					<!-- Buttons for the grouplist -->
 					<include>HomeSubMenuMusic</include>
 				</control>
