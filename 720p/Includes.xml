@@ -38,368 +38,6 @@
 	<constant name="DepthFloor">-0.20</constant>
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
-	<variable name="DurationInMinutes">
-		<value condition="String.StartsWith(ListItem.Duration,01:00:)">60 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:01:)">61 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:02:)">62 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:03:)">63 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:04:)">64 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:05:)">65 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:06:)">66 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:07:)">67 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:08:)">68 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:09:)">69 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:10:)">70 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:11:)">71 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:12:)">72 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:13:)">73 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:14:)">74 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:15:)">75 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:16:)">76 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:17:)">77 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:18:)">78 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:19:)">79 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:20:)">80 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:21:)">81 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:22:)">82 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:23:)">83 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:24:)">84 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:25:)">85 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:26:)">86 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:27:)">87 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:28:)">88 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:29:)">89 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:30:)">90 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:31:)">91 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:32:)">92 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:33:)">93 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:34:)">94 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:35:)">95 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:36:)">96 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:37:)">97 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:38:)">98 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:39:)">99 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:40:)">100 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:41:)">101 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:42:)">102 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:43:)">103 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:44:)">104 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:45:)">105 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:46:)">106 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:47:)">107 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:48:)">108 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:49:)">109 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:50:)">110 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:51:)">111 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:52:)">112 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:53:)">113 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:54:)">114 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:55:)">115 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:56:)">116 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:57:)">117 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:58:)">118 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:59:)">119 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:00:)">120 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:01:)">121 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:02:)">122 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:03:)">123 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:04:)">124 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:05:)">125 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:06:)">126 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:07:)">127 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:08:)">128 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:09:)">129 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:10:)">130 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:11:)">131 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:12:)">132 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:13:)">133 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:14:)">134 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:15:)">135 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:16:)">136 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:17:)">137 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:18:)">138 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:19:)">139 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:20:)">140 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:21:)">141 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:22:)">142 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:23:)">143 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:24:)">144 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:25:)">145 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:26:)">146 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:27:)">147 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:28:)">148 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:29:)">149 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:30:)">150 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:31:)">151 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:32:)">152 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:33:)">153 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:34:)">154 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:35:)">155 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:36:)">156 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:37:)">157 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:38:)">158 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:39:)">159 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:40:)">160 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:41:)">161 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:42:)">162 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:43:)">163 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:44:)">164 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:45:)">165 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:46:)">166 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:47:)">167 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:48:)">168 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:49:)">169 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:50:)">170 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:51:)">171 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:52:)">172 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:53:)">173 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:54:)">174 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:55:)">175 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:56:)">176 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:57:)">177 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:58:)">178 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:59:)">179 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:00:)">180 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:01:)">181 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:02:)">182 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:03:)">183 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:04:)">184 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:05:)">185 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:06:)">186 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:07:)">187 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:08:)">188 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:09:)">189 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:10:)">190 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:11:)">191 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:12:)">192 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:13:)">193 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:14:)">194 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:15:)">195 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:16:)">196 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:17:)">197 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:18:)">198 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:19:)">199 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:20:)">200 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:21:)">201 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:22:)">202 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:23:)">203 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:24:)">204 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:25:)">205 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:26:)">206 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:27:)">207 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:28:)">208 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:29:)">209 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:30:)">210 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:31:)">211 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:32:)">212 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:33:)">213 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:34:)">214 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:35:)">215 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:36:)">216 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:37:)">217 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:38:)">218 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:39:)">219 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:40:)">220 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:41:)">221 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:42:)">222 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:43:)">223 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:44:)">224 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:45:)">225 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:46:)">226 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:47:)">227 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:48:)">228 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:49:)">229 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:50:)">230 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:51:)">231 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:52:)">232 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:53:)">233 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:54:)">234 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:55:)">235 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:56:)">236 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:57:)">237 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:58:)">238 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:59:)">239 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:00:)">240 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:01:)">241 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:02:)">242 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:03:)">243 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:04:)">244 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:05:)">245 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:06:)">246 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:07:)">247 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:08:)">248 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:09:)">249 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:10:)">250 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:11:)">251 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:12:)">252 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:13:)">253 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:14:)">254 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:15:)">255 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:16:)">256 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:17:)">257 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:18:)">258 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:19:)">259 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:20:)">260 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:21:)">261 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:22:)">262 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:23:)">263 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:24:)">264 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:25:)">265 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:26:)">266 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:27:)">267 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:28:)">268 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:29:)">269 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:30:)">270 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:31:)">271 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:32:)">272 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:33:)">273 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:34:)">274 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:35:)">275 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:36:)">276 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:37:)">277 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:38:)">278 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:39:)">279 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:40:)">280 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:41:)">281 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:42:)">282 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:43:)">283 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:44:)">284 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:45:)">285 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:46:)">286 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:47:)">287 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:48:)">288 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:49:)">289 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:50:)">290 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:51:)">291 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:52:)">292 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:53:)">293 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:54:)">294 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:55:)">295 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:56:)">296 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:57:)">297 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:58:)">298 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:59:)">299 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:00:)">300 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:01:)">301 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:02:)">302 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:03:)">303 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:04:)">304 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:05:)">305 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:06:)">306 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:07:)">307 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:08:)">308 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:09:)">309 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:10:)">310 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:11:)">311 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:12:)">312 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:13:)">313 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:14:)">314 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:15:)">315 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:16:)">316 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:17:)">317 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:18:)">318 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:19:)">319 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:20:)">320 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:21:)">321 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:22:)">322 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:23:)">323 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:24:)">324 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:25:)">325 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:26:)">326 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:27:)">327 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:28:)">328 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:29:)">329 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:30:)">330 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:31:)">331 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:32:)">332 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:33:)">333 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:34:)">334 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:35:)">335 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:36:)">336 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:37:)">337 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:38:)">338 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:39:)">339 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:40:)">340 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:41:)">341 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:42:)">342 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:43:)">343 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:44:)">344 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:45:)">345 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:46:)">346 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:47:)">347 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:48:)">348 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:49:)">349 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:50:)">350 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:51:)">351 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:52:)">352 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:53:)">353 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:54:)">354 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:55:)">355 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:56:)">356 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:57:)">357 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:58:)">358 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:59:)">359 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,00:)">1 $LOCALIZE[31015]</value>
-		<value condition="String.StartsWith(ListItem.Duration,01:)">1 $LOCALIZE[31015]</value>
-		<value condition="String.StartsWith(ListItem.Duration,02:)">2 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,03:)">3 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,04:)">4 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,05:)">5 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,06:)">6 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,07:)">7 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,08:)">8 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,09:)">9 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,10:)">10 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,11:)">11 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,12:)">12 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,13:)">13 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,14:)">14 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,15:)">15 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,16:)">16 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,17:)">17 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,18:)">18 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,19:)">19 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,20:)">20 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,21:)">21 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,22:)">22 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,23:)">23 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,24:)">24 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,25:)">25 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,26:)">26 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,27:)">27 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,28:)">28 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,29:)">29 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,30:)">30 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,31:)">31 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,32:)">32 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,33:)">33 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,34:)">34 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,35:)">35 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,36:)">36 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,37:)">37 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,38:)">38 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,39:)">39 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,40:)">40 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,41:)">41 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,42:)">42 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,43:)">43 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,44:)">44 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,45:)">45 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,46:)">46 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,47:)">47 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,48:)">48 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,49:)">49 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,50:)">50 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,51:)">51 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,52:)">52 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,53:)">53 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,54:)">54 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,55:)">55 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,56:)">56 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,57:)">57 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,58:)">58 $LOCALIZE[12391]</value>
-		<value condition="String.StartsWith(ListItem.Duration,59:)">59 $LOCALIZE[12391]</value>
-	</variable>
 	<variable name="AddonLabel2">
 		<value condition="!String.IsEmpty(ListItem.Property(Addon.Status))">$INFO[ListItem.Property(Addon.Status)]</value>
 		<value condition="!String.IsEmpty(ListItem.AddonSize)">$INFO[ListItem.AddonSize]</value>
@@ -435,7 +73,6 @@
 	</variable>
 	<variable name="MusicInfoPanelLabel">
 		<value condition="Container.Content(Artists)">$INFO[ListItem.Label]</value>
-		<value condition="Container.Content(Songs)">$INFO[ListItem.Label,[COLOR=selected][B],[/B][/COLOR] - ]$INFO[ListItem.Label2]</value>
 		<value>$INFO[ListItem.TrackNumber,([COLOR=selected][B],[/B][/COLOR]) - ]$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="PlayList">
@@ -469,7 +106,7 @@
 		<value condition="Player.IsTempo + String.StartsWith(Player.PlaySpeed,0.)">$LOCALIZE[31045]</value>
 		<value condition="Player.IsTempo + String.StartsWith(Player.PlaySpeed,1.)">$LOCALIZE[31044]</value>
 		<value condition="Player.Playing + !Player.Seeking + !Player.DisplayAfterSeek">$LOCALIZE[31042]</value>
-		<value condition="[Player.Paused + !Player.Caching] + !Player.Seeking">$LOCALIZE[31043]</value>
+		<value condition="[Player.Paused + !Player.Caching] + !Player.Seeking + !Player.DisplayAfterSeek">$LOCALIZE[31043]</value>
 		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">$LOCALIZE[15107] $INFO[Player.CacheLevel]%</value>
 		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![player.forwarding | player.rewinding]">$LOCALIZE[31046][COLOR=grey] $INFO[Player.SeekStepSize][/COLOR]</value>
 		<value condition="Player.DisplayAfterSeek + ![player.forwarding | player.rewinding]">$LOCALIZE[31046][COLOR=grey] $INFO[Player.SeekOffset][/COLOR]</value>
@@ -634,8 +271,8 @@
 			<top>15</top>
 			<width>64</width>
 			<height>32</height>
-			<label></label>
-			<font></font>
+			<label>-</label>
+			<font>-</font>
 			<onclick>PreviousMenu</onclick>
 			<texturefocus>DialogCloseButton-focus.png</texturefocus>
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -678,7 +315,7 @@
 		<aligny>center</aligny>
 		<font>font13</font>
 		<texturefocus border="5">button-focus.png</texturefocus>
-		<texturenofocus></texturenofocus>
+		<texturenofocus>-</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonMediaSubCommonValues">
@@ -742,10 +379,10 @@
 			<top>0</top>
 			<width>250</width>
 			<height>720</height>
-			<label></label>
-			<font></font>
-			<texturenofocus></texturenofocus>
-			<texturefocus></texturefocus>
+			<label>-</label>
+			<font>-</font>
+			<texturenofocus>-</texturenofocus>
+			<texturefocus>-</texturefocus>
 			<visible>true</visible>
 		</control>
 		<control type="button" id="9001">
@@ -753,7 +390,7 @@
 			<top>260</top>
 			<width>42</width>
 			<height>128</height>
-			<font></font>
+			<font>-</font>
 			<texturefocus>HasSub.png</texturefocus>
 			<texturenofocus>HasSub.png</texturenofocus>
 		</control>
@@ -788,7 +425,7 @@
 				<width>45</width>
 				<height>45</height>
 				<label>1036</label>
-				<font></font>
+				<font>-</font>
 				<onclick>back</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -813,7 +450,7 @@
 				<width>45</width>
 				<height>45</height>
 				<label>31003</label>
-				<font></font>
+				<font>-</font>
 				<onclick>ActivateWindow(home)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -846,7 +483,7 @@
 				<width>45</width>
 				<height>45</height>
 				<label>31003</label>
-				<font></font>
+				<font>-</font>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
@@ -1227,7 +864,7 @@
 				<control type="button" id="600">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDChannelUPFO.png</texturefocus>
 					<texturenofocus>OSDChannelUPNF.png</texturenofocus>
 					<onclick>ChannelDown</onclick>
@@ -1235,7 +872,7 @@
 				<control type="button" id="601">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDChannelDownFO.png</texturefocus>
 					<texturenofocus>OSDChannelDownNF.png</texturenofocus>
 					<onclick>ChannelUp</onclick>
@@ -1243,7 +880,7 @@
 				<control type="button" id="603">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDStopFO.png</texturefocus>
 					<texturenofocus>OSDStopNF.png</texturenofocus>
 					<onclick>down</onclick>
@@ -1252,7 +889,7 @@
 				<control type="togglebutton" id="604">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDPauseFO.png</texturefocus>
 					<texturenofocus>OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -1265,7 +902,7 @@
 				<control type="button" id="605">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDRecordOffFO.png</texturefocus>
 					<texturenofocus>OSDRecordOffNF.png</texturenofocus>
 					<onclick>PlayerControl(record)</onclick>
@@ -1275,7 +912,7 @@
 				<control type="button" id="606">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<visible>RDS.HasRadiotextPlus</visible>
 					<texturefocus>OSDRadioRDSFO.png</texturefocus>
 					<texturenofocus>OSDRadioRDSNF.png</texturenofocus>
@@ -1284,7 +921,7 @@
 				<control type="button" id="622">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<visible>!RDS.HasRadiotextPlus</visible>
 					<texturefocus>OSDChannelListFO.png</texturefocus>
 					<texturenofocus>OSDChannelListNF.png</texturenofocus>
@@ -1310,7 +947,7 @@
 				<control type="button" id="700">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDPrevTrackFO.png</texturefocus>
 					<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
@@ -1318,7 +955,7 @@
 				<control type="button" id="706">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDRewindFO.png</texturefocus>
 					<texturenofocus>OSDRewindNF.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
@@ -1327,7 +964,7 @@
 				<control type="togglebutton" id="703">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDPauseFO.png</texturefocus>
 					<texturenofocus>OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -1338,7 +975,7 @@
 				<control type="button" id="701">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDStopFO.png</texturefocus>
 					<texturenofocus>OSDStopNF.png</texturenofocus>
 					<onclick>down</onclick>
@@ -1347,7 +984,7 @@
 				<control type="button" id="707">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDForwardFO.png</texturefocus>
 					<texturenofocus>OSDForwardNF.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
@@ -1356,7 +993,7 @@
 				<control type="button" id="702">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDNextTrackFO.png</texturefocus>
 					<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
@@ -1367,9 +1004,9 @@
 					<control type="button" id="704">
 						<width>39</width>
 						<height>39</height>
-						<label></label>
-						<texturefocus></texturefocus>
-						<texturenofocus></texturenofocus>
+						<label>-</label>
+						<texturefocus>-</texturefocus>
+						<texturenofocus>-</texturenofocus>
 						<onleft>702</onleft>
 						<onright>705</onright>
 						<onclick>PlayerControl(Repeat)</onclick>
@@ -1385,7 +1022,7 @@
 				<control type="togglebutton" id="705">
 					<width>39</width>
 					<height>39</height>
-					<label></label>
+					<label>-</label>
 					<texturefocus>OSDRandomOffFO.png</texturefocus>
 					<texturenofocus>OSDRandomOffNF.png</texturenofocus>
 					<usealttexture>Playlist.IsRandom</usealttexture>
@@ -1474,7 +1111,7 @@
 		<top>190r</top>
 		<width>1280</width>
 		<height>200</height>
-		<pagecontrol></pagecontrol>
+		<pagecontrol>-</pagecontrol>
 		<scrolltime>300</scrolltime>
 		<focusposition>3</focusposition>
 		<movement>2</movement>
@@ -1814,46 +1451,55 @@
 		<item>
 			<label>$LOCALIZE[21893]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Born)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Born))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21894]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Formed)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Formed))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[515]:</label>
 			<label2>$INFO[ListItem.Genre]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Genre)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[175]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Mood)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Mood))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[176]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Style)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Style))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21892]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Instrument)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Instrument))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21897]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Died)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Died))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21896]:</label>
 			<label2>$INFO[ListItem.Property(Artist_Disbanded)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_Disbanded))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21898]:</label>
 			<label2>$INFO[ListItem.Property(Artist_YearsActive)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Artist_YearsActive))</visible>
 		</item>
 	</include>
@@ -1861,51 +1507,61 @@
 		<item>
 			<label>$LOCALIZE[557]:</label>
 			<label2>$INFO[ListItem.Artist]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Artist)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[515]:</label>
 			<label2>$INFO[ListItem.Genre]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Genre)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[563]:</label>
 			<label2>$INFO[ListItem.RatingAndVotes]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38018]:</label>
 			<label2>$INFO[ListItem.Userrating]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[175]:</label>
 			<label2>$INFO[ListItem.Property(Album_Mood)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Album_Mood))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[176]:</label>
 			<label2>$INFO[ListItem.Property(Album_Style)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Album_Style))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21895]:</label>
 			<label2>$INFO[ListItem.Property(Album_Theme)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Album_Theme))</visible>
 		</item>
 		<item>
 			<label>146</label>
 			<label2>$INFO[ListItem.Property(Album_Type)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Album_Type))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[21899]:</label>
 			<label2>$INFO[ListItem.Property(Album_Label)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Album_Label))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[562]:</label>
 			<label2>$INFO[ListItem.Year]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Year)</visible>
 		</item>
 	</include>
@@ -1913,91 +1569,109 @@
 		<item>
 			<label>$LOCALIZE[557]:</label>
 			<label2>$INFO[ListItem.Artist]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Artist)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[558]:</label>
 			<label2>$INFO[ListItem.Album]$INFO[listitem.discnumber, - $LOCALIZE[427] ]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Album)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[515]:</label>
 			<label2>$INFO[ListItem.Genre]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Genre)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[175]:</label>
 			<label2>$INFO[ListItem.Mood]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Mood)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[562]:</label>
 			<label2>$INFO[ListItem.Year]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Year)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[554]:</label>
 			<label2>$INFO[ListItem.TrackNumber]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.TrackNumber)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[563]:</label>
 			<label2>$INFO[ListItem.RatingAndVotes]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.RatingAndVotes)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38018]:</label>
 			<label2>$INFO[ListItem.Userrating]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Userrating)</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[29903]:</label>
 			<label2>$INFO[ListItem.Property(Role.Composer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Composer))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[29905]:</label>
 			<label2>$INFO[ListItem.Property(Role.Conductor)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Conductor))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38034]:</label>
 			<label2>$INFO[ListItem.Property(Role.Orchestra)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Orchestra))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38035]:</label>
 			<label2>$INFO[ListItem.Property(Role.Lyricist)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Lyricist))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38036]:</label>
 			<label2>$INFO[ListItem.Property(Role.Remixer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Remixer))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38037]:</label>
 			<label2>$INFO[ListItem.Property(Role.Arranger)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Arranger))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38038]:</label>
 			<label2>$INFO[ListItem.Property(Role.Engineer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Engineer))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38039]:</label>
 			<label2>$INFO[ListItem.Property(Role.Producer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Producer))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38040]:</label>
 			<label2>$INFO[ListItem.Property(Role.DJMixer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.DJMixer))</visible>
 		</item>
 		<item>
 			<label>$LOCALIZE[38041]:</label>
 			<label2>$INFO[ListItem.Property(Role.Mixer)]</label2>
+			<onclick>noop</onclick>
 			<visible>!String.IsEmpty(ListItem.Property(Role.Mixer))</visible>
 		</item>
 	</include>

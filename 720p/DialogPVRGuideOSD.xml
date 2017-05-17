@@ -22,8 +22,8 @@
 				<top>15</top>
 				<width>64</width>
 				<height>32</height>
-				<label></label>
-				<font></font>
+				<label>-</label>
+				<font>-</font>
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -90,7 +90,7 @@
 					<control type="label">
 						<left>10</left>
 						<top>0</top>
-						<width>50</width>
+						<width>100</width>
 						<height>30</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
@@ -100,21 +100,21 @@
 						<label>$INFO[ListItem.StartTime]</label>
 					</control>
 					<control type="image">
-						<left>70</left>
+						<left>120</left>
 						<top>7</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>$VAR[PVRTimerIcon]</texture>
 					</control>
 					<control type="label">
-						<left>86</left>
+						<left>150</left>
 						<top>0</top>
-						<width>314</width>
+						<width>250</width>
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
+						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -141,7 +141,7 @@
 					<control type="label">
 						<left>10</left>
 						<top>0</top>
-						<width>50</width>
+						<width>100</width>
 						<height>30</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
@@ -151,21 +151,21 @@
 						<label>$INFO[ListItem.StartTime]</label>
 					</control>
 					<control type="image">
-						<left>70</left>
+						<left>120</left>
 						<top>7</top>
 						<width>16</width>
 						<height>16</height>
 						<texture>$VAR[PVRTimerIcon]</texture>
 					</control>
 					<control type="label">
-						<left>86</left>
+						<left>150</left>
 						<top>0</top>
-						<width>314</width>
+						<width>250</width>
 						<height>30</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
+						<align>right</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
 					</control>

@@ -37,13 +37,13 @@
 			<include>SmallMusicInfo</include>
 		</control>
 		<control type="button">
-			<visible>SlideShow.IsVideo + [![Player.Playing + Player.HasVideo] | SlideShow.IsPaused]</visible>
+			<visible>SlideShow.IsVideo + [!SlideShow.IsActive | SlideShow.IsPaused]</visible>
 			<description>Video Play Button</description>
 			<left>540</left>
 			<top>260</top>
 			<width>200</width>
 			<height>200</height>
-			<font></font>
+			<font>-</font>
 			<onclick>play</onclick>
 			<texturefocus>arrow-big-right.png</texturefocus>
 			<texturenofocus>arrow-big-right.png</texturenofocus>
