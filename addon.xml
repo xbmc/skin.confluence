@@ -145,6 +145,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Fixed home Weather item / Added 'Privacy Policy' to system info / Updated background video conditions</news>
+		<news>Backported some fixes</news>
 	</extension>
 </addon>
