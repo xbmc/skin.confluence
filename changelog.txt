@@ -1,6 +1,11 @@
+[B]4.0.3[/B]
+
+- Added fallbacks for home screen Recently Added items
+- Updated addon settings dialog
+
 [B]4.0.1[/B]
 
-Updated addon settings dialog
+- Updated addon settings dialog
 
 [B]4.0.0[/B]
 
