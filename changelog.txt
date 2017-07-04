@@ -1,4 +1,9 @@
-[B]4.0.3[/B]
+[B]4.1.4[/B]
+
+- Added path to music info dialog
+- Updated language files from Transifex
+
+[B]4.0.4[/B]
 
 - Added fallbacks for home screen Recently Added items
 - Updated addon settings dialog
