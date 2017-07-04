@@ -20,6 +20,14 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Aldatu zure"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr "JOKOAK"
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr "[B]JOKOAREN EZARPENAK[/B][CR][CR]Konfiguratu atzera egiteko laguntza eta aukerak - Konfiguratu teklatuaren erabilera eta teklatu erreproduktore kopurua"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Energia aukerak"
@@ -67,6 +75,10 @@ msgstr "Audioaren prozesatze-informazioa"
 msgctxt "#31014"
 msgid "Memory used"
 msgstr "Erabilitako memoria"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr "Minutua"
 
 msgctxt "#31023"
 msgid "Playing"
