@@ -12,13 +12,34 @@
 			<left>0</left>
 			<top>0</top>
 			<width>340</width>
-			<height>262</height>
+			<height>302</height>
 			<texture border="20">DialogBack.png</texture>
+		</control>
+		<control type="image">
+			<description>Dialog Header image</description>
+			<left>40</left>
+			<top>16</top>
+			<width>260</width>
+			<height>40</height>
+			<texture>dialogheader.png</texture>
+		</control>
+		<control type="label">
+			<description>header label</description>
+			<left>40</left>
+			<top>20</top>
+			<width>260</width>
+			<height>30</height>
+			<font>font13_title</font>
+			<label>$LOCALIZE[35221]</label>
+			<align>center</align>
+			<aligny>center</aligny>
+			<textcolor>selected</textcolor>
+			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="grouplist" id="1000">
 			<description>grouplist for buttons</description>
 			<left>20</left>
-			<top>30</top>
+			<top>70</top>
 			<width>300</width>
 			<height>212</height>
 			<itemgap>4</itemgap>
