@@ -1,3 +1,7 @@
+[B]4.1.41[/B]
+
+- Added GameOSD dialog
+
 [B]4.1.4[/B]
 
 - Added path to music info dialog
