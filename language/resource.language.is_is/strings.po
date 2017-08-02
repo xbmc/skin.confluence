@@ -24,6 +24,10 @@ msgctxt "#31001"
 msgid "GAMES"
 msgstr "LEIKIR"
 
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr "[B]LEIKJASTILLINGAR[/B][CR][CR]Stilla stuðning við hraðspólun og valkosti · Stilla notkun lyklaborðs og fjölda leikmanna á lyklaborði"
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Orkustýringarkostir"
@@ -451,6 +455,18 @@ msgstr "Sýna eða fela innskráningarskjá við ræsingu."
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Veldu uppsetninguna sem verður notuð í ræsingu þegar innskráningarglugginn hefur verið gerður óvirkur."
+
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr "[B]SPILARASTILLINGAR[/B][CR][CR]Stilla aðgerðir sem hægt er að nota á meðan afspilun stendur · Stilla hvernig margmiðlunarefni er spilað"
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr "[B]KERFISSTILLINGAR[/B][CR][CR]Stilla skjá · Stilla hljóð · Stilla internetaðgang · Stilla orkusparnað · Stilla atvikaskráningu"
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr "[B]VIÐMÓTSSTILLINGAR[/B][CR][CR]Stilla skinn · Stilla landsvæði · Stilla stýringar · Stilla skjáhvílu · Stilla aðallás"
 
 msgctxt "#31501"
 msgid "Scheduled time"

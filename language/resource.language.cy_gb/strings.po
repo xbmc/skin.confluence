@@ -156,6 +156,10 @@ msgctxt "#31206"
 msgid "Found"
 msgstr "Canfod"
 
+msgctxt "#31301"
+msgid "Last updated"
+msgstr "Chwaraewyd ddiwethaf"
+
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Darparwr data"
