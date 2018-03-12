@@ -18,7 +18,7 @@ msgstr ""
 
 msgctxt "#31000"
 msgid "Change your"
-msgstr "Kodi"
+msgstr "Pakeisk savo"
 
 msgctxt "#31001"
 msgid "GAMES"
@@ -150,7 +150,7 @@ msgstr "PAIEŠKA"
 
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr "Vizualizacijų išankstinės parinktys"
+msgstr "Vizualizacijų parinktys"
 
 msgctxt "#31049"
 msgid "End time"
@@ -202,7 +202,7 @@ msgstr "Rodyti \"Pauzė\" nuotraukų skaidrių peržiūroje"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Atkurti anonsus lange [COLOR=grey3](Tik vaizdo informacijos lange)[/COLOR]"
+msgstr "Atkurti anonsus lange [COLOR=grey3](Vaizdo informacijos dialogas)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -218,7 +218,7 @@ msgstr "Slėpti pagrindinio meniu mygtukus"
 
 msgctxt "#31109"
 msgid "Enable custom background"
-msgstr "Įjungti savą foną"
+msgstr "Įjungti savo foną"
 
 msgctxt "#31110"
 msgid "Background path:"
