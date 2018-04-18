@@ -223,6 +223,7 @@
 				<font></font>
 				<texturefocus>OSDAudioFO.png</texturefocus>
 				<texturenofocus>OSDAudioNF.png</texturenofocus>
+				<usealttexture>false</usealttexture>
 				<onclick>ActivateWindow(OSDAudioSettings)</onclick>
 			</control>
 			<control type="button" id="253">
