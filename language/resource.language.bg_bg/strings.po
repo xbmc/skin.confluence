@@ -42,7 +42,7 @@ msgstr "Скриване на информацията"
 
 msgctxt "#31006"
 msgid "View options"
-msgstr "Преглед на настройките"
+msgstr "Визуални настройки"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -330,11 +330,11 @@ msgstr "Доставчик на данни"
 
 msgctxt "#31308"
 msgid "Movie details"
-msgstr "Детайли за филма"
+msgstr "Подробности за филма"
 
 msgctxt "#31309"
 msgid "Memory used:"
-msgstr "Памет в употреба:"
+msgstr "Използвана памет:"
 
 msgctxt "#31310"
 msgid "Track number"
@@ -378,7 +378,7 @@ msgstr "Натиснете бутона, за да започне[CR][CR]въз�
 
 msgctxt "#31331"
 msgid "Album details"
-msgstr "Детайли за албума"
+msgstr "Подробности за албума"
 
 msgctxt "#31351"
 msgid "Pause"
