@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="skin.confluence" version="4.4.2" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
-		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="xbmc.gui" version="5.13.1"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
