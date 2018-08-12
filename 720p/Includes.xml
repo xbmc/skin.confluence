@@ -41,7 +41,8 @@
 	<!-- VARIABLES -->
 	<variable name="GameSelectHeader">
 		<value condition="Window.IsActive(gamevideofilter)">$LOCALIZE[230]</value>
-		<value condition="Window.IsActive(gameviewmode)">$LOCALIZE[629]</value>
+		<value condition="Window.IsActive(gameviewmode)">$LOCALIZE[35233]</value>
+		<value condition="Window.IsActive(gamevideorotation)">$LOCALIZE[35227]</value>
 	</variable>
 	<variable name="DurationInMinutes">
 		<value condition="String.StartsWith(ListItem.Duration,01:00:)">60 $LOCALIZE[12391]</value>
