@@ -397,25 +397,49 @@
 					<font>font13</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[Player.StartTime(hh:mm)]</label>
+					<label>$INFO[VideoPlayer.StartTime]</label>
 				</control>
-				<control type="progress" id="1">
-					<description>ProgressbarCache</description>
-					<left>100</left>
-					<top>15</top>
-					<width>720</width>
-					<height>16</height>
-					<info>Player.ProgressCache</info>
-					<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
-					<visible>!Player.ChannelPreviewActive</visible>
+				<control type="group" id="1">
+					<visible>VideoPlayer.Content(LiveTV)</visible>
+					<control type="progress" id="1">
+						<description>ProgressbarTimeshift</description>
+						<left>100</left>
+						<top>15</top>
+						<width>720</width>
+						<height>16</height>
+						<info>PVR.TimeshiftProgressBufferEnd</info>
+						<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
+						<visible>PVR.IsTimeShift</visible>
+					</control>
+					<control type="progress" id="1">
+						<description>Progressbar</description>
+						<left>100</left>
+						<top>15</top>
+						<width>720</width>
+						<height>16</height>
+						<info>PVR.EpgEventProgress</info>
+					</control>
 				</control>
-				<control type="progress" id="1">
-					<description>Progressbar</description>
-					<left>100</left>
-					<top>15</top>
-					<width>720</width>
-					<height>16</height>
-					<info>Player.Progress</info>
+				<control type="group" id="1">
+					<visible>!VideoPlayer.Content(LiveTV)</visible>
+					<control type="progress" id="1">
+						<description>ProgressbarCache</description>
+						<left>100</left>
+						<top>15</top>
+						<width>720</width>
+						<height>16</height>
+						<info>Player.ProgressCache</info>
+						<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
+						<visible>!Player.ChannelPreviewActive</visible>
+					</control>
+					<control type="progress" id="1">
+						<description>Progressbar</description>
+						<left>100</left>
+						<top>15</top>
+						<width>720</width>
+						<height>16</height>
+						<info>Player.Progress</info>
+					</control>
 				</control>
 				<control type="label" id="1">
 					<visible>!VideoPlayer.Content(LiveTV)</visible>
@@ -437,7 +461,7 @@
 					<font>font13</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<label>$INFO[Player.FinishTime(hh:mm)]</label>
+					<label>$INFO[VideoPlayer.EndTime]</label>
 				</control>
 			</control>
 		</control>

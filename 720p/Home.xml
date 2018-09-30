@@ -361,6 +361,21 @@
 					<font>font12</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
+					<visible>!VideoPlayer.HasEpg</visible>
+				</control>
+				<control type="label">
+					<description>Time Label</description>
+					<left>160</left>
+					<top>310</top>
+					<height>30</height>
+					<width>300</width>
+					<label>$INFO[PVR.EpgEventElapsedTime]$INFO[PVR.EpgEventDuration,[COLOR=blue] / [/COLOR]]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font12</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>VideoPlayer.HasEpg</visible>
 				</control>
 			</control>
 			<control type="group">
