@@ -363,13 +363,27 @@
 					<top>120</top>
 					<width>910</width>
 					<height>25</height>
-					<label>$INFO[VideoPlayer.NextTitle,$LOCALIZE[19031]: ]</label>
+					<label>$INFO[VideoPlayer.NextTitle,[B]$LOCALIZE[19031]: [/B]]</label>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12</font>
 					<textcolor>grey</textcolor>
 					<scroll>true</scroll>
 					<visible>!Window.IsVisible(VideoOSD) + VideoPlayer.Content(LiveTV)</visible>
+					<animation effect="fade" time="150">VisibleChange</animation>
+				</control>
+				<control type="label" id="1">
+					<left>0</left>
+					<top>150</top>
+					<width>910</width>
+					<height>25</height>
+					<label>[B]$LOCALIZE[31961][/B] $INFO[PVR.TimeshiftCur] (-$INFO[PVR.TimeshiftOffset])</label>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>font12</font>
+					<textcolor>grey</textcolor>
+					<scroll>true</scroll>
+					<visible>!Window.IsVisible(VideoOSD) + VideoPlayer.Content(LiveTV) + PVR.IsTimeShift</visible>
 					<animation effect="fade" time="150">VisibleChange</animation>
 				</control>
 			</control>
