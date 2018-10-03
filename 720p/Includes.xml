@@ -39,6 +39,18 @@
 	<constant name="DepthFloor">-0.20</constant>
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
+	<variable name="AddonInfoHeading">
+		<value condition="!String.IsEmpty(Window(home).Property(WhatsNew))">$LOCALIZE[24054]</value>
+		<value>$LOCALIZE[21821]</value>
+	</variable>
+	<variable name="AddonInfoDescription">
+		<value condition="!String.IsEmpty(Window(home).Property(WhatsNew))">$INFO[ListItem.AddonNews]</value>
+		<value>$INFO[ListItem.AddonDescription]</value>
+	</variable>
+	<variable name="AddonInfoButtonLabel">
+		<value condition="!String.IsEmpty(Window(home).Property(WhatsNew))">$LOCALIZE[21821]</value>
+		<value>$LOCALIZE[24054]</value>
+	</variable>
 	<variable name="GameSelectHeader">
 		<value condition="Window.IsActive(gamevideofilter)">$LOCALIZE[230]</value>
 		<value condition="Window.IsActive(gameviewmode)">$LOCALIZE[35233]</value>
