@@ -88,7 +88,11 @@ msgctxt "#31015"
 msgid "Minute"
 msgstr ""
 
-#empty strings from id 31016 to 31022
+msgctxt "#31016"
+msgid "Elapsed time"
+msgstr ""
+
+#empty strings from id 31017 to 31022
 
 msgctxt "#31023"
 msgid "Playing"
