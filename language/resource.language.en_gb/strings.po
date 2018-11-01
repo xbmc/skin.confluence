@@ -701,3 +701,22 @@ msgstr ""
 msgctxt "#31961"
 msgid "Timeshift"
 msgstr ""
+
+#. Choose profile identifier
+#: /720p/SkinSettings.xml
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr ""
+
+#. Label for the kind of profile identification
+#: /720p/SkinSettings.xml
+msgctxt "#31963"
+msgid "Profile name"
+msgstr ""
+
+#. Label for the kind of profile identification
+#: /720p/SkinSettings.xml
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr ""
+
