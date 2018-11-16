@@ -472,17 +472,9 @@
 					<scroll>true</scroll>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$LOCALIZE[563]:</label>
+					<label>$LOCALIZE[563]: $INFO[ListItem.Rating]</label>
 					<scrollout>false</scrollout>
 					<pauseatend>2000</pauseatend>
-				</control>
-				<control type="label">
-					<description>Rating value</description>
-					<left>100</left>
-					<top>95</top>
-					<width>160</width>
-					<height>32</height>
-					<label>$INFO[ListItem.Userrating]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Album</description>
