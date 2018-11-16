@@ -176,7 +176,7 @@
 					<top>415</top>
 					<width>168</width>
 					<height>20</height>
-					<texture fallback="ratings/0.png">$INFO[ListItem.Rating,ratings/,.png]</texture>
+					<texture fallback="ratings/0.png">$VAR[MusicRating,ratings/,.png]</texture>
 				</control>
 				<control type="label">
 					<left>10</left>

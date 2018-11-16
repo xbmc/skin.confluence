@@ -39,6 +39,19 @@
 	<constant name="DepthFloor">-0.20</constant>
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
+	<variable name="MusicRating">
+		<value condition="Integer.IsGreater(ListItem.Rating,9.5)">10</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,8.5)">9</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,7.5)">8</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,6.5)">7</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,5.5)">6</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,4.5)">5</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,3.5)">4</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,2.5)">3</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,1.5)">2</value>
+		<value condition="Integer.IsGreater(ListItem.Rating,0.5)">1</value>
+		<value>0</value>
+	</variable>
 	<variable name="AddonInfoHeading">
 		<value condition="!String.IsEmpty(Window(home).Property(WhatsNew))">$LOCALIZE[24054]</value>
 		<value>$LOCALIZE[21821]</value>
