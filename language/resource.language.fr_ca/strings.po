@@ -438,11 +438,11 @@ msgstr "D’après Arial"
 
 msgctxt "#31411"
 msgid "First run help..."
-msgstr "Aide au premier démarrage..."
+msgstr "Aide au premier démarrage…"
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr "Cet onglet signale qu’il y a un menu sur le côté de cette fenêtre contenant des options supplémentaires pour cette section.  Pour accéder au menu, naviguez vers la gauche avec votre télécommande ou votre clavier ou placez le pointeur de votre souris sur l’onglet. [CR][CR]Cliquez sur « OK » pour fermer cette boîte de dialogue. Elle n’apparaîtra plus."
+msgstr "Cet onglet signale qu’il y a un menu sur le côté de cette fenêtre contenant des options supplémentaires pour cette section. Pour accéder au menu, naviguez vers la gauche avec votre télécommande ou votre clavier ou placez le pointeur de votre souris sur l’onglet. [CR][CR]Cliquez sur « Valider » pour fermer cette boîte de dialogue. Elle n’apparaîtra plus."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
