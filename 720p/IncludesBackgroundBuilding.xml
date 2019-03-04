@@ -19,7 +19,7 @@
 			<visible>!System.IsMaster + Skin.HasSetting(UseCustomBackground) + !String.IsEmpty(Skin.String(CustomBackgroundPath))</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
-        <control type="image">
+		<control type="image">
 			<depth>DepthBackground</depth>
 			<description>User Set Background Image Master</description>
 			<include>BackgroundDimensions</include>
@@ -76,7 +76,7 @@
 		<control type="image">
 			<depth>DepthFloor</depth>
 			<left>-20</left>
-			<top></top>
+			<top/>
 			<bottom>0</bottom>
 			<width>1320</width>
 			<height>100</height>
