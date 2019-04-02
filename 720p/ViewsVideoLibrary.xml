@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="PosterWrapView">
 		<control type="grouplist">
@@ -1420,7 +1420,7 @@
 				</control>
 				<control type="label">
 					<description>Year txt</description>
-					<left>10</left>
+					<left>-20</left>
 					<top>335</top>
 					<width>140</width>
 					<height>25</height>
@@ -1432,7 +1432,7 @@
 				</control>
 				<control type="label">
 					<description>Year Value</description>
-					<left>160</left>
+					<left>130</left>
 					<top>335</top>
 					<width>340</width>
 					<height>25</height>
@@ -1443,8 +1443,32 @@
 					<scroll>true</scroll>
 				</control>
 				<control type="label">
+					<description>Duration txt</description>
+					<left>180</left>
+					<top>335</top>
+					<width>140</width>
+					<height>25</height>
+					<label>$LOCALIZE[180]:</label>
+					<align>right</align>
+					<aligny>center</aligny>
+					<font>font13_title</font>
+					<textcolor>blue</textcolor>
+				</control>
+				<control type="label">
+					<description>Duration Value</description>
+					<left>330</left>
+					<top>335</top>
+					<width>100</width>
+					<height>25</height>
+					<label fallback="416">$INFO[listitem.Duration]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font13</font>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
 					<description>Genre txt</description>
-					<left>10</left>
+					<left>-20</left>
 					<top>360</top>
 					<width>140</width>
 					<height>25</height>
@@ -1456,7 +1480,7 @@
 				</control>
 				<control type="fadelabel">
 					<description>Genre Value</description>
-					<left>160</left>
+					<left>130</left>
 					<top>360</top>
 					<width>340</width>
 					<height>25</height>
@@ -1540,9 +1564,33 @@
 					<description>Aired Value</description>
 					<left>160</left>
 					<top>335</top>
-					<width>340</width>
+					<width>80</width>
 					<height>25</height>
 					<label fallback="10005">$INFO[listitem.Premiered]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font13</font>
+					<scroll>true</scroll>
+				</control>
+				<control type="label">
+        <description>Duration txt</description>
+					<left>220</left>
+					<top>335</top>
+					<width>100</width>
+					<height>25</height>
+					<label>$LOCALIZE[180]:</label>
+					<align>right</align>
+					<aligny>center</aligny>
+					<font>font13_title</font>
+					<textcolor>blue</textcolor>
+				</control>
+				<control type="label">
+					<description>Duration Value</description>
+					<left>330</left>
+					<top>335</top>
+					<width>120</width>
+					<height>25</height>
+					<label fallback="416">$INFO[listitem.Duration]</label>
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>font13</font>
