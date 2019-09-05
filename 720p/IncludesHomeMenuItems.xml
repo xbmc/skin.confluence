@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="HomeSubMenuVideos">
 		<control type="image" id="90101">
@@ -203,6 +203,12 @@
 			<label>LibreELEC</label>
 			<onclick>RunAddon(service.libreelec.settings)</onclick>
 			<visible>System.HasAddon(service.libreelec.settings)</visible>
+		</control>
+		<control type="button" id="90400">
+			<include>ButtonHomeSubCommonValues</include>
+			<label>CoreELEC</label>
+			<onclick>RunAddon(service.coreelec.settings)</onclick>
+			<visible>System.HasAddon(service.coreelec.settings)</visible>
 		</control>
 		<control type="button" id="90123">
 			<include>ButtonHomeSubCommonValues</include>
