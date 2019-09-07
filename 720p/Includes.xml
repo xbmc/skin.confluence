@@ -563,6 +563,7 @@
 		<value condition="ListItem.HasTimer + !ListItem.TimerIsActive">PVR-HasTimerDisabled.png</value>
 		<value condition="ListItem.HasTimerSchedule">PVR-HasTimerSchedule.png</value>
 		<value condition="ListItem.HasTimer">PVR-HasTimer.png</value>
+		<value condition="ListItem.IsPlayable">PVR-HasArchive.png</value>
 	</variable>
 	<variable name="PVRTimerLabel">
 		<value condition="ListItem.IsRecording">$LOCALIZE[19043]</value>
