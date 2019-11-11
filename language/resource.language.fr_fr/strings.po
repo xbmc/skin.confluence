@@ -322,11 +322,11 @@ msgstr "Utiliser"
 
 msgctxt "#31144"
 msgid "playlist"
-msgstr "liste de lecture"
+msgstr "- Liste de lecture"
 
 msgctxt "#31145"
 msgid "playlist path"
-msgstr "chemin de la liste de lecture"
+msgstr "- Chemin de la liste de lecture "
 
 msgctxt "#31200"
 msgid "Shortcuts"
