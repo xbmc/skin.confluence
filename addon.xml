@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence" version="4.6.11" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence" version="4.6.12" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
@@ -26,7 +26,7 @@
 		<summary lang="es_MX">Skin confluende por Jezz_X. (skin por defecto de Kodi)</summary>
 		<summary lang="et_EE">Confluence rüü autorilt Jezz_X.</summary>
 		<summary lang="eu_ES">Confluence azala Jezz_X-ek egina.</summary>
-		<summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X. (پوسته پیش فرض Kodi) </summary>
+		<summary lang="fa_IR">پوسته Confluence تهیه شده بوسیله Jezz_X.</summary>
 		<summary lang="fi_FI">Confluence-ulkoasu. Tekijä Jezz_X.</summary>
 		<summary lang="fo_FO">Confluence útsjónd av Jezz_X. (Kodi's vanliga útsjónd)</summary>
 		<summary lang="fr_CA">Habillage Confluence par Jezz_X.</summary>
@@ -86,7 +86,7 @@
 		<description lang="es_MX">Confluence es el skin por defecto para Kodi 9.11 en adelante. Es una combinación de conceptos de varias skins populares, e intenta adoptar e integrar sus buenas ideas en un skin que debería ser fá de entender y usar para quienes usen Kodi por primera vez.</description>
 		<description lang="et_EE">Confluence on Kodi vaikerüü alates versioonist 9.11. Confluence on paljude populaarsete rüüde kombinatsioon, üritades omavahel siduda nende parimaid lahendusi, et saavutada esmakasutajale selget ja kergelt kasutatavat tulemust.</description>
 		<description lang="eu_ES">Confluence hainbat azal ospetsutatik hartutako kontzeptuen konbinaketa da. Horietatik ideia onak hartu eta integratzen saiatzen da, Kodi lehen aldiz erabiltzen dutenentzat ulertzeko eta erabiltzeko erraza izango den azal batean.</description>
-		<description lang="fa_IR">Confluence پوسته پیش فرض Kodi در ویرایش 14 و بالاتر است. این پوسته ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد.</description>
+		<description lang="fa_IR">Confluence ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد.</description>
 		<description lang="fi_FI">Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille.</description>
 		<description lang="fo_FO">Confluence er vanliga útsjóndin, sum er brúkt í Kodi síðan útg. 9.11. Hetta er ein samansjóðan av fleiri hugtøkum. Ætlanin er at útsjóndin skal lætta um móttøku og nýtslu av Kodi fyri nýggjar brúkarar.</description>
 		<description lang="fr_CA">Confluence est une combinaison de concepts provenant de plusieurs habillages populaires. Il tente d’inclure et d’intégrer leurs bonnes idées en un habillage qui devrait être facile à comprendre et à utiliser pour les utilisateurs débutants de Kodi.</description>
