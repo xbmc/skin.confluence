@@ -461,6 +461,17 @@
 					<aligny>center</aligny>
 					<label>$INFO[VideoPlayer.EndTime]</label>
 				</control>
+				<control type="ranges" id="1">
+					<description>Chapters</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.Chapters</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<righttexture border="2,4,2,4">OSDProgressNib.png</righttexture>
+					<visible>true</visible>
+				</control>
 			</control>
 		</control>
 		<control type="label" id="1">
