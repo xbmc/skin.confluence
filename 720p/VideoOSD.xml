@@ -253,7 +253,7 @@
 				<font/>
 				<texturefocus>OSDRecordOffFO.png</texturefocus>
 				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
-				<usealttexture>PVR.IsRecordingPlayingChannel</usealttexture>
+				<usealttexture>PVR.IsRecordingPlayingChannel | PVR.IsPlayingActiveRecording</usealttexture>
 				<alttexturefocus>OSDRecordOnFO.png</alttexturefocus>
 				<alttexturenofocus>OSDRecordOnNF.png</alttexturenofocus>
 				<onclick>PVR.ToggleRecordPlayingChannel</onclick>

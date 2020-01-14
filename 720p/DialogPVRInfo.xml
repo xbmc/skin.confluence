@@ -191,12 +191,13 @@
 				<description>Timer</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>19061</label>
+				<visible>Window.IsActive(PVRGuideInfo)</visible>
 			</control>
 			<control type="button" id="4">
 				<description>Find similar</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>19003</label>
-				<visible>Window.IsActive(PVRGuideInfo)</visible>
+				<visible>Window.IsActive(PVRRecordingInfo) | Window.IsActive(PVRGuideInfo)</visible>
 			</control>
 			<control type="button" id="10">
 				<description>Play programme</description>
@@ -214,12 +215,18 @@
 				<description>Play recording</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label>19687</label>
-				<visible>Window.IsActive(PVRGuideInfo)</visible>
+				<visible>Window.IsActive(PVRRecordingInfo) | Window.IsActive(PVRGuideInfo)</visible>
 			</control>
 			<control type="button" id="6">
 				<description>Record</description>
 				<include>ButtonInfoDialogsCommonValues</include>
 				<label/>
+				<visible>Window.IsActive(PVRGuideInfo)</visible>
+			</control>
+			<control type="button" id="11">
+				<description>Set reminder</description>
+				<include>ButtonInfoDialogsCommonValues</include>
+				<label>$LOCALIZE[826]</label>
 				<visible>Window.IsActive(PVRGuideInfo)</visible>
 			</control>
 			<control type="button" id="7">
