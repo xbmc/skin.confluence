@@ -892,7 +892,7 @@
 						<alttexturefocus border="2">button-focus.png</alttexturefocus>
 						<alttexturenofocus border="2">button-nofocus.png</alttexturenofocus>
 						<altlabel>1024</altlabel>
-						<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow)</usealttexture>
+						<usealttexture>String.IsEqual(ListItem.DBTYPE,tvshow) | String.IsEqual(ListItem.DBTYPE,set)</usealttexture>
 					</control>
 					<control type="button" id="5">
 						<description>Cast/Review</description>
