@@ -145,48 +145,54 @@
 			</control>
 			<control type="grouplist" id="9001">
 				<top>535</top>
-				<left>95</left>
-				<width>660</width>
+				<left>40</left>
+				<width>770</width>
 				<align>center</align>
-				<itemgap>10</itemgap>
+				<itemgap>5</itemgap>
 				<orientation>horizontal</orientation>
 				<control type="button" id="28">
 					<description>OK Button</description>
 					<top>0</top>
-					<width>200</width>
+					<width>186</width>
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<onleft>30</onleft>
-					<onright>29</onright>
 					<onup>5</onup>
 					<ondown>5</ondown>
 				</control>
 				<control type="button" id="29">
 					<description>Cancel Button</description>
 					<top>0</top>
-					<width>200</width>
+					<width>186</width>
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
 					<label/>
-					<onleft>28</onleft>
-					<onright>30</onright>
 					<onup>5</onup>
 					<ondown>5</ondown>
 				</control>
 				<control type="button" id="30">
-					<description>Settings Button</description>
+					<description>Defaults Button</description>
 					<top>0</top>
-					<width>200</width>
+					<width>186</width>
 					<height>40</height>
 					<align>center</align>
 					<aligny>center</aligny>
 					<font>font12_title</font>
-					<onleft>29</onleft>
-					<onright>28</onright>
+					<onup>5</onup>
+					<ondown>5</ondown>
+				</control>
+				<control type="button" id="20">
+					<description>Settings Level Button</description>
+					<top>0</top>
+					<width>186</width>
+					<height>40</height>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>font12_title</font>
+					<onclick>SettingsLevelChange</onclick>
 					<onup>5</onup>
 					<ondown>5</ondown>
 				</control>
