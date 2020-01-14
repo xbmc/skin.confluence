@@ -84,14 +84,14 @@
 						<left>0</left>
 						<top>75</top>
 						<width>310</width>
-						<height>460</height>
+						<height>550</height>
 						<texture border="5">button-nofocus.png</texture>
 					</control>
 					<control type="list" id="13">
 						<left>5</left>
 						<top>80</top>
 						<width>300</width>
-						<height>450</height>
+						<height>540</height>
 						<onup>13</onup>
 						<ondown>13</ondown>
 						<onleft>9000</onleft>
@@ -106,10 +106,18 @@
 								<height>40</height>
 								<texture border="5">button-nofocus.png</texture>
 							</control>
+							<control type="image">
+								<width>32</width>
+								<height>32</height>
+								<left>5</left>
+								<top>4</top>
+								<texture>$INFO[ListItem.Icon]</texture>
+								<aspectratio>keep</aspectratio>
+							</control>
 							<control type="label">
-								<left>10</left>
+								<left>40</left>
 								<top>0</top>
-								<width>280</width>
+								<width>250</width>
 								<height>40</height>
 								<font>font12</font>
 								<align>left</align>
@@ -136,10 +144,18 @@
 								<texture border="5">button-focus2.png</texture>
 								<visible>Control.HasFocus(13)</visible>
 							</control>
+							<control type="image">
+								<width>32</width>
+								<height>32</height>
+								<left>5</left>
+								<top>4</top>
+								<texture>$INFO[ListItem.Icon]</texture>
+								<aspectratio>keep</aspectratio>
+							</control>
 							<control type="label">
-								<left>10</left>
+								<left>40</left>
 								<top>0</top>
-								<width>280</width>
+								<width>250</width>
 								<height>40</height>
 								<font>font12</font>
 								<align>left</align>
@@ -154,7 +170,7 @@
 						<left>305</left>
 						<top>75</top>
 						<width>25</width>
-						<height>460</height>
+						<height>550</height>
 						<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 						<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 						<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -187,14 +203,14 @@
 						<left>0</left>
 						<top>75</top>
 						<width>310</width>
-						<height>460</height>
+						<height>550</height>
 						<texture border="5">button-nofocus.png</texture>
 					</control>
 					<control type="list" id="11">
 						<left>5</left>
 						<top>85</top>
 						<width>300</width>
-						<height>450</height>
+						<height>540</height>
 						<onup>11</onup>
 						<ondown>11</ondown>
 						<onleft>73</onleft>
@@ -273,7 +289,7 @@
 						<left>305</left>
 						<top>75</top>
 						<width>25</width>
-						<height>460</height>
+						<height>550</height>
 						<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 						<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 						<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -306,14 +322,14 @@
 						<left>0</left>
 						<top>75</top>
 						<width>310</width>
-						<height>460</height>
+						<height>550</height>
 						<texture border="5">button-nofocus.png</texture>
 					</control>
 					<control type="list" id="12">
 						<left>5</left>
 						<top>85</top>
 						<width>300</width>
-						<height>450</height>
+						<height>540</height>
 						<onup>12</onup>
 						<ondown>12</ondown>
 						<onleft>71</onleft>
@@ -392,7 +408,7 @@
 						<left>305</left>
 						<top>75</top>
 						<width>25</width>
-						<height>460</height>
+						<height>550</height>
 						<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 						<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 						<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -410,9 +426,8 @@
 					<left>1070</left>
 					<top>165</top>
 					<width>200</width>
-					<height>225</height>
+					<height>315</height>
 					<itemgap>5</itemgap>
-					<align>center</align>
 					<orientation>vertical</orientation>
 					<onleft>12</onleft>
 					<onright>13</onright>
@@ -442,6 +457,12 @@
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>31505</label>
 					</control>
+					<control type="button" id="35">
+						<description>Regenerate Group Thumbnails</description>
+						<width>200</width>
+						<include>ButtonInfoDialogsCommonValues</include>
+						<label>13315</label>
+					</control>
 					<control type="togglebutton" id="34">
 						<description>TV/Radio toggle</description>
 						<width>200</width>
@@ -459,7 +480,7 @@
 				</control>
 				<control type="group">
 					<left>1065</left>
-					<top>405</top>
+					<top>495</top>
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
@@ -484,6 +505,15 @@
 						<aspectratio>keep</aspectratio>
 						<texture background="true">$INFO[Container(12).ListItem.Icon]</texture>
 						<visible>Control.HasFocus(12) | Control.HasFocus(72)</visible>
+					</control>
+					<control type="image">
+						<left>5</left>
+						<top>5</top>
+						<width>200</width>
+						<height>200</height>
+						<aspectratio>keep</aspectratio>
+						<texture background="true">$INFO[Container(13).ListItem.Icon]</texture>
+						<visible>Control.HasFocus(13) | Control.HasFocus(73)</visible>
 					</control>
 				</control>
 			</control>
