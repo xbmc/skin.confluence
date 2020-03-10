@@ -28,6 +28,10 @@ msgctxt "#31008"
 msgid "Full screen"
 msgstr "Toàn màn hình"
 
+msgctxt "#31009"
+msgid "Total duration"
+msgstr "Tổng thời gian"
+
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Không dùng được"
@@ -43,6 +47,10 @@ msgstr "Trang"
 msgctxt "#31025"
 msgid "Items"
 msgstr "Đối tượng"
+
+msgctxt "#31026"
+msgid "Misc options"
+msgstr "Tùy chọn linh tinh"
 
 msgctxt "#31027"
 msgid "Location"
@@ -148,6 +156,10 @@ msgctxt "#31128"
 msgid "Lyrics"
 msgstr "Lời Bài Hát"
 
+msgctxt "#31132"
+msgid "Lyrics add-on"
+msgstr "Tiện ích lời bài hát"
+
 msgctxt "#31140"
 msgid "Music OSD"
 msgstr "Bảng điều khiển Nhạc"
@@ -155,6 +167,10 @@ msgstr "Bảng điều khiển Nhạc"
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Mức độ hiệu chỉnh"
+
+msgctxt "#31143"
+msgid "Use"
+msgstr "Sử dụng"
 
 msgctxt "#31200"
 msgid "Shortcuts"
@@ -168,13 +184,25 @@ msgctxt "#31206"
 msgid "Found"
 msgstr "Đã tìm thấy"
 
+msgctxt "#31301"
+msgid "Last updated"
+msgstr "Cập nhật mới nhất"
+
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Nhà cung cấp dữ liệu"
 
+msgctxt "#31320"
+msgid "Last logged in"
+msgstr "Đăng nhập lần cuối"
+
 msgctxt "#31322"
 msgid "Aired"
 msgstr "Đã phát"
+
+msgctxt "#31325"
+msgid "Playlist options"
+msgstr "Tùy chọn danh sách phát"
 
 msgctxt "#31326"
 msgid "Created"
@@ -183,6 +211,10 @@ msgstr "Đã tạo"
 msgctxt "#31327"
 msgid "Resolution"
 msgstr "Độ phân giải"
+
+msgctxt "#31328"
+msgid "Recently added"
+msgstr "Đã thêm gần đây"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
@@ -195,6 +227,10 @@ msgstr "Tạm dừng"
 msgctxt "#31352"
 msgid "Stop"
 msgstr "Ngừng"
+
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Tua tới nhanh"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -231,6 +267,10 @@ msgstr "Phụ đề sẵn có trong máy"
 msgctxt "#31420"
 msgid "Login"
 msgstr "Đăng nhập"
+
+msgctxt "#31421"
+msgid "Select your Kodi user profile[CR]to login and continue"
+msgstr "Chọn hồ sơ người dùng Kodi[CR]để đăng nhập và tiếp tục"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."

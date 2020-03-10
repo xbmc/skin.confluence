@@ -228,6 +228,10 @@ msgctxt "#31352"
 msgid "Stop"
 msgstr "Stopp"
 
+msgctxt "#31353"
+msgid "Fast forward"
+msgstr "Edasi"
+
 msgctxt "#31354"
 msgid "Rewind"
 msgstr "Tagasi"
