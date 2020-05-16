@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence" version="4.7.3" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence" version="4.7.4" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 	</requires>
@@ -9,7 +9,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af_ZA">Confluence oortreksel deur Jezz_X.</summary>
 		<summary lang="ar_SA">جلد "كونفليونس" من صنع Jezz_x. (الجلد المبدأى لبرنامج إكس بى إم سى)</summary>
-		<summary lang="be_BY">Confluence skin by Jezz_X. (Kodi's default skin)</summary>
+		<summary lang="be_BY">Абалонка Confluence ад Jezz_X.</summary>
 		<summary lang="bg_BG">Confluence облик от Jezz_X. (стандартния облик за Kodi)</summary>
 		<summary lang="ca_ES">Aparença Confluence per Jezz_X.</summary>
 		<summary lang="cs_CZ">Vzhled Confluence od Jezz_X.</summary>
@@ -69,7 +69,7 @@
 		<summary lang="zh_TW">Jezz_X 製作的佈景主題（Kodi的預設佈景主題）</summary>
 		<description lang="af_ZA">Confluence is 'n kombinasie van konsepte van 'n klomp gewilde oortreksels, en 'n poging om hulle goeie idees te omvat en te integreer in 'n oortreksel wat maklik behoort te wees vir eerste keer Kodi gebruikers om te verstaan en te gebruik.</description>
 		<description lang="ar_SA">"كونفليونس" هو الجلد المبدأى لبرنامج إكس بى إم سى اﻹصدار 9.11 وما فوق. هو خلط بين اشهر اﻷجلده الاخرى معاً ومحاوله لتبنى ودمج افكارهم للخروج بِنِتَاج يُفترض به ان يكون سهل اﻹستيعاب بمجرد النظر لمستخدمى إكس بى إم سى المبتدئين.</description>
-		<description lang="be_BY">Confluence is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+		<description lang="be_BY">Confluence уяўляе сабой спалучэнне канцэпцый з мноства папулярных абалонак, што намагаецца аб’яднаць усе найлепшыя ідэі ў адну абалонку, якая павінна быць простай і зручнай для карыстальнікаў Kodi.</description>
 		<description lang="bg_BG">Confluence е стандартният облик на Kodi 9.11 и по-новите версии. Представлява смесица от концепциите на много от популярните облици. Целта е да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се сблъскват за първи път с Kodi.</description>
 		<description lang="ca_ES">Confluence és una combinació de conceptes de moltes aparences populars i intenta adoptar i integrar les seves bones idees en una aparença que sigui senzilla d'entendre i utilitzar per als nous usuaris de Kodi.</description>
 		<description lang="cs_CZ">Confluence je kombinací konceptů z mnoha oblíbených vzhledů a pokouší se pojmout a integrovat jejich dobré nápady do vzhledu, který by měl být pro nové uživatele Kodi jednoduchý na pochopení a používání.</description>

@@ -332,6 +332,10 @@ msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "SÜSTEEM"
 
+msgctxt "#31961"
+msgid "Timeshift"
+msgstr "Ajanihe"
+
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profiili nimi"

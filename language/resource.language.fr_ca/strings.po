@@ -358,7 +358,7 @@ msgstr "Mémoire utilisée :"
 
 msgctxt "#31310"
 msgid "Track number"
-msgstr "Numéro de piste"
+msgstr "Numéro de plage"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -590,7 +590,7 @@ msgstr "FILMS"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "SÉRIES TÉLÉ"
+msgstr "ÉMISSIONS DE TÉLÉ"
 
 msgctxt "#31956"
 msgid "MUSIC"

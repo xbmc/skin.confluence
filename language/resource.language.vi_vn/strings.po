@@ -16,9 +16,17 @@ msgstr ""
 "Language: vi_VN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "#31003"
+msgid "Power options"
+msgstr "Tùy chọn nguồn"
+
 msgctxt "#31004"
 msgid "Working..."
 msgstr "Đang tiến hành..."
+
+msgctxt "#31005"
+msgid "Hide information"
+msgstr "Ẩn thông tin"
 
 msgctxt "#31006"
 msgid "View options"
@@ -59,6 +67,10 @@ msgstr "Địa điểm"
 msgctxt "#31029"
 msgid "Fanart"
 msgstr "Fanart"
+
+msgctxt "#31031"
+msgid "Pic thumbs"
+msgstr "Hình thu nhỏ"
 
 msgctxt "#31033"
 msgid "Info"
@@ -136,6 +148,14 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Tùy chọn tổng quan"
 
+msgctxt "#31108"
+msgid "Hide main menu buttons"
+msgstr "Ẩn nút menu chính"
+
+msgctxt "#31109"
+msgid "Enable custom background"
+msgstr "Bật nền tùy chỉnh"
+
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Đường dẫn nền:"
@@ -152,9 +172,17 @@ msgctxt "#31114"
 msgid "System"
 msgstr "Hệ thống"
 
+msgctxt "#31116"
+msgid "Show recently added albums"
+msgstr "Hiển thị album đã thêm gần đây"
+
+msgctxt "#31117"
+msgid "Show recently added videos"
+msgstr "Hiển thị video đã thêm gần đây"
+
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr "Lời Bài Hát"
+msgstr "Lời bài hát"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -180,6 +208,10 @@ msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Chọn bài hát"
 
+msgctxt "#31205"
+msgid "Lyrics source"
+msgstr "Nguồn lời bài hát"
+
 msgctxt "#31206"
 msgid "Found"
 msgstr "Đã tìm thấy"
@@ -191,6 +223,18 @@ msgstr "Cập nhật mới nhất"
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Nhà cung cấp dữ liệu"
+
+msgctxt "#31308"
+msgid "Movie details"
+msgstr "Chi tiết phim"
+
+msgctxt "#31309"
+msgid "Memory used:"
+msgstr "Bộ nhớ đã dùng:"
+
+msgctxt "#31319"
+msgid "Selected profile"
+msgstr "Đã chọn hồ sơ"
 
 msgctxt "#31320"
 msgid "Last logged in"
@@ -220,6 +264,14 @@ msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Đã hẹn giờ![/B] [COLOR=grey2] - Hệ thống sẽ tự động tắt trong[/COLOR]"
 
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]movie trailer"
+msgstr "Nhấn nút để phát[CR][CR]trailer phim"
+
+msgctxt "#31331"
+msgid "Album details"
+msgstr "Chi tiết album"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Tạm dừng"
@@ -239,6 +291,10 @@ msgstr "Quay Lại"
 msgctxt "#31355"
 msgid "Movie menu"
 msgstr "Menu Phim"
+
+msgctxt "#31356"
+msgid "Download subtitles"
+msgstr "Tải xuống phụ đề"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
@@ -278,7 +334,7 @@ msgstr "Hiện hoặc ẩn cửa màn hình nhập khi khởi động"
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Chọn tài khoản sẽ được sử dụng trong trường hợp tắt màn hình đăng nhập"
+msgstr "Chọn hồ sơ sẽ được sử dụng trong trường hợp màn hình đăng nhập đã tắt."
 
 msgctxt "#31502"
 msgid "TV"
@@ -364,6 +420,18 @@ msgctxt "#31960"
 msgid "RADIO"
 msgstr "Dài phát thanh"
 
+msgctxt "#31961"
+msgid "Timeshift"
+msgstr "Timeshift"
+
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr "Chọn loại định dạng hồ sơ"
+
 msgctxt "#31963"
 msgid "Profile name"
-msgstr "Tên tài khoản"
+msgstr "Tên hồ sơ"
+
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr "Ảnh đại diện hồ sơ"
