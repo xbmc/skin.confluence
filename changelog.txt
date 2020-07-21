@@ -1,6 +1,7 @@
 [B]4.7.5[/B]
 
 - Bump xbmc.gui
+- Add support for enabled add-ons
 
 [B]4.7.1[/B]
 

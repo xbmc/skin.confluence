@@ -143,6 +143,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Bump xbmc.gui.</news>
+		<news>- Bump xbmc.gui.[CR]- Add support for enabled add-ons.</news>
 	</extension>
 </addon>
