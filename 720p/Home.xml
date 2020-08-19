@@ -525,7 +525,7 @@
 				<height>35</height>
 				<colordiffuse>CCFFFFFF</colordiffuse>
 				<texture flipy="true" border="0,5,0,0" flipx="true">HomeSubEnd.png</texture>
-				<animation effect="slide" start="0,0" end="145,0" time="0" condition="!System.HasAddon(script.globalsearch)">Conditional</animation>
+				<animation effect="slide" start="0,0" end="145,0" time="0" condition="!System.AddonIsEnabled(script.globalsearch)">Conditional</animation>
 			</control>
 			<control type="radiobutton" id="608">
 				<colordiffuse>CCFFFFFF</colordiffuse>
@@ -545,7 +545,9 @@
 				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>137</label>
-				<onclick>RunScript(script.globalsearch)</onclick>
+				<onclick condition="System.AddonIsEnabled(script.globalsearch)">RunScript(script.globalsearch)</onclick>
+				<onclick condition="!System.AddonIsEnabled(script.globalsearch) + System.HasAddon(script.globalsearch)">EnableAddon(script.globalsearch)</onclick>
+				<onclick condition="!System.HasAddon(script.globalsearch)">InstallAddon(script.globalsearch)</onclick>
 				<textureradioonfocus>icon_search_home.png</textureradioonfocus>
 				<textureradioonnofocus>icon_search_home.png</textureradioonnofocus>
 				<textureradioofffocus>icon_search_home.png</textureradioofffocus>
@@ -554,7 +556,6 @@
 				<onright>601</onright>
 				<onup>9003</onup>
 				<ondown>9000</ondown>
-				<visible>System.HasAddon(script.globalsearch)</visible>
 			</control>
 			<control type="group" id="600">
 				<left>180</left>
@@ -907,8 +908,7 @@
 				<height>60</height>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
-				<onup condition="System.HasAddon(script.globalsearch)">608</onup>
-				<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
+				<onup>608</onup>
 				<ondown>9001</ondown>
 				<pagecontrol/>
 				<scrolltime>300</scrolltime>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence" version="4.7.4" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence" version="4.7.5" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
@@ -143,6 +143,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Add support for PVR reminders.[CR]- Fix / add new buttons in PVR information window.[CR]- Update PVR group manager dialog with latest changes.</news>
+		<news>- Bump xbmc.gui.[CR]- Add support for enabled add-ons.</news>
 	</extension>
 </addon>

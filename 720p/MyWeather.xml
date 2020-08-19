@@ -14,7 +14,7 @@
 			<randomize>true</randomize>
 			<fadetime>1000</fadetime>
 			<include>VisibleFadeEffect</include>
-			<visible>System.HasAddon(resource.images.weatherfanart.multi)</visible>
+			<visible>System.AddonIsEnabled(resource.images.weatherfanart.multi)</visible>
 			<animation effect="fade" time="150">WindowClose</animation>
 		</control>
 		<include content="CommonWindowHeader">
