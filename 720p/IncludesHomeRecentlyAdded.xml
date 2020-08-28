@@ -143,7 +143,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.1.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.1.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.1.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
 						</item>
 						<item>
@@ -151,7 +151,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.2.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.2.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.2.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
 						</item>
 						<item>
@@ -159,7 +159,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.3.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.3.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.3.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
 						</item>
 						<item>
@@ -167,7 +167,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.4.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.4.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.4.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
 						</item>
 						<item>
@@ -175,7 +175,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.5.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.5.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.5.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.5.Title))</visible>
 						</item>
 						<item>
@@ -183,7 +183,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.6.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.6.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.6.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.6.Title))</visible>
 						</item>
 						<item>
@@ -191,7 +191,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.7.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.7.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.7.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.7.Title))</visible>
 						</item>
 						<item>
@@ -199,7 +199,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.8.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.8.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.8.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.8.Title))</visible>
 						</item>
 						<item>
@@ -207,7 +207,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.9.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.9.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.9.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.9.Title))</visible>
 						</item>
 						<item>
@@ -215,7 +215,7 @@
 							<label2 />
 							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.10.Path)])</onclick>
 							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.10.Thumb)]</thumb>
+							<thumb>$INFO[Window.Property(LatestMovie.10.Poster)]</thumb>
 							<visible>!String.IsEmpty(Window.Property(LatestMovie.10.Title))</visible>
 						</item>
 					</content>

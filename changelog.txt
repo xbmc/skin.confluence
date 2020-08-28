@@ -1,3 +1,7 @@
+[b]4.7.6[/B]
+
+- Fix for recently added movies only showing thumbs instead of posters
+
 [B]4.7.5[/B]
 
 - Bump xbmc.gui
