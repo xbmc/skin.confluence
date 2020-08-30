@@ -1,3 +1,7 @@
+[B]4.7.6[/B]
+
+- Switch to dynamic content for home screen widgets
+
 [B]4.7.5[/B]
 
 - Bump xbmc.gui

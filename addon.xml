@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.confluence" version="4.7.5" name="Confluence" provider-name="Jezz_X, Team Kodi">
+<addon id="skin.confluence" version="4.7.6" name="Confluence" provider-name="Jezz_X, Team Kodi">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
@@ -143,6 +143,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Bump xbmc.gui.[CR]- Add support for enabled add-ons.</news>
+		<news>- Switch to dynamic content for home screen widgets.</news>
 	</extension>
 </addon>

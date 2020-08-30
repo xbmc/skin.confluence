@@ -59,7 +59,7 @@
 							<top>10</top>
 							<width>160</width>
 							<height>170</height>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture fallback="DefaultVideoCover.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -92,7 +92,7 @@
 							<top>10</top>
 							<width>160</width>
 							<height>170</height>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture fallback="DefaultVideoCover.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture border="5">folder-focus.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -103,7 +103,7 @@
 							<top>10</top>
 							<width>160</width>
 							<height>170</height>
-							<texture>$INFO[ListItem.Icon]</texture>
+							<texture fallback="DefaultVideoCover.png">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
@@ -137,88 +137,7 @@
 							<visible>Control.HasFocus(8000)</visible>
 						</control>
 					</focusedlayout>
-					<content>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.1.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.1.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.1.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.1.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.2.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.2.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.2.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.2.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.3.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.3.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.3.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.3.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.4.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.4.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.4.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.4.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.5.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.5.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.5.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.5.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.6.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.6.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.6.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.6.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.7.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.7.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.7.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.7.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.8.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.8.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.8.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.8.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.9.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.9.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.9.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.9.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestMovie.10.Title)]</label>
-							<label2 />
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestMovie.10.Path)])</onclick>
-							<icon>DefaultVideoCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestMovie.10.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestMovie.10.Title))</visible>
-						</item>
-					</content>
+					<content sortorder="descending" sortby="dateadded" limit="10">videodb://movies/titles</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
@@ -295,7 +214,7 @@
 							<width>220</width>
 							<height>155</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
 						</control>
@@ -310,7 +229,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
+							<label>$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode]</label>
 						</control>
 						<control type="label">
 							<left>20</left>
@@ -323,7 +242,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 						</control>
 					</itemlayout>
 					<focusedlayout height="220" width="240">
@@ -341,7 +260,7 @@
 							<width>220</width>
 							<height>155</height>
 							<aspectratio>scale</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">folder-focus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<visible>Control.HasFocus(8001)</visible>
@@ -352,7 +271,7 @@
 							<width>220</width>
 							<height>155</height>
 							<aspectratio>scale</aspectratio>
-							<texture>$INFO[ListItem.Icon]</texture>
+							<texture>$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<visible>!Control.HasFocus(8001)</visible>
@@ -368,7 +287,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
+							<label>$INFO[ListItem.TVShowTitle] - $INFO[ListItem.Season,,x]$INFO[ListItem.Episode]</label>
 						</control>
 						<control type="label">
 							<left>20</left>
@@ -381,7 +300,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 							<visible>!Control.HasFocus(8001)</visible>
 						</control>
 						<control type="label">
@@ -394,92 +313,11 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label]</label>
+							<label>$INFO[ListItem.Title]</label>
 							<visible>Control.HasFocus(8001)</visible>
 						</control>
 					</focusedlayout>
-					<content>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.1.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.1.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.1.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.1.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.1.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.1.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.1.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.2.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.2.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.2.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.2.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.2.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.2.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.2.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.3.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.3.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.3.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.3.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.3.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.3.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.3.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.4.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.4.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.4.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.4.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.4.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.4.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.4.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.5.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.5.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.5.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.5.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.5.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.5.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.5.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.6.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.6.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.6.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.6.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.6.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.6.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.6.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.7.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.7.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.7.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.7.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.7.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.7.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.7.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.8.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.8.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.8.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.8.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.8.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.8.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.8.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.9.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.9.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.9.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.9.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.9.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.9.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.9.EpisodeTitle))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestEpisode.10.EpisodeTitle)]</label>
-							<label2>$INFO[Window.Property(LatestEpisode.10.ShowTitle)] - [UPPERCASE]$INFO[Window.Property(LatestEpisode.10.EpisodeNo)][/UPPERCASE]</label2>
-							<onclick>PlayMedia($ESCINFO[Window.Property(LatestEpisode.10.Path)])</onclick>
-							<icon>$INFO[Window.Property(LatestEpisode.10.Fanart)]</icon>
-							<thumb>$INFO[Window.Property(LatestEpisode.10.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestEpisode.10.EpisodeTitle))</visible>
-						</item>
-					</content>
+					<content sortorder="descending" sortby="dateadded" limit="10">videodb://tvshows/titles/-1/-1/</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
@@ -541,6 +379,7 @@
 					<pagecontrol/>
 					<scrolltime>200</scrolltime>
 					<orientation>Horizontal</orientation>
+					<onclick>PlayMedia($INFO[ListItem.FolderPath],isdir)</onclick>
 					<itemlayout height="220" width="200">
 						<control type="image">
 							<description>background</description>
@@ -556,7 +395,7 @@
 							<width>180</width>
 							<height>155</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
 						</control>
@@ -571,7 +410,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
+							<label>$INFO[ListItem.Artist]</label>
 						</control>
 						<control type="label">
 							<left>10</left>
@@ -602,7 +441,7 @@
 							<width>180</width>
 							<height>155</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">folder-focus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<visible>Control.HasFocus(8002)</visible>
@@ -613,7 +452,7 @@
 							<width>180</width>
 							<height>155</height>
 							<aspectratio>keep</aspectratio>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
 							<bordertexture border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<visible>!Control.HasFocus(8002)</visible>
@@ -629,7 +468,7 @@
 							<selectedcolor>selected</selectedcolor>
 							<align>center</align>
 							<aligny>center</aligny>
-							<label>$INFO[ListItem.Label2]</label>
+							<label>$INFO[ListItem.Artist]</label>
 						</control>
 						<control type="label">
 							<left>10</left>
@@ -659,98 +498,7 @@
 							<visible>Control.HasFocus(8002)</visible>
 						</control>
 					</focusedlayout>
-					<content>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.1.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.1.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.1.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.1.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.1.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.2.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.2.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.2.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.2.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.2.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.3.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.3.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.3.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.3.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.3.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.4.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.4.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.4.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.4.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.4.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.5.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.5.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.5.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.5.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.5.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.6.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.6.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.6.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.6.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.6.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.7.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.7.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.7.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.7.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.7.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.8.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.8.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.8.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.8.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.8.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.9.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.9.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.9.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.9.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.9.Title))</visible>
-						</item>
-						<item>
-							<label>$INFO[Window.Property(LatestAlbum.10.Title)]</label>
-							<label2>$INFO[Window.Property(LatestAlbum.10.Artist)]</label2>
-							<onclick>PlayList.Clear</onclick>
-							<onclick>PlayMedia("$INFO[Window.Property(LatestAlbum.10.Path)]")</onclick>
-							<icon>DefaultAlbumCover.png</icon>
-							<thumb>$INFO[Window.Property(LatestAlbum.10.Thumb)]</thumb>
-							<visible>!String.IsEmpty(Window.Property(LatestAlbum.10.Title))</visible>
-						</item>
-					</content>
+					<content sortby="dateadded" sortorder="descending" limit="10">musicdb://recentlyaddedalbums</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
