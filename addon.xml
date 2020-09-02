@@ -143,6 +143,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Switch to dynamic content for home screen widgets.</news>
+		<news>- Switch to dynamic content for home screen widgets.[CR]- Home screen widgets show only unwatched items.</news>
 	</extension>
 </addon>

@@ -137,7 +137,7 @@
 							<visible>Control.HasFocus(8000)</visible>
 						</control>
 					</focusedlayout>
-					<content sortorder="descending" sortby="dateadded" limit="10">videodb://movies/titles</content>
+					<content target="video"  sortorder="descending" sortby="dateadded" limit="15">videodb://movies/titles/?xsp=%7B%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22playcount%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%220%22%7D%5D%7D%2C%22type%22%3A%22movies%22%7D</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
@@ -317,7 +317,7 @@
 							<visible>Control.HasFocus(8001)</visible>
 						</control>
 					</focusedlayout>
-					<content sortorder="descending" sortby="dateadded" limit="10">videodb://tvshows/titles/-1/-1/</content>
+					<content target="video" sortorder="descending" sortby="dateadded" limit="15">videodb://tvshows/titles/-1/-1/?xsp=%7B%22rules%22%3A%7B%22and%22%3A%5B%7B%22field%22%3A%22playcount%22%2C%22operator%22%3A%22is%22%2C%22value%22%3A%220%22%7D%5D%7D%2C%22type%22%3A%22episodes%22%7D</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
@@ -498,7 +498,7 @@
 							<visible>Control.HasFocus(8002)</visible>
 						</control>
 					</focusedlayout>
-					<content sortby="dateadded" sortorder="descending" limit="10">musicdb://recentlyaddedalbums</content>
+					<content target="music" sortby="dateadded" sortorder="descending" limit="15">musicdb://recentlyaddedalbums</content>
 				</control>
 				<control type="button">
 					<description>left Arrow</description>
