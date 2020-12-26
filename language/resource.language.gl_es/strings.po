@@ -344,6 +344,10 @@ msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "Vindeiros episodios"
 
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr "Ocultar os botóns do menú principal no Master"
+
 msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Temperatura actual"
