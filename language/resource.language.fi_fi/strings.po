@@ -344,6 +344,10 @@ msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "Tulevat jaksot"
 
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr "Piilota pääkäyttäjän painikkeet päävalikosta"
+
 msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Tämänhetkinen lämpötila"

@@ -240,9 +240,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Opcións"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr "Ruta do fondo Principal:"
+
 msgctxt "#31114"
 msgid "System"
 msgstr "Sistema"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr "Botón principal das listas de reprodución"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
