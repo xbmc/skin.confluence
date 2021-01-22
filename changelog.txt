@@ -1,3 +1,7 @@
+[B]4.7.9[/B]
+
+- Fix season posters
+
 [B]4.7.6[/B]
 
 - Switch to dynamic content for home screen widgets
