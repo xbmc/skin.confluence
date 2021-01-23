@@ -114,7 +114,7 @@ msgstr "Galerie d'affiches"
 
 msgctxt "#31029"
 msgid "Fanart"
-msgstr "FanArt"
+msgstr "Fanart"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -206,7 +206,7 @@ msgstr "Arrière-plan"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr "Afficher « En pause » dans le diaporama d'images"
+msgstr "Afficher « En pause » dans le diaporama d'images"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -266,7 +266,7 @@ msgstr "Sous-menu Extensions de la page d'accueil"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Masquer le FanArt d'arrière-plan"
+msgstr "Masquer le Fanart d'arrière-plan"
 
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
@@ -290,7 +290,7 @@ msgstr "Paroles"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Masquer le FanArt en visualisation plein écran"
+msgstr "Masquer le Fanart en visualisation plein écran"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"

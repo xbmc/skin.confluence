@@ -50,7 +50,7 @@ msgstr "Videoprocess information"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Fullskärm"
+msgstr "Helskärm"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -286,7 +286,7 @@ msgstr "Sångtexter"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Dölj fanart i fullskärmsvisualisering"
+msgstr "Dölj fanart i helskärmsvisualisering"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
