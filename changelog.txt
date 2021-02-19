@@ -1,3 +1,9 @@
+[B]4.7.7[/B]
+
+- Fix PVR radio record button
+- Fix PVR recording label
+- Fix posters.
+
 [B]4.7.6[/B]
 
 - Switch to dynamic content for home screen widgets
