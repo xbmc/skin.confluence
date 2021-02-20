@@ -1,8 +1,16 @@
-[B]4.7.7[/B]
+[B]4.7.11[/B]
 
 - Fix PVR radio record button
 - Fix PVR recording label
-- Fix posters.
+- Fix posters
+
+[B]4.7.10[/B]
+
+- Updated language files from Transifex
+
+[B]4.7.9[/B]
+
+- Fix season posters
 
 [B]4.7.6[/B]
 
