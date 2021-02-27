@@ -4,7 +4,7 @@
 	<onload>ClearProperty(WhatsNew,home)</onload>
 	<coordinates>
 		<left>185</left>
-		<top>19</top>
+		<top>18</top>
 		<origin x="185" y="5">!String.IsEmpty(ListItem.AddonBroken)</origin>
 	</coordinates>
 	<include>dialogeffect</include>
@@ -14,7 +14,7 @@
 			<visible>!Window.isVisible(AddonSettings) + !Window.IsActive(TextViewer)</visible>
 			<include content="DialogBackgroundCommons">
 				<param name="DialogBackgroundWidth" value="920" />
-				<param name="DialogBackgroundHeight" value="682" />
+				<param name="DialogBackgroundHeight" value="684" />
 				<param name="DialogHeaderWidth" value="840" />
 				<param name="DialogHeaderLabel" value="$LOCALIZE[24003]" />
 				<param name="DialogHeaderId" value="2" />
@@ -182,7 +182,7 @@
 						<left>10</left>
 						<top>167</top>
 						<width>600</width>
-						<height>261</height>
+						<height>263</height>
 						<font>font13</font>
 						<align>justify</align>
 						<textcolor>white</textcolor>
@@ -193,7 +193,7 @@
 						<left>610</left>
 						<top>165</top>
 						<width>25</width>
-						<height>233</height>
+						<height>235</height>
 						<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 						<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 						<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
@@ -207,7 +207,7 @@
 					<control type="label">
 						<description>Disclaimer txt</description>
 						<left>0</left>
-						<top>443</top>
+						<top>445</top>
 						<width>600</width>
 						<height>25</height>
 						<label>$LOCALIZE[24052]</label>
@@ -219,7 +219,7 @@
 					<control type="textbox">
 						<description>Disclaimer</description>
 						<left>10</left>
-						<top>470</top>
+						<top>472</top>
 						<width>600</width>
 						<height>64</height>
 						<font>font12</font>
@@ -248,7 +248,7 @@
 						<left>10</left>
 						<top>177</top>
 						<width>600</width>
-						<height>331</height>
+						<height>333</height>
 						<font>font13</font>
 						<align>left</align>
 						<textcolor>white</textcolor>
@@ -259,7 +259,7 @@
 						<left>610</left>
 						<top>175</top>
 						<width>25</width>
-						<height>303</height>
+						<height>305</height>
 						<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
 						<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
 						<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
