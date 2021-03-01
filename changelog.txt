@@ -3,6 +3,7 @@
 - Fix PVR radio record button
 - Fix PVR recording label
 - Fix posters
+- Add "Versions" button to add-on information dialog
 
 [B]4.7.10[/B]
 

@@ -143,6 +143,6 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>- Fix PVR radio record button.[CR]- Fix PVR recording label.[CR]- Fix posters.</news>
+		<news>- Fix PVR radio record button.[CR]- Fix PVR recording label.[CR]- Fix posters.[CR]- Add "Versions" button to add-on information dialog.</news>
 	</extension>
 </addon>
