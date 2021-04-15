@@ -1,7 +1,11 @@
+[B]4.6.11[/B]
+
+- Update language files from Transifex
+
 [B]4.6.10[/B]
+
 - Fix PVR radio record button
 - Fix PVR recording label
-
 
 [B]4.6.9[/B]
 
