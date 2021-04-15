@@ -486,11 +486,11 @@ msgstr "Välj din Kodi-användarprofil[CR]för att logga in och fortsätta"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr "Visa eller dölj inloggningsskärmen vid start."
+msgstr "Visa eller dölj inloggningsskärmen vid uppstart."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Välj den profil som skall användas vid start då inloggningsskärmen inte visas."
+msgstr "Välj den profil som skall användas vid uppstart då inloggningsskärmen inte visas."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
