@@ -34,7 +34,7 @@ msgstr "Options d'alimentation"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "En cours..."
+msgstr "En cours…"
 
 msgctxt "#31005"
 msgid "Hide information"
@@ -582,7 +582,7 @@ msgstr "Prévisions"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "Récupération des prévisions météo..."
+msgstr "Récupération des prévisions météo…"
 
 msgctxt "#31910"
 msgid "Maps"
