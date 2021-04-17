@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>1</defaultcontrol>
-	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime | Player.IsTempo</visible>
+	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime</visible>
 	<visible>!Player.HasGame</visible>
 	<visible>!Player.FrameAdvance</visible>
 	<animation effect="fade" start="0" end="100" time="150">WindowOpen</animation>
@@ -276,6 +276,19 @@
 					<texture>OSD1.5x.png</texture>
 					<visible>String.IsEqual(Player.PlaySpeed,1.50)</visible>
 				</control>
+                <control type="label" id="1">
+                    <description>Playback Speed</description>
+                    <left>30</left>
+                    <top>4</top>
+                    <width>40</width>
+                    <height>40</height>
+                    <align>center</align>
+                    <aligny>center</aligny>
+                    <font>font10_title</font>
+                    <textcolor>grey2</textcolor>
+                    <label>$INFO[Player.PlaySpeed]x</label>
+                    <visible>Player.IsTempo + !String.IsEqual(Player.PlaySpeed,0.80) + !String.IsEqual(Player.PlaySpeed,0.90) + !String.IsEqual(Player.PlaySpeed,1.10) + !String.IsEqual(Player.PlaySpeed,1.20) + !String.IsEqual(Player.PlaySpeed,1.30) + !String.IsEqual(Player.PlaySpeed,1.40) + !String.IsEqual(Player.PlaySpeed,1.50)</visible>
+                </control>
 			</control>
 			<control type="label">
 				<description>Seekbar Label</description>
