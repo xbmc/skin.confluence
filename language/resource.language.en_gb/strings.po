@@ -88,7 +88,11 @@ msgctxt "#31017"
 msgid "Unavailable"
 msgstr ""
 
-#empty strings from id 31018 to 31022
+#empty strings from id 31018 to 31021
+
+msgctxt "#31022"
+msgid "Play speed"
+msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
