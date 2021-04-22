@@ -486,6 +486,22 @@
 		<value condition="!String.IsEmpty(Player.Art(tvshow.poster))">$INFO[Player.Art(tvshow.poster)]</value>
 		<value>$INFO[Player.Icon]</value>
 	</variable>
+	<variable name="PlaySpeed">
+		<value condition="String.IsEqual(Player.PlaySpeed,0.80)">0.8X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,0.90)">0.9X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.10)">1.1X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.20)">1.2X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.30)">1.3X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.40)">1.4X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.50)">1.5X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.60)">1.6X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.70)">1.7X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.80)">1.8X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.90)">1.9X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,2.00)">2X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,2.10)">2.1X</value>
+		<value>$INFO[Player.PlaySpeed]</value>
+	</variable>
 	<variable name="MusicInfoPanelLabel">
 		<value condition="Container.Content(Artists)">$INFO[ListItem.Label]</value>
 		<value condition="Container.Content(Songs)">$INFO[ListItem.Label,[COLOR=selected][B],[/B][/COLOR] - ]$INFO[ListItem.Label2]</value>
