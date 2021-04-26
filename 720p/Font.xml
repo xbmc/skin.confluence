@@ -362,7 +362,8 @@
 		<font>
 			<name>OSDPlaySpeed</name>
 			<filename>arial.ttf</filename>
-			<size>7</size>
+			<size>8</size>
+			<style>bold</style>
 		</font>
 	</fontset>
 </fonts>
