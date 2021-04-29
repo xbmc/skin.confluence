@@ -83,6 +83,11 @@
 			<filename>Roboto-Bold.ttf</filename>
 			<size>80</size>
 		</font>
+		<font>
+			<name>OSDPlaySpeed</name>
+			<filename>Roboto-Bold.ttf</filename>
+			<size>9</size>
+		</font>
 	</fontset>
 	<fontset id="Massive" idloc="15110">
 		<!-- Normal Fonts -->
@@ -167,6 +172,11 @@
 			<filename>Roboto-Bold.ttf</filename>
 			<size>80</size>
 		</font>
+		<font>
+			<name>OSDPlaySpeed</name>
+			<filename>Roboto-Bold.ttf</filename>
+			<size>9</size>
+		</font>
 	</fontset>
 	<fontset id="DefaultNoCaps" idloc="31391">
 		<!-- Normal Fonts -->
@@ -250,6 +260,11 @@
 			<name>WeatherTemp</name>
 			<filename>Roboto-Bold.ttf</filename>
 			<size>80</size>
+		</font>
+		<font>
+			<name>OSDPlaySpeed</name>
+			<filename>Roboto-Bold.ttf</filename>
+			<size>9</size>
 		</font>
 	</fontset>
 	<fontset id="Arial" idloc="31392">
@@ -342,6 +357,12 @@
 			<name>WeatherTemp</name>
 			<filename>arial.ttf</filename>
 			<size>80</size>
+			<style>bold</style>
+		</font>
+		<font>
+			<name>OSDPlaySpeed</name>
+			<filename>arial.ttf</filename>
+			<size>8</size>
 			<style>bold</style>
 		</font>
 	</fontset>

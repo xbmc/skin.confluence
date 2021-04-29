@@ -1,3 +1,7 @@
+[B]4.7.14[/B]
+
+- Add OSD dialog to control tempo for fullscreen video window
+
 [B]4.7.13[/B]
 
 - Update language files from Transifex
