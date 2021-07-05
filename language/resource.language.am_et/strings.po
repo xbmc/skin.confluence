@@ -7,18 +7,19 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Amharic (Ethiopia) (http://www.transifex.com/projects/p/kodi-main/language/am_ET/)\n"
+"PO-Revision-Date: 2021-07-05 22:04+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Amharic (Ethiopia) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/am_et/>\n"
+"Language: am_et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: am_ET\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "በመስራት ላይ... "
+msgstr "በመስራት ላይ..."
 
 msgctxt "#31006"
 msgid "View options"
@@ -26,11 +27,11 @@ msgstr "ምርጫዎችን መመልከቻ"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "በሙል መመልከቻ ዘዴ "
+msgstr "በሙል መመልከቻ ዘዴ"
 
 msgctxt "#31017"
 msgid "Unavailable"
-msgstr "አልተገኘም "
+msgstr "አልተገኘም"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -50,7 +51,7 @@ msgstr "የ ተለያዩ ምርጫዎች"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr "አካባቢ "
+msgstr "አካባቢ"
 
 msgctxt "#31033"
 msgid "Info"
@@ -154,7 +155,7 @@ msgstr "ግጥም"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
-msgstr "ግጥም መጨ-መሪያ "
+msgstr "ግጥም መጨ-መሪያ"
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -194,11 +195,11 @@ msgstr "መጨረሻ የተሻሻለው"
 
 msgctxt "#31303"
 msgid "Data provider"
-msgstr "ዳታ አቅራቢ "
+msgstr "ዳታ አቅራቢ"
 
 msgctxt "#31308"
 msgid "Movie details"
-msgstr "የ ሙቪ ዝርዝር "
+msgstr "የ ሙቪ ዝርዝር"
 
 msgctxt "#31309"
 msgid "Memory used:"
@@ -206,7 +207,7 @@ msgstr "የ ተጠቀሙት ማስታወሻ"
 
 msgctxt "#31310"
 msgid "Track number"
-msgstr "የ ተረኛ ቁጥር "
+msgstr "የ ተረኛ ቁጥር"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -222,7 +223,7 @@ msgstr "የተላለፈ"
 
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr "የሚያጫውቱት ምርጫዎች "
+msgstr "የሚያጫውቱት ምርጫዎች"
 
 msgctxt "#31326"
 msgid "Created"
@@ -234,7 +235,7 @@ msgstr "ሪዞሊሽን"
 
 msgctxt "#31328"
 msgid "Recently added"
-msgstr "በቅርብ ጊዜ የተጨመሩ "
+msgstr "በቅርብ ጊዜ የተጨመሩ"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -262,7 +263,7 @@ msgstr "የሙቪ ዝርዝር"
 
 msgctxt "#31356"
 msgid "Download subtitles"
-msgstr "ንዑስ አርእስቶች ማውረጃ "
+msgstr "ንዑስ አርእስቶች ማውረጃ"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
@@ -278,7 +279,7 @@ msgstr "ተችሏል"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "መደበኛ "
+msgstr "መደበኛ"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -302,7 +303,7 @@ msgstr "የመግቢያ መመልከቻውን በሚጀምር ጊዜ ማሳያ �
 
 msgctxt "#31502"
 msgid "TV"
-msgstr "ቲቪ "
+msgstr "ቲቪ"
 
 msgctxt "#31503"
 msgid "Add group"
@@ -330,23 +331,23 @@ msgstr "ሰአት ማሰናጃ"
 
 msgctxt "#31511"
 msgid "Channel options"
-msgstr "የጣቢያ ምርጫዎች "
+msgstr "የጣቢያ ምርጫዎች"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr "የ ሰአት ግምት "
+msgstr "የ ሰአት ግምት"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
-msgstr "የሳምንቱ መጨረሻ ግምት "
+msgstr "የሳምንቱ መጨረሻ ግምት"
 
 msgctxt "#31904"
 msgid "Daily forecast"
-msgstr "የ እለቱ ግምት "
+msgstr "የ እለቱ ግምት"
 
 msgctxt "#31905"
 msgid "Forecast"
-msgstr "ግምት "
+msgstr "ግምት"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
@@ -354,7 +355,7 @@ msgstr "ግምት በመፈለግ ላይ..."
 
 msgctxt "#31910"
 msgid "Maps"
-msgstr "ካርታ "
+msgstr "ካርታ"
 
 msgctxt "#31950"
 msgid "WEATHER"
@@ -366,7 +367,7 @@ msgstr "ስእሎች"
 
 msgctxt "#31952"
 msgid "TV"
-msgstr "ቲቪ "
+msgstr "ቲቪ"
 
 msgctxt "#31953"
 msgid "VIDEOS"
