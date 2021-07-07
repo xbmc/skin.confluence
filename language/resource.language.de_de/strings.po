@@ -17,6 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7.1\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Confluence Skin von Jezz_X. (Standard-Skin von Kodi)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence ist der Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei, die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Ändern von"

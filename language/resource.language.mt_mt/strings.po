@@ -16,6 +16,14 @@ msgstr ""
 "Language: mt_MT\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3);\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Dehra Confluence magħmula minn Jezz_X. (Id-dehra normali ta' Kodi)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq.  Hija taħlita ta' kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa ideat tagħhom f'dehra li għandha tkun faċli biex jifmuha u jużawha dawk l-utenti li qed jużaw Kodi għall-ewwel darba."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Ibdel il-"

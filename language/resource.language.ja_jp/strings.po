@@ -16,6 +16,14 @@ msgstr ""
 "Language: ja_JP\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Confluenceスキン by Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluenceは、さまざまな人気のあるスキンのコンセプトを組み合わせ、ユーザが初めて Kodi に触れる際、使い勝手が良いようにアイデアを盛り込み、簡単で分かり易くユーザーが使用できるようにしてあります。"
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Kodi"
