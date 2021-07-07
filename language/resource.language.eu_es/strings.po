@@ -89,6 +89,10 @@ msgctxt "#31015"
 msgid "Minute"
 msgstr "Minutua"
 
+msgctxt "#31016"
+msgid "Elapsed time"
+msgstr ""
+
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Ez erabilgarri"
@@ -245,9 +249,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Aukera"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "Sistema"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr ""
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -257,10 +269,21 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Ikusi azkenaldian gehitutako bideoak"
 
+#. In main language strings its used as submenu
+msgctxt "#31118"
+msgid "Home page \"Add-ons\" submenu"
+msgstr ""
+
 msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Ezkutatu atzeko planoko fanart-a"
 
+#. In main language strings its used as submenu
+msgctxt "#31120"
+msgid "Home page \"Games\" submenu"
+msgstr ""
+
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Ezkutatu EPG baldin eta RDS kanal leihoan badago"
@@ -285,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Letren gehigarria"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Hasierako orriko \"Bideoak\" azpimenua"
@@ -309,6 +333,14 @@ msgctxt "#31143"
 msgid "Use"
 msgstr "Erabili"
 
+msgctxt "#31144"
+msgid "playlist"
+msgstr ""
+
+msgctxt "#31145"
+msgid "playlist path"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "Lasterbideak"
@@ -332,6 +364,10 @@ msgstr "Bilatu elementu gehiago"
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "Hurrengo atalak"
+
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr ""
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -593,6 +629,10 @@ msgctxt "#31956"
 msgid "MUSIC"
 msgstr "MUSIKA"
 
+msgctxt "#31957"
+msgid "ADD-ONS"
+msgstr ""
+
 msgctxt "#31958"
 msgid "PLAY DISC"
 msgstr "ERREPRODUZITU DISKOA"
@@ -609,6 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Denbora aldaketa"
 
+#. Choose profile identifier
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr ""
+
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profilaren izena"
+
+#. Label for the kind of profile identification
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr ""

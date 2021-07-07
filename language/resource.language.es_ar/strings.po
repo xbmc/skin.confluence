@@ -29,6 +29,14 @@ msgctxt "#31000"
 msgid "Change your"
 msgstr "Modifique sus"
 
+msgctxt "#31001"
+msgid "GAMES"
+msgstr ""
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr ""
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Opciones de energía"
@@ -76,6 +84,14 @@ msgstr "Información de proceso de audio"
 msgctxt "#31014"
 msgid "Memory used"
 msgstr "Memoria usada"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Elapsed time"
+msgstr ""
 
 msgctxt "#31017"
 msgid "Unavailable"
@@ -233,9 +249,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Opciones"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "Sistema"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr ""
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -245,10 +269,21 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Mostrar últimos videos añadidos"
 
+#. In main language strings its used as submenu
+msgctxt "#31118"
+msgid "Home page \"Add-ons\" submenu"
+msgstr ""
+
 msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Ocultar el Fanart del fondo"
 
+#. In main language strings its used as submenu
+msgctxt "#31120"
+msgid "Home page \"Games\" submenu"
+msgstr ""
+
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Ocultar EPG si RDS está presente en la ventana del canal"
@@ -273,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Add-on para letras"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Submenú de videos de la pantalla principal"
@@ -297,6 +333,14 @@ msgctxt "#31143"
 msgid "Use"
 msgstr "Usar"
 
+msgctxt "#31144"
+msgid "playlist"
+msgstr ""
+
+msgctxt "#31145"
+msgid "playlist path"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "Accesos directos"
@@ -320,6 +364,10 @@ msgstr "Encuentra más elementos"
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "Próximos episodios"
+
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr ""
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -581,6 +629,10 @@ msgctxt "#31956"
 msgid "MUSIC"
 msgstr "MÚSICA"
 
+msgctxt "#31957"
+msgid "ADD-ONS"
+msgstr ""
+
 msgctxt "#31958"
 msgid "PLAY DISC"
 msgstr "REPRODUCIR DISCO"
@@ -597,6 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Timeshift"
 
+#. Choose profile identifier
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr ""
+
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Nombre de perfil"
+
+#. Label for the kind of profile identification
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr ""
