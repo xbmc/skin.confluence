@@ -249,9 +249,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "選項"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "系統"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr ""
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -261,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "顯示最近加入的影片"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "首頁 \"附加元件\" 子功能表"
@@ -269,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "隱藏背景劇照圖"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "首頁 \"遊戲\" 子功能表"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "如果該頻道畫面中有自帶RDS訊息，則不顯示電子節目表"
@@ -297,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "歌詞附加元件"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "首頁影片子選單"
@@ -321,6 +333,14 @@ msgctxt "#31143"
 msgid "Use"
 msgstr "使用"
 
+msgctxt "#31144"
+msgid "playlist"
+msgstr ""
+
+msgctxt "#31145"
+msgid "playlist path"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "捷徑"
@@ -344,6 +364,10 @@ msgstr "尋找更多項目"
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "劇集預告"
+
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr ""
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -625,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "時間平移"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "選擇設定檔案標識的類型"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "設定檔名稱"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "個人資料圖像"

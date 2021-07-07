@@ -10,10 +10,10 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kodi Translation Team\n"
 "Language-Team: Thai (Thailand) (http://www.transifex.com/projects/p/kodi-main/language/th_TH/)\n"
+"Language: th_TH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: th_TH\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgctxt "Addon Summary"
@@ -27,6 +27,14 @@ msgstr "Confluenceเป็นสกินเริ่มต้นสำหร�
 msgctxt "#31000"
 msgid "Change your"
 msgstr "ปรับเปลี่ยน"
+
+msgctxt "#31001"
+msgid "GAMES"
+msgstr ""
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr ""
 
 msgctxt "#31003"
 msgid "Power options"
@@ -75,6 +83,14 @@ msgstr "ข้อมูลการประมวลผลเสียง"
 msgctxt "#31014"
 msgid "Memory used"
 msgstr "หน่วยความจำที่ใช้"
+
+msgctxt "#31015"
+msgid "Minute"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Elapsed time"
+msgstr ""
 
 msgctxt "#31017"
 msgid "Unavailable"
@@ -232,9 +248,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "ตัวเลือก"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "ระบบ"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr ""
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -244,10 +268,21 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "แสดงวิดีโอที่เพิ่งเพิ่ม"
 
+#. In main language strings its used as submenu
+msgctxt "#31118"
+msgid "Home page \"Add-ons\" submenu"
+msgstr ""
+
 msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "ซ่อนพื้นหลังแฟนอาร์ต"
 
+#. In main language strings its used as submenu
+msgctxt "#31120"
+msgid "Home page \"Games\" submenu"
+msgstr ""
+
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "ซ่อน EPG ถ้า RDS ถูกนำเสนอบนหน้าต่างช่องรายการ"
@@ -272,6 +307,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "ส่วนเสริมเนื้อเพลง"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "หน้าหลัก เมนูย่อย \"วิดีโอ\""
@@ -296,6 +332,14 @@ msgctxt "#31143"
 msgid "Use"
 msgstr "ใช้"
 
+msgctxt "#31144"
+msgid "playlist"
+msgstr ""
+
+msgctxt "#31145"
+msgid "playlist path"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "ปุ่มลัด"
@@ -319,6 +363,10 @@ msgstr "ค้นหารายการเพิ่มเติม"
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "ตอนที่กำลังจะมา"
+
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr ""
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -580,6 +628,10 @@ msgctxt "#31956"
 msgid "MUSIC"
 msgstr "เพลง"
 
+msgctxt "#31957"
+msgid "ADD-ONS"
+msgstr ""
+
 msgctxt "#31958"
 msgid "PLAY DISC"
 msgstr "เล่นแผ่น"
@@ -592,6 +644,21 @@ msgctxt "#31960"
 msgid "RADIO"
 msgstr "วิทยุ"
 
+msgctxt "#31961"
+msgid "Timeshift"
+msgstr ""
+
+#. Choose profile identifier
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr ""
+
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "ชื่อ ข้อมูลส่วนตัว"
+
+#. Label for the kind of profile identification
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr ""

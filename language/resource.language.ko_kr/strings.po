@@ -269,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "최근 추가한 비디오 보기"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "\"애드온\" 하위 메뉴 홈페이지"
@@ -277,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "배경 팬아트 숨김"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "\"게임\" 하위 메뉴 홈페이지"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "채널창에서 RDS 가 있으면 EPG 숨김"
@@ -305,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "가사 애드온"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "홈 페이지 \"비디오\" 하위 메뉴"
@@ -645,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "타임시프트"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "프로파일 확인 선택"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "프로파일 이름"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "프로파일 아바타"

@@ -269,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Rodyti neseniai pridėtus video įrašus"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Pradinio lango \"Priedų\" submeniu"
@@ -277,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Slėpti fono Fanart"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Pradinio puslapio \"Žaidimų\" submeniu"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Slėpti EPG, jei kanalo lange yra RDS"
@@ -305,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Dainos žodžių priedas"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Pradinio puslapio \"Video\" submeniu"
@@ -645,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Laiko poslinkis"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Pasirinkite profilio identifikacijos būdą"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profilio vardas"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilio avataras"

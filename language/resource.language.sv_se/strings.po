@@ -249,6 +249,10 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Alternativ"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "System"
@@ -265,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Visa nyligen tillagda videos"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Hemskärmens \"Tillägg\"-undermeny"
@@ -273,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Dölj bakgrundsfanart"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Hemskärmens \"Spel\"-undermeny"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Dölj EPG när RDS finns i kanalfönstret"
@@ -301,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Tillägg för sångtexter"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Hemskärmens \"Video\"-undermeny"
@@ -641,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Tidsförskjutning"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Välj typ av profilidentifiering"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profilnamn"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilbild"

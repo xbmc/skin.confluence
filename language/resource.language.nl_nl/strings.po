@@ -269,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Toon recent toegevoegde video`s"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Beginpagina \"Add-ons\" submenu"
@@ -277,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Fanart achtergronden verbergen"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Beginpagina \"Spellen\" submenu"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Verberg EPG wanneer RDS aanwezig is op kanaalvenster"
@@ -305,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Songtekst add-on"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Beginscherm Video's submenu"
@@ -645,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Timeshift"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Kies het type profielidentificatie"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profielnaam"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profielafbeelding"

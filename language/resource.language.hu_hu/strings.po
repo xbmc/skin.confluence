@@ -269,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Nemrég hozzáadott videók mutatása"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Kezdőlap \"Kiegészítők\" almenü"
@@ -277,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Fanart-háttér elrejtése"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Kezdőlap \"Játékok\" almenü"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Rejtse el az EPG-t, ha az RDS látható a csatorna ablakban"
@@ -305,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Dalszöveg kiegészítő"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Főképernyő Videó almenü"
@@ -645,14 +649,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Csúsztatott felvétel"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Válassza ki a profil azonosítását"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profil neve"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profil avatar"
