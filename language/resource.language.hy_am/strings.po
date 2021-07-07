@@ -16,6 +16,14 @@ msgstr ""
 "Language: hy_AM\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "''Confluence'' - տեսք՝ Jezz_X. կողմից (Kodi - հիմնական տեսք)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr ""
+
 msgctxt "#31004"
 msgid "Working..."
 msgstr "Ընթացքում է ..."

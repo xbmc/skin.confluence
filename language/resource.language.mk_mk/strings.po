@@ -16,6 +16,14 @@ msgstr ""
 "Language: mk_MK\n"
 "Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Confluence skin by Jezz_X. (Kodi's default skin)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence е основниот изглед на Kodi 14.0 и нагоре. Тој е комбинација на концепти од повеќе популарни изгледи, и настојува да ги обедини и истакне нивните добри идеи во еден изглед разбирлив за почетници."
+
 msgctxt "#31003"
 msgid "Power options"
 msgstr "Опции за напојување"

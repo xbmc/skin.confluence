@@ -16,6 +16,14 @@ msgstr ""
 "Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Tema Confluence por Jezz_X (tema padrão do Kodi)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "O tema "Confluence" é o tema padrão do Kodi 14.0 e superior. É uma combinação de conceitos a partir de muitos temas populares e tenta integrar as boas ideias dos mesmos, num tema que deverá ser fácil de entender e utilizar pelos novos utilizadores do Kodi."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Alterar"

@@ -16,6 +16,14 @@ msgstr ""
 "Language: cs_CZ\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Vzhled Confluence od Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence je kombinací konceptů z mnoha oblíbených vzhledů a pokouší se pojmout a integrovat jejich dobré nápady do vzhledu, který by měl být pro nové uživatele Kodi jednoduchý na pochopení a používání."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Změňte své"

@@ -16,6 +16,14 @@ msgstr ""
 "Language: szl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Skōra Confluence zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw Kodi."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "Pōmiyń swoje"

@@ -16,6 +16,14 @@ msgstr ""
 "Language: fa_IR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "پوسته Confluence تهیه شده بوسیله Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence ترکیبی از چند پوسته محبوب دیگر است و تلاش دارد بهترین ایده ها را با هم ترکیب کند، تا شروعی ساده و آسان را برای کاربران جدید Kodi امکان پذیر سازد."
+
 msgctxt "#31000"
 msgid "Change your"
 msgstr "تغییر"
