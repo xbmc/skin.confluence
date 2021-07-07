@@ -19,7 +19,7 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
-msgstr "جلد "كونفليونس" من صنع Jezz_x. (الجلد المبدأى لبرنامج إكس بى إم سى)"
+msgstr "جلد كونفليونس من صنع Jezz_x. (الجلد المبدأى لبرنامج إكس بى إم سى)"
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
