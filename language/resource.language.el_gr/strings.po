@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-05 22:04+0000\n"
+"PO-Revision-Date: 2021-07-07 08:01+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Greek <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/el_gr/>\n"
 "Language: el_gr\n"
@@ -255,11 +255,11 @@ msgstr "Απόκρυψη EPG αν το RDS είναι στο παράθυρο κ
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Εμφάνηση φόντου βίντεο που \"Αναπαραγωγή σε εκτέλεση\""
+msgstr "Εμφάνιση φόντου βίντεο όταν γίνεται \"Αναπαραγωγή σε εκτέλεση\""
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
-msgstr "Εμφάνηση φόντου οπτικοποίησης που \"Αναπαραγωγή σε εκτέλεση\""
+msgstr "Εμφάνιση φόντου οπτικοποίησης όταν γίνεται \"Αναπαραγωγή σε εκτέλεση\""
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -267,7 +267,7 @@ msgstr "Στίχοι"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Απόκρυψη fanart σε πλήρης οθόνη απτικοποίηση"
+msgstr "Απόκρυψη fanart σε πλήρης οθόνη oπτικοποίηση"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
