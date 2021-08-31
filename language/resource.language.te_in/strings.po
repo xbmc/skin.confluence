@@ -356,6 +356,18 @@ msgctxt "#31145"
 msgid "playlist path"
 msgstr ""
 
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr ""
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr ""
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "షార్ట్కట్లు"

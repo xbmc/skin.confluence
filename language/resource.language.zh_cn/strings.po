@@ -341,6 +341,18 @@ msgctxt "#31145"
 msgid "playlist path"
 msgstr "播放列表路径"
 
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr ""
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr ""
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "快捷方式"
