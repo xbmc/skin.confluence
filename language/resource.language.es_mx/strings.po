@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-09-26 13:30+0000\n"
+"PO-Revision-Date: 2021-10-08 03:23+0000\n"
 "Last-Translator: Edson Armando <edsonarmando78@outlook.com>\n"
 "Language-Team: Spanish (Mexico) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_mx/>\n"
 "Language: es_mx\n"
@@ -59,7 +59,7 @@ msgstr "Información de proceso de video"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Pant. Completa"
+msgstr "Pant. completa"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -463,7 +463,7 @@ msgstr "Rebobinar"
 
 msgctxt "#31355"
 msgid "Movie menu"
-msgstr "Menú de Película"
+msgstr "Menú de película"
 
 msgctxt "#31356"
 msgid "Download subtitles"
@@ -519,7 +519,7 @@ msgstr "Mostrar u ocultar pantalla de inicio al inciar."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Seleccionar el perfil que será usado al iniciar cuando la pantalla de inicio esta deshabilitada"
+msgstr "Seleccionar el perfil que será usado al iniciar cuando la pantalla de inicio esta deshabilitada."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
@@ -571,7 +571,7 @@ msgstr "Borrar grupo"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
-msgstr "Grupos[CR]Disponibles"
+msgstr "Grupos[CR]disponibles"
 
 msgctxt "#31509"
 msgid "Channel group"
@@ -607,7 +607,7 @@ msgstr "Pronóstico"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "Obteniendo información de pronóstico"
+msgstr "Obteniendo información de pronóstico..."
 
 msgctxt "#31910"
 msgid "Maps"
