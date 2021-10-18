@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-07-05 22:04+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2021-10-17 20:58+0000\n"
+"Last-Translator: Prahlis <prahl.tobias@gmail.com>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/sv_se/>\n"
 "Language: sv_se\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.8\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -35,7 +35,7 @@ msgstr "SPEL"
 
 msgctxt "#31002"
 msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
-msgstr "[B]SPEL INSTÄLLNINGAR[/B][CR][CR]Konfigurera support för tillbakaspolning & alternativ ·  Konfigurera tangentbordsanvändning och antalet tangentbordsspelare."
+msgstr "[B]SPELINSTÄLLNINGAR[/B][CR][CR]Konfigurera support för tillbakaspolning & alternativ ·  Konfigurera tangentbordsanvändning och antalet tangentbordsspelare"
 
 msgctxt "#31003"
 msgid "Power options"
@@ -95,7 +95,7 @@ msgstr "Förfluten tid"
 
 msgctxt "#31017"
 msgid "Unavailable"
-msgstr "Otillgänglig"
+msgstr "Inte tillgänglig"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -175,11 +175,11 @@ msgstr "Sluttid"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Sortera: Stigande"
+msgstr "Sortering: Stigande"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Sortera: Fallande"
+msgstr "Sortering: Fallande"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -251,7 +251,7 @@ msgstr "Alternativ"
 
 msgctxt "#31113"
 msgid "Background path Master:"
-msgstr ""
+msgstr "Bakgrundssökväg Master:"
 
 msgctxt "#31114"
 msgid "System"
@@ -343,15 +343,15 @@ msgstr "spellista sökväg"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
-msgstr ""
+msgstr "Dölj knapparna på startskärmen"
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
-msgstr ""
+msgstr "Dölj - Favoriter"
 
 msgctxt "#31148"
 msgid "Hide - Search"
-msgstr ""
+msgstr "Dölj - Sök"
 
 msgctxt "#31200"
 msgid "Shortcuts"
@@ -435,7 +435,7 @@ msgstr "Nyligen tillagda"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr "[B]Tidtagare satt![/B] [COLOR=grey2] - Automatisk avstängning av systemet om[/COLOR]"
+msgstr "[B]Timer inställd![/B] [COLOR=grey2] - Automatisk avstängning av systemet om[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
@@ -495,7 +495,7 @@ msgstr "Arialbaserad"
 
 msgctxt "#31411"
 msgid "First run help..."
-msgstr "Förstagångshjälp"
+msgstr "Förstagångshjälp..."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
@@ -519,7 +519,7 @@ msgstr "Visa eller dölj inloggningsskärmen vid uppstart."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Välj den profil som skall användas vid uppstart då inloggningsskärmen inte visas."
+msgstr "Välj den profil som skall användas vid uppstart när inloggningsskärmen är inaktiverad."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
@@ -619,7 +619,7 @@ msgstr "VÄDER"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr "FOTON"
+msgstr "BILDER"
 
 msgctxt "#31952"
 msgid "TV"
