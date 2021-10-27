@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-10-17 20:58+0000\n"
-"Last-Translator: Prahlis <prahl.tobias@gmail.com>\n"
+"PO-Revision-Date: 2021-10-27 13:30+0000\n"
+"Last-Translator: Sopor <sopor@hotmail.com>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/sv_se/>\n"
 "Language: sv_se\n"
 "MIME-Version: 1.0\n"
@@ -219,7 +219,7 @@ msgstr "Visa \"Pausat\" i bildspel"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Visa trailers i ett fönster"
+msgstr "Visa trailers i ett fönster [COLOR=grey3](Endast videoinformationsdialog)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -227,7 +227,7 @@ msgstr "Övriga alternativ"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Dölj flaggläsning från videofilnamn [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Dölj flaggläsning från videofilnamn [COLOR=grey3](t.ex Blu-ray, HD-DVD)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -259,7 +259,7 @@ msgstr "System"
 
 msgctxt "#31115"
 msgid "Main button playlists"
-msgstr "Huvudknapp spellistor"
+msgstr "Huvudknappspellistor"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -311,7 +311,7 @@ msgstr "Tillägg för sångtexter"
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Hemskärmens \"Video\"-undermeny"
+msgstr "Hemskärmens \"Videor\"-undermeny"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
@@ -339,7 +339,7 @@ msgstr "spellista"
 
 msgctxt "#31145"
 msgid "playlist path"
-msgstr "spellista sökväg"
+msgstr "spellistans sökväg"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
@@ -439,7 +439,7 @@ msgstr "[B]Timer inställd![/B] [COLOR=grey2] - Automatisk avstängning av syste
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr "Klicka på knappen för att spela filmtrailern för [CR][CR]"
+msgstr "Klicka på knappen för att spela[CR][CR]filmtrailern"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -455,7 +455,7 @@ msgstr "Stopp"
 
 msgctxt "#31353"
 msgid "Fast forward"
-msgstr "Spola fram"
+msgstr "Spola framåt"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -523,31 +523,31 @@ msgstr "Välj den profil som skall användas vid uppstart när inloggningsskärm
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]SPELARE INSTÄLLNINGAR[/B][CR][CR]Konfigurera inställningar för vad du kan göra under uppsspelning · Konfigurera hur mediainnehåll spelas upp"
+msgstr "[B]SPELAREINSTÄLLNINGAR[/B][CR][CR]Konfigurera inställningar för vad du kan göra under uppspelning · Konfigurera hur mediainnehåll spelas upp"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]BIBLIOTEK INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur biblioteket/filer-vy presenterar medieinnehåll · Konfigurera hur bibliotekets listor/vyer navigeras · Konfigurera mediadatabasens alternativ"
+msgstr "[B]BIBLIOTEKINSTÄLLNINGAR[/B][CR][CR]Konfigurera hur biblioteket/filer-vy presenterar medieinnehåll · Konfigurera hur bibliotekets listor/vyer navigeras · Konfigurera mediadatabasens alternativ"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]PVR INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur kanaler & guider hanteras · Konfigurera hur Live-tv och inspelningar hanteras"
+msgstr "[B]PVR-INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur kanaler och guider hanteras · Konfigurera hur Live-TV och inspelningar hanteras"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]TILLÄGG INSTÄLLNINGAR[/B][CR][CR]Konfigurera dina installerade tillägg · Bläddra och installera tillägg från kodi.tv"
+msgstr "[B]TILLÄGGSINSTÄLLNINGAR[/B][CR][CR]Konfigurera dina installerade tillägg · Bläddra och installera tillägg från kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]TJÄNST INSTÄLLNINGAR[/B][CR][CR]Konfigurera & hantera media delningstjänster · Konfigurera webbserver · Konfigurera & hantera vädertjänsten"
+msgstr "[B]TJÄNSTINSTÄLLNINGAR[/B][CR][CR]Konfigurera och hantera media delningstjänster · Konfigurera webbserver · Konfigurera och hantera vädertjänsten"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr "[B]SYSTEM INSTÄLLNINGAR[/B][CR][CR]Konfigurera skärmen · Konfigurera ljud · Konfigurera internetaccess · Konfigurera energialternativ · Konfigurera loggning"
+msgstr "[B]SYSTEMINSTÄLLNINGAR[/B][CR][CR]Konfigurera skärmen · Konfigurera ljud · Konfigurera internetaccess · Konfigurera energialternativ · Konfigurera loggning"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "[B]GRÄNSSNITT INSTÄLLNINGAR[/B][CR][CR]Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlås"
+msgstr "[B]GRÄNSSNITTS INSTÄLLNINGAR[/B][CR][CR]Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlås"
 
 msgctxt "#31501"
 msgid "Scheduled time"
@@ -587,7 +587,7 @@ msgstr "Kanalalternativ"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
-msgstr "36-timmars prognos"
+msgstr "36-timmarsprognos"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
