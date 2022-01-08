@@ -743,3 +743,36 @@ msgstr ""
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
+
+#. What kind of title will be shown
+#: /720p/DialogVideoInfo.xml
+#: /720p/SkinSettings.xml 
+msgctxt "#31171"
+msgid "What title to display"
+msgstr "" 
+
+#. Default Kodi behauviour - means Localised title usually (ListItem.Title)
+#: /720p/DialogVideoInfo.xml
+#: /720p/SkinSettings.xml 
+msgctxt "#31172"
+msgid "No changes"
+msgstr "" 
+
+#: /720p/DialogVideoInfo.xml
+#: /720p/SkinSettings.xml 
+msgctxt "#31173"
+msgid "Original title (Localised title)"
+msgstr "" 
+
+#: /720p/DialogVideoInfo.xml
+#: /720p/SkinSettings.xml 
+msgctxt "#31174"
+msgid "Localised title (Original title)"
+msgstr "" 
+
+#. Original title - ListItem.OriginalTitle
+#: /720p/DialogVideoInfo.xml
+#: /720p/SkinSettings.xml 
+msgctxt "#31175"
+msgid "Just Original title"
+msgstr "" 

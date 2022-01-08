@@ -578,6 +578,18 @@
 		<value condition="Skin.HasSetting(show_profileavatar)">$LOCALIZE[31964]</value>
 		<value>$LOCALIZE[16018]</value>
 	</variable>
+	<variable name="ShowOriginalName">
+		<value condition="Skin.HasSetting(ortitle_1st)">$LOCALIZE[31173]</value>
+		<value condition="Skin.HasSetting(ortitle_2nd)">$LOCALIZE[31174]</value>
+		<value condition="Skin.HasSetting(ortitle_only)">$LOCALIZE[31175]</value>
+		<value>$LOCALIZE[31172]</value>
+	</variable>
+	<variable name="ShowCustomLabel">
+		<value condition="Skin.HasSetting(ortitle_1st) + !String.IsEmpty(ListItem.OriginalTitle) + !String.IsEqual(ListItem.Label,ListItem.OriginalTitle)">$INFO[ListItem.OriginalTitle] ($INFO[ListItem.Label])</value>
+		<value condition="Skin.HasSetting(ortitle_2nd) + !String.IsEmpty(ListItem.OriginalTitle) + !String.IsEqual(ListItem.Label,ListItem.OriginalTitle)">$INFO[ListItem.Label] ($INFO[ListItem.OriginalTitle])</value>
+		<value condition="Skin.HasSetting(ortitle_only) + !String.IsEmpty(ListItem.OriginalTitle) + !String.IsEqual(ListItem.Label,ListItem.OriginalTitle)">$INFO[ListItem.OriginalTitle]</value>
+		<value>$INFO[ListItem.Label]</value>
+	</variable>
 	<!-- INCLUDES -->
 	<include name="MusicInfoPanel">
 		<control type="panel" id="50">
