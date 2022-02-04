@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-01-08 10:13+0000\n"
+"PO-Revision-Date: 2022-02-04 08:07+0000\n"
 "Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_es/>\n"
 "Language: es_es\n"
@@ -539,7 +539,7 @@ msgstr "[B]AJUSTES DE ADD-ONS[/B][CR][CR]Configura los add-on instalados · Nave
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]AJUSTES DE SERVICIOS[/B][CR][CR]Configura y gestiona los servicios para compartir contenido · Configura el servidor web · Configura y gestiona el servicio del Tiempo"
+msgstr "[B]AJUSTES DE SERVICIOS[/B][CR][CR]Configura y gestiona los servicios para compartir contenido · Configura el servidor web · Configura y gestiona el servicio de meteorología"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
@@ -615,7 +615,7 @@ msgstr "Mapas"
 
 msgctxt "#31950"
 msgid "WEATHER"
-msgstr "EL TIEMPO"
+msgstr "METEOROLOGÍA"
 
 msgctxt "#31951"
 msgid "PICTURES"
