@@ -5,16 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Esperanto (http://www.transifex.com/projects/p/kodi-main/language/eo/)\n"
+"PO-Revision-Date: 2022-03-01 17:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Esperanto <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -103,11 +104,11 @@ msgstr ""
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Paĝo"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr ""
+msgstr "Elementoj"
 
 msgctxt "#31026"
 msgid "Misc options"
@@ -141,7 +142,7 @@ msgstr ""
 # empty strings from id 31034 to 31038
 msgctxt "#31039"
 msgid "Actions"
-msgstr ""
+msgstr "Agadoj"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -166,7 +167,7 @@ msgstr ""
 
 msgctxt "#31046"
 msgid "SEEKING"
-msgstr ""
+msgstr "PRETERPASUMI"
 
 # empty string with id 31047
 msgctxt "#31048"
@@ -179,24 +180,24 @@ msgstr ""
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr ""
+msgstr "Ordigi: Kreskante"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr ""
+msgstr "Ordigi: Malkreskante"
 
 # empty strings from id 31052 to 31054
 msgctxt "#31055"
 msgid "Open playlist"
-msgstr ""
+msgstr "Malfermi ludliston"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr ""
+msgstr "Konservi ludliston"
 
 msgctxt "#31057"
 msgid "Close playlist"
-msgstr ""
+msgstr "Fermi ludliston"
 
 msgctxt "#31058"
 msgid "System music files"
@@ -218,7 +219,7 @@ msgstr ""
 
 msgctxt "#31102"
 msgid "Background"
-msgstr ""
+msgstr "Fono"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -342,7 +343,7 @@ msgstr ""
 # empty string with id 31141
 msgctxt "#31142"
 msgid "Settings level"
-msgstr ""
+msgstr "Agordnivelo"
 
 msgctxt "#31143"
 msgid "Use"
