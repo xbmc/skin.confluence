@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-06 17:29+0000\n"
-"Last-Translator: rimasx <riks_12@hot.ee>\n"
+"PO-Revision-Date: 2022-03-11 09:02+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Estonian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/et_ee/>\n"
 "Language: et_ee\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -215,7 +215,7 @@ msgstr "Taust"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr ""
+msgstr "Näita piltide slaidiesitusel teksti \"peatatud\""
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -447,7 +447,7 @@ msgstr "[B]Taimer seatud![/B] [COLOR=grey2] - Süsteemi automaatne seiskamine[/C
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr ""
+msgstr "Esitamiseks vajuta nuppu[CR][CR]Filmi treiler"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -587,7 +587,7 @@ msgstr "Olemasolevad[CR]grupid"
 # empty strings from id 31507 to 31508
 msgctxt "#31509"
 msgid "Channel group"
-msgstr ""
+msgstr "Kanali grupp"
 
 msgctxt "#31510"
 msgid "Timer set"
