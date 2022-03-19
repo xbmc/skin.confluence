@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-03-01 17:13+0000\n"
+"PO-Revision-Date: 2022-03-19 06:46+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -39,7 +39,7 @@ msgstr "[B]PELIASETUKSET[/B][CR][CR]Muokkaa kelausasetuksia · Muokkaa näppäim
 
 msgctxt "#31003"
 msgid "Power options"
-msgstr "Virta-asetukset"
+msgstr "Virtavalinnat"
 
 msgctxt "#31004"
 msgid "Working..."
@@ -83,7 +83,7 @@ msgstr "Äänen tekniset tiedot"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr "Käytetty muisti"
+msgstr "Muistin varaus"
 
 msgctxt "#31015"
 msgid "Minute"
@@ -99,7 +99,7 @@ msgstr "Ei saatavilla"
 
 msgctxt "#31023"
 msgid "Playing"
-msgstr "Toisto"
+msgstr "Toistetaan"
 
 msgctxt "#31024"
 msgid "Page"
@@ -115,7 +115,7 @@ msgstr "Muut asetukset"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr "Paikkakunta"
+msgstr "Sijainti"
 
 msgctxt "#31028"
 msgid "Poster wrap"
@@ -419,7 +419,7 @@ msgstr "Esitetty"
 
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr "Toistolistan asetukset"
+msgstr "Toistolistan valinnat"
 
 msgctxt "#31326"
 msgid "Created"
@@ -459,7 +459,7 @@ msgstr "Kelaa eteenpäin"
 
 msgctxt "#31354"
 msgid "Rewind"
-msgstr "Siirry taaksepäin"
+msgstr "Taaksepäin"
 
 msgctxt "#31355"
 msgid "Movie menu"
@@ -467,11 +467,11 @@ msgstr "Elokuvavalikko"
 
 msgctxt "#31356"
 msgid "Download subtitles"
-msgstr "Lataa tekstitykset"
+msgstr "Lataa tekstityksiä"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
-msgstr "Katso 2D-tilassa"
+msgstr "Katsele 2D-tilassa"
 
 msgctxt "#31361"
 msgid "Change mode"
@@ -503,7 +503,7 @@ msgstr "Tämä merkki tarkoittaa, että ruudun reunassa on lisäasetuksia sisäl
 
 msgctxt "#31413"
 msgid "Local subtitle available"
-msgstr "Paikallinen tekstitys saatavilla"
+msgstr "Paikallinen tekstitys on käytettävissä"
 
 msgctxt "#31420"
 msgid "Login"
@@ -563,7 +563,7 @@ msgstr "Lisää ryhmä"
 
 msgctxt "#31504"
 msgid "Rename group"
-msgstr "Muuta ryhmän nimeä"
+msgstr "Nimeä ryhmä uudelleen"
 
 msgctxt "#31505"
 msgid "Delete group"
