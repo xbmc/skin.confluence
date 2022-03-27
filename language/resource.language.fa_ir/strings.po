@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-08-06 17:29+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"PO-Revision-Date: 2022-03-27 01:18+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Persian (Iran) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/fa_ir/>\n"
 "Language: fa_ir\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -420,7 +420,7 @@ msgstr ""
 
 msgctxt "#31320"
 msgid "Last logged in"
-msgstr ""
+msgstr "واپسین ورود"
 
 msgctxt "#31322"
 msgid "Aired"
@@ -429,7 +429,7 @@ msgstr "پخش شده"
 # empty strings from id 31323 to 31324
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr ""
+msgstr "گزینه‌های فهرست پخش"
 
 msgctxt "#31326"
 msgid "Created"
@@ -465,7 +465,7 @@ msgstr "توقف"
 
 msgctxt "#31353"
 msgid "Fast forward"
-msgstr ""
+msgstr "پیش‌روی سریع"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -522,7 +522,7 @@ msgstr "ورود"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr ""
+msgstr "برای ورود و ادامه، نمایهٔ[CR]کاربری کودیتان را برگزینید"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -597,7 +597,7 @@ msgstr ""
 
 msgctxt "#31511"
 msgid "Channel options"
-msgstr ""
+msgstr "گزینه‌های کانال"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
@@ -673,7 +673,7 @@ msgstr "رادیو"
 
 msgctxt "#31961"
 msgid "Timeshift"
-msgstr ""
+msgstr "جابه‌جایی زمانی"
 
 #. Choose profile identifier
 msgctxt "#31962"
@@ -688,4 +688,4 @@ msgstr "نام پروفایل"
 #. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
-msgstr ""
+msgstr "تصویر نمایه"
