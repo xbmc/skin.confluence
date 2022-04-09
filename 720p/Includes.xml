@@ -495,6 +495,10 @@
 		<value condition="Window.IsActive(Videos) + !String.IsEqual(Playlist.Length(video),0)">ActivateWindow(videoplaylist)</value>
 		<value>ActivateWindow(musicplaylist)</value>
 	</variable>
+	<variable name="DialogSelectImage">
+		<value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+		<value>$INFO[ListItem.Icon]</value>
+	</variable>
 	<variable name="SelectBack">
 		<value condition="![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]">DialogBack.png</value>
 		<value>DialogBack2.png</value>
