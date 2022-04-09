@@ -1,3 +1,7 @@
+[B]4.7.15[/B]
+
+- Fix image in select dialog
+
 [B]4.7.14[/B]
 
 - Add PVR guide controls dialog
