@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-07-01 10:35+0000\n"
+"PO-Revision-Date: 2022-07-23 08:14+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -83,7 +83,7 @@ msgstr "Äänen tekniset tiedot"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr "Muistin varaus"
+msgstr "Keskusmuistin varaus"
 
 msgctxt "#31015"
 msgid "Minute"
@@ -143,7 +143,7 @@ msgstr "Toiminnot"
 
 msgctxt "#31040"
 msgid "Now playing"
-msgstr "Nyt toistetaan"
+msgstr "Toistetaan parhaillaan"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -175,11 +175,11 @@ msgstr "Päättyy"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Järjestys: nouseva"
+msgstr "Järjestys: Nouseva"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Järjestys: laskeva"
+msgstr "Järjestys: Laskeva"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -259,7 +259,7 @@ msgstr "Järjestelmä"
 
 msgctxt "#31115"
 msgid "Main button playlists"
-msgstr ""
+msgstr "Pääpainikkeen toistolista"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -327,7 +327,7 @@ msgstr "Musiikin kuvaruutuvalikko"
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr "Asetustaso"
+msgstr "Asetusten laajuus"
 
 msgctxt "#31143"
 msgid "Use"
@@ -511,7 +511,7 @@ msgstr "Kirjautuminen"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Valitse Kodi-käyttäjäprofiili[CR]kirjautuaksesi sisään"
+msgstr "Jatka kirjatumalla[CR]Kodi-käyttäjäprofiilillesi"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
@@ -591,7 +591,7 @@ msgstr "36 tunnin ennuste"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr "Tunneittainen ennuste"
+msgstr "Tuntiennuste"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
@@ -607,7 +607,7 @@ msgstr "Ennuste"
 
 msgctxt "#31909"
 msgid "Fetching forecast info..."
-msgstr "Noudetaan ennusteen tietoja..."
+msgstr "Noudetaan ennustetietoja..."
 
 msgctxt "#31910"
 msgid "Maps"
@@ -635,7 +635,7 @@ msgstr "ELOKUVAT"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "TV-SARJAT"
+msgstr "SARJAT"
 
 msgctxt "#31956"
 msgid "MUSIC"
