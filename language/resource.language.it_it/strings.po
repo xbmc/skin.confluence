@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-08-21 10:19+0000\n"
+"PO-Revision-Date: 2022-10-31 07:15+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -27,7 +27,7 @@ msgstr "Confluence è la skin predefinita di Kodi dalla versione 14.0 in poi. È
 
 msgctxt "#31000"
 msgid "Change your"
-msgstr "Cambia Il Tuo"
+msgstr "Cambia il tuo"
 
 msgctxt "#31001"
 msgid "GAMES"
@@ -59,7 +59,7 @@ msgstr "Informazioni elaborazione video"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Schermo Intero"
+msgstr "Schermo intero"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -67,7 +67,7 @@ msgstr "Durata totale"
 
 msgctxt "#31010"
 msgid "Hardware decoding"
-msgstr "Decodifica Hardware"
+msgstr "Decodifica hardware"
 
 msgctxt "#31011"
 msgid "Inactive"
@@ -83,7 +83,7 @@ msgstr "Informazioni elaborazione audio"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr "Memoria usata"
+msgstr "Memoria utilizzata"
 
 msgctxt "#31015"
 msgid "Minute"
@@ -107,7 +107,7 @@ msgstr "Pagina"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr "Oggetti"
+msgstr "Elementi"
 
 msgctxt "#31026"
 msgid "Misc options"
@@ -115,7 +115,7 @@ msgstr "Opzioni varie"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr "Località"
+msgstr "Posizione"
 
 msgctxt "#31028"
 msgid "Poster wrap"
@@ -159,7 +159,7 @@ msgstr "AVANTI VELOCE"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr "INDIETRO"
+msgstr "RIAVVOLGIMENTO"
 
 msgctxt "#31046"
 msgid "SEEKING"
@@ -306,7 +306,7 @@ msgstr "Nascondi Fanart nella visualizzazione a schermo intero"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
-msgstr "Add-on Testi"
+msgstr "Add-on testi"
 
 #. In main language strings its used as submenu
 msgctxt "#31134"
@@ -411,15 +411,15 @@ msgstr "Profilo selezionato"
 
 msgctxt "#31320"
 msgid "Last logged in"
-msgstr "Ultimo login"
+msgstr "Ultimo accesso"
 
 msgctxt "#31322"
 msgid "Aired"
-msgstr "Trasmessa"
+msgstr "In onda"
 
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr "Opzioni Playlist"
+msgstr "Opzioni playlist"
 
 msgctxt "#31326"
 msgid "Created"
@@ -463,11 +463,11 @@ msgstr "Indietro"
 
 msgctxt "#31355"
 msgid "Movie menu"
-msgstr "Menù Filmato"
+msgstr "Menu film"
 
 msgctxt "#31356"
 msgid "Download subtitles"
-msgstr "Scarica Sottotitoli"
+msgstr "Scarica sottotitoli"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
@@ -531,11 +531,11 @@ msgstr "[B]IMPOSTAZIONI LIBRERIA[/B][CR][CR]Configura la visualizzazione del con
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei Canali e delle Guide · Configura la gestione della TV e delle Registrazioni"
+msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei canali e delle guide · Configura la gestione della TV e delle registrazioni"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli Add-on installati · Sfoglia e installa Add-on da kodi.tv"
+msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli add-on installati · Sfoglia e installa add-on da kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
@@ -543,7 +543,7 @@ msgstr "[B]IMPOSTAZIONI SERVIZI[/B][CR][CR]Configura e gestisci i servizi di con
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr "[B]IMPOSTAZIONI SISTEMA[/B][CR][CR]Configura il display · Configura l'audio · Configura l'accesso a internet · Configura il risparmio energetico · Configura il logging"
+msgstr "[B]IMPOSTAZIONI SISTEMA[/B][CR][CR]Configura lo schermo · Configura l'audio · Configura l'accesso a internet · Configura il risparmio energetico · Configura il logging"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
@@ -567,7 +567,7 @@ msgstr "Rinomina gruppo"
 
 msgctxt "#31505"
 msgid "Delete group"
-msgstr "Cancella gruppo"
+msgstr "Elimina gruppo"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
@@ -575,7 +575,7 @@ msgstr "Gruppi[CR]disponibili"
 
 msgctxt "#31509"
 msgid "Channel group"
-msgstr "Gruppo Canali"
+msgstr "Gruppo canali"
 
 msgctxt "#31510"
 msgid "Timer set"
@@ -583,7 +583,7 @@ msgstr "Timer impostato"
 
 msgctxt "#31511"
 msgid "Channel options"
-msgstr "Opzioni Canali"
+msgstr "Opzioni canali"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
@@ -591,7 +591,7 @@ msgstr "Previsioni a 36 ore"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr "Previsioni orarie"
+msgstr "Previsioni ogni ora"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
@@ -635,7 +635,7 @@ msgstr "FILM"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "SERIE TV"
+msgstr "PROGRAMMI TV"
 
 msgctxt "#31956"
 msgid "MUSIC"
@@ -664,7 +664,7 @@ msgstr "Timeshift"
 #. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
-msgstr "Scegli il tipo di indentificazione del profilo"
+msgstr "Scegli il tipo di identificazione del profilo"
 
 #. Label for the kind of profile identification
 msgctxt "#31963"
