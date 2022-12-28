@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-11-22 18:15+0000\n"
+"PO-Revision-Date: 2022-12-28 16:18+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -119,7 +119,7 @@ msgstr "Posizione"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr "Poster"
+msgstr "Involucro Poster"
 
 msgctxt "#31029"
 msgid "Fanart"
@@ -187,7 +187,7 @@ msgstr "Apri playlist"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "Salva playlist"
+msgstr "Salva Playlist"
 
 msgctxt "#31057"
 msgid "Close playlist"
@@ -199,11 +199,11 @@ msgstr "Suoni di sistema"
 
 msgctxt "#31059"
 msgid "Current playlist"
-msgstr "Playlist corrente"
+msgstr "Playlist attuale"
 
 msgctxt "#31061"
 msgid "Current selected"
-msgstr "Attualmente Selezionato"
+msgstr "Attualmente selezionato"
 
 msgctxt "#31101"
 msgid "Home screen options"
@@ -359,7 +359,7 @@ msgstr "Collegamenti"
 
 msgctxt "#31203"
 msgid "Choose your song"
-msgstr "Scegli la tua canzone"
+msgstr "Scegli il tuo brano"
 
 msgctxt "#31205"
 msgid "Lyrics source"
@@ -459,7 +459,7 @@ msgstr "Avanti veloce"
 
 msgctxt "#31354"
 msgid "Rewind"
-msgstr "Indietro"
+msgstr "Indietro veloce"
 
 msgctxt "#31355"
 msgid "Movie menu"
@@ -535,7 +535,7 @@ msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei canali e delle 
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli add-on installati · Sfoglia e installa add-on da kodi.tv"
+msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli Add-on installati · Sfoglia e installa Add-on da kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
@@ -635,7 +635,7 @@ msgstr "FILM"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr "PROGRAMMI TV"
+msgstr "SERIE TV"
 
 msgctxt "#31956"
 msgid "MUSIC"
