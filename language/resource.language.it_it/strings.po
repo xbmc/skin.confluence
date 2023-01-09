@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-12-28 16:18+0000\n"
+"PO-Revision-Date: 2023-01-03 09:15+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -231,7 +231,7 @@ msgstr "Nascondi la spunta letto dai nomi dei file video [COLOR=grey3](es. Blu-r
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Nascondi i pulsanti del Menù Principale"
+msgstr "Nascondi i pulsanti del Menu Principale"
 
 msgctxt "#31109"
 msgid "Enable custom background"
@@ -263,16 +263,16 @@ msgstr "Playlist pulsante principale"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
-msgstr "Mostra Album aggiunti di recente"
+msgstr "Mostra album aggiunti di recente"
 
 msgctxt "#31117"
 msgid "Show recently added videos"
-msgstr "Mostra Video aggiunti di recente"
+msgstr "Mostra video aggiunti di recente"
 
 #. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
-msgstr "Sottomenù \"Add-On\" Pagina Iniziale"
+msgstr "Sottomenu \"Add-On\" Pagina Iniziale"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
@@ -281,7 +281,7 @@ msgstr "Nascondi Sfondo Fanart"
 #. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
-msgstr "Sottomenù \"Giochi\" Pagina Iniziale"
+msgstr "Sottomenu \"Giochi\" Pagina Iniziale"
 
 #. Boolean settings value
 msgctxt "#31122"
@@ -290,7 +290,7 @@ msgstr "Nascondi l'EPG se è presente l'RDS nella finestra del canale"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Mostra Sfondo Video \"In Riproduzione\""
+msgstr "Mostra Sfondo video \"In Riproduzione\""
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
@@ -311,19 +311,19 @@ msgstr "Add-on testi"
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Sottomenù \"Video\" Pagina Iniziale"
+msgstr "Sottomenu \"Video\" Pagina Iniziale"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
-msgstr "Sottomenù \"Musica\" Pagina Iniziale"
+msgstr "Sottomenu \"Musica\" Pagina Iniziale"
 
 msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
-msgstr "Sottomenù \"Immagini\" Pagina Iniziale"
+msgstr "Sottomenu \"Immagini\" Pagina Iniziale"
 
 msgctxt "#31140"
 msgid "Music OSD"
-msgstr "OSD Musica"
+msgstr "OSD musica"
 
 msgctxt "#31142"
 msgid "Settings level"
@@ -363,7 +363,7 @@ msgstr "Scegli il tuo brano"
 
 msgctxt "#31205"
 msgid "Lyrics source"
-msgstr "Sorgente Testi"
+msgstr "Sorgente testi"
 
 msgctxt "#31206"
 msgid "Found"
@@ -375,11 +375,11 @@ msgstr "Trova altri elementi"
 
 msgctxt "#31208"
 msgid "Upcoming episodes"
-msgstr "Prossimi Episodi"
+msgstr "Prossimi episodi"
 
 msgctxt "#31209"
 msgid "Hide Master profile main menu buttons"
-msgstr "Nascondi profilo Master dai pulsanti Menù Principale"
+msgstr "Nascondi profilo Master dai pulsanti Menu Principale"
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -395,7 +395,7 @@ msgstr "Fornitore dei dati"
 
 msgctxt "#31308"
 msgid "Movie details"
-msgstr "Dettagli Film"
+msgstr "Dettagli film"
 
 msgctxt "#31309"
 msgid "Memory used:"
@@ -443,7 +443,7 @@ msgstr "Premi per riprodurre[CR][CR]il trailer del film"
 
 msgctxt "#31331"
 msgid "Album details"
-msgstr "Dettagli Album"
+msgstr "Dettagli album"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -499,7 +499,7 @@ msgstr "Aiuto primo avvio...."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr "Questa linguetta significa che c'è un menù a lato di questa finestra che contiene ulteriori opzioni per questa sezione. Per accedere al menù, naviga a sinistra con il tuo telecomando o tastiera, oppure posiziona il cursore del mouse sulla linguetta. [CR][CR]Clicca \"OK\" per chiudere questo avviso. Non apparirà nuovamente."
+msgstr "Questa linguetta significa che c'è un menu a lato di questa finestra che contiene ulteriori opzioni per questa sezione. Per accedere al menu, naviga a sinistra con il tuo telecomando o tastiera, oppure posiziona il cursore del mouse sulla linguetta. [CR][CR]Clicca \"OK\" per chiudere questo avviso. Non apparirà nuovamente."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -535,7 +535,7 @@ msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei canali e delle 
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli Add-on installati · Sfoglia e installa Add-on da kodi.tv"
+msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli add-on installati · Sfoglia e installa add-on da kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
