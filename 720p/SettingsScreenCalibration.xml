@@ -48,6 +48,12 @@
 			<height>128</height>
 			<texturefocus>CalibrateTopLeft.png</texturefocus>
 			<texturenofocus/>
+			<movingspeed acceleration="180" maxvelocity="300" resettimeout="200" delta="1">
+				<eventconfig type="up" />
+				<eventconfig type="down" />
+				<eventconfig type="left" />
+				<eventconfig type="right" />
+			</movingspeed>
 		</control>
 		<control type="mover" id="9">
 			<description>right bottom mover</description>
@@ -57,6 +63,12 @@
 			<height>128</height>
 			<texturefocus>CalibrateBottomRight.png</texturefocus>
 			<texturenofocus/>
+			<movingspeed acceleration="180" maxvelocity="300" resettimeout="200" delta="1">
+				<eventconfig type="up" />
+				<eventconfig type="down" />
+				<eventconfig type="left" />
+				<eventconfig type="right" />
+			</movingspeed>
 		</control>
 		<control type="mover" id="10">
 			<description>subtitle position mover</description>
@@ -66,6 +78,12 @@
 			<height>128</height>
 			<texturefocus>CalibrateSubtitles.png</texturefocus>
 			<texturenofocus/>
+			<movingspeed acceleration="180" maxvelocity="300" resettimeout="200" delta="1">
+				<eventconfig type="up" />
+				<eventconfig type="down" />
+				<eventconfig type="left" />
+				<eventconfig type="right" />
+			</movingspeed>
 		</control>
 		<control type="resize" id="11">
 			<description>pixel aspect ratio box</description>
@@ -75,10 +93,23 @@
 			<height>256</height>
 			<texturefocus>CalibratePixelRatio.png</texturefocus>
 			<texturenofocus/>
+			<movingspeed acceleration="140" maxvelocity="300" resettimeout="180" delta="1">
+				<eventconfig type="left" />
+				<eventconfig type="right" />
+			</movingspeed>
+		</control>
+		<control type="mover" id="12">
+			<description>reset calibration</description>
+			<posx>0</posx>
+			<posy>900</posy>
+			<width>100</width>
+			<height>100</height>
+			<texturefocus>icon_reset.png</texturefocus>
+			<texturenofocus colordiffuse="grey3">icon_reset.png</texturenofocus>
 		</control>
 		<control type="group">
 			<left>20</left>
-			<top>80</top>
+			<top>40</top>
 			<control type="label" id="2">
 				<description>coordinates label</description>
 				<left>0</left>
@@ -96,6 +127,15 @@
 				<label/>
 				<align>center</align>
 				<font>font13</font>
+			</control>
+			<control type="label" id="4">
+				<description>calibration value</description>
+				<posx>0</posx>
+				<posy>90</posy>
+				<width>100%</width>
+				<label></label>
+				<align>center</align>
+				<font>font25</font>
 			</control>
 		</control>
 	</controls>
