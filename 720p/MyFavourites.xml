@@ -25,8 +25,8 @@
 		<include>BehindDialogFadeOut</include>
 		<include>ScrollOffsetLabel</include>
 		<include content="CommonWindowHeader">
-			<param name="Icon" value="icon_addons" />
-			<param name="Label" value="$LOCALIZE[0]" />
+			<param name="Icon" value="icon_favourites" />
+			<param name="Label" value="$LOCALIZE[10134]" />
 		</include>
 		<control type="group">
 			<left>-250</left>
