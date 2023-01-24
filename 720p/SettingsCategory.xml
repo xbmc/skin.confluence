@@ -270,7 +270,7 @@
 			<top>0</top>
 			<height>40</height>
 			<aligny>center</aligny>
-			<textcolor>grey</textcolor>
+			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<invalidcolor>invalid</invalidcolor>
 			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
