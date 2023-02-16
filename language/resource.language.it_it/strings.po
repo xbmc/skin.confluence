@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-01-03 09:15+0000\n"
+"PO-Revision-Date: 2023-02-16 18:15+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -167,7 +167,7 @@ msgstr "RICERCA"
 
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr "Stili Predefiniti di Visualizzazione"
+msgstr "Preimpostazioni visualizzazione"
 
 msgctxt "#31049"
 msgid "End time"
@@ -175,11 +175,11 @@ msgstr "Ora fine"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Ordinamento: Crescente"
+msgstr "Ordine: Crescente"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Ordinamento: Decrescente"
+msgstr "Ordine: Decrescente"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -187,7 +187,7 @@ msgstr "Apri playlist"
 
 msgctxt "#31056"
 msgid "Save playlist"
-msgstr "Salva Playlist"
+msgstr "Salva playlist"
 
 msgctxt "#31057"
 msgid "Close playlist"
@@ -215,7 +215,7 @@ msgstr "Sfondo"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr "Mostra \"In pausa\" durante la presentazione delle immagini"
+msgstr "Mostra \"In pausa\" nella presentazione delle immagini"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
@@ -276,7 +276,7 @@ msgstr "Sottomenu \"Add-On\" Pagina Iniziale"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Nascondi Sfondo Fanart"
+msgstr "Nascondi Sfondo fanart"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -290,11 +290,11 @@ msgstr "Nascondi l'EPG se è presente l'RDS nella finestra del canale"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Mostra Sfondo video \"In Riproduzione\""
+msgstr "Mostra video \"In riproduzione\" sullo sfondo"
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
-msgstr "Mostra Sfondo Visualizzazione \"In Riproduzione\""
+msgstr "Mostra visualizzazione \"In riproduzione\" sullo sfondo"
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -302,7 +302,7 @@ msgstr "Testi canzoni"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Nascondi Fanart nella visualizzazione a schermo intero"
+msgstr "Nascondi fanart nella visualizzazione a schermo intero"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -511,7 +511,7 @@ msgstr "Login"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "Selezionare il proprio profilo utente di Kodi[CR]per accedere e proseguire"
+msgstr "Seleziona il tuo profilo utente Kodi[CR]per accedere e continuare"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
