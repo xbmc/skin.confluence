@@ -104,8 +104,8 @@
 			<posy>900</posy>
 			<width>100</width>
 			<height>100</height>
-			<texturefocus>icon_reset.png</texturefocus>
-			<texturenofocus colordiffuse="grey3">icon_reset.png</texturenofocus>
+			<texturefocus colordiffuse="FF04a7d2">icon_reset.png</texturefocus>
+			<texturenofocus>icon_reset.png</texturenofocus>
 		</control>
 		<control type="group">
 			<left>20</left>

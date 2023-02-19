@@ -3,14 +3,14 @@
 	<defaultcontrol>3</defaultcontrol>
 	<controls>
 		<include>CommonBackground</include>
-<!--		<control type="image">-->
-<!--			<left>0</left>-->
-<!--			<top>100r</top>-->
-<!--			<width>1280</width>-->
-<!--			<height>100</height>-->
-<!--			<texture>floor.png</texture>-->
-<!--			<include>VisibleFadeEffect</include>-->
-<!--		</control>-->
+		<control type="image">
+			<left>0</left>
+			<top>100r</top>
+			<width>1280</width>
+			<height>100</height>
+			<texture>floor.png</texture>
+			<include>VisibleFadeEffect</include>
+		</control>
 		<control type="group">
 			<left>90</left>
 			<top>30</top>
