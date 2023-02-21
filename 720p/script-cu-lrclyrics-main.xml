@@ -147,7 +147,9 @@
 				<visible>Control.IsVisible(110)</visible>
 			</control>
 			<!-- ** Required ** Do not change <id> or <type> (Song Chooser if it gets it wrong) -->
+			<!-- Set as not visible, as no longer needed & simplest solution - https://github.com/xbmc/skin.confluence/issues/173 -->
 			<control type="list" id="120">
+				<visible>false</visible>
 				<left>30</left>
 				<top>60</top>
 				<width>620</width>
