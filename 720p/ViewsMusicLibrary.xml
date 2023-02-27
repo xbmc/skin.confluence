@@ -587,7 +587,7 @@
 					<height>230</height>
 					<aspectratio>keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
-					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<texture background="true">$VAR[PosterThumb]</texture>
 					<bordertexture border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>

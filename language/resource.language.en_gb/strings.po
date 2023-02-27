@@ -96,7 +96,11 @@ msgctxt "#31017"
 msgid "Unavailable"
 msgstr ""
 
-#empty strings from id 31018 to 31022
+#empty strings from id 31018 to 31021
+
+msgctxt "#31022"
+msgid "Play speed"
+msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
@@ -318,7 +322,11 @@ msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
 msgstr ""
 
-#empty strings from id 31126 to 31127
+msgctxt "#31126"
+msgid "Show posters instead of thumbs for musicvideos"
+msgstr ""
+
+#empty string with ID 31127
 
 msgctxt "#31128"
 msgid "Lyrics"

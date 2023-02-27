@@ -849,6 +849,18 @@
 						<onclick>Skin.ToggleSetting(ShowBackgroundVis)</onclick>
 						<selected>!Skin.HasSetting(ShowBackgroundVis)</selected>
 					</control>
+					<control type="radiobutton" id="305">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>31126</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(ShowPosterInsteadThumb)</onclick>
+						<selected>Skin.HasSetting(ShowPosterInsteadThumb)</selected>
+					</control>
 					<control type="label" id="310">
 						<width>750</width>
 						<height>45</height>
