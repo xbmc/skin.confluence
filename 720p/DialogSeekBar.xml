@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>1</defaultcontrol>
-	<visible>Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime | [Player.IsTempo + !System.IdleTime(3)]</visible>
+	<visible>Player.Seeking | Player.HasPerformedSeek(3) | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowTime | [Player.IsTempo + !System.IdleTime(3)]</visible>
 	<visible>!Player.HasGame</visible>
 	<visible>!Player.FrameAdvance</visible>
 	<animation effect="fade" start="0" end="100" time="150">WindowOpen</animation>
