@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-02-16 18:15+0000\n"
+"PO-Revision-Date: 2023-03-12 04:16+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
-msgstr "Skin confluenza di Jezz_X."
+msgstr "Skin Confluence di Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "Confluence è la skin predefinita di Kodi dalla versione 14.0 in poi. È una combinazione di elementi provenienti da altre skin popolari e cerca di integrare e coinvolgere tutte le loro grandi idee in una skin facile da usare e comprendere per l'utente inesperto di Kodi."
+msgstr "Confluence è una combinazione di concetti di molte skin popolari e tenta di abbracciare e integrare le loro buone idee in una skin che dovrebbe essere facile da comprendere e utilizzare per gli utenti di Kodi per la prima volta."
 
 msgctxt "#31000"
 msgid "Change your"
-msgstr "Cambia il tuo"
+msgstr "Cambia le tue"
 
 msgctxt "#31001"
 msgid "GAMES"
@@ -35,11 +35,11 @@ msgstr "GIOCHI"
 
 msgctxt "#31002"
 msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
-msgstr "[B]IMPOSTAZIONI GIOCHI[/B][CR][CR]Configura il supporto al riavvolgimento e le opzioni ·  Configura l'uso della tastiera e il numero di giocatori tastiera"
+msgstr "[B]IMPOSTAZIONI DI GIOCO[/B][CR][CR]Configura il supporto e le opzioni di riavvolgimento · Configura l'uso della tastiera e il numero di giocatori alla tastiera"
 
 msgctxt "#31003"
 msgid "Power options"
-msgstr "Opzioni Alimentazione"
+msgstr "Opzioni spegnimento"
 
 msgctxt "#31004"
 msgid "Working..."
@@ -47,11 +47,11 @@ msgstr "Caricamento..."
 
 msgctxt "#31005"
 msgid "Hide information"
-msgstr "Nascondi Informazioni"
+msgstr "Nascondi informazioni"
 
 msgctxt "#31006"
 msgid "View options"
-msgstr "Opzioni di visione"
+msgstr "Opzioni vista"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -75,7 +75,7 @@ msgstr "Inattivo"
 
 msgctxt "#31012"
 msgid "Decoder"
-msgstr "Decoder"
+msgstr "Decodificatore"
 
 msgctxt "#31013"
 msgid "Audio process information"
@@ -119,7 +119,7 @@ msgstr "Posizione"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr "Involucro Poster"
+msgstr "Poster avvolgente"
 
 msgctxt "#31029"
 msgid "Fanart"
@@ -131,7 +131,7 @@ msgstr "Miniature immagini"
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr "Immagine"
+msgstr "Immagine avvolgente"
 
 msgctxt "#31033"
 msgid "Info"
@@ -171,7 +171,7 @@ msgstr "Preimpostazioni visualizzazione"
 
 msgctxt "#31049"
 msgid "End time"
-msgstr "Ora fine"
+msgstr "Termina alle"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -207,7 +207,7 @@ msgstr "Attualmente selezionato"
 
 msgctxt "#31101"
 msgid "Home screen options"
-msgstr "Opzioni pagina iniziale"
+msgstr "Opzioni schermata iniziale"
 
 msgctxt "#31102"
 msgid "Background"
@@ -219,7 +219,7 @@ msgstr "Mostra \"In pausa\" nella presentazione delle immagini"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Mostra trailer in una finestra [COLOR=grey3](Solo finestra di dialogo Informazioni video)[/COLOR]"
+msgstr "Riproduci trailer in una finestra [COLOR=grey3](solo dialogo informazioni video)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -231,11 +231,11 @@ msgstr "Nascondi la spunta letto dai nomi dei file video [COLOR=grey3](es. Blu-r
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Nascondi i pulsanti del Menu Principale"
+msgstr "Nascondi pulsanti menu principale"
 
 msgctxt "#31109"
 msgid "Enable custom background"
-msgstr "Attiva gli sfondi personalizzati"
+msgstr "Abilita sfondo personalizzato"
 
 msgctxt "#31110"
 msgid "Background path:"
@@ -272,21 +272,21 @@ msgstr "Mostra video aggiunti di recente"
 #. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
-msgstr "Sottomenu \"Add-On\" Pagina Iniziale"
+msgstr "Sottomenu \"Add-on\" pagina principale"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Nascondi Sfondo fanart"
+msgstr "Nascondi fanart sullo sfondo"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
-msgstr "Sottomenu \"Giochi\" Pagina Iniziale"
+msgstr "Sottomenu \"Giochi\" pagina principale"
 
 #. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
-msgstr "Nascondi l'EPG se è presente l'RDS nella finestra del canale"
+msgstr "Nascondi EPG se è presente l'RDS nella finestra del canale"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
@@ -298,7 +298,7 @@ msgstr "Mostra visualizzazione \"In riproduzione\" sullo sfondo"
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr "Testi canzoni"
+msgstr "Testi"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
@@ -311,15 +311,15 @@ msgstr "Add-on testi"
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Sottomenu \"Video\" Pagina Iniziale"
+msgstr "Sottomenu \"Video\" pagina principale"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
-msgstr "Sottomenu \"Musica\" Pagina Iniziale"
+msgstr "Sottomenu \"Musica\" pagina principale"
 
 msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
-msgstr "Sottomenu \"Immagini\" Pagina Iniziale"
+msgstr "Sottomenu \"Immagini\" pagina principale"
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -355,7 +355,7 @@ msgstr "Nascondi - Cerca"
 
 msgctxt "#31200"
 msgid "Shortcuts"
-msgstr "Collegamenti"
+msgstr "Scorciatoie"
 
 msgctxt "#31203"
 msgid "Choose your song"
@@ -379,7 +379,7 @@ msgstr "Prossimi episodi"
 
 msgctxt "#31209"
 msgid "Hide Master profile main menu buttons"
-msgstr "Nascondi profilo Master dai pulsanti Menu Principale"
+msgstr "Nascondi profilo Master dai pulsanti menu principale"
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -391,7 +391,7 @@ msgstr "Ultimo aggiornamento"
 
 msgctxt "#31303"
 msgid "Data provider"
-msgstr "Fornitore dei dati"
+msgstr "Fornitore dati"
 
 msgctxt "#31308"
 msgid "Movie details"
@@ -431,15 +431,15 @@ msgstr "Risoluzione"
 
 msgctxt "#31328"
 msgid "Recently added"
-msgstr "Aggiunti di recente"
+msgstr "Aggiunto recentemente"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr "[B]Timer impostato![/B] [COLOR=grey2] - Il sistema verrà spento in[/COLOR]"
+msgstr "[B]Timer impostato! [/B][COLOR=grey2]Arresto sistema tra[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr "Premi per riprodurre[CR][CR]il trailer del film"
+msgstr "Fai clic sul pulsante per riprodurre[CR][CR] il trailer del film"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -499,7 +499,7 @@ msgstr "Aiuto primo avvio...."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr "Questa linguetta significa che c'è un menu a lato di questa finestra che contiene ulteriori opzioni per questa sezione. Per accedere al menu, naviga a sinistra con il tuo telecomando o tastiera, oppure posiziona il cursore del mouse sulla linguetta. [CR][CR]Clicca \"OK\" per chiudere questo avviso. Non apparirà nuovamente."
+msgstr "Questa scheda indica che c'è un menu a lato di questa finestra che contiene opzioni extra per questa sezione. Per accedere al menu, naviga a sinistra con il telecomando o la tastiera o posiziona il puntatore del mouse sulla scheda. [CR][CR]Fai clic su \"OK\" per chiudere questa finestra di dialogo.[CR]Non apparirà più."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -515,31 +515,31 @@ msgstr "Seleziona il tuo profilo utente Kodi[CR]per accedere e continuare"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr "Mostra o nascondi la schermata di login all'avvio."
+msgstr "Mostra o nascondi la schermata di accesso all'avvio."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Seleziona il profilo che sarà usato all'avvio quando la schermata di login è disabilitata."
+msgstr "Seleziona il profilo che verrà utilizzato all'avvio quando la schermata di accesso è disabilitata."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]IMPOSTAZIONI LETTORE[/B][CR][CR]Configura le azioni che possono essere usate durante la riproduzione · Configura come viene visualizzato il contenuto multimediale"
+msgstr "[B]IMPOSTAZIONI LETTORE[/B][CR][CR]Configura le azioni che possono essere usate durante la riproduzione · Configura la modalità di riproduzione dei contenuti multimediali"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]IMPOSTAZIONI LIBRERIA[/B][CR][CR]Configura la visualizzazione del contenuto delle viste file/libreria · Configura la navigazione delle liste/viste libreria · Configura le opzioni dei database multimediali"
+msgstr "[B]IMPOSTAZIONI LIBRERIA[/B][CR][CR]Configura la modalità di visualizzazione dei contenuti multimediali nelle viste libreria/file · Configura la modalità di navigazione degli elenchi/visualizzazioni della libreria · Configura le opzioni del database multimediale"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la gestione dei canali e delle guide · Configura la gestione della TV e delle registrazioni"
+msgstr "[B]IMPOSTAZIONI PVR[/B][CR][CR]Configura la modalità di gestione dei canali e della guida · Configura la modalità di gestione della Live TV e delle registrazioni"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli add-on installati · Sfoglia e installa add-on da kodi.tv"
+msgstr "[B]IMPOSTAZIONI ADD-ON[/B][CR][CR]Configura gli add-on installati · Sfoglia e installa gli add-on da kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]IMPOSTAZIONI SERVIZI[/B][CR][CR]Configura e gestisci i servizi di condivisione multimediale · Configura il web server · Configura e gestisci il servizio meteo"
+msgstr "[B]IMPOSTAZIONI SERVIZI[/B][CR][CR]Configura e gestisci i servizi di condivisione multimediale · Configura il server web · Configura e gestisci il servizio meteo"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
@@ -551,7 +551,7 @@ msgstr "[B]IMPOSTAZIONI INTERFACCIA[/B][CR][CR]Configura la skin · Configura la
 
 msgctxt "#31501"
 msgid "Scheduled time"
-msgstr "Ora programmata"
+msgstr "Orario pianificato"
 
 msgctxt "#31502"
 msgid "TV"
@@ -583,7 +583,7 @@ msgstr "Timer impostato"
 
 msgctxt "#31511"
 msgid "Channel options"
-msgstr "Opzioni canali"
+msgstr "Opzioni canale"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
@@ -591,11 +591,11 @@ msgstr "Previsioni a 36 ore"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr "Previsioni ogni ora"
+msgstr "Previsioni orarie"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
-msgstr "Previsioni per il weekend"
+msgstr "Previsioni fine settimana"
 
 msgctxt "#31904"
 msgid "Daily forecast"
@@ -664,7 +664,7 @@ msgstr "Timeshift"
 #. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
-msgstr "Scegli il tipo di identificazione del profilo"
+msgstr "Scegli tipo di identificazione del profilo"
 
 #. Label for the kind of profile identification
 msgctxt "#31963"
