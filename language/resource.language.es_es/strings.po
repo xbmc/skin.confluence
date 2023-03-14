@@ -5,16 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Spanish (Spain) (http://www.transifex.com/projects/p/kodi-main/language/es_ES/)\n"
+"PO-Revision-Date: 2023-03-10 10:16+0000\n"
+"Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
+"Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_es/>\n"
+"Language: es_es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.2\n"
+
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Skin Confluence por Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence es la skin por defecto de Kodi 9.11 y posteriores. Es una combinación de conceptos de muchas skins populares, e intenta abarcar e integrar lo mejor de ellas en una skin que sea sencilla de entender y utilizar para los nuevos usuarios de Kodi."
 
 msgctxt "#31000"
 msgid "Change your"
@@ -42,7 +51,7 @@ msgstr "Ocultar información"
 
 msgctxt "#31006"
 msgid "View options"
-msgstr "Opciones de vista"
+msgstr "Ver Opciones"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -146,7 +155,7 @@ msgstr "PAUSA"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
-msgstr "AVANZAR"
+msgstr "AVANCE RÁPIDO"
 
 msgctxt "#31045"
 msgid "REWIND"
@@ -210,7 +219,7 @@ msgstr "Mostrar \"Pausado\" en pase de diapositivas"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Reproducir trailers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR] "
+msgstr "Reproducir trailers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -260,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Mostrar vídeos añadidos recientemente"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Submenú \"Add-ons\" de la página inicial"
@@ -268,17 +278,19 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Ocultar fanart del fondo"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Submenú \"Juegos\" de la página inicial"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Ocultar EPG si RDS está presente en la ventana del canal"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Mostrar de fondo el vídeo \"Reproduciendo ahora\" "
+msgstr "Mostrar de fondo el vídeo \"Reproduciendo ahora\""
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
@@ -286,7 +298,7 @@ msgstr "Mostrar de fondo la visualización \"Reproduciendo ahora\""
 
 msgctxt "#31128"
 msgid "Lyrics"
-msgstr "Letra"
+msgstr "Letras"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
@@ -296,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Add-on para letras"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Submenú de \"Vídeos\" de la pantalla principal"
@@ -327,6 +340,18 @@ msgstr "lista de reproducción"
 msgctxt "#31145"
 msgid "playlist path"
 msgstr "ruta de lista de reproducción"
+
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr "Ocultar botones en pantalla de inicio"
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr "Ocultar - Favoritos"
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr "Ocultar - Buscar"
 
 msgctxt "#31200"
 msgid "Shortcuts"
@@ -458,7 +483,7 @@ msgstr "Activado"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Por defecto"
+msgstr "Skin por defecto"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
@@ -510,11 +535,11 @@ msgstr "[B]AJUSTES DE PVR[/B][CR][CR]Configura la gestión de los canales y la g
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]AJUSTES DE ADD-ONS[/B][CR][CR]Configura los add-on instalados · Navega e instala add-ons procedentes de kodi.tv"
+msgstr "[B]AJUSTES DE ADD-ONS[/B][CR][CR]Configura los add-ons instalados · Busca e instala add-ons desde kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]AJUSTES DE SERVICIOS[/B][CR][CR]Configura y gestiona los servicios para compartir contenido · Configura el servidor web · Configura y gestiona el servicio del Tiempo"
+msgstr "[B]AJUSTES DE SERVICIOS[/B][CR][CR]Configura y gestiona los servicios para compartir contenido · Configura el servidor web · Configura y gestiona el servicio de meteorología"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
@@ -590,7 +615,7 @@ msgstr "Mapas"
 
 msgctxt "#31950"
 msgid "WEATHER"
-msgstr "EL TIEMPO"
+msgstr "METEOROLOGÍA"
 
 msgctxt "#31951"
 msgid "PICTURES"
@@ -636,14 +661,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Timeshift"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Elegir el tipo de identificación de perfil"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Nombre de perfil"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar de perfil"

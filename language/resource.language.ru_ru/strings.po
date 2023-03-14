@@ -5,16 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/kodi-main/language/ru_RU/)\n"
+"PO-Revision-Date: 2022-12-28 16:18+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
+"Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/ru_ru/>\n"
+"Language: ru_ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15\n"
+
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Обложка Confluence (стандартная обложка Kodi). Автор: Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence — это стандартная обложка Kodi, начиная с версии 9.11. Она представляет собой сочетание концепций, взятых из многих популярных обложек, в попытке интегрировать их удачные идеи в обложке, которая была бы простой для использования и понимания новыми пользователями Kodi."
 
 msgctxt "#31000"
 msgid "Change your"
@@ -70,7 +79,7 @@ msgstr "Декодер"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr "Сведения о аудиопроцесе"
+msgstr "Сведения об аудиопроцесе"
 
 msgctxt "#31014"
 msgid "Memory used"
@@ -94,11 +103,11 @@ msgstr "Воспроизведение"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr "страница"
+msgstr "Страница"
 
 msgctxt "#31025"
 msgid "Items"
-msgstr "в списке"
+msgstr "Объекты"
 
 msgctxt "#31026"
 msgid "Misc options"
@@ -134,7 +143,7 @@ msgstr "Действия"
 
 msgctxt "#31040"
 msgid "Now playing"
-msgstr "Сейчас воспроизводится:"
+msgstr "Сейчас воспроизводится"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -260,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Показывать последнее добавленное видео"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Страница \"Дополнений\" подменю"
@@ -268,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Скрыть фоновый фанарт"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Страница \"Игры\" подменю"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Скрыть EPG если на каналe присутствует RDS"
@@ -296,6 +308,7 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Дополнение текстов песен"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Подменю \"Видео\" главного экрана"
@@ -327,6 +340,18 @@ msgstr "плейлист"
 msgctxt "#31145"
 msgid "playlist path"
 msgstr "путь к плейлисту"
+
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr "Скрыть кнопки главного экрана"
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr "Скрыть \"Избранное\""
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr "Скрыть \"Поиск\""
 
 msgctxt "#31200"
 msgid "Shortcuts"
@@ -454,11 +479,11 @@ msgstr "Изменить режим"
 
 msgctxt "#31362"
 msgid "Enabled"
-msgstr "Вкл."
+msgstr "Включить"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Стандартные"
+msgstr "По умолчанию"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
@@ -474,7 +499,7 @@ msgstr "Сведения при первом запуске..."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr "Эта вкладка означает, что сбоку окна есть меню с дополнительными настройками.  Чтобы получить доступ к меню, перейдите влево при помощи пульта ДУ или клавиатуры либо поместите курсор мыши над вкладкой. [CR][CR]Нажмите \"ОК\", чтобы закрыть этот диалог. Он больше не будет отображаться."
+msgstr "Эта вкладка означает, что сбоку окна есть меню с дополнительными настройками. Чтобы получить доступ к меню, перейдите влево при помощи пульта ДУ или клавиатуры либо поместите курсор мыши над вкладкой. [CR][CR]Нажмите \"ОК\", чтобы закрыть этот диалог. Он больше не будет отображаться."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -498,7 +523,7 @@ msgstr "Выбрать профиль, используемый при запу�
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]НАСТРОЙКА ПАРАМЕТРОВ ПРОИГРЫВАТЕЛЯ[/B][CR][CR]Выберите доступные действия во время игры · Настройте, как должен проигрываться медиаконтент"
+msgstr "[B]НАСТРОЙКА ПАРАМЕТРОВ ПРОИГРЫВАТЕЛЯ[/B][CR][CR]Выберите доступные действия во время игры · Настройте воспроизведение медиаданных"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
@@ -636,14 +661,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Таймшифт"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Выбрать вид идентификации профиля"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Название профиля"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Аватар профиля"
