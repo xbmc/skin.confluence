@@ -5,16 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Greek (Greece) (http://www.transifex.com/projects/p/kodi-main/language/el_GR/)\n"
+"PO-Revision-Date: 2022-10-31 07:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Greek <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/el_gr/>\n"
+"Language: el_gr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: el_GR\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Το κέλυφος Confluence από τον Jezz_X (προεπιλεγμένο κέλυφος του Kodi)."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Το Confluence είναι η προεπιλεγμένη αμφίεση για τις εκδόσεις Kodi 14.0 και άνω. Είναι ένας συνδυασμός από πολλές δημοφιλής αμφιέσεις, και επιχειρεί να παρέχει τις καλύτερες ιδέες τους σε μία αμφίεση, το οποίο είναι εύκολο για τους αρχάριους χρήστες του Kodi να κατανοήσουν και να χρησιμοποιήσουν."
 
 msgctxt "#31000"
 msgid "Change your"
@@ -23,6 +32,10 @@ msgstr "Αλλαγή"
 msgctxt "#31001"
 msgid "GAMES"
 msgstr "ΠΑΙΧΝΙΔΙΑ"
+
+msgctxt "#31002"
+msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
+msgstr ""
 
 msgctxt "#31003"
 msgid "Power options"
@@ -75,6 +88,10 @@ msgstr "Μνήμη σε χρήση"
 msgctxt "#31015"
 msgid "Minute"
 msgstr "Λεπτό"
+
+msgctxt "#31016"
+msgid "Elapsed time"
+msgstr ""
 
 msgctxt "#31017"
 msgid "Unavailable"
@@ -186,7 +203,7 @@ msgstr "Τρέχουσα λίστα αναπ/γής"
 
 msgctxt "#31061"
 msgid "Current selected"
-msgstr "τρέχον επιλεγμένο "
+msgstr "τρέχον επιλεγμένο"
 
 msgctxt "#31101"
 msgid "Home screen options"
@@ -232,9 +249,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Επιλογές"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr ""
+
 msgctxt "#31114"
 msgid "System"
 msgstr "Σύστημα"
+
+msgctxt "#31115"
+msgid "Main button playlists"
+msgstr ""
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -244,21 +269,32 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Εμφάνιση πρόσφατων προσθέσεων βίντεο"
 
+#. In main language strings its used as submenu
+msgctxt "#31118"
+msgid "Home page \"Add-ons\" submenu"
+msgstr ""
+
 msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Απόκρυψη φόντου fanart"
 
+#. In main language strings its used as submenu
+msgctxt "#31120"
+msgid "Home page \"Games\" submenu"
+msgstr ""
+
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Απόκρυψη EPG αν το RDS είναι στο παράθυρο καναλιών"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr "Εμφάνηση φόντου βίντεο που \"Αναπαραγωγή σε εκτέλεση\""
+msgstr "Εμφάνιση φόντου βίντεο όταν γίνεται \"Αναπαραγωγή σε εκτέλεση\""
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
-msgstr "Εμφάνηση φόντου οπτικοποίησης που \"Αναπαραγωγή σε εκτέλεση\""
+msgstr "Εμφάνιση φόντου οπτικοποίησης όταν γίνεται \"Αναπαραγωγή σε εκτέλεση\""
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -266,12 +302,13 @@ msgstr "Στίχοι"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Απόκρυψη fanart σε πλήρης οθόνη απτικοποίηση"
+msgstr "Απόκρυψη fanart σε πλήρης οθόνη oπτικοποίηση"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Πρόσθετο στίχων"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
 msgstr "Υπομενού \"Βίντεο\" κύριας σελίδας"
@@ -296,6 +333,26 @@ msgctxt "#31143"
 msgid "Use"
 msgstr "Χρήση"
 
+msgctxt "#31144"
+msgid "playlist"
+msgstr ""
+
+msgctxt "#31145"
+msgid "playlist path"
+msgstr ""
+
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr ""
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr ""
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr ""
+
 msgctxt "#31200"
 msgid "Shortcuts"
 msgstr "Συντομεύσεις"
@@ -319,6 +376,10 @@ msgstr "Εύρεση περισσότερων αντικειμένων"
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr "Ανερχόμενα επεισόδια"
+
+msgctxt "#31209"
+msgid "Hide Master profile main menu buttons"
+msgstr ""
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -422,7 +483,7 @@ msgstr "Ενεργό/ή"
 
 msgctxt "#31390"
 msgid "Skin default"
-msgstr "Προεπιλογή αμφίεσης"
+msgstr "Προεπιλογή"
 
 msgctxt "#31391"
 msgid "Skin default with no caps"
@@ -459,6 +520,35 @@ msgstr "Εμφάνιση ή απόκρυψη της οθόνης σύνδεση�
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
 msgstr "Επιλογή του προφίλ που θα χρησιμοποιηθεί κατά την εκκίνηση αν έχει απενεργοποιηθεί η οθόνη σύνδεσης."
+
+# empty strings from id 31424 to 31429
+msgctxt "#31430"
+msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
+msgstr ""
+
+msgctxt "#31431"
+msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
+msgstr ""
+
+msgctxt "#31432"
+msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
+msgstr ""
+
+msgctxt "#31433"
+msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
+msgstr ""
+
+msgctxt "#31434"
+msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
+msgstr ""
+
+msgctxt "#31435"
+msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
+msgstr ""
+
+msgctxt "#31436"
+msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
+msgstr ""
 
 msgctxt "#31501"
 msgid "Scheduled time"
@@ -552,6 +642,10 @@ msgctxt "#31956"
 msgid "MUSIC"
 msgstr "ΜΟΥΣΙΚΗ"
 
+msgctxt "#31957"
+msgid "ADD-ONS"
+msgstr ""
+
 msgctxt "#31958"
 msgid "PLAY DISC"
 msgstr "ΑΝΑΠΑΡΑΓΩΓΗ ΔΙΣΚΟΥ"
@@ -568,6 +662,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Timeshift"
 
+#. Choose profile identifier
+msgctxt "#31962"
+msgid "Choose kind of profile identification"
+msgstr ""
+
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Όνομα προφίλ"
+
+#. Label for the kind of profile identification
+msgctxt "#31964"
+msgid "Profile avatar"
+msgstr ""

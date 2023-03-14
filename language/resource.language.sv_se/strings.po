@@ -5,16 +5,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/projects/p/kodi-main/language/sv_SE/)\n"
+"PO-Revision-Date: 2022-10-31 07:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/sv_se/>\n"
+"Language: sv_se\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sv_SE\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
+
+msgctxt "Addon Summary"
+msgid "Confluence skin by Jezz_X."
+msgstr "Confluence, ett skal av Jezz_X."
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "Confluence kombinerar koncept från många populära skal och försöker återanvända och integrera goda idéer för att skapa ett skal som är enkelt att förstå och använda för nya Kodi-användare."
 
 msgctxt "#31000"
 msgid "Change your"
@@ -26,7 +35,7 @@ msgstr "SPEL"
 
 msgctxt "#31002"
 msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
-msgstr "[B]SPEL INSTÄLLNINGAR[/B][CR][CR]Konfigurera support för tillbakaspolning & alternativ ·  Konfigurera tangentbordsanvändning och antalet tangentbordsspelare."
+msgstr "[B]SPELINSTÄLLNINGAR[/B][CR][CR]Konfigurera support för tillbakaspolning & alternativ ·  Konfigurera tangentbordsanvändning och antalet tangentbordsspelare"
 
 msgctxt "#31003"
 msgid "Power options"
@@ -86,7 +95,7 @@ msgstr "Förfluten tid"
 
 msgctxt "#31017"
 msgid "Unavailable"
-msgstr "Otillgänglig"
+msgstr "Inte tillgänglig"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -166,11 +175,11 @@ msgstr "Sluttid"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
-msgstr "Sortera: Stigande"
+msgstr "Sortering: Stigande"
 
 msgctxt "#31051"
 msgid "Sort: Descending"
-msgstr "Sortera: Fallande"
+msgstr "Sortering: Fallande"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -210,7 +219,7 @@ msgstr "Visa \"Pausat\" i bildspel"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Visa trailers i ett fönster "
+msgstr "Visa trailers i ett fönster [COLOR=grey3](Endast videoinformationsdialog)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -218,7 +227,7 @@ msgstr "Övriga alternativ"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Dölj flaggläsning från videofilnamn [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Dölj flaggläsning från videofilnamn [COLOR=grey3](t.ex Blu-ray, HD-DVD)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -240,13 +249,17 @@ msgctxt "#31112"
 msgid "Options"
 msgstr "Alternativ"
 
+msgctxt "#31113"
+msgid "Background path Master:"
+msgstr "Bakgrundssökväg Master:"
+
 msgctxt "#31114"
 msgid "System"
 msgstr "System"
 
 msgctxt "#31115"
 msgid "Main button playlists"
-msgstr "Huvudknapp spellistor"
+msgstr "Huvudknappspellistor"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
@@ -256,6 +269,7 @@ msgctxt "#31117"
 msgid "Show recently added videos"
 msgstr "Visa nyligen tillagda videos"
 
+#. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
 msgstr "Hemskärmens \"Tillägg\"-undermeny"
@@ -264,10 +278,12 @@ msgctxt "#31119"
 msgid "Hide background fanart"
 msgstr "Dölj bakgrundsfanart"
 
+#. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
 msgstr "Hemskärmens \"Spel\"-undermeny"
 
+#. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
 msgstr "Dölj EPG när RDS finns i kanalfönstret"
@@ -292,9 +308,10 @@ msgctxt "#31132"
 msgid "Lyrics add-on"
 msgstr "Tillägg för sångtexter"
 
+#. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Hemskärmens \"Video\"-undermeny"
+msgstr "Hemskärmens \"Videor\"-undermeny"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
@@ -322,7 +339,19 @@ msgstr "spellista"
 
 msgctxt "#31145"
 msgid "playlist path"
-msgstr "spellista sökväg"
+msgstr "spellistans sökväg"
+
+msgctxt "#31146"
+msgid "Hide home screen buttons"
+msgstr "Dölj knapparna på startskärmen"
+
+msgctxt "#31147"
+msgid "Hide - Favourites"
+msgstr "Dölj - Favoriter"
+
+msgctxt "#31148"
+msgid "Hide - Search"
+msgstr "Dölj - Sök"
 
 msgctxt "#31200"
 msgid "Shortcuts"
@@ -406,11 +435,11 @@ msgstr "Nyligen tillagda"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr "[B]Tidtagare satt![/B] [COLOR=grey2] - Automatisk avstängning av systemet om[/COLOR]"
+msgstr "[B]Timer inställd![/B] [COLOR=grey2] - Automatisk avstängning av systemet om[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr "Klicka på knappen för att spela filmtrailern för [CR][CR]"
+msgstr "Klicka på knappen för att spela[CR][CR]filmtrailern"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -426,7 +455,7 @@ msgstr "Stopp"
 
 msgctxt "#31353"
 msgid "Fast forward"
-msgstr "Spola fram"
+msgstr "Spola framåt"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -466,7 +495,7 @@ msgstr "Arialbaserad"
 
 msgctxt "#31411"
 msgid "First run help..."
-msgstr "Förstagångshjälp"
+msgstr "Förstagångshjälp..."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
@@ -490,35 +519,35 @@ msgstr "Visa eller dölj inloggningsskärmen vid uppstart."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Välj den profil som skall användas vid uppstart då inloggningsskärmen inte visas."
+msgstr "Välj den profil som skall användas vid uppstart när inloggningsskärmen är inaktiverad."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]SPELARE INSTÄLLNINGAR[/B][CR][CR]Konfigurera inställningar för vad du kan göra under uppsspelning · Konfigurera hur mediainnehåll spelas upp"
+msgstr "[B]SPELAREINSTÄLLNINGAR[/B][CR][CR]Konfigurera inställningar för vad du kan göra under uppspelning · Konfigurera hur mediainnehåll spelas upp"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]BIBLIOTEK INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur biblioteket/filer-vy presenterar medieinnehåll · Konfigurera hur bibliotekets listor/vyer navigeras · Konfigurera mediadatabasens alternativ"
+msgstr "[B]BIBLIOTEKINSTÄLLNINGAR[/B][CR][CR]Konfigurera hur biblioteket/filer-vy presenterar medieinnehåll · Konfigurera hur bibliotekets listor/vyer navigeras · Konfigurera mediadatabasens alternativ"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]PVR INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur kanaler & guider hanteras · Konfigurera hur Live-tv och inspelningar hanteras"
+msgstr "[B]PVR-INSTÄLLNINGAR[/B][CR][CR]Konfigurera hur kanaler och guider hanteras · Konfigurera hur Live-TV och inspelningar hanteras"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]TILLÄGG INSTÄLLNINGAR[/B][CR][CR]Konfigurera dina installerade tillägg  · Bläddra och installera tillägg från kodi.tv"
+msgstr "[B]TILLÄGGSINSTÄLLNINGAR[/B][CR][CR]Konfigurera dina installerade tillägg · Bläddra och installera tillägg från kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]TJÄNST INSTÄLLNINGAR[/B][CR][CR]Konfigurera & hantera media delningstjänster · Konfigurera webbserver · Konfigurera & hantera vädertjänsten"
+msgstr "[B]TJÄNSTINSTÄLLNINGAR[/B][CR][CR]Konfigurera och hantera media delningstjänster · Konfigurera webbserver · Konfigurera och hantera vädertjänsten"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr "[B]SYSTEM INSTÄLLNINGAR[/B][CR][CR]Konfigurera skärmen · Konfigurera ljud · Konfigurera internetaccess · Konfigurera energialternativ · Konfigurera loggning"
+msgstr "[B]SYSTEMINSTÄLLNINGAR[/B][CR][CR]Konfigurera skärmen · Konfigurera ljud · Konfigurera internetaccess · Konfigurera energialternativ · Konfigurera loggning"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "[B]GRÄNSSNITT INSTÄLLNINGAR[/B][CR][CR]Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlås"
+msgstr "[B]GRÄNSSNITTS INSTÄLLNINGAR[/B][CR][CR]Konfigurera skal · Konfigurera plats · Konfigurera kontroll · Konfigurera skärmsläckare · Konfigurera huvudlås"
 
 msgctxt "#31501"
 msgid "Scheduled time"
@@ -558,7 +587,7 @@ msgstr "Kanalalternativ"
 
 msgctxt "#31901"
 msgid "36-hour forecast"
-msgstr "36-timmars prognos"
+msgstr "36-timmarsprognos"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
@@ -590,7 +619,7 @@ msgstr "VÄDER"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr "FOTON"
+msgstr "BILDER"
 
 msgctxt "#31952"
 msgid "TV"
@@ -632,14 +661,17 @@ msgctxt "#31961"
 msgid "Timeshift"
 msgstr "Tidsförskjutning"
 
+#. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
 msgstr "Välj typ av profilidentifiering"
 
+#. Label for the kind of profile identification
 msgctxt "#31963"
 msgid "Profile name"
 msgstr "Profilnamn"
 
+#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilbild"
