@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-10-31 07:15+0000\n"
+"PO-Revision-Date: 2023-03-24 14:16+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -207,7 +207,7 @@ msgstr "Nyt valittuna"
 
 msgctxt "#31101"
 msgid "Home screen options"
-msgstr "Päävalikon asetukset"
+msgstr "Aloitusnäytön asetukset"
 
 msgctxt "#31102"
 msgid "Background"
@@ -231,7 +231,7 @@ msgstr "Piilota tiedostojen nimistä luetut merkinnät [COLOR=grey3](Blu-ray, HD
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Piilota päävalikon osia"
+msgstr "Piilota päävalikon painikkeita"
 
 msgctxt "#31109"
 msgid "Enable custom background"
@@ -272,7 +272,7 @@ msgstr "Näytä viimeksi lisätyt videot"
 #. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
-msgstr "Päävalikon lisäosien alavalikko"
+msgstr "Aloitusnäytön \"Lisäosat\"-alivalikko"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
@@ -281,7 +281,7 @@ msgstr "Piilota fanitaide"
 #. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
-msgstr "Päävalikon peliosion alavalikko"
+msgstr "Aloitusnäytön \"Pelit\"-alivalikko"
 
 #. Boolean settings value
 msgctxt "#31122"
@@ -311,15 +311,15 @@ msgstr "Sanoitukset-lisäosa"
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Päävalikon video-osion alavalikko"
+msgstr "Aloitusnäytön \"Videot\"-alivalikko"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
-msgstr "Päävalikon musiikkiosion alavalikko"
+msgstr "Aloitusnäytön \"Musiikki\"-alivalikko"
 
 msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
-msgstr "Päävalikon kuvaosion alavalikko"
+msgstr "Aloitusnäytön \"Kuvat\"-alivalikko"
 
 msgctxt "#31140"
 msgid "Music OSD"
@@ -343,7 +343,7 @@ msgstr "soittolistan polku"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
-msgstr "Piilota päävalikon painikkeet"
+msgstr "Piilota aloitusnäytön painikkeet"
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
@@ -379,7 +379,7 @@ msgstr "Tulevat jaksot"
 
 msgctxt "#31209"
 msgid "Hide Master profile main menu buttons"
-msgstr "Piilota pääkäyttäjän painikkeet päävalikosta"
+msgstr "Piilota päävalikon Pääkäyttäjä-painikkeet"
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -519,7 +519,7 @@ msgstr "Näytä tai piilota kirjautumisruutu käynnistyksessä."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Valitse se profiili, jota käytetään käynnistyksessä, kun kirjautumisruutu on poiskytketty."
+msgstr "Valitse käynnistyksessä käytettävä profiili kirjautumisruudun ollessa pois käytöstä."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
@@ -664,7 +664,7 @@ msgstr "Ajansiirto"
 #. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
-msgstr "Valitse näytetäänkö profiilin nimi vai kuva"
+msgstr "Valitse profiilin esitystapa"
 
 #. Label for the kind of profile identification
 msgctxt "#31963"
