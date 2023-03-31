@@ -478,13 +478,31 @@
 		<value>$INFO[ListItem.Icon]</value>
 	</variable>
 	<variable name="PosterThumb">
-		<value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+		<value condition="[Skin.HasSetting(ShowPosterInsteadThumb) + Container.Content(MusicVideos) + !String.IsEmpty(ListItem.Art(poster))]">$INFO[ListItem.Art(poster)]</value>
+		<value condition="[Skin.HasSetting(ShowPosterInsteadThumb) + Container.Content(MusicVideos) + String.IsEmpty(ListItem.Art(poster)) + !ListItem.IsFolder]">DefaultVideoPoster.png</value>
+		<value condition="[[Container.Content(MusicVideos) + Control.IsVisible(50) | Control.IsVisible(51)] | [!Container.Content(MusicVideos) + !String.IsEmpty(ListItem.Art(poster))]]">$INFO[ListItem.Art(poster)]</value>
 		<value>$INFO[ListItem.Icon]</value>
 	</variable>
 	<variable name="NowPlayingThumb">
 		<value condition="!String.IsEmpty(Player.Art(poster))">$INFO[Player.Art(poster)]</value>
 		<value condition="!String.IsEmpty(Player.Art(tvshow.poster))">$INFO[Player.Art(tvshow.poster)]</value>
 		<value>$INFO[Player.Icon]</value>
+	</variable>
+	<variable name="PlaySpeed">
+		<value condition="String.IsEqual(Player.PlaySpeed,0.80)">0.8X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,0.90)">0.9X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.10)">1.1X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.20)">1.2X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.30)">1.3X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.40)">1.4X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.50)">1.5X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.60)">1.6X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.70)">1.7X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.80)">1.8X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,1.90)">1.9X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,2.00)">2X</value>
+		<value condition="String.IsEqual(Player.PlaySpeed,2.10)">2.1X</value>
+		<value>$INFO[Player.PlaySpeed]</value>
 	</variable>
 	<variable name="MusicInfoPanelLabel">
 		<value condition="Container.Content(Artists)">$INFO[ListItem.Label]</value>
@@ -531,9 +549,7 @@
 		<value>$INFO[ListItem.VideoCodec]</value>
 	</variable>
 	<variable name="SeekLabel">
-		<value condition="Player.IsTempo + String.StartsWith(Player.PlaySpeed,0.)">$LOCALIZE[31045]</value>
-		<value condition="Player.IsTempo + String.StartsWith(Player.PlaySpeed,1.)">$LOCALIZE[31044]</value>
-		<value condition="Player.Playing + !Player.Seeking + !Player.HasPerformedSeek(3)">$LOCALIZE[31042]</value>
+		<value condition="[Player.Playing + !Player.Seeking + !Player.HasPerformedSeek(3)] | Player.IsTempo">$LOCALIZE[31042]</value>
 		<value condition="[Player.Paused + !Player.Caching] + !Player.Seeking">$LOCALIZE[31043]</value>
 		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">$LOCALIZE[15107] $INFO[Player.CacheLevel]%</value>
 		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![player.forwarding | player.rewinding]">$LOCALIZE[31046][COLOR=grey] $INFO[Player.SeekStepSize][/COLOR]</value>
@@ -1544,33 +1560,33 @@
 			<label>$INFO[System.Time]</label>
 			<animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
 		</control>
-                <control type="group">
-                        <visible>Integer.IsGreater(System.ProfileCount,1)</visible>
-                        <control type="image">
-                                <visible>Skin.HasSetting(show_profileavatar)</visible>
-                                <top>5</top>
-                                <left>1105</left>
-                                <width>30</width>
-                                <height>30</height>
-                                <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
-                                <texture>$INFO[System.ProfileThumb]</texture>
-                                <aspectratio>scale</aspectratio>
-                        </control>
-                        <control type="label">
-                                <visible>Skin.HasSetting(show_profilename)</visible>
-                                <font>font28_title</font>
-                                <align>right</align>
-                                <top>5</top>
-                                <left>540</left>
-                                <textcolor>white</textcolor>
-                                <shadowcolor>black</shadowcolor>
-                                <aligny>center</aligny>
-                                <height>30</height>
-                                <width max="600">auto</width>
-                                <animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
-                                <label>$INFO[System.ProfileName]</label>
-                        </control>
-                </control>
+		<control type="group">
+			<visible>Integer.IsGreater(System.ProfileCount,1)</visible>
+			<control type="image">
+				<visible>Skin.HasSetting(show_profileavatar)</visible>
+				<top>5</top>
+				<left>1105</left>
+				<width>30</width>
+				<height>30</height>
+				<animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
+				<texture>$INFO[System.ProfileThumb]</texture>
+				<aspectratio>scale</aspectratio>
+			</control>
+			<control type="label">
+				<visible>Skin.HasSetting(show_profilename)</visible>
+				<font>font28_title</font>
+				<align>right</align>
+				<top>5</top>
+				<left>540</left>
+				<textcolor>white</textcolor>
+				<shadowcolor>black</shadowcolor>
+				<aligny>center</aligny>
+				<height>30</height>
+				<width max="600">auto</width>
+				<animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
+				<label>$INFO[System.ProfileName]</label>
+			</control>
+		</control>
 
 	</include>
 	<include name="HomeAddonsCommonLayout">
