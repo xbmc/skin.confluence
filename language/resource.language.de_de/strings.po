@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-09-07 23:19+0000\n"
 "Last-Translator: Kai Sommerfeld <kai.sommerfeld@gmx.com>\n"
@@ -96,6 +96,11 @@ msgstr "Verstrichene Zeit"
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Nicht verfügbar"
+
+# empty strings from id 31018 to 31021
+msgctxt "#31022"
+msgid "Play speed"
+msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
@@ -295,6 +300,10 @@ msgstr "Das „Gerade läuft“ Hintergrund-Video anzeigen"
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
 msgstr "Die „Gerade läuft“ Hintergrund-Visualisierung anzeigen"
+
+msgctxt "#31126"
+msgid "Show posters instead of thumbs for musicvideos"
+msgstr ""
 
 msgctxt "#31128"
 msgid "Lyrics"
