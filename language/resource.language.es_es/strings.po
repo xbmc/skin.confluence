@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-04-22 10:15+0000\n"
+"PO-Revision-Date: 2023-04-29 13:16+0000\n"
 "Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_es/>\n"
 "Language: es_es\n"
@@ -224,7 +224,7 @@ msgstr "Mostrar \"Pausado\" en pase de diapositivas"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Reproducir trailers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR]"
+msgstr "Reproducir tráilers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -448,7 +448,7 @@ msgstr "[B]Temporizador activado[/B] [COLOR=grey2] - El sistema se apagará en[/
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr "Click para reproducir[CR][CR]trailer de película"
+msgstr "Click para reproducir[CR][CR]tráiler de película"
 
 msgctxt "#31331"
 msgid "Album details"
