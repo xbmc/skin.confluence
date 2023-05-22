@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-04-18 01:16+0000\n"
+"PO-Revision-Date: 2023-04-29 13:16+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/it_it/>\n"
 "Language: it_it\n"
@@ -556,7 +556,7 @@ msgstr "[B]IMPOSTAZIONI SISTEMA[/B][CR][CR]Configura lo schermo · Configura l'a
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "[B]IMPOSTAZIONI INTERFACCIA[/B][CR][CR]Configura la skin · Configura la regione · Configura i controlli · Configura lo screensaver · Configura il master lock"
+msgstr "[B]IMPOSTAZIONI INTERFACCIA[/B][CR][CR]Configura la skin · Configura la regione · Configura i controlli · Configura il salvaschermo · Configura il blocco master"
 
 msgctxt "#31501"
 msgid "Scheduled time"
