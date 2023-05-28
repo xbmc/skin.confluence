@@ -102,6 +102,7 @@
 				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 				<onup condition="Player.TempoEnabled">400</onup>
 				<onclick>PlayerControl(Play)</onclick>
+				<onclick condition="Player.Paused">Dialog.Close(VideoOSD)</onclick>
 				<enable>Player.PauseEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.PauseEnabled">Conditional</animation>
 			</control>
