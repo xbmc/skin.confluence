@@ -170,6 +170,17 @@
 					<alttexturenofocus/>
 					<usealttexture>library.isscanningvideo</usealttexture>
 				</control>
+				<control type="togglebutton" id="205">
+					<description>Addon Settings</description>
+					<textwidth>235</textwidth>
+					<include>ButtonCommonValues</include>
+					<altlabel>10140</altlabel>
+					<alttexturefocus border="5">button-focus.png</alttexturefocus>
+					<alttexturenofocus/>					
+					<label>$LOCALIZE[10140]</label>
+					<onclick>Addon.OpenSettings($INFO[Container.PluginName])</onclick>
+					<visible>!String.IsEmpty(Container.PluginName)</visible>
+				</control>
 				<control type="button" id="204">
 					<description>Get more</description>
 					<textwidth>235</textwidth>
