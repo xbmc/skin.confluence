@@ -267,6 +267,14 @@
 						<visible>!Player.ChannelPreviewActive</visible>
 					</control>
 					<control type="image" id="1">
+						<description>Codec Image</description>
+						<width>73</width>
+						<height>35</height>
+						<aspectratio align="left">keep</aspectratio>
+						<texture>$INFO[VideoPlayer.HdrType,flagging/video/,.png]</texture>
+						<visible>!String.IsEmpty(VideoPlayer.HdrType)</visible>
+					</control>
+					<control type="image" id="1">
 						<description>Audio Codec Image</description>
 						<width>85</width>
 						<height>35</height>
