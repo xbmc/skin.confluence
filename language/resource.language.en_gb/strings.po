@@ -96,7 +96,15 @@ msgctxt "#31017"
 msgid "Unavailable"
 msgstr ""
 
-#empty strings from id 31018 to 31021
+msgctxt "#31018"
+msgid "Set default startup item"
+msgstr ""
+
+msgctxt "#31019"
+msgid "Press 'Up' to set this item as default"
+msgstr ""
+
+#empty strings from id 31020 to 31021
 
 msgctxt "#31022"
 msgid "Play speed"

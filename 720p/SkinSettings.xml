@@ -321,6 +321,20 @@
 						<align>left</align>
 						<aligny>center</aligny>
 					</control>
+					<control type="button" id="207">
+						<description>Set Home Default Item Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31018]</label>
+						<label2>$INFO[Skin.String(DefaultHomeFocusItem)]</label2>
+						<onclick>SetProperty(SetDefaultHomeItem,1,home)</onclick>
+						<onclick>ActivateWindow(home)</onclick>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
 					<control type="radiobutton" id="202">
 						<description>enable video info</description>
 						<width>750</width>
@@ -444,6 +458,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[3]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoVideosButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoVideosButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -457,6 +473,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[20342] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoMovieButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoMovieButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -471,6 +489,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[20343] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoTVShowButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoTVShowButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -485,6 +505,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[2]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoMusicButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoMusicButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -498,6 +520,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[1]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoPicturesButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoPicturesButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -511,6 +535,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[24001]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoProgramsButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoProgramsButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -524,6 +550,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[8]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoWeatherButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoWeatherButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -537,7 +565,39 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[15016]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoGamesButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoGamesButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="radiobutton" id="2291">
+						<description>Hide Radio Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[19021]</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoRadioButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoRadioButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="radiobutton" id="2292">
+						<description>Hide TV Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[36037]</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoTVButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoTVButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
@@ -550,6 +610,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[31114]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoSystemButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(HomeMenuNoSystemButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -665,6 +727,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[3]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoVideosButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoVideosButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -678,6 +742,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[20342] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoMovieButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoMovieButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -692,6 +758,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[20343] [COLOR=grey3] ($LOCALIZE[20314])[/COLOR]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoTVShowButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoTVShowButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -706,6 +774,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[2]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoMusicButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoMusicButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -719,6 +789,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[1]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoPicturesButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoPicturesButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -732,6 +804,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[24001]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoProgramsButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoProgramsButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -745,6 +819,8 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[8]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoWeatherButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoWeatherButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
@@ -758,7 +834,39 @@
 						<focusedcolor>white</focusedcolor>
 						<label>$LOCALIZE[31111] - $LOCALIZE[15016]</label>
 						<onclick>Skin.ToggleSetting(MasterHomeMenuNoGamesButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
 						<selected>Skin.HasSetting(MasterHomeMenuNoGamesButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="radiobutton" id="2391">
+						<description>Hide Radio Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[19021]</label>
+						<onclick>Skin.ToggleSetting(MasterHomeMenuNoRadioButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
+						<selected>Skin.HasSetting(MasterHomeMenuNoRadioButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
+					<control type="radiobutton" id="2392">
+						<description>Hide TV Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[36037]</label>
+						<onclick>Skin.ToggleSetting(MasterHomeMenuNoTVButton)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
+						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
+						<selected>Skin.HasSetting(MasterHomeMenuNoTVButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
