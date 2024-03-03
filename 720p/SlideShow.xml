@@ -12,7 +12,7 @@
 				<width>120</width>
 				<height>35</height>
 				<texture>black-back.png</texture>
-				<bordertexture border="3">NoCover_1.png</bordertexture>
+				<bordertexture infill="false" border="3">NoCover_1.png</bordertexture>
 				<bordersize>5</bordersize>
 			</control>
 			<control type="label">

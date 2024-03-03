@@ -176,7 +176,7 @@
 						<height>80</height>
 						<texture>$VAR[DialogSelectImage]</texture>
 						<aspectratio>keep</aspectratio>
-						<bordertexture border="3">black-back2.png</bordertexture>
+						<bordertexture infill="false" border="3">black-back2.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 					<control type="label">
@@ -229,7 +229,7 @@
 						<height>80</height>
 						<texture>$VAR[DialogSelectImage]</texture>
 						<aspectratio>keep</aspectratio>
-						<bordertexture border="3">black-back2.png</bordertexture>
+						<bordertexture infill="false" border="3">black-back2.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 					<control type="label">

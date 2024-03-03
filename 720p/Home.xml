@@ -75,7 +75,7 @@
 				<height>295</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture fallback="DefaultAlbumCover.png">$INFO[Player.Art(thumb)]</texture>
-				<bordertexture border="8">ThumbBorder.png</bordertexture>
+				<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 				<bordersize>5</bordersize>
 			</control>
 			<control type="label">
@@ -144,7 +144,7 @@
 					<height>80</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NextRecordingChannelIcon]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>4</bordersize>
 				</control>
 				<control type="image">
@@ -211,7 +211,7 @@
 					<height>80</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NowRecordingChannelIcon]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>4</bordersize>
 				</control>
 				<control type="image">
@@ -281,7 +281,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -321,7 +321,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -389,7 +389,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -442,7 +442,7 @@
 					<height>120</height>
 					<aspectratio>scale</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">

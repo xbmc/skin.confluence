@@ -145,7 +145,7 @@
 					<aspectratio>keep</aspectratio>
 					<fadetime>200</fadetime>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
-					<bordertexture border="8">ThumbShadow.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbShadow.png</bordertexture>
 					<bordersize>8</bordersize>
 				</control>
 				<control type="group">
@@ -245,7 +245,7 @@
 						<top>0</top>
 						<width>191</width>
 						<height>160</height>
-						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
@@ -256,7 +256,7 @@
 						<top>0</top>
 						<width>191</width>
 						<height>160</height>
-						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
 						<colordiffuse>ff333333</colordiffuse>
@@ -298,7 +298,7 @@
 						<top>0</top>
 						<width>191</width>
 						<height>160</height>
-						<bordertexture border="5">folder-focus.png</bordertexture>
+						<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
 						<texture background="true">$INFO[Listitem.Icon]</texture>
@@ -309,7 +309,7 @@
 						<top>0</top>
 						<width>191</width>
 						<height>160</height>
-						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<fadetime>100</fadetime>
 						<colordiffuse>ff333333</colordiffuse>
