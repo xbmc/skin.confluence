@@ -477,8 +477,39 @@
 					<height>16</height>
 					<info>Player.Chapters</info>
 					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
-					<righttexture border="2,4,2,4">OSDProgressNib.png</righttexture>
-					<visible>true</visible>
+					<righttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Cuts</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.Cuts</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<righttexture border="2,4,2,4" colordiffuse="FFFF0000">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Scene Markers</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.SceneMarkers</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<righttexture border="2,4,2,4" colordiffuse="FF0000FF">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Editlist</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.Editlist</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<lefttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</lefttexture>
+					<midtexture colordiffuse="FFFF0000">colors/white.png</midtexture>
+					<righttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</righttexture>
 				</control>
 			</control>
 		</control>
