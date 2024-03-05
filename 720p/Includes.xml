@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include file="Defaults.xml" />
-	<include file="Includes_DialogSelect.xml" />
 	<include file="ViewsVideoLibrary.xml" />
 	<include file="ViewsMusicLibrary.xml" />
 	<include file="ViewsFileMode.xml" />
@@ -10,7 +9,9 @@
 	<include file="ViewsLiveTV.xml" />
 	<include file="ViewsPVRGuide.xml" />
 	<include file="ViewsWeather.xml" />
+	<include file="IncludesDialogSelect.xml" />
 	<include file="IncludesCodecFlagging.xml" />
+	<include file="IncludesGames.xml" />
 	<include file="IncludesHomeRecentlyAdded.xml" />
 	<include file="IncludesHomeMenuItems.xml" />
 	<include file="IncludesPVR.xml" />
@@ -68,6 +69,7 @@
 		<value condition="Window.IsActive(gamevideofilter)">$LOCALIZE[230]</value>
 		<value condition="Window.IsActive(gamestretchmode)">$LOCALIZE[35233]</value>
 		<value condition="Window.IsActive(gamevideorotation)">$LOCALIZE[35227]</value>
+		<value condition="Window.IsActive(ingamesaves)">$LOCALIZE[31020]</value>
 	</variable>
 	<variable name="DurationInMinutes">
 		<value condition="String.StartsWith(ListItem.Duration,01:00:)">60 $LOCALIZE[12391]</value>

@@ -104,7 +104,11 @@ msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
 msgstr ""
 
-#empty strings from id 31020 to 31021
+msgctxt "#31020"
+msgid "Game saves"
+msgstr ""
+
+#empty string with id 31021
 
 msgctxt "#31022"
 msgid "Play speed"

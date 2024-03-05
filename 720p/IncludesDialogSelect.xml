@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<include name="DefaultDialogSelectLayout">
+	<include name="DialogDefaultSelectLayout">
 		<control type="group">
 			<left>235</left>
 			<top>75</top>
@@ -78,8 +78,8 @@
 				<top>15</top>
 				<width>64</width>
 				<height>32</height>
-				<label/>
-				<font/>
+				<label />
+				<font />
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -302,7 +302,7 @@
 						<description>Manual button</description>
 						<width>200</width>
 						<height>40</height>
-						<label/>
+						<label />
 						<font>font12_title</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -312,7 +312,7 @@
 						<description>Cancel button</description>
 						<width>200</width>
 						<height>40</height>
-						<label/>
+						<label />
 						<font>font12_title</font>
 						<textcolor>white</textcolor>
 						<focusedcolor>white</focusedcolor>
@@ -322,7 +322,7 @@
 			</control>
 		</control>
 	</include>
-	<include name="GameDialogSelectLayout">
+	<include name="DialogGameSelectLayout">
 		<control type="group">
 			<left>20</left>
 			<top>408</top>
@@ -361,8 +361,8 @@
 				<top>15</top>
 				<width>64</width>
 				<height>32</height>
-				<label/>
-				<font/>
+				<label />
+				<font />
 				<onclick>PreviousMenu</onclick>
 				<texturefocus>DialogCloseButton-focus.png</texturefocus>
 				<texturenofocus>DialogCloseButton.png</texturenofocus>
@@ -372,19 +372,19 @@
 				<ondown>3</ondown>
 				<visible>system.getbool(input.enablemouse)</visible>
 			</control>
-			<control type="panel" id="11">
+			<control type="panel" id="10811">
 				<left>20</left>
 				<top>65</top>
 				<width>1200</width>
 				<height>215</height>
-				<onleft>11</onleft>
-				<onright>11</onright>
+				<onleft>10811</onleft>
+				<onright>10811</onright>
 				<ondown>noop</ondown>
 				<onup>noop</onup>
 				<scrolltime>200</scrolltime>
 				<viewtype label="536">icon</viewtype>
 				<orientation>horizontal</orientation>
-				<pagecontrol/>
+				<pagecontrol />
 				<orientation>vertical</orientation>
 				<itemlayout height="215" width="240">
 					<control type="image">
@@ -399,8 +399,8 @@
 						<top>20</top>
 						<width>220</width>
 						<height>150</height>
-						<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
 						<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+						<stretchmode>$INFO[ListItem.Property(game.stretchmode)]</stretchmode>
 						<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
 					</control>
 					<control type="label">
@@ -428,8 +428,8 @@
 						<top>20</top>
 						<width>220</width>
 						<height>150</height>
-						<viewmode>$INFO[ListItem.Property(game.viewmode)]</viewmode>
 						<videofilter>$INFO[ListItem.Property(game.videofilter)]</videofilter>
+						<stretchmode>$INFO[ListItem.Property(game.stretchmode)]</stretchmode>
 						<rotation>$INFO[ListItem.Property(game.videorotation)]</rotation>
 					</control>
 					<control type="label">
@@ -444,6 +444,252 @@
 						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
 					</control>
 				</focusedlayout>
+			</control>
+		</control>
+	</include>
+	<include name="DialogGameSelectSaveLayout">
+		<control type="group">
+			<left>235</left>
+			<top>121</top>
+			<control type="image">
+				<description>background image</description>
+				<left>0</left>
+				<top>0</top>
+				<width>850</width>
+				<height>458</height>
+				<texture border="40">DialogBack.png</texture>
+			</control>
+			<control type="image">
+				<description>Dialog Header image</description>
+				<left>40</left>
+				<top>16</top>
+				<width>770</width>
+				<height>40</height>
+				<texture>dialogheader.png</texture>
+			</control>
+			<control type="label" id="1">
+				<description>header label</description>
+				<left>40</left>
+				<top>20</top>
+				<width>770</width>
+				<height>30</height>
+				<font>font13_title</font>
+				<label>$LOCALIZE[35260]</label>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>selected</textcolor>
+				<shadowcolor>black</shadowcolor>
+			</control>
+			<control type="label" id="4">
+				<description>No Settings Label</description>
+				<left>20</left>
+				<top>120</top>
+				<width>550</width>
+				<align>center</align>
+				<font>font13</font>
+			</control>
+			<control type="button">
+				<description>Close Window button</description>
+				<left>760</left>
+				<top>15</top>
+				<width>64</width>
+				<height>32</height>
+				<label />
+				<font />
+				<onclick>PreviousMenu</onclick>
+				<texturefocus>DialogCloseButton-focus.png</texturefocus>
+				<texturenofocus>DialogCloseButton.png</texturenofocus>
+				<visible>system.getbool(input.enablemouse)</visible>
+			</control>
+			<control type="list" id="3">
+				<left>20</left>
+				<top>67</top>
+				<width>550</width>
+				<height>368</height>
+				<onup>6</onup>
+				<ondown>6</ondown>
+				<onleft>7</onleft>
+				<onright>61</onright>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="92" width="550">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>550</width>
+						<height>86</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>2</left>
+						<top>3</top>
+						<width>80</width>
+						<height>80</height>
+						<texture>$INFO[ListItem.Art(screenshot)]</texture>
+						<aspectratio>keep</aspectratio>
+						<bordertexture infill="false" border="3">black-back2.png</bordertexture>
+						<bordersize>2</bordersize>
+					</control>
+					<control type="label">
+						<left>90</left>
+						<top>12</top>
+						<width>450</width>
+						<height>30</height>
+						<font>font13</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>[B]$INFO[ListItem.Label][/B]</label>
+					</control>
+					<control type="label">
+						<left>90</left>
+						<top>44</top>
+						<width>450</width>
+						<height>48</height>
+						<font>font12</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="92" width="550">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>550</width>
+						<height>86</height>
+						<texture border="5">button-nofocus.png</texture>
+						<visible>!Control.HasFocus(3)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>550</width>
+						<height>86</height>
+						<texture border="5">button-focus2.png</texture>
+						<visible>Control.HasFocus(3)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>2</left>
+						<top>3</top>
+						<width>80</width>
+						<height>80</height>
+						<texture>$INFO[ListItem.Art(screenshot)]</texture>
+						<aspectratio>keep</aspectratio>
+						<bordertexture infill="false" border="3">black-back2.png</bordertexture>
+						<bordersize>2</bordersize>
+					</control>
+					<control type="label">
+						<left>90</left>
+						<top>12</top>
+						<width>450</width>
+						<height>30</height>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>[B]$INFO[ListItem.Label][/B]</label>
+					</control>
+					<control type="label">
+						<left>90</left>
+						<top>44</top>
+						<width>450</width>
+						<height>48</height>
+						<font>font12</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Label2]</label>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="scrollbar" id="61">
+				<left>570</left>
+				<top>65</top>
+				<width>25</width>
+				<height>372</height>
+				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<textureslidernib>ScrollBarNib.png</textureslidernib>
+				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
+				<onleft>3</onleft>
+				<onright>90</onright>
+				<ondown>61</ondown>
+				<onup>61</onup>
+				<showonepage>false</showonepage>
+				<orientation>vertical</orientation>
+			</control>
+			<control type="image">
+				<left>612</left>
+				<top>190</top>
+				<width>200</width>
+				<height>200</height>
+				<texture border="5">button-nofocus.png</texture>
+			</control>
+			<control type="label" id="10823">
+				<description>Emulator name</description>
+				<left>617</left>
+				<top>195</top>
+				<width>180</width>
+				<height>35</height>
+				<font>font12</font>
+				<align>center</align>
+				<aligny>center</aligny>
+				<textcolor>blue</textcolor>
+			</control>
+			<control type="image" id="10824">
+				<description>Emulator icon</description>
+				<left>657</left>
+				<top>245</top>
+				<width>120</width>
+				<height>120</height>
+				<aspectratio>keep</aspectratio>
+			</control>
+			<control type="group">
+				<control type="label">
+					<description>number of files/pages in list text label</description>
+					<left>592</left>
+					<top>398</top>
+					<width>240</width>
+					<height>35</height>
+					<font>font12</font>
+					<align>center</align>
+					<aligny>center</aligny>
+					<textcolor>grey</textcolor>
+					<label>$VAR[SelectLabel]</label>
+				</control>
+				<control type="grouplist" id="90">
+					<left>612</left>
+					<top>100</top>
+					<onleft>3</onleft>
+					<onright>3</onright>
+					<control type="button" id="10825">
+						<description>New button</description>
+						<width>200</width>
+						<height>40</height>
+						<label>$LOCALIZE[35261]</label>
+						<font>font12_title</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<align>center</align>
+					</control>
+					<control type="button" id="10826">
+						<description>Cancel button</description>
+						<width>200</width>
+						<height>40</height>
+						<label>$LOCALIZE[222]</label>
+						<font>font12_title</font>
+						<textcolor>white</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<align>center</align>
+					</control>
+				</control>
 			</control>
 		</control>
 	</include>
