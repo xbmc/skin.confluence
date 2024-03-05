@@ -1,3 +1,17 @@
+[B]4.8.00[/B]
+
+-Bump xbmc.gui for Nexus
+-Add Nexus game changes
+-Add show password button to keyboard
+-Add Player.Process(videoscantype) infolabel
+-Add Cuts, Scene Markers, and Editlist
+-Add missing aspect ratios
+-Add 'infill' attribute to border textures
+-Add HDR flagging
+-Delete DialogFavourites.xml
+-Fix home episode thumbs not using spoiler settings
+-Add default start item selection
+
 [B]4.7.15[/B]
 
 - Fix image in select dialog
