@@ -139,7 +139,7 @@
 		<colorheight>76</colorheight>
 		<texturecolormask>color-button-box.png</texturecolormask>
 		<texturecolordisabledmask colordiffuse="40FFFFFF">color-button-box.png</texturecolordisabledmask>
-		<texturefocus>list_focus.png</texturefocus>
+		<texturefocus></texturefocus>
 		<texturenofocus></texturenofocus>
 		<font>font13</font>
 		<textcolor>white</textcolor>

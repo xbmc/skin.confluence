@@ -54,7 +54,7 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>$LOCALIZE[13404]</label>
-					<label2>Select + X</label2>
+					<label2>$LOCALIZE[31037]</label2>
 					<onclick>Play</onclick>
 				</control>
 				<control type="button" id="1011">
@@ -88,7 +88,7 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>$LOCALIZE[35222]</label>
-					<label2>Select + Start</label2>
+					<label2>$LOCALIZE[31038]</label2>
 					<onclick>Stop</onclick>
 				</control>
 				<control type="button" id="1004">
@@ -100,7 +100,7 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>13376</label>
-					<label2>Select + Right Stick</label2>
+					<label2>$LOCALIZE[31041]</label2>
 					<onclick>ActivateWindow(GameVolume)</onclick>
 				</control>
 				<control type="image" id="1005">

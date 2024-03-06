@@ -85,7 +85,6 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font13</font>
-			<aligny>center</aligny>
 			<label>$VAR[PVRGuideControlsHelpTextVar]</label>
 		</control>
 		<control type="label">
