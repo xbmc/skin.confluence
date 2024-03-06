@@ -281,6 +281,18 @@
 						<onclick>Skin.SelectBool(31962, 31963|show_profilename, 31964|show_profileavatar, 16018|show_none)</onclick>
 						<label2>$VAR[ProfileIdentificationLabel2Var]</label2>
 					</control>
+					<control type="button" id="118">
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<label>31021</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.SelectBool(31021, 31030|ortitle_nothing, 31036|ortitle_only, 31035|ortitle_1st, 31034|ortitle_2nd)</onclick>
+						<label2>$VAR[ShowOriginalName]</label2>
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<left>1060</left>

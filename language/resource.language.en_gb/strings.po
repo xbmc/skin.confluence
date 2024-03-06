@@ -108,7 +108,9 @@ msgctxt "#31020"
 msgid "Game saves"
 msgstr ""
 
-#empty string with id 31021
+msgctxt "#31021"
+msgid "Movie title format"
+msgstr ""
 
 msgctxt "#31022"
 msgid "Play speed"
@@ -142,7 +144,9 @@ msgctxt "#31029"
 msgid "Fanart"
 msgstr ""
 
-#empty string with id 31030
+msgctxt "#31030"
+msgid "No changes"
+msgstr ""
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -156,7 +160,19 @@ msgctxt "#31033"
 msgid "Info"
 msgstr ""
 
-#empty strings from id 31034 to 31038
+msgctxt "#31034"
+msgid "Original title (Localised title)"
+msgstr ""
+
+msgctxt "#31035"
+msgid "Localised title (Original title)"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Just Original title"
+msgstr ""
+
+#empty strings from id 31037 to 31038
 
 msgctxt "#31039"
 msgid "Actions"

@@ -34,7 +34,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>280</left>
@@ -127,7 +127,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>280</left>
@@ -278,7 +278,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<info>ListItem.Label</info>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>170</left>
@@ -322,7 +322,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<info>ListItem.Label</info>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>170</left>
@@ -354,7 +354,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<info>ListItem.Label</info>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>170</left>
@@ -386,7 +386,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<info>ListItem.Label</info>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>170</left>
@@ -535,7 +535,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>60</left>
@@ -636,7 +636,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>60</left>

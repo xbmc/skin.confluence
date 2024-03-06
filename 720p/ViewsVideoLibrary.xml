@@ -131,7 +131,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>$VAR[ShowCustomLabel]</label>
 			</control>
 			<control type="label">
 				<left>0</left>
@@ -199,7 +199,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>$VAR[ShowCustomLabel]</label>
 			</control>
 			<control type="label">
 				<left>0</left>
@@ -250,7 +250,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>$VAR[ShowCustomLabel]</label>
 			</control>
 			<control type="label">
 				<left>0</left>
@@ -314,7 +314,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>$VAR[ShowCustomLabel]</label>
 				<animation effect="slide" start="0,0" end="0,25" time="150" condition="!Control.HasFocus(508)">conditional</animation>
 			</control>
 		</control>
@@ -462,7 +462,7 @@
 				<scroll>true</scroll>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
+				<label>$VAR[ShowCustomLabel]</label>
 			</control>
 			<control type="group">
 				<left>40</left>
@@ -810,7 +810,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>10</left>
@@ -889,7 +889,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>10</left>
@@ -1242,7 +1242,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>10</left>
@@ -1321,7 +1321,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
 						<left>10</left>
@@ -1696,7 +1696,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>320</left>
@@ -1744,7 +1744,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
 						<left>320</left>
@@ -1803,7 +1803,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$VAR[ShowCustomLabel]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Video</description>
@@ -1868,7 +1868,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$VAR[ShowCustomLabel]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Video</description>
@@ -1918,7 +1918,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$VAR[ShowCustomLabel]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Video</description>
@@ -1968,7 +1968,7 @@
 					<shadowcolor>black</shadowcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Label]</label>
+					<label>$VAR[ShowCustomLabel]</label>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Video</description>
