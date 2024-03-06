@@ -227,7 +227,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19074</label>
 				</control>
 				<control type="edit" id="8">
@@ -288,7 +288,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19206</label>
 				</control>
 				<control type="spincontrolex" id="13">
@@ -316,7 +316,7 @@
 					<aligny>center</aligny>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<texturenofocus border="5">button-nofocus.png</texturenofocus>
-					<pulseonselect>no</pulseonselect>
+					<pulseonselect>false</pulseonselect>
 					<label>19267</label>
 				</control>
 			</control>

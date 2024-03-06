@@ -385,7 +385,6 @@
 				<viewtype label="536">icon</viewtype>
 				<orientation>horizontal</orientation>
 				<pagecontrol />
-				<orientation>vertical</orientation>
 				<itemlayout height="215" width="240">
 					<control type="image">
 						<left>2</left>

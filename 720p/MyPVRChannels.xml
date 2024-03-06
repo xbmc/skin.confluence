@@ -71,7 +71,7 @@
 				<texturefocus border="3">VideoWindowFO.png</texturefocus>
 				<texturenofocus/>
 				<font/>
-				<pulseonselect>no</pulseonselect>
+				<pulseonselect>false</pulseonselect>
 				<onleft>70</onleft>
 				<onclick>Fullscreen</onclick>
 				<visible>Player.HasVideo</visible>

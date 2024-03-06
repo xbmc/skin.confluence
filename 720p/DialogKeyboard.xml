@@ -404,7 +404,6 @@
 						<texturefocus border="5">KeyboardKey.png</texturefocus>
 						<align>center</align>
 						<aligny>center</aligny>
-						<font>font13</font>
 						<focusedcolor>black</focusedcolor>
 						<radioposx>13</radioposx>
 					</control>

@@ -879,8 +879,8 @@
 				<height>60</height>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
-				<onup condition="String.IsEmpty(Window(home).Property(SetDefaultHomeItem)">601</onup>
-				<onup condition="!String.IsEmpty(Window(home).Property(SetDefaultHomeItem)">9999</onup>
+				<onup condition="String.IsEmpty(Window(home).Property(SetDefaultHomeItem))">601</onup>
+				<onup condition="!String.IsEmpty(Window(home).Property(SetDefaultHomeItem))">9999</onup>
 				<ondown>9001</ondown>
 				<pagecontrol/>
 				<scrolltime>300</scrolltime>
@@ -1374,7 +1374,7 @@
 			<onfocus>Skin.SetString(DefaultHomeFocusItem,$INFO[Container(9000).ListItem.Label])</onfocus>
 			<onfocus>ClearProperty(SetDefaultHomeItem,home)</onfocus>
 			<onfocus>ActivateWindow(skinsettings)</onfocus>
-			<visible>!String.IsEmpty(Window(home).Property(SetDefaultHomeItem)</visible>
+			<visible>!String.IsEmpty(Window(home).Property(SetDefaultHomeItem))</visible>
 		</control>
 	</controls>
 </window>
