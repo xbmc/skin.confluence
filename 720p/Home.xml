@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
+	<onload condition="String.IsEmpty(Skin.String(DefaultHomeFocusItem))">SetProperty(SetDefaultHomeItem,1,home)</onload>
 	<onload condition="Window.Previous(startup)">SetFocus(9000,$INFO[Skin.String(DefaultHomeFocus)])</onload>
 	<onunload condition="Container(9000).Hasfocus(10) | Container(9000).Hasfocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
 	<onunload condition="ControlGroup(9011).HasFocus">SetProperty(MusicDirectLink,True)</onunload>
@@ -1373,7 +1374,7 @@
 			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,12)">Skin.SetString(DefaultHomeFocus,11)</onfocus>
 			<onfocus>Skin.SetString(DefaultHomeFocusItem,$INFO[Container(9000).ListItem.Label])</onfocus>
 			<onfocus>ClearProperty(SetDefaultHomeItem,home)</onfocus>
-			<onfocus>ActivateWindow(skinsettings)</onfocus>
+			<onfocus condition="Window.Previous(skinsettings)">ActivateWindow(skinsettings)</onfocus>
 			<visible>!String.IsEmpty(Window(home).Property(SetDefaultHomeItem))</visible>
 		</control>
 	</controls>
