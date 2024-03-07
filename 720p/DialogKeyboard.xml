@@ -298,7 +298,7 @@
 						<height>50</height>
 						<label>20179</label>
 						<onup>302</onup>
-						<ondown>307</ondown>
+						<ondown>304</ondown>
 						<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
 						<texturefocus border="5">KeyboardKey.png</texturefocus>
 						<radioposy>5</radioposy>
