@@ -895,7 +895,7 @@
 				<font>font13</font>
 				<textcolor>white</textcolor>
 				<aligny>center</aligny>
-				<label/>
+				<font/>
 				<textoffsetx>10</textoffsetx>
 				<onright>21</onright>
 				<onleft>21</onleft>

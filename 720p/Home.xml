@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
+	<onload condition="String.IsEmpty(Skin.String(DefaultHomeFocusItem))">SetProperty(SetDefaultHomeItem,1,home)</onload>
+	<onload condition="Window.Previous(startup)">SetFocus(9000,$INFO[Skin.String(DefaultHomeFocus)])</onload>
 	<onunload condition="Container(9000).Hasfocus(10) | Container(9000).Hasfocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
 	<onunload condition="ControlGroup(9011).HasFocus">SetProperty(MusicDirectLink,True)</onunload>
 	<onunload condition="Control.HasFocus(9000) + Container(9000).Hasfocus(2)">ClearProperty(VideosDirectLink)</onunload>
@@ -74,7 +76,7 @@
 				<height>295</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture fallback="DefaultAlbumCover.png">$INFO[Player.Art(thumb)]</texture>
-				<bordertexture border="8">ThumbBorder.png</bordertexture>
+				<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 				<bordersize>5</bordersize>
 			</control>
 			<control type="label">
@@ -143,7 +145,7 @@
 					<height>80</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NextRecordingChannelIcon]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>4</bordersize>
 				</control>
 				<control type="image">
@@ -210,7 +212,7 @@
 					<height>80</height>
 					<aspectratio>keep</aspectratio>
 					<texture background="true" fallback="DefaultVideoCover.png">$INFO[PVR.NowRecordingChannelIcon]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>4</bordersize>
 				</control>
 				<control type="image">
@@ -280,7 +282,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -320,7 +322,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -388,7 +390,7 @@
 					<height>300</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -441,7 +443,7 @@
 					<height>120</height>
 					<aspectratio>scale</aspectratio>
 					<texture fallback="DefaultVideoCover.png">$INFO[Player.Art(thumb)]</texture>
-					<bordertexture border="8">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="8">ThumbBorder.png</bordertexture>
 					<bordersize>5</bordersize>
 				</control>
 				<control type="label">
@@ -878,7 +880,8 @@
 				<height>60</height>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
-				<onup>601</onup>
+				<onup condition="String.IsEmpty(Window(home).Property(SetDefaultHomeItem))">601</onup>
+				<onup condition="!String.IsEmpty(Window(home).Property(SetDefaultHomeItem))">9999</onup>
 				<ondown>9001</ondown>
 				<pagecontrol/>
 				<scrolltime>300</scrolltime>
@@ -980,14 +983,14 @@
 						<onclick>ActivateWindow(RadioChannels)</onclick>
 						<icon/>
 						<thumb/>
-						<visible>PVR.HasRadioChannels</visible>
+						<visible>[!Skin.HasSetting(HomeMenuNoRadioButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoRadioButton) + System.IsMaster]</visible>
 					</item>
 					<item id="12">
 						<label>31952</label>
 						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon/>
 						<thumb/>
-						<visible>PVR.HasTVChannels</visible>
+						<visible>[!Skin.HasSetting(HomeMenuNoTVButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoTVsButton) + System.IsMaster]</visible>
 					</item>
 					<item id="2">
 						<label>31953</label>
@@ -1344,6 +1347,35 @@
 				<include>Window_OpenClose_Animation</include>
 				<animation effect="slide" start="0,0" end="-40,0" time="75" condition="Player.Muted">conditional</animation>
 			</control>
+		</control>
+		<control type="button" id="9999">
+			<centerleft>50%</centerleft>
+			<top>320</top>
+			<width>500</width>
+			<height>42</height>
+			<align>center</align>
+			<aligny>center</aligny>
+			<shadowcolor>black</shadowcolor>
+			<texturefocus/>
+			<texturenofocus/>
+			<font>font16</font>
+			<label>$LOCALIZE[31019]</label>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,1)">Skin.SetString(DefaultHomeFocus,0)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,2)">Skin.SetString(DefaultHomeFocus,1)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,3)">Skin.SetString(DefaultHomeFocus,2)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,4)">Skin.SetString(DefaultHomeFocus,3)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,5)">Skin.SetString(DefaultHomeFocus,4)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,6)">Skin.SetString(DefaultHomeFocus,5)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,7)">Skin.SetString(DefaultHomeFocus,6)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,8)">Skin.SetString(DefaultHomeFocus,7)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,9)">Skin.SetString(DefaultHomeFocus,8)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,10)">Skin.SetString(DefaultHomeFocus,9)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,11)">Skin.SetString(DefaultHomeFocus,10)</onfocus>
+			<onfocus condition="String.IsEqual(Container(9000).CurrentItem,12)">Skin.SetString(DefaultHomeFocus,11)</onfocus>
+			<onfocus>Skin.SetString(DefaultHomeFocusItem,$INFO[Container(9000).ListItem.Label])</onfocus>
+			<onfocus>ClearProperty(SetDefaultHomeItem,home)</onfocus>
+			<onfocus condition="Window.Previous(skinsettings)">ActivateWindow(skinsettings)</onfocus>
+			<visible>!String.IsEmpty(Window(home).Property(SetDefaultHomeItem))</visible>
 		</control>
 	</controls>
 </window>

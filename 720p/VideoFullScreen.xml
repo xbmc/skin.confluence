@@ -121,7 +121,7 @@
 				<height>230</height>
 				<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture infill="false" border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<visible>![VideoPlayer.Content(Movies) | VideoPlayer.Content(LiveTV)]</visible>
 			</control>
@@ -134,7 +134,7 @@
 				<height>330</height>
 				<texture fallback="DefaultVideoCover.png">$VAR[NowPlayingThumb]</texture>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="8">ThumbShadow.png</bordertexture>
+				<bordertexture infill="false" border="8">ThumbShadow.png</bordertexture>
 				<bordersize>8</bordersize>
 				<visible>VideoPlayer.Content(Movies)</visible>
 			</control>
@@ -265,6 +265,14 @@
 						<aspectratio align="center">keep</aspectratio>
 						<texture>$INFO[VideoPlayer.VideoResolution,flagging/video/,.png]</texture>
 						<visible>!Player.ChannelPreviewActive</visible>
+					</control>
+					<control type="image" id="1">
+						<description>Codec Image</description>
+						<width>73</width>
+						<height>35</height>
+						<aspectratio align="left">keep</aspectratio>
+						<texture>$INFO[VideoPlayer.HdrType,flagging/video/,.png]</texture>
+						<visible>!String.IsEmpty(VideoPlayer.HdrType)</visible>
 					</control>
 					<control type="image" id="1">
 						<description>Audio Codec Image</description>
@@ -469,8 +477,39 @@
 					<height>16</height>
 					<info>Player.Chapters</info>
 					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
-					<righttexture border="2,4,2,4">OSDProgressNib.png</righttexture>
-					<visible>true</visible>
+					<righttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Cuts</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.Cuts</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<righttexture border="2,4,2,4" colordiffuse="FFFF0000">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Scene Markers</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.SceneMarkers</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<righttexture border="2,4,2,4" colordiffuse="FF0000FF">OSDProgressNib.png</righttexture>
+				</control>
+				<control type="ranges" id="1">
+					<description>Editlist</description>
+					<left>100</left>
+					<top>15</top>
+					<width>720</width>
+					<height>16</height>
+					<info>Player.Editlist</info>
+					<texturebg border="6,0,6,0" colordiffuse="00FFFFFF">OSDProgressBack.png</texturebg>
+					<lefttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</lefttexture>
+					<midtexture colordiffuse="FFFF0000">colors/white.png</midtexture>
+					<righttexture border="2,4,2,4" colordiffuse="FFFFFFFF">OSDProgressNib.png</righttexture>
 				</control>
 			</control>
 		</control>

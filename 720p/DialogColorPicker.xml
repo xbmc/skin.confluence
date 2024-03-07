@@ -41,7 +41,7 @@
 				<width>980</width>
 				<height>30</height>
 				<font>font13_title</font>
-				<label>Colour</label>
+				<label>$LOCALIZE[737]</label>
 				<align>center</align>
 				<aligny>center</aligny>
 				<textcolor>selected</textcolor>

@@ -10,6 +10,14 @@
 		</control>
 		<control type="image">
 			<description>Codec Image</description>
+			<width>73</width>
+			<height>35</height>
+			<aspectratio align="left">keep</aspectratio>
+			<texture>$INFO[ListItem.HdrType,flagging/video/,.png]</texture>
+			<visible>!String.IsEmpty(ListItem.HdrType)</visible>
+		</control>
+		<control type="image">
+			<description>Codec Image</description>
 			<width>80</width>
 			<height>35</height>
 			<aspectratio align="left">keep</aspectratio>
