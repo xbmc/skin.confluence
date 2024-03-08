@@ -423,7 +423,7 @@ msgstr ""
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
-msgstr ""\
+msgstr ""
 
 msgctxt "#31148"
 msgid "Hide - Search"
