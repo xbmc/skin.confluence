@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2022-03-06 21:13+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
@@ -96,6 +96,11 @@ msgstr ""
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "Unavailable"
+
+# empty strings from id 31018 to 31021
+msgctxt "#31022"
+msgid "Play speed"
+msgstr ""
 
 msgctxt "#31023"
 msgid "Playing"
@@ -299,6 +304,10 @@ msgstr ""
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
+msgstr ""
+
+msgctxt "#31126"
+msgid "Show posters instead of thumbs for musicvideos"
 msgstr ""
 
 msgctxt "#31128"
