@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-03-10 10:16+0000\n"
+"PO-Revision-Date: 2023-04-29 13:16+0000\n"
 "Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_es/>\n"
 "Language: es_es\n"
@@ -96,6 +96,11 @@ msgstr "Tiempo transcurrido"
 msgctxt "#31017"
 msgid "Unavailable"
 msgstr "No disponible"
+
+# empty strings from id 31018 to 31021
+msgctxt "#31022"
+msgid "Play speed"
+msgstr "Velocidad de reproducción"
 
 msgctxt "#31023"
 msgid "Playing"
@@ -219,7 +224,7 @@ msgstr "Mostrar \"Pausado\" en pase de diapositivas"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr "Reproducir trailers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR]"
+msgstr "Reproducir tráilers en ventana [COLOR=grey3](Sólo diálogo de información de vídeo)[/COLOR]"
 
 msgctxt "#31106"
 msgid "Miscellaneous options"
@@ -295,6 +300,10 @@ msgstr "Mostrar de fondo el vídeo \"Reproduciendo ahora\""
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
 msgstr "Mostrar de fondo la visualización \"Reproduciendo ahora\""
+
+msgctxt "#31126"
+msgid "Show posters instead of thumbs for musicvideos"
+msgstr "Mostrar carteles en lugar de miniaturas para vídeos musicales"
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -439,7 +448,7 @@ msgstr "[B]Temporizador activado[/B] [COLOR=grey2] - El sistema se apagará en[/
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr "Click para reproducir[CR][CR]trailer de película"
+msgstr "Click para reproducir[CR][CR]tráiler de película"
 
 msgctxt "#31331"
 msgid "Album details"
@@ -455,7 +464,7 @@ msgstr "Detener"
 
 msgctxt "#31353"
 msgid "Fast forward"
-msgstr "Avanzar"
+msgstr "Avance rápido"
 
 msgctxt "#31354"
 msgid "Rewind"
