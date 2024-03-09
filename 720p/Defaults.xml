@@ -28,7 +28,7 @@
 		<disabledcolor>grey3</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="togglebutton">
 		<left>140</left>
@@ -43,7 +43,7 @@
 		<label/>
 		<font>font13</font>
 		<disabledcolor>grey3</disabledcolor>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="textbox">
 		<left>220</left>
@@ -82,7 +82,7 @@
 		<subtype>text</subtype>
 		<textoffsetx>-5</textoffsetx>
 		<textoffsety>0</textoffsety>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="spincontrolex">
 		<left>530</left>
@@ -105,7 +105,7 @@
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="radiobutton">
 		<left>300</left>
@@ -128,7 +128,7 @@
 		<disabledcolor>grey3</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="colorbutton">
 		<posx>0</posx>
@@ -139,14 +139,14 @@
 		<colorheight>76</colorheight>
 		<texturecolormask>color-button-box.png</texturecolormask>
 		<texturecolordisabledmask colordiffuse="40FFFFFF">color-button-box.png</texturecolordisabledmask>
-		<texturefocus>list_focus.png</texturefocus>
+		<texturefocus></texturefocus>
 		<texturenofocus></texturenofocus>
-		<font>font20</font>
+		<font>font13</font>
 		<textcolor>white</textcolor>
 		<disabledcolor>grey2</disabledcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 	<default type="selectbutton">
 		<left>490</left>
@@ -213,6 +213,6 @@
 		<invalidcolor>invalid</invalidcolor>
 		<textoffsetx>7</textoffsetx>
 		<aligny>center</aligny>
-		<pulseonselect>no</pulseonselect>
+		<pulseonselect>false</pulseonselect>
 	</default>
 </includes>

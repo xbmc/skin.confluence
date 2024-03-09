@@ -136,7 +136,7 @@
 					<width>240</width>
 					<height>200</height>
 					<aspectratio>keep</aspectratio>
-					<bordertexture border="12">ThumbBorder.png</bordertexture>
+					<bordertexture infill="false" border="12">ThumbBorder.png</bordertexture>
 					<bordersize>10</bordersize>
 					<texture fallback="DefaultUser.png">$INFO[Container(2).Listitem.Icon]</texture>
 				</control>
@@ -311,7 +311,7 @@
 							<top>0</top>
 							<width>188</width>
 							<height>145</height>
-							<bordertexture border="5">button-nofocus.png</bordertexture>
+							<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<texture fallback="DefaultUser.png">$INFO[Listitem.Icon]</texture>
 							<aspectratio>keep</aspectratio>
@@ -335,7 +335,7 @@
 							<top>0</top>
 							<width>188</width>
 							<height>145</height>
-							<bordertexture border="5">folder-focus.png</bordertexture>
+							<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 							<bordersize>5</bordersize>
 							<texture fallback="DefaultUser.png">$INFO[Listitem.Icon]</texture>
 							<aspectratio>keep</aspectratio>

@@ -997,10 +997,6 @@
 					</control>
 				</focusedlayout>
 				<content>
-					<item>
-						<icon>$LOCALIZE[31909]</icon>
-						<visible>String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
-					</item>
 					<include content="WeatherHourlyItem">
 						<param name="item_id" value="1" />
 					</include>

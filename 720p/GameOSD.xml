@@ -4,17 +4,17 @@
 	<include>dialogeffect</include>
 	<coordinates>
 		<left>470</left>
-		<top>147</top>
+		<top>85</top>
 	</coordinates>
 	<controls>
 		<control type="group">
-			<visible>!Window.IsActive(GameVideoFilter) + !Window.IsActive(gamestretchmode) + !Window.IsActive(GameVideoRotation) + !Window.IsActive(GameControllers)</visible>
+			<visible>!Window.IsActive(GameVideoFilter) + !Window.IsActive(gamestretchmode) + !Window.IsActive(GameVideoRotation) + !Window.IsActive(GameControllers)+ !Window.IsActive(InGameSaves)</visible>
 			<control type="image">
 				<description>background image</description>
 				<left>0</left>
 				<top>0</top>
 				<width>340</width>
-				<height>470</height>
+				<height>554</height>
 				<texture border="20">DialogBack.png</texture>
 			</control>
 			<control type="image">
@@ -43,7 +43,7 @@
 				<left>20</left>
 				<top>70</top>
 				<width>300</width>
-				<height>380</height>
+				<height>466</height>
 				<itemgap>4</itemgap>
 				<control type="button" id="1001">
 					<description>Resume button</description>
@@ -54,8 +54,19 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>$LOCALIZE[13404]</label>
-					<label2>Select + X</label2>
+					<label2>$LOCALIZE[31037]</label2>
 					<onclick>Play</onclick>
+				</control>
+				<control type="button" id="1011">
+					<description>Save button</description>
+					<width>300</width>
+					<height>38</height>
+					<font>fontContextMenu</font>
+					<textcolor>grey2</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<texturefocus border="5">button-focus.png</texturefocus>
+					<label>$LOCALIZE[15314]</label>
+					<onclick>ActivateWindow(InGameSaves)</onclick>
 				</control>
 				<control type="button" id="1002">
 					<description>Reset button</description>
@@ -77,7 +88,7 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>$LOCALIZE[35222]</label>
-					<label2>Select + Start</label2>
+					<label2>$LOCALIZE[31038]</label2>
 					<onclick>Stop</onclick>
 				</control>
 				<control type="button" id="1004">
@@ -89,7 +100,7 @@
 					<focusedcolor>white</focusedcolor>
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>13376</label>
-					<label2>Select + Right Stick</label2>
+					<label2>$LOCALIZE[31041]</label2>
 					<onclick>ActivateWindow(GameVolume)</onclick>
 				</control>
 				<control type="image" id="1005">
@@ -144,6 +155,18 @@
 					<texturefocus border="5">button-focus.png</texturefocus>
 					<label>$LOCALIZE[35234]</label>
 					<onclick>ActivateWindow(gamecontrollers)</onclick>
+				</control>
+				<control type="button" id="1012">
+					<description>Controller port button</description>
+					<width>300</width>
+					<height>38</height>
+					<font>fontContextMenu</font>
+					<align>center</align>
+					<textcolor>grey2</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<texturefocus border="5">button-focus.png</texturefocus>
+					<label>$LOCALIZE[35110]</label>
+					<onclick>ActivateWindow(GamePorts)</onclick>
 				</control>
 				<control type="button" id="1010">
 					<description>Advanced settings button</description>

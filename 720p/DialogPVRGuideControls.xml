@@ -3,12 +3,10 @@
 	<defaultcontrol always="false">602</defaultcontrol>
 	<include>dialogeffect</include>
 	<depth>DepthOSD</depth>
-	
 	<coordinates>
 		<left>0</left>
 		<top>0</top>
 	</coordinates>
-
 	<controls>
 		<control type="image">
 			<left>-20</left>
@@ -17,7 +15,6 @@
 			<height>130</height>
 			<texture border="1">HomeNowPlayingBack.png</texture>
 		</control>
-		
 		<control type="label">
 			<left>100</left>
 			<top>150r</top>
@@ -25,11 +22,9 @@
 			<align>center</align>
 			<font>font12</font>
 			<textcolor>grey</textcolor>
-			<align>left</align>
 			<aligny>center</aligny>
 			<label>$LOCALIZE[19325]</label>
 		</control>
-		
 		<control type="grouplist" id="201">
 			<left>100</left>
 			<top>60r</top>
@@ -83,7 +78,6 @@
 				<onclick>PVR.EpgGridControl(SelectDate)</onclick>
 			</control>
 		</control>
-		
 		<control type="label">
 			<left>100</left>
 			<top>60r</top>
@@ -91,11 +85,8 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font13</font>
-			<align>left</align>
-			<aligny>center</aligny>
 			<label>$VAR[PVRGuideControlsHelpTextVar]</label>
 		</control>
-		
 		<control type="label">
 			<left>810</left>
 			<top>150r</top>
@@ -103,11 +94,9 @@
 			<align>center</align>
 			<font>font12</font>
 			<textcolor>grey</textcolor>
-			<align>left</align>
 			<aligny>center</aligny>
 			<label>$LOCALIZE[19148]</label>
 		</control>
-		
 		<control type="grouplist" id="202">
 			<left>810</left>
 			<top>60r</top>
@@ -143,7 +132,6 @@
 				<onclick>PVR.EpgGridControl(FirstProgramme)</onclick>
 			</control>
 		</control>
-		
 		<control type="label">
 			<left>1015</left>
 			<top>150r</top>
@@ -151,11 +139,9 @@
 			<align>center</align>
 			<font>font12</font>
 			<textcolor>grey</textcolor>
-			<align>left</align>
 			<aligny>center</aligny>
 			<label>$LOCALIZE[19141]</label>
 		</control>
-		
 		<control type="grouplist" id="203">
 			<left>1015</left>
 			<top>60r</top>

@@ -139,7 +139,7 @@
 				<width>450</width>
 				<height>25</height>
 				<scroll>true</scroll>
-				<label fallback="1446">$INFO[Player.Process(videowidth),,x]$INFO[Player.Process(videoheight),, px]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
+				<label fallback="1446">$INFO[Player.Process(videowidth),,x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
