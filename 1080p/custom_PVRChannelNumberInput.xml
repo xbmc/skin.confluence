@@ -5,8 +5,8 @@
 		<control type="label">
 			<left>0</left>
 			<top>0</top>
-			<width>150%</width>
-			<height>150%</height>
+			<width>75%</width>
+			<height>75%</height>
 			<label>$INFO[PVR.ChannelNumberInput]</label>
 			<shadowcolor>black</shadowcolor>
 			<align>center</align>

@@ -1343,7 +1343,7 @@
 			</control>
 		</control>
 		<control type="button" id="9999">
-			<centerleft>75%</centerleft>
+			<centerleft>50%</centerleft>
 			<top>480</top>
 			<width>750</width>
 			<height>63</height>

@@ -132,7 +132,7 @@
 				<description>calibration value</description>
 				<posx>0</posx>
 				<posy>135</posy>
-				<width>150%</width>
+				<width>75%</width>
 				<label></label>
 				<align>center</align>
 				<font>font13</font>
