@@ -96,6 +96,22 @@ msgctxt "#31017"
 msgid "Unavailable"
 msgstr "നിലവിലില്ല"
 
+msgctxt "#31018"
+msgid "Set default startup item"
+msgstr ""
+
+msgctxt "#31019"
+msgid "Press 'Up' to set this item as default"
+msgstr ""
+
+msgctxt "#31020"
+msgid "Game saves"
+msgstr ""
+
+msgctxt "#31021"
+msgid "Movie title format"
+msgstr ""
+
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
 msgid "Play speed"
@@ -130,6 +146,10 @@ msgctxt "#31029"
 msgid "Fanart"
 msgstr ""
 
+msgctxt "#31030"
+msgid "No changes"
+msgstr ""
+
 # empty string with id 31030
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -143,6 +163,26 @@ msgctxt "#31033"
 msgid "Info"
 msgstr ""
 
+msgctxt "#31034"
+msgid "Original title (Localised title)"
+msgstr ""
+
+msgctxt "#31035"
+msgid "Localised title (Original title)"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Just Original title"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Select + X"
+msgstr ""
+
+msgctxt "#31038"
+msgid "Select + Start"
+msgstr ""
+
 # empty strings from id 31034 to 31038
 msgctxt "#31039"
 msgid "Actions"
@@ -150,6 +190,10 @@ msgstr ""
 
 msgctxt "#31040"
 msgid "Now playing"
+msgstr ""
+
+msgctxt "#31041"
+msgid "Select + Right Stick"
 msgstr ""
 
 # empty string with id 31041
