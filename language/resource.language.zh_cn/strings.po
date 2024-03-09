@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2023-04-10 11:20+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
@@ -97,6 +97,22 @@ msgctxt "#31017"
 msgid "Unavailable"
 msgstr "无效的"
 
+msgctxt "#31018"
+msgid "Set default startup item"
+msgstr ""
+
+msgctxt "#31019"
+msgid "Press 'Up' to set this item as default"
+msgstr ""
+
+msgctxt "#31020"
+msgid "Game saves"
+msgstr ""
+
+msgctxt "#31021"
+msgid "Movie title format"
+msgstr ""
+
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
 msgid "Play speed"
@@ -130,6 +146,10 @@ msgctxt "#31029"
 msgid "Fanart"
 msgstr "同人画"
 
+msgctxt "#31030"
+msgid "No changes"
+msgstr ""
+
 msgctxt "#31031"
 msgid "Pic thumbs"
 msgstr "图片缩略图"
@@ -142,6 +162,26 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "信息"
 
+msgctxt "#31034"
+msgid "Original title (Localised title)"
+msgstr ""
+
+msgctxt "#31035"
+msgid "Localised title (Original title)"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Just Original title"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Select + X"
+msgstr ""
+
+msgctxt "#31038"
+msgid "Select + Start"
+msgstr ""
+
 msgctxt "#31039"
 msgid "Actions"
 msgstr "动作"
@@ -149,6 +189,10 @@ msgstr "动作"
 msgctxt "#31040"
 msgid "Now playing"
 msgstr "正在播放"
+
+msgctxt "#31041"
+msgid "Select + Right Stick"
+msgstr ""
 
 msgctxt "#31042"
 msgid "PLAYING"
