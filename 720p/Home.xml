@@ -990,7 +990,7 @@
 						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon/>
 						<thumb/>
-						<visible>[!Skin.HasSetting(HomeMenuNoTVButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoTVsButton) + System.IsMaster]</visible>
+						<visible>[!Skin.HasSetting(HomeMenuNoTVButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoTVButton) + System.IsMaster]</visible>
 					</item>
 					<item id="2">
 						<label>31953</label>
@@ -1006,7 +1006,7 @@
 						<onclick condition="!System.IsMaster + Skin.HasSetting(HomeMenuMovieUsePlaylist)">ActivateWindow(Videos,$INFO[Skin.String(HomeMenuMoviePlaylist)],return)</onclick>
 						<icon/>
 						<thumb/>
-						<visible>[[!Skin.HasSetting(HomeMenuNoMovieButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoMovieButton) + System.IsMaster]] + Library.HasContent(Movies)</visible>
+						<visible>[!Skin.HasSetting(HomeMenuNoMovieButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoMovieButton) + System.IsMaster]</visible>
 					</item>
 					<item id="11">
 						<label>31955</label>
@@ -1014,7 +1014,7 @@
 						<onclick condition="!System.IsMaster + Skin.HasSetting(HomeMenuTVShowUsePlaylist)">ActivateWindow(Videos,$INFO[Skin.String(HomeMenuTVShowPlaylist)],return)</onclick>
 						<icon/>
 						<thumb/>
-						<visible>[[!Skin.HasSetting(HomeMenuNoTVShowButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoTVShowButton) + System.IsMaster]] + Library.HasContent(TVShows)</visible>
+						<visible>[!Skin.HasSetting(HomeMenuNoTVShowButton) + !System.IsMaster] | [!Skin.HasSetting(MasterHomeMenuNoTVShowButton) + System.IsMaster]</visible>
 					</item>
 					<item id="3">
 						<label>31956</label>
