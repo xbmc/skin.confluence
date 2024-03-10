@@ -13,7 +13,7 @@
 			<param name="DialogHeaderWidth" value="1125" />
 			<param name="DialogHeaderLabel" value="$INFO[ListItem.Title]" />
 			<param name="DialogHeaderId" value="2" />
-			<param name="CloseButtonLeft" value="740" />
+			<param name="CloseButtonLeft" value="1110" />
 			<param name="CloseButtonNav" value="10" />
 		</include>
 		<control type="list" id="49">

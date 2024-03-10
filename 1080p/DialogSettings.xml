@@ -15,7 +15,7 @@
 				<param name="DialogBackgroundHeight" value="687" />
 				<param name="DialogHeaderWidth" value="1080" />
 				<param name="DialogHeaderId" value="2" />
-				<param name="CloseButtonLeft" value="710" />
+				<param name="CloseButtonLeft" value="1065" />
 				<param name="CloseButtonNav" value="10" />
 			</include>
 			<control type="grouplist" id="5">

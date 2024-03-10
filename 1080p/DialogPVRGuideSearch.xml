@@ -13,7 +13,7 @@
 			<param name="DialogHeaderWidth" value="1178" />
 			<param name="DialogHeaderLabel" value="$LOCALIZE[19142]" />
 			<param name="DialogHeaderId" value="2" />
-			<param name="CloseButtonLeft" value="775" />
+			<param name="CloseButtonLeft" value="1163" />
 			<param name="CloseButtonNav" value="3" />
 		</include>
 		<control type="label">

@@ -7,7 +7,7 @@
 			<param name="DialogHeaderWidth" value="1530"/>
 			<param name="DialogHeaderLabel" value="35058"/>
 			<param name="DialogHeaderId" value="2"/>
-			<param name="CloseButtonLeft" value="1030"/>
+			<param name="CloseButtonLeft" value="1545"/>
 			<param name="CloseButtonNav" value="3"/>
 		</include>
 		<control type="group" id="9000">
@@ -218,24 +218,11 @@
 			<param name="DialogHeaderWidth" value="1530"/>
 			<param name="DialogHeaderLabel" value="35058"/>
 			<param name="DialogHeaderId" value="2"/>
-			<param name="CloseButtonLeft" value="1030"/>
+			<param name="CloseButtonLeft" value="1545"/>
 			<param name="CloseButtonNav" value="3"/>
 		</include>
 		<control type="group" id="9000">
 			<left>30</left>
-			<control type="button">
-				<description>Close Window button</description>
-				<left>1140</left>
-				<top>98</top>
-				<width>96</width>
-				<height>48</height>
-				<label/>
-				<font/>
-				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
-				<texturenofocus>DialogCloseButton.png</texturenofocus>
-				<visible>system.getbool(input.enablemouse)</visible>
-			</control>
 			<control type="list" id="3">
 				<top>101</top>
 				<width>1230</width>
@@ -409,7 +396,7 @@
 			<param name="DialogHeaderWidth" value="1530"/>
 			<param name="DialogHeaderLabel" value="35172"/>
 			<param name="DialogHeaderId" value="2"/>
-			<param name="CloseButtonLeft" value="1030"/>
+			<param name="CloseButtonLeft" value="1545"/>
 			<param name="CloseButtonNav" value="3"/>
 		</include>
 		<control type="group" id="9000">

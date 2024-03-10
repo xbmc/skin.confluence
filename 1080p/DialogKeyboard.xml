@@ -17,7 +17,7 @@
 				<param name="DialogHeaderWidth" value="1170" />
 				<param name="DialogHeaderLabel" value="" />
 				<param name="DialogHeaderId" value="311" />
-				<param name="CloseButtonLeft" value="770" />
+				<param name="CloseButtonLeft" value="1155" />
 				<param name="CloseButtonNav" value="3" />
 			</include>
 			<control type="group">
