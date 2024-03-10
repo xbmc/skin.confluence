@@ -5,10 +5,10 @@
 			<visible>Control.IsVisible(50)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="list" id="50">
-				<left>105</left>
-				<top>117</top>
-				<width>1035</width>
-				<height>842</height>
+				<left>70</left>
+				<top>78</top>
+				<width>690</width>
+				<height>561</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>50</onup>
@@ -16,19 +16,19 @@
 				<viewtype label="535">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="60" width="870">
+				<itemlayout height="40" width="580">
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1035</width>
-						<height>62</height>
+						<width>690</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
-						<left>15</left>
+						<left>10</left>
 						<top>0</top>
-						<width>870</width>
-						<height>60</height>
+						<width>580</width>
+						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -37,10 +37,10 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
-						<left>420</left>
+						<left>280</left>
 						<top>0</top>
-						<width>600</width>
-						<height>60</height>
+						<width>400</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -50,10 +50,10 @@
 						<visible>!Window.IsVisible(Videos)</visible>
 					</control>
 					<control type="label">
-						<left>330</left>
+						<left>220</left>
 						<top>0</top>
-						<width>600</width>
-						<height>60</height>
+						<width>400</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -61,41 +61,41 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Window.IsVisible(Videos)</visible>
-						<animation effect="slide" start="0,0" end="60,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
+						<animation effect="slide" start="0,0" end="40,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
 					</control>
 					<control type="image">
-						<left>938</left>
-						<top>12</top>
-						<width>60</width>
-						<height>39</height>
+						<left>625</left>
+						<top>8</top>
+						<width>40</width>
+						<height>26</height>
 						<texture>$VAR[MediaInfoOverlayVar]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Sets) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
-						<left>998</left>
-						<top>21</top>
-						<width>24</width>
-						<height>24</height>
+						<left>665</left>
+						<top>14</top>
+						<width>16</width>
+						<height>16</height>
 						<texture>OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 					<control type="image">
-						<left>998</left>
-						<top>21</top>
-						<width>30</width>
-						<height>24</height>
+						<left>665</left>
+						<top>14</top>
+						<width>20</width>
+						<height>16</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</itemlayout>
-				<focusedlayout height="60" width="870">
+				<focusedlayout height="40" width="580">
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1035</width>
-						<height>62</height>
+						<width>690</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(50)</visible>
 						<include>VisibleFadeEffect</include>
@@ -103,25 +103,25 @@
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1035</width>
-						<height>62</height>
+						<width>690</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(50)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<left>735</left>
-						<top>8</top>
-						<width>300</width>
-						<height>47</height>
+						<left>490</left>
+						<top>5</top>
+						<width>200</width>
+						<height>31</height>
 						<texture border="0,0,14,0">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(50) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="label">
-						<left>15</left>
+						<left>10</left>
 						<top>0</top>
-						<width>870</width>
-						<height>60</height>
+						<width>580</width>
+						<height>40</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -130,10 +130,10 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
-						<left>420</left>
+						<left>280</left>
 						<top>0</top>
-						<width>600</width>
-						<height>60</height>
+						<width>400</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -143,10 +143,10 @@
 						<visible>!Window.IsVisible(Videos)</visible>
 					</control>
 					<control type="label">
-						<left>330</left>
+						<left>220</left>
 						<top>0</top>
-						<width>600</width>
-						<height>60</height>
+						<width>400</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -154,30 +154,30 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Window.IsVisible(Videos)</visible>
-						<animation effect="slide" start="0,0" end="60,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
+						<animation effect="slide" start="0,0" end="40,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
 					</control>
 					<control type="image">
-						<left>938</left>
-						<top>12</top>
-						<width>60</width>
-						<height>39</height>
+						<left>625</left>
+						<top>8</top>
+						<width>40</width>
+						<height>26</height>
 						<texture>$VAR[MediaInfoOverlayVar]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Sets) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
-						<left>998</left>
-						<top>21</top>
-						<width>24</width>
-						<height>24</height>
+						<left>665</left>
+						<top>14</top>
+						<width>16</width>
+						<height>16</height>
 						<texture>OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
-					<control type="image">
-						<left>998</left>
-						<top>21</top>
-						<width>30</width>
-						<height>24</height>
+ 					<control type="image">
+						<left>665</left>
+						<top>14</top>
+						<width>20</width>
+						<height>16</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos)</visible>
@@ -185,13 +185,13 @@
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>1140</left>
-				<top>128</top>
-				<width>38</width>
-				<height>825</height>
-				<texturesliderbackground border="0,28,0,28">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="0,28,0,28">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,28,0,28">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<left>760</left>
+				<top>85</top>
+				<width>25</width>
+				<height>550</height>
+				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>50</onleft>
@@ -202,14 +202,14 @@
 			</control>
 			<control type="group">
 				<depth>DepthContent-</depth>
-				<left>1275</left>
-				<top>150</top>
+				<left>850</left>
+				<top>100</top>
 				<visible>Control.IsVisible(50)</visible>
 				<control type="image">
 					<left>0</left>
 					<top>0</top>
-					<width>540</width>
-					<height>810</height>
+					<width>360</width>
+					<height>540</height>
 					<aspectratio aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture background="true">$VAR[PosterThumb]</texture>
@@ -217,10 +217,10 @@
 					<bordersize>8</bordersize>
 				</control>
 				<control type="image">
-					<left>12</left>
-					<top>798</top>
-					<width>516</width>
-					<height>786</height>
+					<left>8</left>
+					<top>532</top>
+					<width>344</width>
+					<height>524</height>
 					<aspectratio aligny="top">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture diffuse="diffuse_mirror3.png" flipy="true" background="true">$VAR[PosterThumb]</texture>
@@ -233,10 +233,10 @@
 			<visible>Control.IsVisible(500)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="500">
-				<left>135</left>
-				<top>120</top>
-				<width>1620</width>
-				<height>837</height>
+				<left>90</left>
+				<top>80</top>
+				<width>1080</width>
+				<height>558</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>500</onup>
@@ -245,12 +245,12 @@
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<preloaditems>2</preloaditems>
-				<itemlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="279" width="324">
+				<itemlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="186" width="216">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>240</height>
+						<width>214</width>
+						<height>160</height>
 						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
@@ -260,8 +260,8 @@
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>240</height>
+						<width>214</width>
+						<height>160</height>
 						<aspectratio>scale</aspectratio>
 						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -269,10 +269,10 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="label">
-						<left>12</left>
-						<top>240</top>
-						<width>300</width>
-						<height>38</height>
+						<left>8</left>
+						<top>160</top>
+						<width>200</width>
+						<height>25</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -281,20 +281,20 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>255</left>
-						<top>195</top>
-						<width>45</width>
-						<height>45</height>
+						<left>170</left>
+						<top>130</top>
+						<width>30</width>
+						<height>30</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
-				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="279" width="324">
+				<focusedlayout condition="!Container.Content(Movies) + !Container.Content(Seasons) + !Container.Content(TVShows) + !Container.Content(Sets)" height="186" width="216">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>240</height>
+						<width>214</width>
+						<height>160</height>
 						<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
@@ -304,8 +304,8 @@
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>240</height>
+						<width>214</width>
+						<height>160</height>
 						<aspectratio>scale</aspectratio>
 						<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
@@ -313,10 +313,10 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="label">
-						<left>12</left>
-						<top>240</top>
-						<width>300</width>
-						<height>38</height>
+						<left>8</left>
+						<top>160</top>
+						<width>200</width>
+						<height>25</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -325,30 +325,30 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>255</left>
-						<top>195</top>
-						<width>45</width>
-						<height>45</height>
+						<left>170</left>
+						<top>130</top>
+						<width>30</width>
+						<height>30</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
-				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="419" width="324">
+				<itemlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="279" width="216">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>360</height>
+						<width>214</width>
+						<height>240</height>
 						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<left>12</left>
-						<top>360</top>
-						<width>300</width>
-						<height>38</height>
+						<left>8</left>
+						<top>240</top>
+						<width>200</width>
+						<height>25</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -357,38 +357,30 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>42</left>
-						<top>314</top>
-						<width>38</width>
-						<height>38</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
-					</control>
-					<control type="image">
-						<left>255</left>
-						<top>315</top>
-						<width>45</width>
-						<height>45</height>
+						<left>170</left>
+						<top>210</top>
+						<width>30</width>
+						<height>30</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
-				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="414" width="324">
+				<focusedlayout condition="Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)" height="276" width="216">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>321</width>
-						<height>360</height>
+						<width>214</width>
+						<height>240</height>
 						<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<left>12</left>
-						<top>360</top>
-						<width>300</width>
-						<height>38</height>
+						<left>8</left>
+						<top>240</top>
+						<width>200</width>
+						<height>25</height>
 						<font>font12</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -397,31 +389,23 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>42</left>
-						<top>314</top>
-						<width>38</width>
-						<height>38</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
-					</control>
-					<control type="image">
-						<left>255</left>
-						<top>315</top>
-						<width>45</width>
-						<height>45</height>
+						<left>170</left>
+						<top>210</top>
+						<width>30</width>
+						<height>30</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>1755</left>
-				<top>120</top>
-				<width>38</width>
-				<height>825</height>
-				<texturesliderbackground border="0,28,0,28">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="0,28,0,28">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,28,0,28">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<left>1170</left>
+				<top>80</top>
+				<width>25</width>
+				<height>550</height>
+				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>500</onleft>
@@ -438,10 +422,10 @@
 			<include>VisibleFadeEffect</include>
 			<control type="panel" id="505">
 				<visible>Container.Content(TVShows) | Container.Content(Files)</visible>
-				<left>143</left>
-				<top>120</top>
-				<width>1620</width>
-				<height>825</height>
+				<left>95</left>
+				<top>80</top>
+				<width>1080</width>
+				<height>550</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>505</onup>
@@ -450,55 +434,55 @@
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
 				<preloaditems>2</preloaditems>
-				<itemlayout height="165" width="810">
+				<itemlayout height="110" width="540">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>807</width>
-						<height>158</height>
+						<width>538</width>
+						<height>105</height>
 						<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[BannerThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="image">
-						<left>750</left>
-						<top>105</top>
-						<width>53</width>
-						<height>53</height>
+						<left>500</left>
+						<top>70</top>
+						<width>35</width>
+						<height>35</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
-				<focusedlayout height="165" width="810">
+				<focusedlayout height="110" width="540">
 					<control type="image">
 						<left>1</left>
 						<top>0</top>
-						<width>807</width>
-						<height>158</height>
+						<width>538</width>
+						<height>105</height>
 						<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
 						<bordersize>5</bordersize>
 						<texture background="true">$VAR[BannerThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="image">
-						<left>750</left>
-						<top>105</top>
-						<width>53</width>
-						<height>53</height>
+						<left>500</left>
+						<top>70</top>
+						<width>35</width>
+						<height>35</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$INFO[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>1755</left>
-				<top>120</top>
-				<width>38</width>
-				<height>825</height>
-				<texturesliderbackground border="0,28,0,28">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="0,28,0,28">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,28,0,28">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<left>1170</left>
+				<top>80</top>
+				<width>25</width>
+				<height>550</height>
+				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="2,16,2,16">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="2,16,2,16">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>505</onleft>
@@ -514,10 +498,10 @@
 			<visible>Control.IsVisible(51)</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="list" id="51">
-				<left>143</left>
-				<top>117</top>
-				<width>1620</width>
-				<height>842</height>
+				<left>95</left>
+				<top>78</top>
+				<width>1080</width>
+				<height>561</height>
 				<onleft>2</onleft>
 				<onright>60</onright>
 				<onup>51</onup>
@@ -525,27 +509,27 @@
 				<viewtype label="537">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>200</scrolltime>
-				<itemlayout height="60" width="1620">
+				<itemlayout height="40" width="1080">
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1620</width>
-						<height>62</height>
+						<width>1080</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 					</control>
 					<control type="image">
-						<left>15</left>
-						<top>6</top>
-						<width>60</width>
-						<height>48</height>
+						<left>10</left>
+						<top>4</top>
+						<width>40</width>
+						<height>32</height>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<left>90</left>
+						<left>60</left>
 						<top>0</top>
-						<width>1425</width>
-						<height>60</height>
+						<width>950</width>
+						<height>40</height>
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -554,10 +538,10 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
-						<left>90</left>
+						<left>60</left>
 						<top>0</top>
-						<width>1500</width>
-						<height>60</height>
+						<width>1000</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -567,10 +551,10 @@
 						<visible>!Window.IsVisible(Videos)</visible>
 					</control>
 					<control type="label">
-						<left>98</left>
+						<left>65</left>
 						<top>0</top>
-						<width>1410</width>
-						<height>60</height>
+						<width>940</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -578,41 +562,41 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Window.IsVisible(Videos)</visible>
-						<animation effect="slide" start="0,0" end="60,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
+						<animation effect="slide" start="0,0" end="40,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
 					</control>
 					<control type="image">
-						<left>1515</left>
-						<top>12</top>
-						<width>60</width>
-						<height>39</height>
+						<left>1010</left>
+						<top>8</top>
+						<width>40</width>
+						<height>26</height>
 						<texture>$VAR[MediaInfoOverlayVar]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Sets) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
-						<left>1575</left>
-						<top>21</top>
-						<width>24</width>
-						<height>24</height>
+						<left>1050</left>
+						<top>14</top>
+						<width>16</width>
+						<height>16</height>
 						<texture>OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 					<control type="image">
-						<left>1575</left>
-						<top>21</top>
-						<width>30</width>
-						<height>24</height>
+						<left>1050</left>
+						<top>14</top>
+						<width>20</width>
+						<height>16</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos)</visible>
 					</control>
 				</itemlayout>
-				<focusedlayout height="60" width="1620">
+				<focusedlayout height="40" width="1080">
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1620</width>
-						<height>62</height>
+						<width>1080</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
@@ -620,33 +604,33 @@
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
-						<width>1620</width>
-						<height>62</height>
+						<width>1080</width>
+						<height>41</height>
 						<texture border="0,2,0,2">MenuItemFO.png</texture>
 						<visible>Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
 					</control>
 					<control type="image">
-						<left>1313</left>
-						<top>8</top>
-						<width>300</width>
-						<height>47</height>
+						<left>875</left>
+						<top>5</top>
+						<width>200</width>
+						<height>31</height>
 						<texture border="0,0,14,0">MediaItemDetailBG.png</texture>
 						<visible>Control.HasFocus(51) + !String.IsEmpty(ListItem.Label2)</visible>
 					</control>
 					<control type="image">
-						<left>15</left>
-						<top>6</top>
-						<width>60</width>
-						<height>48</height>
+						<left>10</left>
+						<top>4</top>
+						<width>40</width>
+						<height>32</height>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<aspectratio>keep</aspectratio>
 					</control>
 					<control type="label">
-						<left>90</left>
+						<left>60</left>
 						<top>0</top>
-						<width>1425</width>
-						<height>60</height>
+						<width>950</width>
+						<height>40</height>
 						<font>font13</font>
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -655,10 +639,10 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="label">
-						<left>90</left>
+						<left>60</left>
 						<top>0</top>
-						<width>1500</width>
-						<height>60</height>
+						<width>1000</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -668,10 +652,10 @@
 						<visible>!Window.IsVisible(Videos)</visible>
 					</control>
 					<control type="label">
-						<left>98</left>
+						<left>65</left>
 						<top>0</top>
-						<width>1410</width>
-						<height>60</height>
+						<width>940</width>
+						<height>40</height>
 						<font>font12</font>
 						<textcolor>grey2</textcolor>
 						<selectedcolor>selected</selectedcolor>
@@ -679,30 +663,30 @@
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Window.IsVisible(Videos)</visible>
-						<animation effect="slide" start="0,0" end="60,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
+						<animation effect="slide" start="0,0" end="40,0" delay="0" time="0" condition="![Container.Content(Movies) | Container.Content(Episodes) | Container.Content(MusicVideos)]">conditional</animation>
 					</control>
 					<control type="image">
-						<left>1515</left>
-						<top>12</top>
-						<width>60</width>
-						<height>39</height>
+						<left>1010</left>
+						<top>8</top>
+						<width>40</width>
+						<height>26</height>
 						<texture>$VAR[MediaInfoOverlayVar]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos) + [Container.Content(Movies) | Container.Content(Sets) | Container.Content(Episodes) | Container.Content(MusicVideos)]</visible>
 					</control>
 					<control type="image">
-						<left>1575</left>
-						<top>21</top>
-						<width>24</width>
-						<height>24</height>
+						<left>1050</left>
+						<top>14</top>
+						<width>16</width>
+						<height>16</height>
 						<texture>OverlayWatching.png</texture>
 						<visible>Window.IsVisible(Videos) + ListItem.IsResumable</visible>
 					</control>
 					<control type="image">
-						<left>1575</left>
-						<top>21</top>
-						<width>30</width>
-						<height>24</height>
+						<left>1050</left>
+						<top>14</top>
+						<width>20</width>
+						<height>16</height>
 						<texture>$INFO[ListItem.Overlay]</texture>
 						<aspectratio>keep</aspectratio>
 						<visible>Window.IsVisible(Videos)</visible>
@@ -710,13 +694,13 @@
 				</focusedlayout>
 			</control>
 			<control type="scrollbar" id="60">
-				<left>1755</left>
-				<top>120</top>
-				<width>38</width>
-				<height>825</height>
-				<texturesliderbackground border="0,28,0,28">ScrollBarV.png</texturesliderbackground>
-				<texturesliderbar border="0,28,0,28">ScrollBarV_bar.png</texturesliderbar>
-				<texturesliderbarfocus border="0,28,0,28">ScrollBarV_bar_focus.png</texturesliderbarfocus>
+				<left>1170</left>
+				<top>80</top>
+				<width>25</width>
+				<height>550</height>
+				<texturesliderbackground border="0,14,0,14">ScrollBarV.png</texturesliderbackground>
+				<texturesliderbar border="0,14,0,14">ScrollBarV_bar.png</texturesliderbar>
+				<texturesliderbarfocus border="0,14,0,14">ScrollBarV_bar_focus.png</texturesliderbarfocus>
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>50</onleft>
