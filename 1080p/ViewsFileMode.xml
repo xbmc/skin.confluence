@@ -312,6 +312,18 @@
 						<texture background="true">$INFO[Listitem.Icon]</texture>
 						<visible>Container.Content(Episodes)</visible>
 					</control>
+					<control type="label">
+						<left>12</left>
+						<top>240</top>
+						<width>300</width>
+						<height>38</height>
+						<font>font12</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>center</align>
+						<aligny>center</aligny>
+						<label>$VAR[ShowCustomLabel]</label>
+					</control>
 					<control type="image">
 						<left>255</left>
 						<top>195</top>
