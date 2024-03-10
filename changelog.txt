@@ -1,3 +1,12 @@
+[B]5.0.00[/B]
+
+- Add Video version support
+- Convert skin from 720p to 1080p
+- Update scrollbars
+- Add grid overlay
+- Add game agents
+- Add disabled slider texture
+
 [B]4.8.00[/B]
 
 - Bump skin version and update changelog
