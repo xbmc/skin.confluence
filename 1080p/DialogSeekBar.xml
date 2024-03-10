@@ -296,7 +296,7 @@
 					<width>360</width>
 					<height>23</height>
 					<info>PVR.TimeshiftProgressBufferEnd </info>
-					<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
+					<midtexture border="9,13,9,13">OSDProgressMidLight.png</midtexture>
 					<visible>PVR.IsTimeShift</visible>
 				</control>
 				<control type="progress" id="23">
@@ -355,7 +355,7 @@
 					<width>360</width>
 					<height>23</height>
 					<info>Player.ProgressCache</info>
-					<midtexture border="6,0,6,0">OSDProgressMidLight.png</midtexture>
+					<midtexture border="9,13,9,13">OSDProgressMidLight.png</midtexture>
 					<visible>true</visible>
 				</control>
 				<control type="progress" id="23">

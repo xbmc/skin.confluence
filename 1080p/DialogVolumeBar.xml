@@ -15,7 +15,7 @@
 				<top>-15</top>
 				<width>450</width>
 				<height>75</height>
-				<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
+				<texture flipy="true" border="12,2,12,12">InfoMessagePanel.png</texture>
 			</control>
 			<control type="group">
 				<visible>!player.passthrough</visible>

@@ -14,7 +14,7 @@
 			<top>-15</top>
 			<width>690</width>
 			<height>120</height>
-			<texture flipy="true" border="20,2,20,20">InfoMessagePanel.png</texture>
+			<texture flipy="true" border="12,2,12,12">InfoMessagePanel.png</texture>
 		</control>
 		<control type="label" id="10">
 			<description>Dialog header</description>

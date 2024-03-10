@@ -57,9 +57,9 @@
 	<default type="progress">
 		<left>150</left>
 		<top>488</top>
-		<texturebg border="6,0,6,0">OSDProgressBack.png</texturebg>
+		<texturebg border="9,13,9,13">OSDProgressBack.png</texturebg>
 		<lefttexture />
-		<midtexture border="6,0,6,0">OSDProgressMid.png</midtexture>
+		<midtexture border="9,13,9,13">OSDProgressMid.png</midtexture>
 		<righttexture />
 		<overlaytexture />
 	</default>

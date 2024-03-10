@@ -189,6 +189,8 @@
 						<height>9</height>
 						<colordiffuse>88FFFFFF</colordiffuse>
 						<info>ListItem.Progress</info>
+						<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+						<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 						<visible>ListItem.HasEpg</visible>
 					</control>
 					<control type="label">
@@ -317,6 +319,8 @@
 						<height>9</height>
 						<colordiffuse>88FFFFFF</colordiffuse>
 						<info>ListItem.Progress</info>
+						<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+						<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 						<visible>ListItem.HasEpg</visible>
 					</control>
 					<control type="label">

@@ -14,7 +14,7 @@
 				<top>-15</top>
 				<width>600</width>
 				<height>105</height>
-				<texture flipy="true" border="20,20,20,2">InfoMessagePanel.png</texture>
+				<texture flipy="true" border="12,2,12,12">InfoMessagePanel.png</texture>
 			</control>
 			<control type="label" id="30">
 				<description>Header Label</description>
@@ -43,6 +43,8 @@
 				<top>63</top>
 				<width>555</width>
 				<height>12</height>
+				<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+				<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 			</control>
 		</control>
 	</controls>

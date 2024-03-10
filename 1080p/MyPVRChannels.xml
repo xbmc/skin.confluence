@@ -135,6 +135,8 @@
 					<height>12</height>
 					<visible>Container(50).ListItem.HasEpg</visible>
 					<info>Container(50).ListItem.Progress</info>
+					<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+					<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 				</control>
 				<control type="label">
 					<left>900</left>
@@ -257,6 +259,8 @@
 							<colordiffuse>88FFFFFF</colordiffuse>
 							<visible>ListItem.HasEpg</visible>
 							<info>ListItem.Progress</info>
+							<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+							<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 						</control>
 						<control type="image">
 							<left>510</left>
@@ -361,6 +365,8 @@
 							<colordiffuse>88FFFFFF</colordiffuse>
 							<visible>ListItem.HasEpg</visible>
 							<info>ListItem.Progress</info>
+							<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+							<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 						</control>
 						<control type="image">
 							<left>510</left>

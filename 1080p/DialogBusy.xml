@@ -46,6 +46,8 @@
 				<top>80</top>
 				<width>240</width>
 				<height>12</height>
+				<texturebg border="4,5,4,5">ProgressBack.png</texturebg>
+				<midtexture border="4,5,4,5">ProgressMid.png</midtexture>
 			</control>
 		</control>
 	</controls>
