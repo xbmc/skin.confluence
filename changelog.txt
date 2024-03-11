@@ -1,3 +1,12 @@
+[B]4.8.01[/B]
+
+- Fix missing label in view id=50
+- Fix broken boll in PosterThumb variable
+- Fix default home item selection issue
+- Remove unneeded code
+- Fix default select item when using login
+- Remove unneeded close button
+
 [B]4.8.00[/B]
 
 - Bump skin version and update changelog
