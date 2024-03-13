@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-04-29 13:16+0000\n"
+"PO-Revision-Date: 2024-03-12 18:57+0000\n"
 "Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/es_es/>\n"
 "Language: es_es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -99,19 +99,19 @@ msgstr "No disponible"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Establecer el elemento de inicio por defecto"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "Pulse \"Arriba\" para establecer esta opción como predeterminada"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Partidas guardadas"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "Formato del título de la película"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -148,7 +148,7 @@ msgstr "Fanart"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "Sin cambios"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -164,23 +164,23 @@ msgstr "Info"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "Título original (título localizado)"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "Título localizado (Título original)"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "Sólo título original"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr ""
+msgstr "Select + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
+msgstr "Select + Start"
 
 msgctxt "#31039"
 msgid "Actions"
@@ -192,7 +192,7 @@ msgstr "Reproduciendo ahora"
 
 msgctxt "#31041"
 msgid "Select + Right Stick"
-msgstr ""
+msgstr "Select + Stick Derecho"
 
 msgctxt "#31042"
 msgid "PLAYING"
