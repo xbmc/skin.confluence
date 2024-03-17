@@ -68,11 +68,11 @@
 					<control type="image">
 						<depth>DepthContentPopout</depth>
 						<left>32</left>
-						<top>458</top>
-						<width>53</width>
-						<height>53</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
+						<top>460</top>
+						<width>50</width>
+						<height>52</height>
+						<aspectratio aligny="bottom">keep</aspectratio>
+						<texture border="2">$VAR[VersionsExtrasOverlay]</texture>
 						<animation type="focus">
 							<effect type="fade" start="0" end="100" time="150" />
 							<effect type="slide" start="0,0" end="-60,60" time="150" />
@@ -423,11 +423,11 @@
 					<control type="image">
 						<depth>DepthContentPopout</depth>
 						<left>9</left>
-						<top>234</top>
-						<width>28</width>
-						<height>28</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
+						<top>236</top>
+						<width>24</width>
+						<height>26</height>
+						<aspectratio aligny="bottom">keep</aspectratio>
+						<texture border="2">$VAR[VersionsExtrasOverlay]</texture>
 						<animation type="focus">
 							<effect type="fade" start="0" end="100" time="150" />
 							<effect type="slide" start="0,0" end="-15,8" time="150" />

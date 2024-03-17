@@ -1,4 +1,8 @@
-[B]5.0.00[/B]
+[B]5.0.1[/B]
+
+- Rework versions/extras textures
+
+[B]5.0.0[/B]
 
 - Add Video version support
 - Convert skin from 720p to 1080p
@@ -7,7 +11,7 @@
 - Add game agents
 - Add disabled slider texture
 
-[B]4.8.00[/B]
+[B]4.8.0[/B]
 
 - Bump skin version and update changelog
 - Add movie title format option

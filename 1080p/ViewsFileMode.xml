@@ -357,12 +357,12 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>42</left>
+						<left>40</left>
 						<top>314</top>
 						<width>38</width>
-						<height>38</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
+						<height>40</height>
+						<aspectratio aligny="bottom">keep</aspectratio>
+						<texture border="2">$VAR[VersionsExtrasOverlay]</texture>
 					</control>
 					<control type="image">
 						<left>255</left>
@@ -397,12 +397,12 @@
 						<label>$VAR[ShowCustomLabel]</label>
 					</control>
 					<control type="image">
-						<left>42</left>
+						<left>40</left>
 						<top>314</top>
 						<width>38</width>
-						<height>38</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$VAR[VersionsExtrasOverlay]</texture>
+						<height>40</height>
+						<aspectratio aligny="bottom">keep</aspectratio>
+						<texture border="2">$VAR[VersionsExtrasOverlay]</texture>
 					</control>
 					<control type="image">
 						<left>255</left>
