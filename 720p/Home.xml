@@ -1068,8 +1068,11 @@
 			<depth>DepthMenu</depth>
 			<onup>9001</onup>
 			<ondown>21</ondown>
-			<control type="fixedlist" id="700">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="String.IsEqual(Container(700).NumItems,2) | String.IsEqual(Container(700).NumItems,4)">conditional</animation>
+			<control type="list" id="700">
+				<animation effect="slide" start="0,0" end="364,0" time="0" condition="String.IsEqual(Container(700).NumItems,1)">conditional</animation>
+				<animation effect="slide" start="0,0" end="273,0" time="0" condition="String.IsEqual(Container(700).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="182,0" time="0" condition="String.IsEqual(Container(700).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="String.IsEqual(Container(700).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(2) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11)</visible>
 				<onleft>700</onleft>
 				<onright>700</onright>
@@ -1080,8 +1083,11 @@
 					<include>HomeAddonItemsVideos</include>
 				</content>
 			</control>
-			<control type="fixedlist" id="703">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="String.IsEqual(Container(703).NumItems,2) | String.IsEqual(Container(703).NumItems,4)">conditional</animation>
+			<control type="list" id="703">
+				<animation effect="slide" start="0,0" end="364,0" time="0" condition="String.IsEqual(Container(703).NumItems,1)">conditional</animation>
+				<animation effect="slide" start="0,0" end="273,0" time="0" condition="String.IsEqual(Container(703).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="182,0" time="0" condition="String.IsEqual(Container(703).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="String.IsEqual(Container(703).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(3)</visible>
 				<onleft>703</onleft>
 				<onright>703</onright>
@@ -1092,8 +1098,11 @@
 					<include>HomeAddonItemsMusic</include>
 				</content>
 			</control>
-			<control type="fixedlist" id="704">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="String.IsEqual(Container(704).NumItems,2) | String.IsEqual(Container(704).NumItems,4)">conditional</animation>
+			<control type="list" id="704">
+				<animation effect="slide" start="0,0" end="364,0" time="0" condition="String.IsEqual(Container(704).NumItems,1)">conditional</animation>
+				<animation effect="slide" start="0,0" end="273,0" time="0" condition="String.IsEqual(Container(704).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="182,0" time="0" condition="String.IsEqual(Container(704).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="String.IsEqual(Container(704).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(4)</visible>
 				<onleft>704</onleft>
 				<onright>704</onright>
@@ -1104,8 +1113,11 @@
 					<include>HomeAddonItemsPictures</include>
 				</content>
 			</control>
-			<control type="fixedlist" id="705">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="String.IsEqual(Container(705).NumItems,2) | String.IsEqual(Container(705).NumItems,4)">conditional</animation>
+			<control type="list" id="705">
+				<animation effect="slide" start="0,0" end="364,0" time="0" condition="String.IsEqual(Container(705).NumItems,1)">conditional</animation>
+				<animation effect="slide" start="0,0" end="273,0" time="0" condition="String.IsEqual(Container(705).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="182,0" time="0" condition="String.IsEqual(Container(705).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="String.IsEqual(Container(705).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(1)</visible>
 				<onleft>705</onleft>
 				<onright>705</onright>
@@ -1116,8 +1128,11 @@
 					<include>HomeAddonItemsPrograms</include>
 				</content>
 			</control>
-			<control type="fixedlist" id="706">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="String.IsEqual(Container(706).NumItems,2) | String.IsEqual(Container(706).NumItems,4)">conditional</animation>
+			<control type="list" id="706">
+				<animation effect="slide" start="0,0" end="364,0" time="0" condition="String.IsEqual(Container(706).NumItems,1)">conditional</animation>
+				<animation effect="slide" start="0,0" end="273,0" time="0" condition="String.IsEqual(Container(706).NumItems,2)">conditional</animation>
+				<animation effect="slide" start="0,0" end="182,0" time="0" condition="String.IsEqual(Container(706).NumItems,3)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="String.IsEqual(Container(706).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(14)</visible>
 				<onleft>706</onleft>
 				<onright>706</onright>
