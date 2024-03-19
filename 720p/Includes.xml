@@ -1601,14 +1601,12 @@
 			<effect type="fade" start="100" end="0" time="225" />
 		</animation>
 		<hitrect x="0" y="530" w="1280" h="120" />
-		<left>0</left>
+		<left>186</left>
 		<top>190r</top>
 		<width>1280</width>
 		<height>200</height>
 		<pagecontrol/>
 		<scrolltime>300</scrolltime>
-		<focusposition>3</focusposition>
-		<movement>2</movement>
 		<orientation>Horizontal</orientation>
 		<itemlayout height="200" width="182">
 			<control type="image">
