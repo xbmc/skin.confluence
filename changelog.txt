@@ -1,5 +1,6 @@
 [B]4.8.2[/B]
 
+- Fix addon focus issue
 - Fix Formed/Born overlap issue
 - Fix exiting from settings focus problem
 
