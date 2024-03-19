@@ -1,3 +1,7 @@
+[B]4.8.2[/B]
+
+- Fix exiting from settings focus problem
+
 [B]4.8.1[/B]
 
 - Fix missing label in view id=50
