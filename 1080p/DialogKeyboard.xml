@@ -442,7 +442,7 @@
 						<description>Symbols button</description>
 						<width>150</width>
 						<height>75</height>
-						<label>@#!*   </label>
+						<label>áêö   </label>
 						<onup>303</onup>
 						<ondown>300</ondown>
 						<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
