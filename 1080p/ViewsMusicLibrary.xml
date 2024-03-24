@@ -786,7 +786,7 @@
 						<aligny>center</aligny>
 						<font>font13_title</font>
 						<textcolor>blue</textcolor>
-						<visible>!String.IsEmpty(ListItem.Property(Artist_Born))</visible>
+						<visible>!String.IsEmpty(ListItem.Property(Artist_Born)) + String.IsEmpty(ListItem.Property(Artist_Formed))</visible>
 					</control>
 					<control type="label">
 						<description>Born Value</description>
@@ -799,7 +799,7 @@
 						<aligny>center</aligny>
 						<font>font13</font>
 						<scroll>true</scroll>
-						<visible>!String.IsEmpty(ListItem.Property(Artist_Born))</visible>
+						<visible>!String.IsEmpty(ListItem.Property(Artist_Born)) + String.IsEmpty(ListItem.Property(Artist_Formed))</visible>
 					</control>
 					<control type="label">
 						<description>Formed txt</description>
