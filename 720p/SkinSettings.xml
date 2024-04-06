@@ -490,7 +490,6 @@
 						<selected>Skin.HasSetting(HomeMenuNoMovieButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<enable>Library.HasContent(Movies)</enable>
 					</control>
 					<control type="radiobutton" id="223">
 						<description>Hide TV Shows Button</description>
@@ -506,7 +505,6 @@
 						<selected>Skin.HasSetting(HomeMenuNoTVShowButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<enable>Library.HasContent(TVShows)</enable>
 					</control>
 					<control type="radiobutton" id="224">
 						<description>Hide Music Button</description>
