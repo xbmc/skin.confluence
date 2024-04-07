@@ -290,7 +290,7 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.SelectBool(31021, 31030|TitleFormat_nothing, 31036|TitleFormat_only, 31035|TitleFormat_1st, 31034|TitleFormat_2nd)</onclick>
+						<onclick>Skin.SelectBool(31021, 31030|TitleFormat_nothing, 31036|TitleFormat_only, 31034|TitleFormat_1st, 31035|TitleFormat_2nd)</onclick>
 						<label2>$VAR[ShowOriginalName]</label2>
 					</control>
 				</control>
