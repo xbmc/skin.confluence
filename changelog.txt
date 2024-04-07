@@ -1,3 +1,8 @@
+[B]4.8.3[/B]
+
+- Fix Original/Localised title
+- Fix 'Movie' and 'TV Shows' buttons visible condition
+
 [B]4.8.2[/B]
 
 - Fix addon focus issue
