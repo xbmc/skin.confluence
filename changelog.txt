@@ -1,3 +1,22 @@
+[B]5.0.3[/B]
+
+- Add video version/extra select dialog
+- Fix panel height
+
+[B]5.0.2[/B]
+
+- Fix Original/Localised title
+- Fix 'Movie' and 'TV Shows' buttons visible condition
+- Fix addon focus issue
+- Fix Formed/Born overlap issue
+- Fix exiting from settings focus problem
+- Fix missing label in view id=50
+- Fix broken bool in PosterThumb variable
+- Fix default home item selection issue
+- Remove unneeded code
+- Fix default select item when using login
+- Remove unneeded close button
+
 [B]5.0.1[/B]
 
 - Rework versions/extras textures
