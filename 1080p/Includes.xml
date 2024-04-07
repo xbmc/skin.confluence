@@ -592,8 +592,8 @@
 		<value>$LOCALIZE[16018]</value>
 	</variable>
 	<variable name="ShowOriginalName">
-		<value condition="Skin.HasSetting(TitleFormat_1st)">$LOCALIZE[31035]</value>
-		<value condition="Skin.HasSetting(TitleFormat_2nd)">$LOCALIZE[31034]</value>
+		<value condition="Skin.HasSetting(TitleFormat_1st)">$LOCALIZE[31034]</value>
+		<value condition="Skin.HasSetting(TitleFormat_2nd)">$LOCALIZE[31035]</value>
 		<value condition="Skin.HasSetting(TitleFormat_only)">$LOCALIZE[31036]</value>
 		<value>$LOCALIZE[31030]</value>
 	</variable>
