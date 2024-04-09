@@ -2,11 +2,11 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<onload condition="String.IsEmpty(Skin.String(DefaultHomeFocusItem))">SetProperty(SetDefaultHomeItem,1,home)</onload>
-	<onload condition="!Window.Previous(Weather) + !Window.Previous(Pictures) + !Window.Previous(Games) + !Window.Previous(RadioChannels) + !Window.Previous(TVChannels) + !Window.Previous(Videos) + !Window.Previous(Music) + !Window.Previous(Programs) + !Window.Previous(Favouritesbrowser) + !Window.Previous(FileManager) + !Window.Previous(Profiles) + !Window.Previous(SystemInfo) + !Window.Previous(EventLog) + !Window.Previous(TVGuide) + !Window.Previous(TVRecordings) + !Window.Previous(TVTimerRules) + !Window.Previous(TVTimers) + !Window.Previous(TVSearch) + !Window.Previous(RadioGuide) + !Window.Previous(RadioRecordings) + !Window.Previous(RadioTimerRules) + !Window.Previous(RadioTimers) + !Window.Previous(RadioSearch) + !Window.Previous(addonbrowser) + !Window.Previous(script.globalsearch) + !Window.Previous(settings)">SetFocus(9000,$INFO[Skin.String(DefaultHomeFocus)])</onload>
-	<onunload condition="Container(9000).Hasfocus(10) | Container(9000).Hasfocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
+	<onload condition="!Window.Previous(Weather) + !Window.Previous(Pictures) + !Window.Previous(Games) + !Window.Previous(RadioChannels) + !Window.Previous(TVChannels) + !Window.Previous(Videos) + !Window.Previous(Music) + !Window.Previous(Programs) + !Window.Previous(Favouritesbrowser) + !Window.Previous(FileManager) + !Window.Previous(Profiles) + !Window.Previous(SystemInfo) + !Window.Previous(EventLog) + !Window.Previous(TVGuide) + !Window.Previous(TVRecordings) + !Window.Previous(TVTimerRules) + !Window.Previous(TVTimers) + !Window.Previous(TVSearch) + !Window.Previous(RadioGuide) + !Window.Previous(RadioRecordings) + !Window.Previous(RadioTimerRules) + !Window.Previous(RadioTimers) + !Window.Previous(RadioSearch) + !Window.Previous(addonbrowser) + !Window.Previous(script.globalsearch) + !Window.Previous(settings) + !Window.Previous(fullscreenvideo) + !Window.Previous(visualisation)">SetFocus(9000,$INFO[Skin.String(DefaultHomeFocus)])</onload>
+	<onunload condition="Container(9000).HasFocus(10) | Container(9000).HasFocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
 	<onunload condition="ControlGroup(9011).HasFocus">SetProperty(MusicDirectLink,True)</onunload>
-	<onunload condition="Control.HasFocus(9000) + Container(9000).Hasfocus(2)">ClearProperty(VideosDirectLink)</onunload>
-	<onunload condition="Control.HasFocus(9000) + Container(9000).Hasfocus(3)">ClearProperty(MusicDirectLink)</onunload>
+	<onunload condition="Control.HasFocus(9000) + Container(9000).HasFocus(2)">ClearProperty(VideosDirectLink)</onunload>
+	<onunload condition="Control.HasFocus(9000) + Container(9000).HasFocus(3)">ClearProperty(MusicDirectLink)</onunload>
 	<controls>
 		<control type="list" id="90160">
 			<left>-15</left>
