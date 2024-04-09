@@ -25,7 +25,7 @@ msgstr "Dehra Confluence magħmula minn Jezz_X. (Id-dehra normali ta' Kodi)"
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq. Hija taħlita ta' [CR]kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa [CR]ideat tagħhom f'dehra li għandha tkun faċli biex jifmuha u jużawha dawk l-[CR]utenti li qed jużaw Kodi għall-ewwel darba."
+msgstr "[CR]Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq. Hija taħlita ta' [CR]kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa [CR]ideat tagħhom f'dehra li għandha tkun faċli biex jifmuha u jużawha dawk l-[CR]utenti li qed jużaw Kodi għall-ewwel darba.[CR][CR]Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq. Hija taħlita ta' [CR]kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa [CR]ideat tagħhom f'dehra li għandha tkun faċli biex jifmuha u jużawha dawk l-[CR]utenti li qed jużaw Kodi għall-ewwel darba."
 
 "Confluence hija d-dehra normali ta' Kodi 14.0 il-fuq. Hija taħlita ta' "
 "kunċetti minn ħafna dehriet popolari, u tipporva tgħaqqad u tintegra l-aqwa "

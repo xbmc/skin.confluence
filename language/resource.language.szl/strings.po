@@ -25,7 +25,7 @@ msgstr "Skōra Confluence zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)"
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng [CR]kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do [CR]skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw [CR]Kodi."
+msgstr "[CR]Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng [CR]kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do [CR]skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw [CR]Kodi.[CR][CR]Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng [CR]kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do [CR]skōry, kerŏ winnŏ być prostŏ we użyciu i spokopiyniu dlŏ nowych używŏczōw [CR]Kodi."
 
 "Confluence to je wychodnŏ skōra dlŏ Kodi 14.0 i nowszych. To je miszōng "
 "kōnceptōw ze mocki popularnych skōr i prōbuje te nŏjlepsze wkludzić do "

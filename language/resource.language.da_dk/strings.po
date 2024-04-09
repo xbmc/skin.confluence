@@ -24,7 +24,7 @@ msgstr "Confluence skin af Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence er en kombination af koncepter fra mange populære skins, og det [CR]forsøger at omfavne og integrere de gode ideer i et skin, der er let for [CR]førstegangsbrugere af Kodi at forstå og bruge."
+msgstr "[CR]Confluence er en kombination af koncepter fra mange populære skins, og det [CR]forsøger at omfavne og integrere de gode ideer i et skin, der er let for [CR]førstegangsbrugere af Kodi at forstå og bruge.[CR][CR]Confluence er en kombination af koncepter fra mange populære skins, og det [CR]forsøger at omfavne og integrere de gode ideer i et skin, der er let for [CR]førstegangsbrugere af Kodi at forstå og bruge."
 
 "Confluence er en kombination af koncepter fra mange populære skins, og det "
 "forsøger at omfavne og integrere de gode ideer i et skin, der er let for "

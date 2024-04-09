@@ -24,7 +24,7 @@ msgstr "Confluence-ulkoasu. Tekijä Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja [CR]yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi [CR]olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille."
+msgstr "[CR]Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja [CR]yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi [CR]olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille.[CR][CR]Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja [CR]yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi [CR]olla helppokäyttöinen ja -tajuinen kaikille Kodin käyttäjille."
 
 "Confluence on yhdistelmä useiden suosittujen ulkoasujen konsepteista, ja "
 "yritys omaksua ja integroida heidän hyvät ideat ulkoasuun, jonka pitäisi "
