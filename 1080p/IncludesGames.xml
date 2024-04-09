@@ -759,7 +759,6 @@
 			</control>
 			<control type="grouplist" id="90">
 				<left>30</left>
-				<left>690</left>
 				<top>758</top>
 				<width>1580</width>
 				<ondown>3</ondown>
