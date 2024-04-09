@@ -40,6 +40,15 @@
 	<constant name="DepthFloor">-0.20</constant>
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
+	<variable name="VideoResolutionTypeVar">
+		<value condition="String.IsEqual(ListItem.VideoResolution,480)">SD</value>
+		<value condition="String.IsEqual(ListItem.VideoResolution,540)">SD</value>
+		<value condition="String.IsEqual(ListItem.VideoResolution,576)">SD</value>
+		<value condition="String.IsEqual(ListItem.VideoResolution,720)">HD</value>
+		<value condition="String.IsEqual(ListItem.VideoResolution,1080)">HD</value>			
+		<value condition="String.IsEqual(ListItem.VideoResolution,4K)">UHD</value>
+		<value condition="String.IsEqual(ListItem.VideoResolution,8K)">UHD</value>	
+	</variable>
 	<variable name="AddonInfoHeading">
 		<value condition="!String.IsEmpty(Window(home).Property(WhatsNew))">$LOCALIZE[24054]</value>
 		<value>$LOCALIZE[21821]</value>
