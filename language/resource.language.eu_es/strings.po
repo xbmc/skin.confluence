@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Azal lehenetsia"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Azal lehenetsia maiuskularik gabe"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Arial-en oinarritua"
@@ -724,7 +728,3 @@ msgstr "Profilaren izena"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Azal lehenetsia maiuskularik gabe"

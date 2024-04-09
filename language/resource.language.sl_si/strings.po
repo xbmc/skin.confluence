@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Privzeto"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Privzeto brez velikih začetnic"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Arial"
@@ -725,7 +729,3 @@ msgstr "Ime profila"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Podoba profila"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Privzeto brez velikih začetnic"

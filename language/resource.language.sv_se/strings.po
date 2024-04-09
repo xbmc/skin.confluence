@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Skalets standardvärde"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Skalets standard utan versaler"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Arialbaserad"
@@ -724,7 +728,3 @@ msgstr "Profilnamn"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilbild"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Skalets standard utan versaler"

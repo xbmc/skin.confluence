@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Skin por defecto"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Tema por defecto sin mayúsculas"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Basada en Arial"
@@ -724,7 +728,3 @@ msgstr "Nombre de perfil"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar de perfil"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Tema por defecto sin mayúsculas"
