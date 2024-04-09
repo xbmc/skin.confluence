@@ -423,14 +423,6 @@ msgctxt "#31205"
 msgid "Lyrics source"
 msgstr "Nguồn lời bài hát"
 
-msgctxt "#31206"
-msgid "Found"
-msgstr "Đã tìm thấy"
-
-msgctxt "#31207"
-msgid "Find more items"
-msgstr ""
-
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr ""
@@ -460,10 +452,6 @@ msgctxt "#31309"
 msgid "Memory used:"
 msgstr "Bộ nhớ đã dùng:"
 
-msgctxt "#31310"
-msgid "Track number"
-msgstr ""
-
 msgctxt "#31319"
 msgid "Selected profile"
 msgstr "Đã chọn hồ sơ"
@@ -487,10 +475,6 @@ msgstr "Đã tạo"
 msgctxt "#31327"
 msgid "Resolution"
 msgstr "Độ phân giải"
-
-msgctxt "#31328"
-msgid "Recently added"
-msgstr "Đã thêm gần đây"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
@@ -615,10 +599,6 @@ msgctxt "#31501"
 msgid "Scheduled time"
 msgstr ""
 
-msgctxt "#31502"
-msgid "TV"
-msgstr "TV"
-
 msgctxt "#31503"
 msgid "Add group"
 msgstr "Thêm nhóm"
@@ -667,10 +647,6 @@ msgstr ""
 msgctxt "#31905"
 msgid "Forecast"
 msgstr "Dự báo"
-
-msgctxt "#31909"
-msgid "Fetching forecast info..."
-msgstr "Đang tải dữ liệu thời tiết..."
 
 msgctxt "#31910"
 msgid "Maps"
@@ -738,3 +714,19 @@ msgstr "Tên hồ sơ"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Ảnh đại diện hồ sơ"
+
+#~ msgctxt "#31206"
+#~ msgid "Found"
+#~ msgstr "Đã tìm thấy"
+
+#~ msgctxt "#31328"
+#~ msgid "Recently added"
+#~ msgstr "Đã thêm gần đây"
+
+#~ msgctxt "#31502"
+#~ msgid "TV"
+#~ msgstr "TV"
+
+#~ msgctxt "#31909"
+#~ msgid "Fetching forecast info..."
+#~ msgstr "Đang tải dữ liệu thời tiết..."

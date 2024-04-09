@@ -434,14 +434,6 @@ msgctxt "#31205"
 msgid "Lyrics source"
 msgstr ""
 
-msgctxt "#31206"
-msgid "Found"
-msgstr ""
-
-msgctxt "#31207"
-msgid "Find more items"
-msgstr ""
-
 msgctxt "#31208"
 msgid "Upcoming episodes"
 msgstr ""
@@ -473,10 +465,6 @@ msgctxt "#31309"
 msgid "Memory used:"
 msgstr ""
 
-msgctxt "#31310"
-msgid "Track number"
-msgstr ""
-
 # empty strings from id 31311 to 31318
 msgctxt "#31319"
 msgid "Selected profile"
@@ -502,10 +490,6 @@ msgstr ""
 
 msgctxt "#31327"
 msgid "Resolution"
-msgstr ""
-
-msgctxt "#31328"
-msgid "Recently added"
 msgstr ""
 
 msgctxt "#31329"
@@ -635,10 +619,6 @@ msgctxt "#31501"
 msgid "Scheduled time"
 msgstr ""
 
-msgctxt "#31502"
-msgid "TV"
-msgstr "تلوزیون"
-
 msgctxt "#31503"
 msgid "Add group"
 msgstr ""
@@ -687,11 +667,6 @@ msgstr ""
 
 msgctxt "#31905"
 msgid "Forecast"
-msgstr ""
-
-# empty strings from id 31906 to 31908
-msgctxt "#31909"
-msgid "Fetching forecast info..."
 msgstr ""
 
 msgctxt "#31910"
@@ -761,3 +736,7 @@ msgstr ""
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
+
+#~ msgctxt "#31502"
+#~ msgid "TV"
+#~ msgstr "تلوزیون"
