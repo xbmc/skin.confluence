@@ -24,7 +24,7 @@ msgstr "Jezz_X 开发的 Confluence 皮肤。"
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次[CR]使用 Kodi 的用户能更容易上手。"
+msgstr "[CR]Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次[CR]使用 Kodi 的用户能更容易上手。[CR][CR]Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次[CR]使用 Kodi 的用户能更容易上手。"
 
 "Confluence 集合了许多流行皮肤的创意，力求把这些优点融合到一个皮肤中，使得首次"
 "使用 Kodi 的用户能更容易上手。"

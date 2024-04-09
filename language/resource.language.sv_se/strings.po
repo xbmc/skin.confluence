@@ -24,7 +24,7 @@ msgstr "Confluence, ett skal av Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence kombinerar koncept från många populära skal och försöker [CR]återanvända och integrera goda idéer för att skapa ett skal som är enkelt [CR]att förstå och använda för nya Kodi-användare."
+msgstr "[CR]Confluence kombinerar koncept från många populära skal och försöker [CR]återanvända och integrera goda idéer för att skapa ett skal som är enkelt [CR]att förstå och använda för nya Kodi-användare.[CR][CR]Confluence kombinerar koncept från många populära skal och försöker [CR]återanvända och integrera goda idéer för att skapa ett skal som är enkelt [CR]att förstå och använda för nya Kodi-användare."
 
 "Confluence kombinerar koncept från många populära skal och försöker "
 "återanvända och integrera goda idéer för att skapa ett skal som är enkelt "
