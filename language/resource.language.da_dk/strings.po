@@ -538,10 +538,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Skinnets standard"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "Skinnets standard uden store bogstaver"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Baseret på Arial"
@@ -729,3 +725,7 @@ msgstr "Profilnavn"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilavatar"
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "Skinnets standard uden store bogstaver"

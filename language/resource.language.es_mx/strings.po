@@ -538,10 +538,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Según máscara"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "Máscara predeterminada sin mayúsculas"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Basado en Arial"
@@ -728,3 +724,7 @@ msgstr "Nombre de perfil"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar del perfil"
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "Máscara predeterminada sin mayúsculas"

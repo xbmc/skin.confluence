@@ -555,10 +555,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Standarte e Maskës"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr ""
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Në Arial"

@@ -538,10 +538,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Lalai Kulit"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "Lalai kulit tanpa penutup"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Berasaskan Arial"
@@ -728,3 +724,7 @@ msgstr "Nama profil"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar profil"
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "Lalai kulit tanpa penutup"

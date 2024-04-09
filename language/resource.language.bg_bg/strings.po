@@ -538,10 +538,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Стандартните (за облика)"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "Стандартните, но без главни букви"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Основан на Arial"
@@ -728,3 +724,7 @@ msgstr "Име на профила"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Снимка на профила"
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "Стандартните, но без главни букви"
