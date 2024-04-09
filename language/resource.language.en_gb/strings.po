@@ -447,13 +447,7 @@ msgctxt "#31205"
 msgid "Lyrics source"
 msgstr ""
 
-msgctxt "#31206"
-msgid "Found"
-msgstr ""
-
-msgctxt "#31207"
-msgid "Find more items"
-msgstr ""
+#empty strings from id 31206 to 31207
 
 msgctxt "#31208"
 msgid "Upcoming episodes"
@@ -489,11 +483,7 @@ msgctxt "#31309"
 msgid "Memory used:"
 msgstr ""
 
-msgctxt "#31310"
-msgid "Track number"
-msgstr ""
-
-#empty strings from id 31311 to 31318
+#empty strings from id 31310 to 31318
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -523,9 +513,7 @@ msgctxt "#31327"
 msgid "Resolution"
 msgstr ""
 
-msgctxt "#31328"
-msgid "Recently added"
-msgstr ""
+#empty string with id 31328
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
@@ -660,9 +648,7 @@ msgctxt "#31501"
 msgid "Scheduled time"
 msgstr ""
 
-msgctxt "#31502"
-msgid "TV"
-msgstr ""
+#empty string with id 31502
 
 msgctxt "#31503"
 msgid "Add group"
@@ -716,11 +702,7 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr ""
 
-#empty strings from id 31906 to 31908
-
-msgctxt "#31909"
-msgid "Fetching forecast info..."
-msgstr ""
+#empty strings from id 31906 to 31909
 
 msgctxt "#31910"
 msgid "Maps"
