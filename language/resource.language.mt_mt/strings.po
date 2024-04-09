@@ -541,10 +541,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Qoxra Default"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "Id-derha normal mingħajr ittri kapitali"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Ibbażat fuq l-Arial"
@@ -734,3 +730,7 @@ msgstr "Isem tal-Profil"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "Id-derha normal mingħajr ittri kapitali"
