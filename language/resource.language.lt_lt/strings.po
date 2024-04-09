@@ -21,16 +21,15 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
-msgstr ""
+msgstr "[CR]Confluence teminė išvaizda, kurią sukūrė Jezz_X. (Kodi numatytoji teminė [CR]išvaizda)"
+
+msgctxt "Addon Description"
+msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
+msgstr "[CR]Confluence yra numatytoji teminė išvaizda pradedant Kodi 9.11 versija. Tai [CR]daugelio populiarių teminų išvaizdų derinys. Bandymas priimti ir integruoti [CR]vartotojų idėjas į teminę išvaizdą katra turėtų būti lengvai suprantama [CR]pirmą kartą naudojantiems Kodi"
+
 "Confluence teminė išvaizda, kurią sukūrė Jezz_X. (Kodi numatytoji teminė "
 "išvaizda)"
 
-msgctxt "Addon Description"
-msgid ""
-"Confluence is a combination of concepts from many popular skins, and "
-"attempts to embrace and integrate their good ideas into a skin that should "
-"be easy for first time Kodi users to understand and use."
-msgstr ""
 "Confluence yra numatytoji teminė išvaizda pradedant Kodi 9.11 versija. Tai "
 "daugelio populiarių teminų išvaizdų derinys. Bandymas priimti ir integruoti "
 "vartotojų idėjas į teminę išvaizdą katra turėtų būti lengvai suprantama "
