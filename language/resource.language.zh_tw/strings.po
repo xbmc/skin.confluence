@@ -538,10 +538,6 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "面板預設"
 
-msgctxt "#31391"
-msgid "Skin default with no caps"
-msgstr "面板預設 (沒有開頭大寫)"
-
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "基於 Arial"
@@ -728,3 +724,7 @@ msgstr "設定檔名稱"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "個人資料圖像"
+
+#~ msgctxt "#31391"
+#~ msgid "Skin default with no caps"
+#~ msgstr "面板預設 (沒有開頭大寫)"
