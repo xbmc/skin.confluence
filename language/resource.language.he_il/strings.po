@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "ברירת מחדל של המעטפת"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "ברירת מחדל של המעטפת ללא רישיות"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "מבוסס Arial"
@@ -724,7 +728,3 @@ msgstr "שם משתמש"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "דמות מייצגת לפרופיל"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "ברירת מחדל של המעטפת ללא רישיות"

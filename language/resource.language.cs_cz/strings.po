@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Výchozí nastavení vzhledu"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Výchozí vzhled bez velkých písmen"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Založeno na Arial"
@@ -724,7 +728,3 @@ msgstr "Název profilu"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar profilu"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Výchozí vzhled bez velkých písmen"

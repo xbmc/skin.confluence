@@ -538,6 +538,10 @@ msgctxt "#31390"
 msgid "Skin default"
 msgstr "Ulkoasun oletus"
 
+msgctxt "#31391"
+msgid "Skin default with no caps"
+msgstr "Ulkoasun oletus ilman isoja kirjaimia"
+
 msgctxt "#31392"
 msgid "Arial based"
 msgstr "Arial-pohjainen"
@@ -724,7 +728,3 @@ msgstr "Profiilin nimi"
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profiilin kuva"
-
-#~ msgctxt "#31391"
-#~ msgid "Skin default with no caps"
-#~ msgstr "Ulkoasun oletus ilman isoja kirjaimia"
