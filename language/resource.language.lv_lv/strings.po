@@ -24,7 +24,7 @@ msgstr "Confluence apvalks no Jeez_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot.[CR][CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot.[CR][CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot."
+msgstr "[CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot.[CR][CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot.[CR][CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot.[CR][CR]Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni [CR]pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu [CR]viegli izprast un lietot."
 
 "Confluence ir apvienota daudzu populāru apvalku koncepcija un centieni "
 "pieņemt un integrēt labākās idejas, lai jaunajiem Kodi ietotājiem to būtu "
