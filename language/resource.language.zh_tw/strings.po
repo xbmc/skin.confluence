@@ -24,7 +24,7 @@ msgstr "Jezz_X 製作的面板 (Kodi 的預設面板)。"
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試[CR]圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。[CR][CR]Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試[CR]圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。"
+msgstr "[CR]Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試[CR]圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。[CR][CR]Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試[CR]圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。[CR][CR]Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試[CR]圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。"
 
 "Confluence 是從 Kodi 9.11 開始預設的面板。它結合了許多受歡迎面板的概念，且試"
 "圖包含並整合它們的優點，使第一次使用 Kodi 的使用者可以簡單地上手。"

@@ -25,7 +25,7 @@ msgstr "Skóra Confluence autorstwa Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia [CR]i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do [CR]opanowania i używania przez użytkowników Kodi po raz pierwszy.[CR][CR]Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia [CR]i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do [CR]opanowania i używania przez użytkowników Kodi po raz pierwszy."
+msgstr "[CR]Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia [CR]i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do [CR]opanowania i używania przez użytkowników Kodi po raz pierwszy.[CR][CR]Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia [CR]i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do [CR]opanowania i używania przez użytkowników Kodi po raz pierwszy.[CR][CR]Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia [CR]i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do [CR]opanowania i używania przez użytkowników Kodi po raz pierwszy."
 
 "Confluence to połączenie koncepcji wielu popularnych skór oraz próba objęcia "
 "i zintegrowania ich dobrych pomysłów ze skórą, która powinna być łatwa do "

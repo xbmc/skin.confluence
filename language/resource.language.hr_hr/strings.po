@@ -25,7 +25,7 @@ msgstr "Confluence presvlaka autora Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija [CR]koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine [CR]njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive [CR]novim Kodi korisnicima.[CR][CR]Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija [CR]koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine [CR]njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive [CR]novim Kodi korisnicima."
+msgstr "[CR]Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija [CR]koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine [CR]njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive [CR]novim Kodi korisnicima.[CR][CR]Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija [CR]koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine [CR]njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive [CR]novim Kodi korisnicima.[CR][CR]Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija [CR]koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine [CR]njihove dobre osobine u presvlaku i da budu lagane za upotrebu i razumljive [CR]novim Kodi korisnicima."
 
 "Confluence je zadana presvlaka za Kodi 14.0 i noviji. To je kombinacija "
 "koncepta iz mnogih drugih popularnih presvlaka, pokušaj da se objedine "
