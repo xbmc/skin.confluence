@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+	<include name="DialogCheckPreviousEpisodeLayout">
+		<control type="group">
+			<left>440</left>
+			<top>240</top>
+			<include content="DialogBackgroundCommons">
+				<param name="DialogBackgroundWidth" value="1040"/>
+				<param name="DialogBackgroundHeight" value="612"/>
+				<param name="DialogHeaderWidth" value="908"/>
+				<param name="DialogHeaderId" value="1"/>
+				<param name="CloseButtonLeft" value="905"/>
+				<param name="CloseButtonNav" value="10"/>
+			</include>
+			<control type="group">
+				<left>30</left>
+				<top>101</top>
+				<control type="image">
+					<left>0</left>
+					<top>0</top>
+					<width>321</width>
+					<height>465</height>
+					<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
+					<bordersize>5</bordersize>
+					<texture background="true">$INFO[Player.Art(tvshow.poster)]</texture>
+					<aspectratio align="left" aligny="top">keep</aspectratio>
+				</control>
+				<control type="image">
+					<left>6</left>
+					<top>6</top>
+					<width>216</width>
+					<height>240</height>
+					<aspectratio>stretch</aspectratio>
+					<texture>GlassOverlay.png</texture>
+					<colordiffuse>AAFFFFFF</colordiffuse>
+				</control>
+				<control type="list" id="6">
+				</control>
+				<control type="list" id="3">
+					<left>351</left>
+					<width>625</width>
+					<height>552</height>
+					<onup>3</onup>
+					<ondown>3</ondown>
+					<onleft>3</onleft>
+					<onright>3</onright>
+					<scrolltime>200</scrolltime>
+					<itemlayout height="138" width="625">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>625</width>
+							<height>129</height>
+							<texture border="5">button-nofocus.png</texture>
+						</control>
+						<control type="textbox">
+							<left>25</left>
+							<top>0</top>
+							<width>575</width>
+							<height>129</height>
+							<font>font14</font>
+							<textcolor>grey</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="138" width="625">
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>625</width>
+							<height>129</height>
+							<texture border="5">button-nofocus.png</texture>
+							<visible>!Control.HasFocus(3)</visible>
+							<include>VisibleFadeEffect</include>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>0</top>
+							<width>625</width>
+							<height>129</height>
+							<texture border="5">button-focus2.png</texture>
+							<visible>Control.HasFocus(3)</visible>
+							<include>VisibleFadeEffect</include>
+						</control>
+						<control type="textbox">
+							<left>25</left>
+							<top>0</top>
+							<width>575</width>
+							<height>129</height>
+							<font>font14</font>
+							<textcolor>grey</textcolor>
+							<selectedcolor>selected</selectedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+					</focusedlayout>
+				</control>
+			</control>
+		</control>
+	</include>
 	<include name="DialogVideoSelectLayout">
 		<control type="group">
 			<left>256</left>
