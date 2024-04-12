@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-12 17:00+0000\n"
+"PO-Revision-Date: 2024-04-12 17:30+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Bulgarian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/bg_bg/>\n"
 "Language: bg_bg\n"
@@ -23,7 +23,7 @@ msgstr "Confluence облик от Jezz_X. (стандартния облик з
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]Confluence е стандартният облик на Kodi 9.11 и по-новите версии. [CR]Представлява смесица от концепциите на много от популярните облици. Целта е [CR]да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се [CR]сблъскват за първи път с Kodi.[CR][CR]Confluence е стандартният облик на Kodi 9.11 и по-новите версии. [CR]Представлява смесица от концепциите на много от популярните облици. Целта е [CR]да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се [CR]сблъскват за първи път с Kodi.[CR][CR]Confluence е стандартният облик на Kodi 9.11 и по-новите версии. [CR]Представлява смесица от концепциите на много от популярните облици. Целта е [CR]да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се [CR]сблъскват за първи път с Kodi.[CR][CR]Confluence е стандартният облик на Kodi 9.11 и по-новите версии. [CR]Представлява смесица от концепциите на много от популярните облици. Целта е [CR]да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се [CR]сблъскват за първи път с Kodi.Confluence е стандартният облик на Kodi 9.11 и по-новите версии. Представлява смесица от концепциите на много от популярните облици. Целта е да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се сблъскват за първи път с Kodi."
+msgstr "Confluence е стандартният облик на Kodi 9.11 и по-новите версии. Представлява смесица от концепциите на много от популярните облици. Целта е да се интегрират тези добри идеи в подходящ и удобен вид за хора, които се сблъскват за първи път с Kodi."
 
 msgctxt "#31000"
 msgid "Change your"

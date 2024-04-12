@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-12 17:00+0000\n"
+"PO-Revision-Date: 2024-04-12 17:30+0000\n"
 "Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Hungarian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/hu_hu/>\n"
 "Language: hu_hu\n"
@@ -23,7 +23,7 @@ msgstr "Confluence felszín. Készítő: Jezz_X (Kodi alapértelmezett felszín
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr "[CR]A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól [CR]kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva [CR]vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival [CR]először találkozóknak is.[CR][CR]A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól [CR]kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva [CR]vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival [CR]először találkozóknak is.[CR][CR]A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól [CR]kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva [CR]vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival [CR]először találkozóknak is.[CR][CR]A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól [CR]kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva [CR]vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival [CR]először találkozóknak is.A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival először találkozóknak is."
+msgstr "A Confluence az alapértelmezett felszín a Kodihoz a 9.11-es verziótól kezdődően. Merít sok sok népszerű felszín elképzeléséből, megpróbálva vegyíteni a jó ötleteket úgy, hogy az könnyen kezelhető legyen a Kodival először találkozóknak is."
 
 msgctxt "#31000"
 msgid "Change your"
