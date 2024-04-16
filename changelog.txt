@@ -1,3 +1,7 @@
+[B]5.0.4[/B]
+
+- Add 'Check Previous Episode' addon layout
+
 [B]5.0.3[/B]
 
 - Add video version/extra select dialog

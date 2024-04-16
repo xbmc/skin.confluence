@@ -4,9 +4,10 @@
 	<include>dialogeffect</include>
 	<depth>DepthDialog+</depth>
 	<controls>
-		<include condition="![Window.IsActive(selectvideoversion) | Window.IsActive(selectvideoextra) | Window.IsActive(gamesaves) | Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation) | Window.IsActive(ingamesaves)]">DialogDefaultSelectLayout</include>
+		<include condition="String.IsEmpty(Window(home).Property(CheckPreviousEpisode)) + ![Window.IsActive(selectvideoversion) | Window.IsActive(selectvideoextra) | Window.IsActive(gamesaves) | Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation) | Window.IsActive(ingamesaves)]">DialogDefaultSelectLayout</include>
 		<include condition="Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation) | Window.IsActive(ingamesaves)">DialogGameSelectLayout</include>
 		<include condition="Window.IsActive(gamesaves)">DialogGameSelectSaveLayout</include>
 		<include condition="Window.IsActive(selectvideoversion) | Window.IsActive(selectvideoextra)">DialogVideoSelectLayout</include>
+		<include condition="!String.IsEmpty(Window(home).Property(CheckPreviousEpisode))">DialogCheckPreviousEpisodeLayout</include>
 	</controls>
 </window>
