@@ -143,6 +143,17 @@
 				<textcolor>blue</textcolor>
 				<shadowcolor>black</shadowcolor>
 			</control>
+			<control type="colorbutton" id="15">
+				<description>Default ColorButton</description>
+				<top>0</top>
+				<height>60</height>
+				<aligny>center</aligny>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<invalidcolor>invalid</invalidcolor>
+				<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+				<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			</control>
 			<control type="grouplist" id="9001">
 				<top>803</top>
 				<left>60</left>
