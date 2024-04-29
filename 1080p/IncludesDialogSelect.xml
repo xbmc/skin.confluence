@@ -110,7 +110,7 @@
 				<param name="DialogBackgroundWidth" value="1408"/>
 				<param name="DialogBackgroundHeight" value="720"/>
 				<param name="DialogHeaderWidth" value="1288"/>
-				<param name="DialogHeaderId" value="2"/>
+				<param name="DialogHeaderId" value="1"/>
 				<param name="CloseButtonLeft" value="1273"/>
 				<param name="CloseButtonNav" value="10"/>
 			</include>
