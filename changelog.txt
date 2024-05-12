@@ -1,3 +1,7 @@
+[B]5.0.5[/B]
+
+- Fix wrong header id
+
 [B]5.0.4[/B]
 
 - Add 'Check Previous Episode' addon layout
