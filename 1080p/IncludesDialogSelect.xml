@@ -104,14 +104,14 @@
 	</include>
 	<include name="DialogVideoSelectLayout">
 		<control type="group">
-			<left>256</left>
+			<left>206</left>
 			<top>180</top>
 			<include content="DialogBackgroundCommons">
-				<param name="DialogBackgroundWidth" value="1408"/>
+				<param name="DialogBackgroundWidth" value="1508"/>
 				<param name="DialogBackgroundHeight" value="720"/>
-				<param name="DialogHeaderWidth" value="1288"/>
+				<param name="DialogHeaderWidth" value="1388"/>
 				<param name="DialogHeaderId" value="1"/>
-				<param name="CloseButtonLeft" value="1273"/>
+				<param name="CloseButtonLeft" value="1373"/>
 				<param name="CloseButtonNav" value="10"/>
 			</include>
 			<control type="group">
@@ -140,7 +140,7 @@
 				</control>
 				<control type="list" id="6">
 					<left>351</left>
-					<width>625</width>
+					<width>725</width>
 					<height>552</height>
 					<onup>50</onup>
 					<ondown>50</ondown>
@@ -148,11 +148,11 @@
 					<onright>60</onright>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>200</scrolltime>
-					<itemlayout height="138" width="625">
+					<itemlayout height="138" width="725">
 						<control type="image">
 							<left>0</left>
 							<top>0</top>
-							<width>625</width>
+							<width>725</width>
 							<height>129</height>
 							<texture border="5">button-nofocus.png</texture>
 						</control>
@@ -169,7 +169,7 @@
 						<control type="label">
 							<left>135</left>
 							<top>3</top>
-							<width>475</width>
+							<width>575</width>
 							<height>45</height>
 							<font>font13</font>
 							<textcolor>grey</textcolor>
@@ -181,7 +181,7 @@
 						<control type="textbox">
 							<left>135</left>
 							<top>51</top>
-							<width>475</width>
+							<width>575</width>
 							<height>68</height>
 							<font>font12</font>
 							<textcolor>grey</textcolor>
@@ -190,11 +190,11 @@
 							<label>$VAR[VideoManagerLabel2]</label>
 						</control>
 					</itemlayout>
-					<focusedlayout height="138" width="625">
+					<focusedlayout height="138" width="725">
 						<control type="image">
 							<left>0</left>
 							<top>0</top>
-							<width>625</width>
+							<width>725</width>
 							<height>129</height>
 							<texture border="5">button-nofocus.png</texture>
 							<visible>!Control.HasFocus(6)</visible>
@@ -203,7 +203,7 @@
 						<control type="image">
 							<left>0</left>
 							<top>0</top>
-							<width>625</width>
+							<width>725</width>
 							<height>129</height>
 							<texture border="5">button-focus2.png</texture>
 							<visible>Control.HasFocus(6)</visible>
@@ -222,7 +222,7 @@
 						<control type="label">
 							<left>135</left>
 							<top>3</top>
-							<width>475</width>
+							<width>575</width>
 							<height>45</height>
 							<font>font13</font>
 							<textcolor>white</textcolor>
@@ -234,7 +234,7 @@
 						<control type="textbox">
 							<left>135</left>
 							<top>51</top>
-							<width>475</width>
+							<width>575</width>
 							<height>68</height>
 							<font>font12</font>
 							<textcolor>grey</textcolor>
@@ -246,7 +246,7 @@
 				</control>
 				<control type="label">
 					<description>number of files/pages in list text label</description>
-					<left>1006</left>
+					<left>1106</left>
 					<top>496</top>
 					<width>360</width>
 					<height>53</height>
@@ -257,7 +257,7 @@
 					<label>([COLOR=blue]$INFO[Container(6).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(6).CurrentPage]/$INFO[Container(6).NumPages][/COLOR])</label>
 				</control>
 				<control type="scrollbar" id="60">
-					<left>976</left>
+					<left>1076</left>
 					<top>-6</top>
 					<width>38</width>
 					<height>558</height>
@@ -274,7 +274,7 @@
 					<orientation>vertical</orientation>
 				</control>
 				<control type="grouplist" id="90">
-					<left>1036</left>
+					<left>1136</left>
 					<top>48</top>
 					<onleft>6</onleft>
 					<onright>6</onright>
@@ -301,7 +301,7 @@
 				</control>
 				<control type="label">
 					<top>552</top>
-					<width>1348</width>
+					<width>1448</width>
 					<height>45</height>
 					<font>font10</font>
 					<align>left</align>
