@@ -249,7 +249,7 @@
 					<itemgap>8</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label" id="1">
-						<width min="15" max="780">auto</width>
+						<width min="15" max="720">auto</width>
 						<height>45</height>
 						<font>font30</font>
 						<align>left</align>
@@ -260,11 +260,11 @@
 					</control>
 					<control type="image" id="1">
 						<description>Video Resolution Image</description>
-						<width>75</width>
+						<width>70</width>
 						<height>53</height>
 						<aspectratio align="center">keep</aspectratio>
 						<texture>$INFO[VideoPlayer.VideoResolution,flagging/video/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive</visible>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.VideoResolution)</visible>
 					</control>
 					<control type="image" id="1">
 						<description>Codec Image</description>
@@ -272,39 +272,38 @@
 						<height>53</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture>$INFO[VideoPlayer.HdrType,flagging/video/,.png]</texture>
-						<visible>!String.IsEmpty(VideoPlayer.HdrType)</visible>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.HdrType)</visible>
 					</control>
 					<control type="image" id="1">
 						<description>Audio Codec Image</description>
-						<width>128</width>
+						<width>110</width>
 						<height>53</height>
 						<aspectratio align="center">keep</aspectratio>
-						<visible>!Player.ChannelPreviewActive</visible>
 						<texture>$INFO[VideoPlayer.AudioCodec,flagging/audio/,.png]</texture>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioCodec)</visible>
 					</control>
 					<control type="image" id="1">
 						<description>Audio Channels Image</description>
-						<width>75</width>
+						<width>70</width>
 						<height>53</height>
 						<aspectratio align="center">keep</aspectratio>
 						<texture>$INFO[VideoPlayer.AudioChannels,flagging/audio/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive</visible>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioChannels)</visible>
 					</control>
 					<control type="group" id="1">
-						<width>128</width>
+						<width>110</width>
 						<height>53</height>
-						<visible>![String.IsEmpty(VideoPlayer.AudioLanguage) | Player.ChannelPreviewActive]</visible>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
 						<control type="image" id="1">
-							<left>8</left>
 							<top>0</top>
 							<description>Audio Language Image</description>
-							<width>120</width>
+							<width>110</width>
 							<height>53</height>
 							<texture>flagging/AudioLang.png</texture>
 						</control>
 						<control type="label" id="1">
-							<left>57</left>
-							<top>3</top>
+							<left>49</left>
+							<top>5</top>
 							<width>71</width>
 							<height>53</height>
 							<font>font13</font>
@@ -314,19 +313,18 @@
 						</control>
 					</control>
 					<control type="group" id="1">
-						<width>128</width>
+						<width>110</width>
 						<height>53</height>
-						<visible>![String.IsEmpty(VideoPlayer.SubtitlesLanguage) | Player.ChannelPreviewActive] + VideoPlayer.SubtitlesEnabled</visible>
+						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.SubtitlesLanguage) + VideoPlayer.SubtitlesEnabled</visible>
 						<control type="image" id="1">
-							<left>8</left>
 							<top>0</top>
-							<width>120</width>
+							<width>110</width>
 							<height>53</height>
 							<texture>flagging/SubLang.png</texture>
 						</control>
 						<control type="label" id="1">
-							<left>57</left>
-							<top>3</top>
+							<left>49</left>
+							<top>5</top>
 							<width>71</width>
 							<height>53</height>
 							<font>font13</font>

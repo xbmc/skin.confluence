@@ -1,3 +1,8 @@
+[B]5.0.6[/B]
+
+- Fix video player media info alignment
+- Increase list width in video version dialog
+
 [B]5.0.5[/B]
 
 - Fix wrong header id
