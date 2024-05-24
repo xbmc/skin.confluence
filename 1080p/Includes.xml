@@ -622,7 +622,7 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="VideoManagerLabel2">
-		<value condition="ListItem.IsStereoscopic">$INFO[ListItem.Duration,$LOCALIZE[180]: ][CR]$VAR[videocodec,, ]$INFO[ListItem.VideoResolution,| , ]$VAR[VideoResolutionTypeVar,, ]$INFO[ListItem.HdrType,| , ]| 3D $INFO[ListItem.VideoAspect,| ,:1 ]$VAR[audiocodec,| , ]$VAR[AudioChannels]</value>
+		<value condition="ListItem.IsStereoscopic">$INFO[ListItem.Duration,$LOCALIZE[180]: ][CR]$VAR[videocodec,, ]$INFO[ListItem.VideoResolution,| , ]$VAR[VideoResolutionTypeVar,, ]$INFO[ListItem.HdrType,| , ]| 3D $INFO[ListItem.VideoAspect,| ,:1 ]$INFO[ListItem.AudioCodec,| , ]$VAR[AudioChannels]</value>
 		<value>$INFO[ListItem.Duration,$LOCALIZE[180]: ][CR]$VAR[videocodec,, ]$INFO[ListItem.VideoResolution,| , ]$VAR[VideoResolutionTypeVar,, ]$INFO[ListItem.HdrType,| , ]$INFO[ListItem.VideoAspect,| ,:1 ]$INFO[ListItem.AudioCodec,| , ]$VAR[AudioChannels]</value>
 	</variable>
 	<variable name="AudioChannels">
