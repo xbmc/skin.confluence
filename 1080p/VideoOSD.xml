@@ -25,6 +25,20 @@
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>system.getbool(input.enablemouse) + ![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
 		</control>
+					
+			<control type="label">
+				<animation effect="slide" end="0,-20" time="150" condition="VideoPlayer.Content(LiveTV)">conditional</animation>
+				<left>1025</left>
+				<bottom>5</bottom>
+				<align>center</align>
+				<aligny>center</aligny>
+				<width>300</width>
+				<height>50</height>
+				<font>font10</font>
+				<textcolor>grey2</textcolor>
+				<label>$VAR[OSDHelpTextVar]</label>
+				<shadowcolor>black</shadowcolor>
+			</control>
 		<control type="slider" id="87">
 			<depth>DepthOSD+</depth>
 			<description>Seek Slider</description>
@@ -174,27 +188,19 @@
 				<onclick>Dialog.Close(VideoOSD)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
 			</control>
-			<control type="button" id="112">
-				<width>83</width>
-				<height>83</height>
-				<label>31356</label>
-				<font/>
-				<texturefocus>OSDTeleTextFO.png</texturefocus>
-				<texturenofocus>OSDTeleTextNF.png</texturenofocus>
-				<onclick>ActivateWindow(Teletext)</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-			</control>
 		</control>
 		<control type="grouplist" id="200">
 			<right>20</right>
 			<top>90r</top>
-			<onleft>112</onleft>
+			<onleft>111</onleft>
 			<onright>101</onright>
 			<orientation>horizontal</orientation>
 			<align>right</align>
 			<itemgap>0</itemgap>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide)]</visible>
+
+			
 			<control type="button" id="201">
 				<enable>VideoPlayer.IsStereoscopic</enable>
 				<animation effect="fade" start="100" end="0" time="75" condition="!VideoPlayer.IsStereoscopic">Conditional</animation>
@@ -207,6 +213,16 @@
 				<onclick>SetProperty(optionsdialog_content,3d,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[36501],home)</onclick>
 				<onclick>ActivateWindow(1114)</onclick>
+<!--				<onup>501</onup> -->
+			</control>
+			<control type="button" id="2001">
+				<width>83</width>
+				<height>83</height>
+				<label>Playerprocessinfo</label>
+				<font />
+				<texturefocus>osdppinfof.png</texturefocus>
+				<texturenofocus>osdppinfo.png</texturenofocus>
+				<onclick>ActivateWindow(playerprocessinfo)</onclick>
 			</control>
 			<control type="button" id="202">
 				<width>83</width>
