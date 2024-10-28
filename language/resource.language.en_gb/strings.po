@@ -429,7 +429,134 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
 
-#empty strings from id 31149 to 31199
+#: /1080p/SkinSettings.xml
+#. Setting Automatically close video OSD
+msgctxt "#31149"
+msgid "Automatically close video OSD"
+msgstr ""
+
+#: /1080p/SkinSettings.xml
+#. Setting auto close time for video osd
+msgctxt "#31150"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31151"
+msgid "Videostream cache:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31152"
+msgid "Output resolution:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31153"
+msgid "Memory usage:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31154"
+msgid "Codec information"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31155"
+msgid "Video type:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31156"
+msgid "Video codec:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31157"
+msgid "Video resolution:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31158"
+msgid "Audio codec:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31159"
+msgid "Audio:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31160"
+msgid "Subtitle:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31161"
+msgid " (disabled)"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31162"
+msgid "CPU & fps & cache information"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31163"
+msgid "CPU frequency:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31164"
+msgid "System fps:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31165"
+msgid "Video stream cache:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31166"
+msgid "Video information"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31167"
+msgid "Video source type:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31168"
+msgid "Pixel format:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31169"
+msgid "EOTF & Gamut:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31170"
+msgid "Display mode:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31171"
+msgid "CPU usage:"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31172"
+msgid "CPU information"
+msgstr ""
+
+#: /1080p/DialogPlayerProcessInfo.xml
+msgctxt "#31173"
+msgid "CPU temp:"
+msgstr ""
+
+#empty strings from id 31174 to 31199
 
 msgctxt "#31200"
 msgid "Shortcuts"
