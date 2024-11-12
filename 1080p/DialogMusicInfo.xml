@@ -196,6 +196,11 @@
 					<onright>9000</onright>
 					<onup>50</onup>
 					<ondown>49</ondown>
+					<control type="button" id="8">
+						<description>Play</description>
+						<include>ButtonInfoDialogsCommonValues</include>
+						<label />
+					</control>
 					<control type="button" id="6">
 						<description>Refresh</description>
 						<include>ButtonInfoDialogsCommonValues</include>
