@@ -219,7 +219,7 @@
 				<control type="label" id="3">
 					<description>Label 3</description>
 					<left>0</left>
-					<top>53</top>
+					<top>40</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -227,7 +227,7 @@
 				<control type="label" id="4">
 					<description>Label 4</description>
 					<left>0</left>
-					<top>105</top>
+					<top>80</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -235,7 +235,7 @@
 				<control type="label" id="5">
 					<description>Label 5</description>
 					<left>0</left>
-					<top>158</top>
+					<top>120</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -243,7 +243,7 @@
 				<control type="label" id="6">
 					<description>Label 6</description>
 					<left>0</left>
-					<top>210</top>
+					<top>160</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -251,7 +251,7 @@
 				<control type="label" id="7">
 					<description>Label 7</description>
 					<left>0</left>
-					<top>263</top>
+					<top>200</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -259,7 +259,7 @@
 				<control type="label" id="8">
 					<description>Label 8</description>
 					<left>0</left>
-					<top>315</top>
+					<top>240</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -267,7 +267,7 @@
 				<control type="label" id="9">
 					<description>Label 9</description>
 					<left>0</left>
-					<top>368</top>
+					<top>280</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -275,7 +275,7 @@
 				<control type="label" id="10">
 					<description>Label 10</description>
 					<left>0</left>
-					<top>420</top>
+					<top>320</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
@@ -283,7 +283,23 @@
 				<control type="label" id="11">
 					<description>Label 11</description>
 					<left>0</left>
-					<top>473</top>
+					<top>360</top>
+					<width>1125</width>
+					<label />
+					<font>font13</font>
+				</control>
+				<control type="label" id="12">
+					<description>Label 12</description>
+					<left>0</left>
+					<top>400</top>
+					<width>1125</width>
+					<label />
+					<font>font13</font>
+				</control>
+				<control type="label" id="13">
+					<description>Label 13</description>
+					<left>0</left>
+					<top>440</top>
 					<width>1125</width>
 					<label />
 					<font>font13</font>
