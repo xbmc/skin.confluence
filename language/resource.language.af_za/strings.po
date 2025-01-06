@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-12 17:30+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2025-01-05 22:33+0000\n"
+"Last-Translator: Heiko Berner <berner.h@gmail.com>\n"
 "Language-Team: Afrikaans (South Africa) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/af_za/>\n"
 "Language: af_za\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: Weblate 5.9.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -59,7 +59,7 @@ msgstr "Video proses inligting"
 
 msgctxt "#31008"
 msgid "Full screen"
-msgstr "Volskerm"
+msgstr "Volle skerm"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -99,19 +99,19 @@ msgstr "Onbeskikbaar"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Stel verstek begin item"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "Druk 'Op' om hierdie item as verstek te stel"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Speletjie store"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "Fliek titel formaat"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -148,7 +148,7 @@ msgstr "Ondersteunerkuns"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "Geen veranderinge"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -164,23 +164,23 @@ msgstr "Info"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "Oorspronklike titel (Gelokaliseerde titel)"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "Gelokaliseerde titel (Oorspronklike titel)"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "Net Oorspronklike titel"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr ""
+msgstr "Kies + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
+msgstr "Kies + Begin"
 
 msgctxt "#31039"
 msgid "Actions"
@@ -192,7 +192,7 @@ msgstr "Speel nou"
 
 msgctxt "#31041"
 msgid "Select + Right Stick"
-msgstr ""
+msgstr "Kies + Regter Stok"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -316,7 +316,7 @@ msgstr "Wys onlangs bygevoegde albums"
 
 msgctxt "#31117"
 msgid "Show recently added videos"
-msgstr "Wys onlangs bygevoegde videos"
+msgstr "Wys onlangs bygevoegde video's"
 
 #. In main language strings its used as submenu
 msgctxt "#31118"
@@ -347,7 +347,7 @@ msgstr "Wys agtergrond \"Speel nou\" visualisering"
 
 msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
-msgstr "Wys plakkate in plaas van duimnaelsketse vir musiekvideos"
+msgstr "Wys plakkate in plaas van duimnaelsketse vir musiekvideo's"
 
 msgctxt "#31128"
 msgid "Lyrics"
@@ -364,7 +364,7 @@ msgstr "Lirieke byvoegsel"
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr "Tuis bladsy \"Videos\" subkieslys"
+msgstr "Tuis bladsy \"Video's\" subkieslys"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
@@ -446,6 +446,22 @@ msgctxt "#31309"
 msgid "Memory used:"
 msgstr "Geheue gebruik:"
 
+msgctxt "#31310"
+msgid "PVR"
+msgstr "PVR"
+
+msgctxt "#31311"
+msgid "Player"
+msgstr "Speler"
+
+msgctxt "#31312"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "#31313"
+msgid "System"
+msgstr "Stelsel"
+
 msgctxt "#31319"
 msgid "Selected profile"
 msgstr "Geselekteerde profiel"
@@ -481,6 +497,62 @@ msgstr "Kliek knoppie om[CR][CR]lokprent te speel"
 msgctxt "#31331"
 msgid "Album details"
 msgstr "Album besonderhede"
+
+msgctxt "#31332"
+msgid "Signal details"
+msgstr "Sein besonderhede"
+
+msgctxt "#31333"
+msgid "Video information"
+msgstr "Video inligting"
+
+msgctxt "#31334"
+msgid "Audio information"
+msgstr "Oudio inligting"
+
+msgctxt "#31335"
+msgid "Video resolution"
+msgstr "Video resolusie"
+
+msgctxt "#31336"
+msgid "Video bitrate"
+msgstr "Video bis tempo"
+
+msgctxt "#31337"
+msgid "Audio bitrate"
+msgstr "Oudio bis tempo"
+
+msgctxt "#31338"
+msgid "Audio channels"
+msgstr "Oudio kanale"
+
+msgctxt "#31339"
+msgid "Audio language"
+msgstr "Oudio taal"
+
+msgctxt "#31340"
+msgid "Stream"
+msgstr "Stroom"
+
+msgctxt "#31341"
+msgid "Pixel format"
+msgstr "Pixel formaat"
+
+msgctxt "#31342"
+msgid "Player cache"
+msgstr "Speler cache"
+
+msgctxt "#31343"
+msgid "Screen resolution"
+msgstr "Skerm resolusie"
+
+msgctxt "#31344"
+msgid "Screen rendering speed"
+msgstr "Skerm teken spoed"
+
+msgctxt "#31345"
+msgid "System temperature"
+msgstr "Stelsel temperatuur"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -548,7 +620,7 @@ msgstr "Selekteer jou Kodi gebruikers profiel[CR]om in te teken en voort te gaan
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr "Wys of versteek die inteken bladsy wanneer die program begin"
+msgstr "Wys of versteek die inteken bladsy wanneer die program begin."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
@@ -652,7 +724,7 @@ msgstr "TV"
 
 msgctxt "#31953"
 msgid "VIDEOS"
-msgstr "VIDEOS"
+msgstr "VIDEO'S"
 
 msgctxt "#31954"
 msgid "MOVIES"

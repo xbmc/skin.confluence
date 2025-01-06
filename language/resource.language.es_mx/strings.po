@@ -446,6 +446,22 @@ msgctxt "#31309"
 msgid "Memory used:"
 msgstr "Memoria usada:"
 
+msgctxt "#31310"
+msgid "PVR"
+msgstr ""
+
+msgctxt "#31311"
+msgid "Player"
+msgstr ""
+
+msgctxt "#31312"
+msgid "Media"
+msgstr ""
+
+msgctxt "#31313"
+msgid "System"
+msgstr ""
+
 msgctxt "#31319"
 msgid "Selected profile"
 msgstr "Perfil seleccionado"
@@ -481,6 +497,62 @@ msgstr "Clic en el botón para reproducir [CR][CR]el trailer de la película"
 msgctxt "#31331"
 msgid "Album details"
 msgstr "Detalles de album"
+
+msgctxt "#31332"
+msgid "Signal details"
+msgstr ""
+
+msgctxt "#31333"
+msgid "Video information"
+msgstr ""
+
+msgctxt "#31334"
+msgid "Audio information"
+msgstr ""
+
+msgctxt "#31335"
+msgid "Video resolution"
+msgstr ""
+
+msgctxt "#31336"
+msgid "Video bitrate"
+msgstr ""
+
+msgctxt "#31337"
+msgid "Audio bitrate"
+msgstr ""
+
+msgctxt "#31338"
+msgid "Audio channels"
+msgstr ""
+
+msgctxt "#31339"
+msgid "Audio language"
+msgstr ""
+
+msgctxt "#31340"
+msgid "Stream"
+msgstr ""
+
+msgctxt "#31341"
+msgid "Pixel format"
+msgstr ""
+
+msgctxt "#31342"
+msgid "Player cache"
+msgstr ""
+
+msgctxt "#31343"
+msgid "Screen resolution"
+msgstr ""
+
+msgctxt "#31344"
+msgid "Screen rendering speed"
+msgstr ""
+
+msgctxt "#31345"
+msgid "System temperature"
+msgstr ""
 
 msgctxt "#31351"
 msgid "Pause"
