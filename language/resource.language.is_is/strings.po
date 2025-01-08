@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-12 17:30+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2025-01-08 16:04+0000\n"
+"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/is_is/>\n"
 "Language: is_is\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: Weblate 5.9.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -99,19 +99,19 @@ msgstr "Ekki tiltækt"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Setja sjálfgefið atriði við ræsingu"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "Ýttu á 'Upp' til að gera þetta atriði sjálfgefið"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Vistun leikja"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "Titilsnið kvikmynda"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -148,7 +148,7 @@ msgstr "Aðdáendamyndir"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "Engar breytingar"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -164,23 +164,23 @@ msgstr "Upplýsingar"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "Upprunalegur titill (Staðfærður titill)"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "Staðfærður titill (Upprunalegur titill)"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "Aðeins upprunalegur titill"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr ""
+msgstr "Val + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
+msgstr "Val + Start"
 
 msgctxt "#31039"
 msgid "Actions"
@@ -192,7 +192,7 @@ msgstr "Í spilun"
 
 msgctxt "#31041"
 msgid "Select + Right Stick"
-msgstr ""
+msgstr "Val + Hægri pinni"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -448,19 +448,19 @@ msgstr "Minni í notkun:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
+msgstr "PVR-upptaka"
 
 msgctxt "#31311"
 msgid "Player"
-msgstr ""
+msgstr "Spilari"
 
 msgctxt "#31312"
 msgid "Media"
-msgstr ""
+msgstr "Efni"
 
 msgctxt "#31313"
 msgid "System"
-msgstr ""
+msgstr "Kerfi"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -500,59 +500,59 @@ msgstr "Hljómplötuupplýsingar"
 
 msgctxt "#31332"
 msgid "Signal details"
-msgstr ""
+msgstr "Nánar um merki"
 
 msgctxt "#31333"
 msgid "Video information"
-msgstr ""
+msgstr "Upplýsingar um myndmerki"
 
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
+msgstr "Upplýsingar um hljóð"
 
 msgctxt "#31335"
 msgid "Video resolution"
-msgstr ""
+msgstr "Upplausn myndmerkis"
 
 msgctxt "#31336"
 msgid "Video bitrate"
-msgstr ""
+msgstr "Bitahraði myndmerkis"
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
+msgstr "Bitahraði hljóðs"
 
 msgctxt "#31338"
 msgid "Audio channels"
-msgstr ""
+msgstr "Hljóðrásir"
 
 msgctxt "#31339"
 msgid "Audio language"
-msgstr ""
+msgstr "Tungumál hljóðs"
 
 msgctxt "#31340"
 msgid "Stream"
-msgstr ""
+msgstr "Streymi"
 
 msgctxt "#31341"
 msgid "Pixel format"
-msgstr ""
+msgstr "Snið mynddíla"
 
 msgctxt "#31342"
 msgid "Player cache"
-msgstr ""
+msgstr "Biðminni spilara"
 
 msgctxt "#31343"
 msgid "Screen resolution"
-msgstr ""
+msgstr "Upplausn skjás"
 
 msgctxt "#31344"
 msgid "Screen rendering speed"
-msgstr ""
+msgstr "Myndgerðarhraði skjás"
 
 msgctxt "#31345"
 msgid "System temperature"
-msgstr ""
+msgstr "Hitastig kerfis"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -716,7 +716,7 @@ msgstr "VEÐUR"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr "MYNDIR"
+msgstr "LJÓSMYNDIR"
 
 msgctxt "#31952"
 msgid "TV"
