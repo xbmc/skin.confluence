@@ -1989,7 +1989,7 @@
 				<control type="label">
 					<left>15</left>
 					<top>593</top>
-					<width>600</width>
+					<width>700</width>
 					<height>45</height>
 					<font>font24_title</font>
 					<textcolor>white</textcolor>
@@ -2002,7 +2002,7 @@
 					<description>Description Value for Video</description>
 					<left>15</left>
 					<top>648</top>
-					<width>600</width>
+					<width>700</width>
 					<height>147</height>
 					<font>font13</font>
 					<align>justify</align>
