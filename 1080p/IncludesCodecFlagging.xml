@@ -1,83 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="VideoCodecFlaggingConditions">
-		<control type="image">
-			<description>Video rez Image</description>
-			<width>83</width>
-			<height>53</height>
-			<aspectratio align="right">keep</aspectratio>
-			<texture>$INFO[ListItem.VideoResolution,flagging/video/,.png]</texture>
-		</control>
-		<control type="image">
-			<description>Codec Image</description>
-			<width>110</width>
-			<height>53</height>
-			<aspectratio align="left">keep</aspectratio>
-			<texture>$INFO[ListItem.HdrType,flagging/video/,.png]</texture>
-			<visible>!String.IsEmpty(ListItem.HdrType)</visible>
-		</control>
-		<control type="image">
-			<description>Codec Image</description>
-			<width>120</width>
-			<height>53</height>
-			<aspectratio align="left">keep</aspectratio>
-			<texture>$VAR[videocodec,flagging/video/,.png]</texture>
-		</control>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.VideoResolution) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.VideoResolution)]"/>
+			<param name="flag_label" value="$VAR[VideoResolutionTypeVar]"/>
+		</include>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.HdrType) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.HdrType)]"/>
+			<param name="flag_label" value="$VAR[VideoHDRTypeVar]"/>
+		</include>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.VideoCodec) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.VideoCodec)]"/>
+			<param name="flag_label" value="$VAR[VideoCodecVar]"/>
+		</include>
 	</include>
 	<include name="VideoStereoscopicsFlaggingConditions">
-		<control type="image">
-			<description>Video stereoscopics flagging image</description>
-			<width>83</width>
-			<height>53</height>
-			<aspectratio align="right">keep</aspectratio>
-			<texture>flagging/video/3D.png</texture>
-			<visible>ListItem.IsStereoscopic</visible>
-		</control>
-	</include>
-	<include name="VideoTypeHackFlaggingConditions">
-		<control type="image" id="666">
-			<description>Video Type Image</description>
-			<width>120</width>
-			<height>53</height>
-			<aspectratio align="left">keep</aspectratio>
-			<texture>$VAR[typehackflagging,flagging/video/,.png]</texture>
-			<visible>!Skin.HasSetting(HideFilenameFlagging) + !String.IsEqual(Control.GetLabel(666),none)</visible>
-		</control>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="ListItem.IsStereoscopic"/>
+			<param name="flag_label" value="3D"/>
+		</include>
 	</include>
 	<include name="VideoMPAAFlaggingConditions">
 		<control type="image">
 			<description>Rating image</description>
-			<width>120</width>
-			<height>53</height>
+			<width>109</width>
+			<height>39</height>
 			<aspectratio>keep</aspectratio>
 			<texture>$VAR[rating,flagging/ratings/,.png]</texture>
 		</control>
 	</include>
 	<include name="AudioCodecFlaggingConditions">
-		<control type="image">
-			<description>Audio Codec Image</description>
-			<width>120</width>
-			<height>53</height>
-			<aspectratio align="right">keep</aspectratio>
-			<texture>$INFO[ListItem.AudioCodec,flagging/audio/,.png]</texture>
-		</control>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.AudioCodec) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.AudioCodec)] | [Window.IsActive(visualisation) + !String.IsEmpty(MusicPlayer.AudioCodec)]"/>
+			<param name="flag_label" value="$VAR[AudioCodecVar]"/>
+		</include>
 	</include>
 	<include name="AudioChannelsFlaggingConditions">
-		<control type="image">
-			<description>Audio Codec Image</description>
-			<width>83</width>
-			<height>53</height>
-			<aspectratio align="left">keep</aspectratio>
-			<texture>$INFO[ListItem.AudioChannels,flagging/audio/,.png]</texture>
-		</control>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.AudioChannels) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.AudioChannels)] | [Window.IsActive(visualisation) + !String.IsEmpty(MusicPlayer.AudioChannels)]"/>
+			<param name="flag_label" value="$VAR[AudioChannelsVar]"/>
+		</include>
 	</include>
 	<include name="AspectCodecFlaggingConditions">
-		<control type="image">
-			<description>Aspectratio Image</description>
-			<width>83</width>
-			<height>53</height>
-			<aspectratio align="right">keep</aspectratio>
-			<texture>$INFO[ListItem.VideoAspect,flagging/aspectratio/,.png]</texture>
-		</control>
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.VideoAspect) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.VideoAspect)]"/>
+			<param name="flag_label" value="$INFO[ListItem.VideoAspect]"/>
+		</include>
 	</include>
 </includes>
