@@ -198,11 +198,10 @@
 				<itemgap>3</itemgap>
 				<orientation>horizontal</orientation>
 				<include>VideoCodecFlaggingConditions</include>
+				<include>AspectCodecFlaggingConditions</include>
 				<include>AudioCodecFlaggingConditions</include>
 				<include>AudioChannelsFlaggingConditions</include>
-				<include>AspectCodecFlaggingConditions</include>
 				<include>VideoStereoscopicsFlaggingConditions</include>
-				<include>VideoTypeHackFlaggingConditions</include>
 			</control>
 		</control>
 		<control type="group">
@@ -785,18 +784,17 @@
 			</control>
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
-				<left>45</left>
+				<left>60</left>
 				<top>540</top>
 				<width>1200</width>
 				<align>left</align>
 				<itemgap>3</itemgap>
 				<orientation>horizontal</orientation>
 				<include>VideoCodecFlaggingConditions</include>
+				<include>AspectCodecFlaggingConditions</include>
 				<include>AudioCodecFlaggingConditions</include>
 				<include>AudioChannelsFlaggingConditions</include>
-				<include>AspectCodecFlaggingConditions</include>
 				<include>VideoStereoscopicsFlaggingConditions</include>
-				<include>VideoTypeHackFlaggingConditions</include>
 			</control>
 			<control type="grouplist">
 				<description>MPAA Rating Flagging Images</description>
@@ -1115,11 +1113,10 @@
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="label">
 					<description>INFO txt</description>
@@ -1221,11 +1218,10 @@
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="textbox">
 					<description>Description Value for Movie</description>
@@ -1452,11 +1448,10 @@
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -1585,11 +1580,10 @@
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
 					<left>0</left>
@@ -1854,18 +1848,17 @@
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
-					<left>0</left>
+					<left>16</left>
 					<top>810</top>
 					<width>810</width>
 					<align>left</align>
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
 					<depth>DepthContent+</depth>
@@ -2019,23 +2012,24 @@
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
-					<left>0</left>
+					<left>16</left>
 					<top>810</top>
-					<width>615</width>
+					<width>800</width>
 					<align>left</align>
 					<itemgap>3</itemgap>
 					<orientation>horizontal</orientation>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
 					<depth>DepthContent+</depth>
-					<left>630</left>
-					<top>210</top>
+					<left>730</left>
+					<top>344</top>
+					<width>395</width>
+					<height>526</height>
 					<width>495</width>
 					<height>660</height>
 					<aspectratio align="left" aligny="bottom">keep</aspectratio>
