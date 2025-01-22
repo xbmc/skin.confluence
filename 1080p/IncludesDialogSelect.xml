@@ -316,7 +316,7 @@
 	</include>
 	<include name="DialogDefaultSelectLayout">
 		<control type="group">
-			<left>353</left>
+			<left>323</left>
 			<top>113</top>
 			<animation effect="slide" start="0,0" end="0,69" time="0" condition="[Control.IsVisible(3) + !Integer.IsGreater(Container(3).NumItems,4)] | [Control.IsVisible(6) + !Integer.IsGreater(Container(6).NumItems,2)]">Conditional</animation>
 			<animation effect="slide" start="0,0" end="0,69" time="0" condition="[Control.IsVisible(3) + !Integer.IsGreater(Container(3).NumItems,6)] | [Control.IsVisible(6) + !Integer.IsGreater(Container(6).NumItems,3)]">Conditional</animation>
