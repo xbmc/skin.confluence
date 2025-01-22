@@ -105,9 +105,9 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="grouplist" id="9001">
-				<left>255</left>
+				<left>120</left>
 				<top>590</top>
-				<width>690</width>
+				<width>960</width>
 				<align>center</align>
 				<itemgap>30</itemgap>
 				<orientation>horizontal</orientation>
