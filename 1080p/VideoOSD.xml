@@ -206,7 +206,7 @@
 				<texturenofocus>OSDStereoscopicNF.png</texturenofocus>
 				<onclick>SetProperty(optionsdialog_content,3d,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[36501],home)</onclick>
-				<onclick>ActivateWindow(1114)</onclick>
+				<onclick>ActivateWindow(1102)</onclick>
 			</control>
 			<control type="button" id="202">
 				<width>83</width>
@@ -264,7 +264,7 @@
 				<texturenofocus>OSDPresetSettingsNF.png</texturenofocus>
 				<onclick>SetProperty(optionsdialog_content,options,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[33063],home)</onclick>
-				<onclick>ActivateWindow(1114)</onclick>
+				<onclick>ActivateWindow(1102)</onclick>
 			</control>
 		</control>
 	</controls>

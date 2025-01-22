@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="1114" type="dialog">
+<window id="1102" type="dialog">
 	<defaultcontrol always="true">11000</defaultcontrol>
 	<onload condition="String.IsEqual(window(home).Property(optionsdialog_content),options)">SetFocus(11100)</onload>
 	<onload condition="String.IsEqual(window(home).Property(optionsdialog_content),3d)">SetFocus(11200)</onload>
@@ -43,7 +43,7 @@
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<label>31022</label>
 					<onclick>Dialog.Close(all)</onclick>
-					<onclick>ActivateWindow(1115)</onclick>
+					<onclick>ActivateWindow(1103)</onclick>
 					<enable>Player.TempoEnabled</enable>
 				</control>
 				<control type="button" id="11102">

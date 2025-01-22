@@ -2,7 +2,7 @@
 <window>
 	<defaultcontrol always="true">570</defaultcontrol>
 	<menucontrol>9000</menucontrol>
-	<onload condition="!Skin.HasSetting(FirstTimeRun)">ActivateWindow(1112)</onload>
+	<onload condition="!Skin.HasSetting(FirstTimeRun)">ActivateWindow(1105)</onload>
 	<views>570</views>
 	<controls>
 		<include>CommonBackground</include>
