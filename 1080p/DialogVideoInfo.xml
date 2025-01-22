@@ -49,7 +49,7 @@
 				</control>
 				<control type="grouplist">
 					<description>Media Codec Flagging Images</description>
-					<left>300</left>
+					<left>316</left>
 					<top>720</top>
 					<width>900</width>
 					<align>left</align>
@@ -60,9 +60,9 @@
 					<include>VideoCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
+					<include>AudioObjectsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
-					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="group">
 					<top>135</top>

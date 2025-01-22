@@ -98,7 +98,7 @@
 			</control>
 			<control type="group">
 				<left>495</left>
-				<top>278r</top>
+				<top>345r</top>
 				<control type="label" id="1">
 					<description>Heading label</description>
 					<left>0</left>
@@ -147,46 +147,72 @@
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>
+				<control type="label" id="1">
+					<description>Title label</description>
+					<left>30</left>
+					<top>90</top>
+					<width>1365</width>
+					<height>45</height>
+					<font>font30</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$INFO[Player.Title]</label>
+					<textcolor>orange</textcolor>
+					<scroll>true</scroll>
+				</control>
 				<control type="grouplist">
 					<left>30</left>
-					<top>93</top>
+					<top>145</top>
 					<width>1365</width>
-					<height>53</height>
+					<height>39</height>
 					<itemgap>8</itemgap>
 					<orientation>horizontal</orientation>
-					<control type="label">
-						<width min="15" max="957">auto</width>
-						<height>30</height>
-						<font>font30</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$INFO[Player.Title]</label>
-						<textcolor>orange</textcolor>
-						<scroll>true</scroll>
-					</control>
-					<control type="image">
-						<description>Audio Codec Image</description>
-						<width>122</width>
-						<height>44</height>
-						<texture>$INFO[MusicPlayer.Codec,flagging/audio/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive</visible>
-					</control>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!Player.ChannelPreviewActive"/>
+						<param name="flag_label" value="$VAR[AudioCodecVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(MusicPlayer.Channels)"/>
+						<param name="flag_label" value="$VAR[AudioChannelsVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(MusicPlayer.SampleRate)"/>
+						<param name="flag_label" value="$INFO[MusicPlayer.SampleRate,,kHz]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(MusicPlayer.BitRate)"/>
+						<param name="flag_label" value="$INFO[MusicPlayer.BitRate,,kbps]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(MusicPlayer.BitsPerSample)"/>
+						<param name="flag_label" value="$INFO[MusicPlayer.BitsPerSample,,bit]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(MusicPlayer.BMP)"/>
+						<param name="flag_label" value="$INFO[MusicPlayer.BMP,,bpm]"/>
+					</include>
 					<control type="group">
 						<description>Rating</description>
 						<width>258</width>
-						<height>44</height>
+						<height>39</height>
 						<control type="image">
 							<description>rating back</description>
 							<left>0</left>
 							<top>0</top>
 							<width>258</width>
-							<height>44</height>
+							<height>39</height>
 							<texture border="5">flagging/blank.png</texture>
 						</control>
 						<control type="image">
 							<description>User Rating</description>
 							<left>3</left>
-							<top>8</top>
+							<top>4</top>
 							<width>252</width>
 							<height>32</height>
 							<texture fallback="ratings/0.png">$INFO[MusicPlayer.UserRating,ratings/,.png]</texture>
@@ -195,7 +221,7 @@
 				</control>
 				<control type="label">
 					<left>0</left>
-					<top>180</top>
+					<top>185</top>
 					<width>1365</width>
 					<height>38</height>
 					<label>$LOCALIZE[19031]: $INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title]</label>

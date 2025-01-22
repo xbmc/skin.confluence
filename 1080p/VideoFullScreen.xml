@@ -151,7 +151,7 @@
 			</control>
 			<control type="group" id="1">
 				<left>495</left>
-				<top>278r</top>
+				<top>345r</top>
 				<control type="label" id="1">
 					<description>Heading label</description>
 					<left>0</left>
@@ -241,102 +241,81 @@
 					<shadowcolor>black</shadowcolor>
 					<visible>VideoPlayer.Content(LiveTV) | PVR.IsPlayingRecording</visible>
 				</control>
-				<control type="grouplist" id="1">
+				<control type="label" id="1">
+					<description>Title label</description>
 					<left>30</left>
 					<top>90</top>
 					<width>1365</width>
-					<height>53</height>
+					<height>45</height>
+					<font>font30</font>
+					<align>left</align>
+					<aligny>center</aligny>
+					<label>$INFO[Player.Title]</label>
+					<textcolor>orange</textcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="grouplist" id="1">
+					<left>30</left>
+					<top>145</top>
+					<width>1365</width>
+					<height>39</height>
 					<itemgap>8</itemgap>
 					<orientation>horizontal</orientation>
-					<control type="label" id="1">
-						<width min="15" max="720">auto</width>
-						<height>45</height>
-						<font>font30</font>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>$INFO[Player.Title]</label>
-						<textcolor>orange</textcolor>
-						<scroll>true</scroll>
-					</control>
-					<control type="image" id="1">
-						<description>Video Resolution Image</description>
-						<width>70</width>
-						<height>53</height>
-						<aspectratio align="center">keep</aspectratio>
-						<texture>$INFO[VideoPlayer.VideoResolution,flagging/video/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.VideoResolution)</visible>
-					</control>
-					<control type="image" id="1">
-						<description>Codec Image</description>
-						<width>110</width>
-						<height>53</height>
-						<aspectratio align="left">keep</aspectratio>
-						<texture>$INFO[VideoPlayer.HdrType,flagging/video/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.HdrType)</visible>
-					</control>
-					<control type="image" id="1">
-						<description>Audio Codec Image</description>
-						<width>110</width>
-						<height>53</height>
-						<aspectratio align="center">keep</aspectratio>
-						<texture>$INFO[VideoPlayer.AudioCodec,flagging/audio/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioCodec)</visible>
-					</control>
-					<control type="image" id="1">
-						<description>Audio Channels Image</description>
-						<width>70</width>
-						<height>53</height>
-						<aspectratio align="center">keep</aspectratio>
-						<texture>$INFO[VideoPlayer.AudioChannels,flagging/audio/,.png]</texture>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioChannels)</visible>
-					</control>
-					<control type="group" id="1">
-						<width>110</width>
-						<height>53</height>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
-						<control type="image" id="1">
-							<top>0</top>
-							<description>Audio Language Image</description>
-							<width>110</width>
-							<height>53</height>
-							<texture>flagging/AudioLang.png</texture>
-						</control>
-						<control type="label" id="1">
-							<left>49</left>
-							<top>5</top>
-							<width>71</width>
-							<height>53</height>
-							<font>font13</font>
-							<align>left</align>
-							<label>$INFO[VideoPlayer.AudioLanguage]</label>
-							<textcolor>grey</textcolor>
-						</control>
-					</control>
-					<control type="group" id="1">
-						<width>110</width>
-						<height>53</height>
-						<visible>!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.SubtitlesLanguage) + VideoPlayer.SubtitlesEnabled</visible>
-						<control type="image" id="1">
-							<top>0</top>
-							<width>110</width>
-							<height>53</height>
-							<texture>flagging/SubLang.png</texture>
-						</control>
-						<control type="label" id="1">
-							<left>49</left>
-							<top>5</top>
-							<width>71</width>
-							<height>53</height>
-							<font>font13</font>
-							<align>left</align>
-							<label>$INFO[VideoPlayer.SubtitlesLanguage]</label>
-							<textcolor>grey</textcolor>
-						</control>
-					</control>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.VideoResolution)"/>
+						<param name="flag_label" value="$VAR[VideoResolutionTypeVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.HdrType)"/>
+						<param name="flag_label" value="$VAR[VideoHDRTypeVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.VideoCodec)"/>
+						<param name="flag_label" value="$VAR[VideoCodecVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.VideoAspect)"/>
+						<param name="flag_label" value="$INFO[VideoPlayer.VideoAspect]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.AudioCodec)"/>
+						<param name="flag_label" value="$VAR[AudioCodecVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="!String.IsEmpty(VideoPlayer.AudioChannels)"/>
+						<param name="flag_label" value="$VAR[AudioChannelsVar]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_visible" value="ListItem.IsStereoscopic"/>
+						<param name="flag_label" value="3D"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_width" value="80"/>
+						<param name="flag_align" value="right"/>
+						<param name="flag_texture" value="flagging/AudioLang.png"/>
+						<param name="flag_visible" value="!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioLanguage)"/>
+						<param name="flag_label" value="$INFO[VideoPlayer.AudioLanguage]"/>
+					</include>
+					<include content="MediaFlag">
+						<param name="flag_id" value="1"/>
+						<param name="flag_width" value="80"/>
+						<param name="flag_align" value="right"/>
+						<param name="flag_texture" value="flagging/SubLang.png"/>
+						<param name="flag_visible" value="!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.SubtitlesLanguage) + VideoPlayer.SubtitlesEnabled"/>
+						<param name="flag_label" value="$INFO[VideoPlayer.SubtitlesLanguage]"/>
+					</include>
 				</control>
 				<control type="label" id="1">
 					<left>0</left>
-					<top>180</top>
+					<top>185</top>
 					<width>1365</width>
 					<height>38</height>
 					<label>$LOCALIZE[31049] $INFO[Player.FinishTime]</label>
@@ -350,7 +329,7 @@
 				</control>
 				<control type="label" id="1">
 					<left>0</left>
-					<top>180</top>
+					<top>185</top>
 					<width>1365</width>
 					<height>38</height>
 					<label>$INFO[VideoPlayer.NextTitle,[B]$LOCALIZE[19031]: [/B]]</label>
