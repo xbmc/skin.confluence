@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="1113" type="dialog">
+<window id="1104" type="dialog">
 	<visible>[Window.IsActive(fullscreenvideo) | Window.IsActive(visualisation)] + !Window.IsActive(pvrosdchannels) + !String.IsEmpty(PVR.ChannelNumberInput)</visible>
 	<controls>
 		<control type="label">

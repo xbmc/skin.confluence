@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<window id="1112" type="dialog">
+<window id="1105" type="dialog">
 	<defaultcontrol always="true">100</defaultcontrol>
 	<include>dialogeffect</include>
 	<controls>
