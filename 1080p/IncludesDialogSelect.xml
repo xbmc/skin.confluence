@@ -1,5 +1,401 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+	<include name="DialogSelectVideoLayout">
+		<control type="group">
+			<include>DialogSelectLayout</include>
+			<control type="list" id="6">
+				<left>30</left>
+				<top>101</top>
+				<width>825</width>
+				<height>690</height>
+				<onup>6</onup>
+				<ondown>6</ondown>
+				<onleft>7</onleft>
+				<onright>61</onright>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(stream.codec)]$INFO[ListItem.Property(stream.hdrtype),$COMMA ]$INFO[ListItem.Property(stream.resolution),$COMMA ]$VAR[StreamBitrateVar,$COMMA , kbps]$INFO[ListItem.Property(stream.fps),$COMMA , fps]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.description),, ]$INFO[ListItem.Property(stream.language),(,)]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+						<visible>!Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-focus2.png</texture>
+						<visible>Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Property(stream.codec)]$INFO[ListItem.Property(stream.hdrtype),$COMMA ]$INFO[ListItem.Property(stream.resolution),$COMMA ]$VAR[StreamBitrateVar,$COMMA , kbps]$INFO[ListItem.Property(stream.fps),$COMMA , fps]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.description),, ]$INFO[ListItem.Property(stream.language),(,)]</label>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+	</include>
+	<include name="DialogSelectAudioLayout">
+		<control type="group">
+			<include>DialogSelectLayout</include>
+			<control type="list" id="6">
+				<left>30</left>
+				<top>101</top>
+				<width>825</width>
+				<height>690</height>
+				<onup>6</onup>
+				<ondown>6</ondown>
+				<onleft>7</onleft>
+				<onright>61</onright>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.codecdesc)]$INFO[ListItem.Property(stream.channels), - , $LOCALIZE[10127]]$INFO[ListItem.Property(stream.description), - ]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+						<visible>!Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-focus2.png</texture>
+						<visible>Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.codecdesc)]$INFO[ListItem.Property(stream.channels), - , $LOCALIZE[10127]]$INFO[ListItem.Property(stream.description), - ]</label>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+	</include>
+	<include name="DialogSelectSubtitleLayout">
+		<control type="group">
+			<include>DialogSelectLayout</include>
+			<control type="list" id="6">
+				<left>30</left>
+				<top>101</top>
+				<width>825</width>
+				<height>690</height>
+				<onup>6</onup>
+				<ondown>6</ondown>
+				<onleft>7</onleft>
+				<onright>61</onright>
+				<pagecontrol>61</pagecontrol>
+				<scrolltime>200</scrolltime>
+				<itemlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>grey</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.description)]</label>
+					</control>
+				</itemlayout>
+				<focusedlayout height="138" width="825">
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-nofocus.png</texture>
+						<visible>!Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>825</width>
+						<height>129</height>
+						<texture border="5">button-focus2.png</texture>
+						<visible>Control.HasFocus(6)</visible>
+						<include>VisibleFadeEffect</include>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>20</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>Overlaywatched.png</texture>
+						<visible>ListItem.IsSelected</visible>
+					</control>
+					<control type="image">
+						<left>20</left>
+						<top>80</top>
+						<width>32</width>
+						<height>32</height>
+						<aspectratio>keep</aspectratio>
+						<aligny>center</aligny>
+						<texture>icon_favourites.png</texture>
+						<visible>ListItem.Property(stream.isdefault)</visible>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>20</top>
+						<width>735</width>
+						<height>45</height>
+						<font>font13</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<aligny>center</aligny>
+						<label>$INFO[ListItem.Label]$VAR[VideoStreamDialogItemLabelVar, - ]</label>
+					</control>
+					<control type="label">
+						<left>75</left>
+						<top>70</top>
+						<width>735</width>
+						<height>66</height>
+						<font>font12</font>
+						<textcolor>white</textcolor>
+						<selectedcolor>selected</selectedcolor>
+						<align>left</align>
+						<label>$INFO[ListItem.Property(stream.description)]</label>
+					</control>
+				</focusedlayout>
+			</control>
+		</control>
+	</include>
 	<include name="DialogCheckPreviousEpisodeLayout">
 		<control type="group">
 			<left>440</left>
@@ -762,7 +1158,7 @@
 	</include>
 	<include name="DialogGameSelectSaveLayout">
 		<control type="group">
-			<left>353</left>
+			<left>323</left>
 			<top>182</top>
 			<control type="image">
 				<description>background image</description>
