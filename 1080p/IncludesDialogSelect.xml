@@ -24,7 +24,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -34,7 +34,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -87,7 +87,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -97,7 +97,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -156,7 +156,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -166,7 +166,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -219,7 +219,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -229,7 +229,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -288,7 +288,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -298,7 +298,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -351,7 +351,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>20</top>
+						<top>28</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
@@ -361,7 +361,7 @@
 					</control>
 					<control type="image">
 						<left>20</left>
-						<top>80</top>
+						<top>72</top>
 						<width>32</width>
 						<height>32</height>
 						<aspectratio>keep</aspectratio>
