@@ -260,7 +260,7 @@
 				<control type="label">
 					<width>880</width>
 					<height>38</height>
-					<label>[COLOR grey2]$LOCALIZE[31339]: [/COLOR]$INFO[Player.Process(videowidth),,x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
+					<label>[COLOR grey2]$LOCALIZE[38031]: [/COLOR]$INFO[Player.Process(videowidth),,x]$INFO[Player.Process(videoheight)]$INFO[Player.Process(videoscantype)]$INFO[Player.Process(videodar),$COMMA , AR]$INFO[Player.Process(videofps),$COMMA , FPS]</label>
 					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
 					<visible>Player.HasVideo</visible>
@@ -314,7 +314,7 @@
 				<control type="label">
 					<width>1600</width>
 					<height>38</height>
-					<label>[COLOR grey2]$LOCALIZE[31339]: [/COLOR]$INFO[Player.Process(audiobitspersample),, bit]$INFO[Player.Process(audiosamplerate),$COMMA , Hz]</label>
+					<label>[COLOR grey2]$LOCALIZE[460]: [/COLOR]$INFO[Player.Process(audiobitspersample),, bit]$INFO[Player.Process(audiosamplerate),$COMMA , Hz]</label>
 					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
 					<visible>Player.HasVideo</visible>
