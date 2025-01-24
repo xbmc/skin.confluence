@@ -82,7 +82,7 @@
 					<height>60</height>
 					<width>1095</width>
 					<aligny>center</aligny>
-					<label>31362</label>
+					<label>305</label>
 					<radioposx>1040</radioposx>
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<onclick>ToggleStereoMode</onclick>

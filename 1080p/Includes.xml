@@ -687,7 +687,7 @@
 		<value condition="ListItem.HasTimer">$LOCALIZE[31510]</value>
 	</variable>
 	<variable name="ProfileIdentificationLabel2Var">
-		<value condition="Skin.HasSetting(show_profilename)">$LOCALIZE[31963]</value>
+		<value condition="Skin.HasSetting(show_profilename)">$LOCALIZE[20093]</value>
 		<value condition="Skin.HasSetting(show_profileavatar)">$LOCALIZE[31964]</value>
 		<value>$LOCALIZE[16018]</value>
 	</variable>
@@ -1506,7 +1506,7 @@
 		<control type="radiobutton" id="611">
 			<description>Go to fullscreen Playback</description>
 			<include>ButtonCommonValues</include>
-			<label>31008</label>
+			<label>244</label>
 			<onclick>fullscreen</onclick>
 			<textureradioonfocus>GoFullscreen.png</textureradioonfocus>
 			<textureradioonnofocus>GoFullscreen.png</textureradioonnofocus>

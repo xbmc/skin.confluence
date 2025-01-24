@@ -48,7 +48,7 @@
 					<width>375</width>
 					<height>53</height>
 					<font>font12</font>
-					<label>31006</label>
+					<label>14018</label>
 					<textcolor>blue</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -110,7 +110,7 @@
 				<top>975</top>
 				<height>90</height>
 				<width>360</width>
-				<label>31301</label>
+				<label>12014</label>
 				<align>right</align>
 				<aligny>top</aligny>
 				<font>font13</font>

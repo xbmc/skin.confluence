@@ -742,7 +742,7 @@
 				<texturefocus flipy="true" border="5">HomeSubFO.png</texturefocus>
 				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
-				<label>31008</label>
+				<label>244</label>
 				<onclick>fullscreen</onclick>
 				<textureradioonfocus>GoFullscreen.png</textureradioonfocus>
 				<textureradioonnofocus>GoFullscreen.png</textureradioonnofocus>
