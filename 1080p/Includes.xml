@@ -56,27 +56,27 @@
 	<variable name="ActiveVideoPlayerSubtitleLanguage">
 		<value condition="!VideoPlayer.HasSubtitles">$LOCALIZE[36623]</value>
 		<value condition="VideoPlayer.HasSubtitles + !VideoPlayer.SubtitlesEnabled">$LOCALIZE[1223]</value>
-		<value condition="VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled + !String.IsEmpty(VideoPlayer.SubtitlesLanguage)">$INFO[VideoPlayer.SubtitlesLanguage]</value>
+		<value condition="VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled + !String.IsEmpty(VideoPlayer.SubtitlesLanguage)">[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE]</value>
 		<value condition="VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled + String.IsEmpty(VideoPlayer.SubtitlesLanguage)">$LOCALIZE[13205]</value>
 	</variable>
 	<variable name="ActiveVideoPlayerAudioLanguage">
-		<value condition="!String.IsEmpty(VideoPlayer.AudioLanguage)">$INFO[VideoPlayer.AudioLanguage]</value>
+		<value condition="!String.IsEmpty(VideoPlayer.AudioLanguage)">[UPPERCASE]$INFO[VideoPlayer.AudioLanguage][/UPPERCASE]</value>
 		<value condition="String.IsEmpty(VideoPlayer.AudioLanguage)">$LOCALIZE[13205]</value>
 	</variable>
 	<variable name="StreamBitrateVar">
 		<value condition="!String.IsEqual(ListItem.Property(stream.bitrate),0)">$INFO[ListItem.Property(stream.bitrate)]</value>
 	</variable>
 	<variable name="AudioChannelsVar">
-		<value condition="String.IsEqual(ListItem.AudioChannels,0) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,0)] | String.IsEqual(ListItem.MusicChannels,0) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,0)]">0.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,1) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,1)] | String.IsEqual(ListItem.MusicChannels,1) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,1)]">1.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,2) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,2)] | String.IsEqual(ListItem.MusicChannels,2) | [Window.IsActive(visualisation)+ String.IsEqual(MusicPlayer.Channels,2)]">2.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,3) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,3)] | String.IsEqual(ListItem.MusicChannels,3) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,3)]">2.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,4) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,4)] | String.IsEqual(ListItem.MusicChannels,4) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,4)]">4.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,5) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,5)] | String.IsEqual(ListItem.MusicChannels,5) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,5)]">4.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,6) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,6)] | String.IsEqual(ListItem.MusicChannels,6) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,6)]">5.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,7) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,7)] | String.IsEqual(ListItem.MusicChannels,7) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,7)]">6.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,8) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,8)] | String.IsEqual(ListItem.MusicChannels,8) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,8)]">7.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,10) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,10)] | String.IsEqual(ListItem.MusicChannels,10) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,10)]">9.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,0) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,0)] | String.IsEqual(ListItem.MusicChannels,0) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,0)] | String.Contains(ListItem.Property(stream.channels),0)">0.0</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,1) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,1)] | String.IsEqual(ListItem.MusicChannels,1) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,1)] | String.Contains(ListItem.Property(stream.channels),1)">1.0</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,2) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,2)] | String.IsEqual(ListItem.MusicChannels,2) | [Window.IsActive(visualisation)+ String.IsEqual(MusicPlayer.Channels,2)] | String.Contains(ListItem.Property(stream.channels),2)">2.0</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,3) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,3)] | String.IsEqual(ListItem.MusicChannels,3) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,3)] | String.Contains(ListItem.Property(stream.channels),3)">2.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,4) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,4)] | String.IsEqual(ListItem.MusicChannels,4) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,4)] | String.Contains(ListItem.Property(stream.channels),4)">4.0</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,5) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,5)] | String.IsEqual(ListItem.MusicChannels,5) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,5)] | String.Contains(ListItem.Property(stream.channels),5)">4.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,6) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,6)] | String.IsEqual(ListItem.MusicChannels,6) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,6)] | String.Contains(ListItem.Property(stream.channels),6)">5.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,7) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,7)] | String.IsEqual(ListItem.MusicChannels,7) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,7)] | String.Contains(ListItem.Property(stream.channels),7)">6.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,8) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,8)] | String.IsEqual(ListItem.MusicChannels,8) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,8)] | String.Contains(ListItem.Property(stream.channels),8)">7.1</value>
+		<value condition="String.IsEqual(ListItem.AudioChannels,10) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,10)] | String.IsEqual(ListItem.MusicChannels,10) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,10)] | String.Contains(ListItem.Property(stream.channels),10)">9.1</value>
 		<value condition="Window.IsActive(fullscreenvideo)">$INFO[VideoPlayer.AudioChannels]</value>
 		<value condition="Window.IsActive(visualisation)">$INFO[MusicPlayer.Channels]</value>
 		<value condition="Container.Content(albums) | Window.IsActive(10502)">$INFO[ListItem.MusicChannels]</value>
@@ -743,8 +743,8 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="VideoManagerLabel2">
-		<value condition="ListItem.IsStereoscopic">$INFO[ListItem.Duration,$LOCALIZE[180]: ][CR]$VAR[videocodec,, ]$VAR[VideoResolutionTypeVar,| , ]$INFO[ListItem.HdrType,| , ]| 3D $INFO[ListItem.VideoAspect,| ,:1 ]$INFO[ListItem.AudioCodec,| , ]$VAR[AudioChannels]</value>
-		<value>$INFO[ListItem.Duration,$LOCALIZE[180]: ][CR]$VAR[videocodec,, ]$VAR[VideoResolutionTypeVar,| , ]$INFO[ListItem.HdrType,| , ]$INFO[ListItem.VideoAspect,| ,:1 ]$INFO[ListItem.AudioCodec,| , ]$VAR[AudioChannels]</value>
+		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[ObjectAudioTypeVar, | ]$VAR[AudioChannelsVar, ]</value>
+		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[ObjectAudioTypeVar, | ]$VAR[AudioChannelsVar, ]</value>
 	</variable>
 	<variable name="AudioChannels">
 		<value condition="String.IsEqual(ListItem.AudioChannels,0)">0.0</value>
