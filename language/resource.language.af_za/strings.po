@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-01-05 22:33+0000\n"
+"PO-Revision-Date: 2025-01-25 15:27+0000\n"
 "Last-Translator: Heiko Berner <berner.h@gmail.com>\n"
 "Language-Team: Afrikaans (South Africa) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/af_za/>\n"
 "Language: af_za\n"
@@ -35,7 +35,7 @@ msgstr "SPELETJIES"
 
 msgctxt "#31002"
 msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
-msgstr "[B]SPELETJIE VERSTELLINGS[/B][CR][CR]Stel rewind ondersteuning & opsies op · Stel sleutelbord gebruik en hoeveelheid sleutelbord spelers op"
+msgstr "[B]SPELETJIE INSTELLINGS[/B][CR][CR]Stel rewind ondersteuning & opsies op · Stel sleutelbord gebruik en hoeveelheid sleutelbord spelers op"
 
 msgctxt "#31003"
 msgid "Power options"
@@ -380,7 +380,7 @@ msgstr "Musiek OSD"
 
 msgctxt "#31142"
 msgid "Settings level"
-msgstr "Verstellings vlak"
+msgstr "Instellings vlak"
 
 msgctxt "#31143"
 msgid "Use"
@@ -628,31 +628,31 @@ msgstr "Kies die profiel wat gebriuk moet word met program begin wanneer die int
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr "[B]SPELER VERSTELLINGS[/B][CR][CR]Stel aksies op wat gedurende terugspeel gebruik kan word · Stel op hoe media inhoud gespeel word"
+msgstr "[B]SPELER INSTELLINGS[/B][CR][CR]Stel aksies op wat gedurende terugspeel gebruik kan word · Stel op hoe media inhoud gespeel word"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr "[B]BIBLIOTEEK VERSTELLINGS[/B][CR][CR]Stel op hoe die biblioteek/lêer aansigte media inhoud vertoon · Stel op hoe biblioteek lyste/aansigte navigeer word · Stel die media databasis opsies op"
+msgstr "[B]BIBLIOTEEK INSTELLINGS[/B][CR][CR]Stel op hoe die biblioteek/lêer aansigte media inhoud vertoon · Stel op hoe biblioteek lyste/aansigte navigeer word · Stel die media databasis opsies op"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr "[B]PVR VERSTELLINGS[/B][CR][CR]Stel op hoe die kanale & gids bestuur word · Stel op hoe Lewendige TV en opnames bestuur word"
+msgstr "[B]PVR INSTELLINGS[/B][CR][CR]Stel op hoe die kanale & gids bestuur word · Stel op hoe Lewendige TV en opnames bestuur word"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr "[B]BYVOEGSELS VERSTELLINGS[/B][CR][CR]Stel jou geinstalleerde byvoegsels op · Soek vir en installeer byvoegsels vanaf kodi.tv"
+msgstr "[B]BYVOEGSELS INSTELLINGS[/B][CR][CR]Stel jou geinstalleerde byvoegsels op · Soek vir en installeer byvoegsels vanaf kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr "[B]DIENSTE VERSTELLINGS[/B][CR][CR]Stel op & bestuur media deel dienste · Stel web bediener op · Stel op & bestuur die weer diens"
+msgstr "[B]DIENSTE INSTELLINGS[/B][CR][CR]Stel op & bestuur media deel dienste · Stel web bediener op · Stel op & bestuur die weer diens"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr "[B]STELSEL VERSTELLINGS[/B][CR][CR]Stel vertoon op · Stel oudio op · Stel internet toegang op · Stel krag spaar op · Stel loghouding op"
+msgstr "[B]STELSEL INSTELLINGS[/B][CR][CR]Stel vertoon op · Stel oudio op · Stel internet toegang op · Stel krag spaar op · Stel loghouding op"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr "[B]KOPPELVLAK VERSTELLINGS[/B][CR][CR]Stel oortreksel op · Stel streek op · Stel beheer op · Stel skermskut op · Stel meester slot op"
+msgstr "[B]KOPPELVLAK INSTELLINGS[/B][CR][CR]Stel oortreksel op · Stel streek op · Stel beheer op · Stel skermskut op · Stel meester slot op"
 
 msgctxt "#31501"
 msgid "Scheduled time"
