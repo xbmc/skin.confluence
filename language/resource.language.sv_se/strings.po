@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Dölj information"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Vyalternativ"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Videoprocess information"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Helskärm"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Affischomslag"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Fanart"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Bildminiatyrer"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Bildomslag"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Info"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr ""
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr ""
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Åtgärder"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "SÖKER"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Visualiseringsval"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Sluttid"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Systemmusikfiler"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Nuvarande spellista"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "För närvarande vald"
@@ -269,10 +241,6 @@ msgstr "För närvarande vald"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Hemskärmsalternativ"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Bakgrund"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Dölj huvudmenyknappar"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Aktivera anpassad bakgrund"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Bakgrundsökväg:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Dölj"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Alternativ"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Bakgrundssökväg Master:"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "System"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "Visa affischer istället för miniatyrbilder för musikvideor"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Sångtexter"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Dölj fanart i helskärmsvisualisering"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Hemskärmens \"Bilder\"-undermeny"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Musik-OSD"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Inställningsnivå"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Använd"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr "Dölj - Sök"
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Genvägar"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Välj din låt"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Nuvarande temperatur"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Senast uppdaterad"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Dataleverantör"
@@ -460,18 +396,6 @@ msgstr "Använt minne:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Skapad"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Upplösning"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Timer inställd![/B] [COLOR=grey2] - Automatisk avstängning av systemet om[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Se i 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Ändra läge"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Aktiverad"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Skalets standardvärde"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Prognos"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Kartor"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "VÄDER"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Välj typ av profilidentifiering"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Profilnamn"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profilbild"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Vyalternativ"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Helskärm"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Fanart"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Åtgärder"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Sluttid"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Nuvarande spellista"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Bakgrund"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Aktivera anpassad bakgrund"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Alternativ"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Sångtexter"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Musik-OSD"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Använd"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Genvägar"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Senast uppdaterad"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Upplösning"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Aktiverad"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Skalets standardvärde"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Kartor"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Profilnamn"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

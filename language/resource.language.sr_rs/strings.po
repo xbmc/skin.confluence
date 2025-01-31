@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Сакриј информације"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Прикажи опције"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Информације видео процеса"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Цео екран"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Умотано у постер"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Уметност љубитеља"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Сличице слика"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Умотано у слику"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Информације"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr ""
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr ""
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Акције"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "ТРАЖЕЊЕ"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Унапред задате визуализације"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Време краја"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Системске музичке датотеке"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Тренутна листа за репродукцију"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Тренутно одабрано"
@@ -269,10 +241,6 @@ msgstr "Тренутно одабрано"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Опције главног екрана"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Позадина"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Сакриј тастере главног менија"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Омогући прилагођену позадину"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Путања позадине:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Сакриј"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Опције"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr ""
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Систем"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr ""
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Текстови песама"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Сакриј уметност љубитеља при визуализацији преко целог екрана"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Подмени \"Слике\" на главном екрану"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Музички OSD"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Ниво подешавања"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Користи"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Пречице"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Изаберите вашу песму"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Тренутна температура"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Последњи пут ажурирано"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Провајдер података"
@@ -460,18 +396,6 @@ msgstr "Искоришћеност меморије:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Направљено"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Резолуција"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Тајмер је постављен![/B] [COLOR=grey2] - Систем ће се искључити за[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Гледај као 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Промени режим"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Омогућено"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Подразумевана маска"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Прогноза"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Мапе"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "ВРЕМЕ"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr ""
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Име профила"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Прикажи опције"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Цео екран"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Уметност љубитеља"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Информације"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Акције"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Време краја"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Тренутна листа за репродукцију"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Позадина"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Омогући прилагођену позадину"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Опције"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Систем"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Текстови песама"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Музички OSD"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Користи"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Пречице"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Последњи пут ажурирано"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Резолуција"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Омогућено"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Подразумевана маска"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Мапе"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Име профила"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

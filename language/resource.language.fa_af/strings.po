@@ -49,16 +49,8 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr ""
 
-msgctxt "#31006"
-msgid "View options"
-msgstr ""
-
 msgctxt "#31007"
 msgid "Video process information"
-msgstr ""
-
-msgctxt "#31008"
-msgid "Full screen"
 msgstr ""
 
 msgctxt "#31009"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr ""
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr ""
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr ""
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr ""
-
-msgctxt "#31033"
-msgid "Info"
 msgstr ""
 
 msgctxt "#31034"
@@ -181,11 +165,6 @@ msgstr ""
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
-
-# empty strings from id 31034 to 31038
-msgctxt "#31039"
-msgid "Actions"
 msgstr ""
 
 msgctxt "#31040"
@@ -220,10 +199,6 @@ msgstr ""
 # empty string with id 31047
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr ""
-
-msgctxt "#31049"
-msgid "End time"
 msgstr ""
 
 msgctxt "#31050"
@@ -263,10 +238,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr ""
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr ""
-
 # empty string with id 31060
 msgctxt "#31061"
 msgid "Current selected"
@@ -276,10 +247,6 @@ msgstr ""
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr ""
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "پس‌زمینه"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -302,10 +269,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr ""
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr ""
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr ""
@@ -314,16 +277,8 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "مخفی"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "تنظیمات"
-
 msgctxt "#31113"
 msgid "Background path Master:"
-msgstr ""
-
-msgctxt "#31114"
-msgid "System"
 msgstr ""
 
 msgctxt "#31115"
@@ -371,11 +326,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr ""
 
-# empty strings from id 31126 to 31127
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr ""
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr ""
@@ -399,18 +349,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr ""
 
-# empty strings from id 31137 to 31139
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr ""
-
 # empty string with id 31141
 msgctxt "#31142"
 msgid "Settings level"
-msgstr ""
-
-msgctxt "#31143"
-msgid "Use"
 msgstr ""
 
 msgctxt "#31144"
@@ -432,10 +373,6 @@ msgstr ""
 msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
-
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "نشانک‌ها"
 
 # empty strings from id 31201 to 31202
 msgctxt "#31203"
@@ -460,10 +397,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr ""
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr ""
-
 # empty string with id 31302
 msgctxt "#31303"
 msgid "Data provider"
@@ -480,18 +413,6 @@ msgstr ""
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 # empty strings from id 31311 to 31318
@@ -517,10 +438,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr ""
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr ""
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr ""
@@ -537,16 +454,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -555,18 +464,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -623,14 +520,6 @@ msgstr ""
 msgctxt "#31361"
 msgid "Change mode"
 msgstr ""
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr ""
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "استاندارد"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -750,10 +639,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr ""
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr ""
-
 # empty strings from id 31911 to 31949
 msgctxt "#31950"
 msgid "WEATHER"
@@ -809,14 +694,25 @@ msgid "Choose kind of profile identification"
 msgstr ""
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr ""
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr ""
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "پس‌زمینه"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "تنظیمات"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "نشانک‌ها"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "استاندارد"
 
 #~ msgctxt "#31502"
 #~ msgid "TV"

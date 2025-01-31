@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Masquer les informations"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Options de vue"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Informations de traitement vidéo"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Plein écran"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Galerie d'affiches"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Fanart"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Galerie de miniatures"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Galerie d'images"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Infos"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr "Sélectionner + X"
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr "Sélectionner + Démarrage"
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Actions"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "RECHERCHE"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Préréglages de visualisation"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Heure de fin"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Fichiers musicaux du système"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Liste de lecture en cours"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Sélection actuelle"
@@ -269,10 +241,6 @@ msgstr "Sélection actuelle"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Options de l'écran d'accueil"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Arrière-plan"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Masquer les boutons du menu principal"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Activer l'arrière-plan personnalisé"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Chemin de l'arrière-plan :"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Masquer"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Options"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Chemin maître des arrière-plans :"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Système"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "Afficher les affiches au lieu des miniatures pour les vidéos musicales"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Paroles"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Masquer le Fanart en visualisation plein écran"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Sous-menu Images de la page d'accueil"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Incrustation à l'écran de la Musique"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Niveau de paramétrage"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Utiliser"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr "Masquer - Rechercher"
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Raccourcis"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Choisir une chanson"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Température actuelle"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Dernière mise à jour"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Fournisseur de données"
@@ -460,18 +396,6 @@ msgstr "Mémoire utilisée :"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Créé"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Résolution"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Arrêt programmé ![/B][COLOR=grey2] - Le système s'arrêtera dans[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Regarder en 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Changer mode"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Activé"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Prédéfini par l'habillage"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Prévisions"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Cartes"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "MÉTÉO"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Choisir le type d'identification du profil"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Nom du profil"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar du profil"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Options de vue"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Plein écran"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Fanart"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Infos"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Heure de fin"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Liste de lecture en cours"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Arrière-plan"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Activer l'arrière-plan personnalisé"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Système"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Paroles"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Incrustation à l'écran de la Musique"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Utiliser"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Raccourcis"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Dernière mise à jour"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Résolution"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Activé"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Prédéfini par l'habillage"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Cartes"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Nom du profil"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

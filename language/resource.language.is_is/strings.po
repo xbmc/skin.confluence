@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Fela upplýsingar"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Valkostir skoðunar"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Upplýsingar um vinnslu myndskeiða"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Fylla skjá"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Veggspjaldafletting"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Aðdáendamyndir"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr "Engar breytingar"
@@ -157,10 +145,6 @@ msgstr "Smámyndir"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Myndafletting"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Upplýsingar"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr "Val + X"
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr "Val + Start"
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Aðgerðir"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "LEITA"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Forstillingar sjónhrifa"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Lokatími"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Tónlistarskrár kerfis"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Núgildandi spilunarlisti"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Núverandi val"
@@ -269,10 +241,6 @@ msgstr "Núverandi val"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Valkostir forsíðu"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Bakgrunnur"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Fela hnappa í aðalvalmynd"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Virkja sérsniðinn bakgrunn"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Slóð á bakgrunnsmynd:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Fela"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Valkostir"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Slóð á bakgrunnsmynd Master-sniðs:"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Kerfi"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "Birta veggspjöld frekar en smámyndir fyrir tónlistarmyndbönd"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Lagatextar"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Fela aðdáendamyndir í sjónhrifum í heilskjá"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "\"Ljósmyndir\"-undirvalmynd á forsíðu"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Stjórntextar tónlistar"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Ítarleiki stillinga"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Nota"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr "Fela - Leita"
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Flýtileiðir"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Veldu þitt lag"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Núverandi hiti"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Síðast uppfært"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Gagnaveita"
@@ -461,18 +397,6 @@ msgstr "Minni í notkun:"
 msgctxt "#31310"
 msgid "PVR"
 msgstr "PVR-upptaka"
-
-msgctxt "#31311"
-msgid "Player"
-msgstr "Spilari"
-
-msgctxt "#31312"
-msgid "Media"
-msgstr "Efni"
-
-msgctxt "#31313"
-msgid "System"
-msgstr "Kerfi"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Búið til"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Upplausn"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Tímataka virk![/B] [COLOR=grey2] - Sjálfvirkt slökkt eftir[/COLOR]"
@@ -514,17 +434,9 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr "Nánar um merki"
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr "Upplýsingar um myndmerki"
-
 msgctxt "#31334"
 msgid "Audio information"
 msgstr "Upplýsingar um hljóð"
-
-msgctxt "#31335"
-msgid "Video resolution"
-msgstr "Upplausn myndmerkis"
 
 msgctxt "#31336"
 msgid "Video bitrate"
@@ -533,18 +445,6 @@ msgstr "Bitahraði myndmerkis"
 msgctxt "#31337"
 msgid "Audio bitrate"
 msgstr "Bitahraði hljóðs"
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr "Hljóðrásir"
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr "Tungumál hljóðs"
-
-msgctxt "#31340"
-msgid "Stream"
-msgstr "Streymi"
 
 msgctxt "#31341"
 msgid "Pixel format"
@@ -597,14 +497,6 @@ msgstr "Horfa á í 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Skipta um ham"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Virkt"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Sjálfgefið í skinni"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Veðurspá"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Kort"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "VEÐUR"
@@ -776,14 +664,125 @@ msgid "Choose kind of profile identification"
 msgstr "Veldu gerð notandaauðkenningar"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Nafn notanda"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Notandatáknmynd"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Valkostir skoðunar"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Fylla skjá"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Aðdáendamyndir"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Upplýsingar"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Aðgerðir"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Lokatími"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Núgildandi spilunarlisti"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Bakgrunnur"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Virkja sérsniðinn bakgrunn"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Valkostir"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Kerfi"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Lagatextar"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Stjórntextar tónlistar"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Nota"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Flýtileiðir"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Síðast uppfært"
+
+#~ msgctxt "#31311"
+#~ msgid "Player"
+#~ msgstr "Spilari"
+
+#~ msgctxt "#31312"
+#~ msgid "Media"
+#~ msgstr "Efni"
+
+#~ msgctxt "#31313"
+#~ msgid "System"
+#~ msgstr "Kerfi"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Upplausn"
+
+#~ msgctxt "#31333"
+#~ msgid "Video information"
+#~ msgstr "Upplýsingar um myndmerki"
+
+#~ msgctxt "#31335"
+#~ msgid "Video resolution"
+#~ msgstr "Upplausn myndmerkis"
+
+#~ msgctxt "#31338"
+#~ msgid "Audio channels"
+#~ msgstr "Hljóðrásir"
+
+#~ msgctxt "#31339"
+#~ msgid "Audio language"
+#~ msgstr "Tungumál hljóðs"
+
+#~ msgctxt "#31340"
+#~ msgid "Stream"
+#~ msgstr "Streymi"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Virkt"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Sjálfgefið í skinni"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Kort"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Nafn notanda"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

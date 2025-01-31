@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Скриване на информацията"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Визуални настройки"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Инф. за процеса за видеото"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "На цял екран"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Плакати"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Фен-арт"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Снимка и миниатюри"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Картини-поредица"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Инф."
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr ""
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr ""
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Действия"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "ПРЕВЪРТАНЕ"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Шаблони за визуализацията"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Време на приключване"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Музикални файлове (системни)"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Текущ плейлист"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Избрано"
@@ -269,10 +241,6 @@ msgstr "Избрано"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Настройки на началния екран"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Фон"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Скриване на бутони от главното меню"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Персонализиран фон"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Път до фона:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Скриване"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Настройки"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Основен път до фона:"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Системни"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "Показване на плакати вместо миниатюри за музикалните видеа"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Лирики"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Без фен-арт при визуализация на цял екран"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Подменю на елемента „Снимки“ от началния екран"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Екранно меню за музика"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Видими настройки"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Ползвай"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Преки пътища"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Изберете вашата песен"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Текуща температура"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Последно обновяване"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Доставчик на данни"
@@ -460,18 +396,6 @@ msgstr "Използвана памет:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Създаден"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Резолюция"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]БРОЯЧЪТ Е НАСТРОЕН![/B] [COLOR=grey2]Изключване след[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Гледай в 2D режим"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Промени режима"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Включено"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Стандартните (за облика)"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Прогноза"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Карти"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "ВРЕМЕТО"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Изберете начин за идентифициране на профила"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Име на профила"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Снимка на профила"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Визуални настройки"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "На цял екран"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Фен-арт"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Инф."
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Време на приключване"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Текущ плейлист"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Персонализиран фон"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Настройки"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Системни"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Лирики"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Екранно меню за музика"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Ползвай"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Преки пътища"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Последно обновяване"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Резолюция"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Включено"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Стандартните (за облика)"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Карти"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Име на профила"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
