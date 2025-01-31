@@ -23,7 +23,7 @@
 			<texturenofocus>DialogCloseButton.png</texturenofocus>
 			<animation effect="slide" start="0,0" end="-45,0" time="0" condition="Player.Muted">conditional</animation>
 			<animation effect="fade" time="150">VisibleChange</animation>
-			<visible>system.getbool(input.enablemouse) + ![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
+			<visible>system.getbool(input.enablemouse) + ![Window.IsVisible(SliderDialog) | Window.IsVisible(DialogSettings.xml) | Window.IsVisible(DialogSelect.xml) | Window.IsVisible(1102) | Window.IsVisible(VideoBookmarks)]</visible>
 		</control>
 		<control type="slider" id="87">
 			<depth>DepthOSD+</depth>
@@ -39,7 +39,7 @@
 			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
 			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 			<animation effect="fade" time="150">VisibleChange</animation>
-			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
+			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(DialogSettings.xml) | Window.IsVisible(DialogSelect.xml) | Window.IsVisible(1102) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
 		</control>
 		<control type="grouplist" id="100">
 			<left>488</left>
@@ -49,7 +49,7 @@
 			<orientation>horizontal</orientation>
 			<itemgap>0</itemgap>
 			<animation effect="fade" time="150">VisibleChange</animation>
-			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide)]</visible>
+			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(DialogSettings.xml) | Window.IsVisible(DialogSelect.xml) | Window.IsVisible(1102) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide)]</visible>
 			<control type="button" id="101">
 				<width>83</width>
 				<height>83</height>
@@ -194,7 +194,7 @@
 			<align>right</align>
 			<itemgap>0</itemgap>
 			<animation effect="fade" time="150">VisibleChange</animation>
-			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide)]</visible>
+			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(DialogSettings.xml) | Window.IsVisible(DialogSelect.xml) | Window.IsVisible(1102) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide)]</visible>
 			<control type="button" id="201">
 				<enable>VideoPlayer.IsStereoscopic</enable>
 				<animation effect="fade" start="100" end="0" time="75" condition="!VideoPlayer.IsStereoscopic">Conditional</animation>
@@ -207,33 +207,6 @@
 				<onclick>SetProperty(optionsdialog_content,3d,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[36501],home)</onclick>
 				<onclick>ActivateWindow(1102)</onclick>
-			</control>
-			<control type="button" id="202">
-				<width>83</width>
-				<height>83</height>
-				<label>31356</label>
-				<font />
-				<texturefocus>OSDSubtitlesFO.png</texturefocus>
-				<texturenofocus>OSDSubtitlesNF.png</texturenofocus>
-				<onclick>ActivateWindow(OSDSubtitleSettings)</onclick>
-			</control>
-			<control type="button" id="203">
-				<width>83</width>
-				<height>83</height>
-				<label>13395</label>
-				<font />
-				<texturefocus>OSDVideoFO.png</texturefocus>
-				<texturenofocus>OSDVideoNF.png</texturenofocus>
-				<onclick>ActivateWindow(OSDVideoSettings)</onclick>
-			</control>
-			<control type="button" id="204">
-				<width>83</width>
-				<height>83</height>
-				<label>13396</label>
-				<font />
-				<texturefocus>OSDAudioFO.png</texturefocus>
-				<texturenofocus>OSDAudioNF.png</texturenofocus>
-				<onclick>ActivateWindow(OSDAudioSettings)</onclick>
 			</control>
 			<control type="button" id="205">
 				<width>83</width>
@@ -254,6 +227,17 @@
 				<texturenofocus>OSDDvdNF.png</texturenofocus>
 				<onclick>PlayerControl(ShowVideoMenu)</onclick>
 				<visible>!VideoPlayer.Content(LiveTV) + VideoPlayer.HasMenu</visible>
+			</control>
+			<control type="button" id="203">
+				<width>83</width>
+				<height>83</height>
+				<label>13395</label>
+				<font />
+				<texturefocus>OSDVideoFO.png</texturefocus>
+				<texturenofocus>OSDVideoNF.png</texturenofocus>
+				<onclick>SetProperty(optionsdialog_content,streamselection,home)</onclick>
+				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[13392],home)</onclick>
+				<onclick>ActivateWindow(1102)</onclick>
 			</control>
 			<control type="button" id="207">
 				<width>83</width>
