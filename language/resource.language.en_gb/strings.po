@@ -296,7 +296,7 @@ msgid "Miscellaneous options"
 msgstr ""
 
 msgctxt "#31107"
-msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
+msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, WEB-DL)[/COLOR]"
 msgstr ""
 
 msgctxt "#31108"

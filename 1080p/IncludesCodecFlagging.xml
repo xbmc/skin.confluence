@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+	<include name="VideoTypeFlaggingConditions">
+		<include content="MediaFlag">
+			<param name="flag_visible" value="!Skin.HasSetting(HideFilenameFlagging) + !String.IsEqual(Control.GetLabel(666),none)"/>
+			<param name="flag_label" value="$VAR[VideoTypeFlaggingVar]"/>
+		</include>
+	</include>
 	<include name="VideoCodecFlaggingConditions">
 		<include content="MediaFlag">
 			<param name="flag_visible" value="!String.IsEmpty(ListItem.VideoResolution) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.VideoResolution)]"/>

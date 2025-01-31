@@ -40,6 +40,19 @@
 	<constant name="DepthFloor">-0.20</constant>
 	<constant name="DepthSideBlade">0.15</constant>
 	<!-- VARIABLES -->
+	<variable name="VideoTypeFlaggingVar">
+		<value condition="[String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,brrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,remux)]">Blu-ray</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,hddvd)">HD DVD</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,dvd)">DVD</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,hdtv)">HDTV</value>
+		<value condition="[String.Contains(ListItem.FilenameAndPath,pdtv) | String.Contains(ListItem.FilenameAndPath,sdtv) | String.Contains(ListItem.FilenameAndPath,dsr)]">TV</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,vhs)">VHS</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,webdl) | String.Contains(ListItem.FilenameAndPath,web-dl)">WEB-DL</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,webrip)">WEB-Rip</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,hybrid)">Hybrid</value>
+		<value condition="String.Contains(ListItem.FilenameAndPath,uhd)">UHD</value>
+		<value>none</value>
+	</variable>
 	<variable name="VideoStreamDialogItemLabelVar">
 		<value condition="String.IsEqual(ListItem.Property(Stream.IsOriginal),true) + String.IsEqual(ListItem.Property(Stream.IsForced),true) + String.IsEqual(ListItem.Property(Stream.IsHearingImpaired),true)">$LOCALIZE[39111], $LOCALIZE[39106], $LOCALIZE[39107]</value>
 		<value condition="String.IsEqual(ListItem.Property(Stream.IsOriginal),true) + String.IsEqual(ListItem.Property(Stream.IsForced),true) + String.IsEqual(ListItem.Property(Stream.IsVisualImpaired),true)">$LOCALIZE[39111], $LOCALIZE[39106], $LOCALIZE[39108]</value>
