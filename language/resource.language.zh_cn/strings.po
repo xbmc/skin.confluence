@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "隐藏信息"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "视图选项"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "视频处理信息"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "全屏"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "海报卷动"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "同人画"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "图片缩略图"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "图片卷动"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "信息"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr "选择+X"
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr "选择+开始"
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "动作"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "搜索中"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "可视化效果预设"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "结束时间"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "系统音乐文件"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "当前播放列表"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "当前选择"
@@ -269,10 +241,6 @@ msgstr "当前选择"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "主界面选项"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "背景"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "隐藏主菜单按钮"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "启用自定义背景"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "背景图路径："
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "隐藏"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "选项"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "背景图路径主配置："
-
-msgctxt "#31114"
-msgid "System"
-msgstr "系统"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "对于音乐电视，显示海报而不是缩略图"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "歌词"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "全屏可视化效果隐藏同人画"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "主界面图片子菜单"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "音乐 OSD"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "设置级别"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "使用"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr "隐藏 - 搜索"
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "快捷方式"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "选择歌曲"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "当前温度"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "最近修改"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "数据来源"
@@ -460,18 +396,6 @@ msgstr "己用内存："
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "创建"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "分辨率"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]时钟设置！[/B] [COLOR=grey2] - 系统自动关闭于[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "按2D模式观看"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "改变模式"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "开启"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "皮肤默认"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "天气预报"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "地图"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "天气"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "选择用户配置标识种类"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "用户配置名称"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "用户配置头像"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "视图选项"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "全屏"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "同人画"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "信息"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "结束时间"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "当前播放列表"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "背景"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "启用自定义背景"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "选项"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "系统"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "歌词"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "音乐 OSD"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "使用"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "快捷方式"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "最近修改"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "分辨率"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "开启"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "皮肤默认"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "地图"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "用户配置名称"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

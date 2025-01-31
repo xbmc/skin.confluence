@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Ascunde informații"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Opțiuni de afișare"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Informații procesare video"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Ecran complet"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Roată afișe"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Decor"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr "Nicio schimbare"
@@ -157,10 +145,6 @@ msgstr "Miniaturi imagini"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Roată de imagini"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Informații"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr "Select + X"
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr "Select + Start"
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Acțiuni"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "DERULARE"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Prestabiliri vizualizare"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Se termină la"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Fișiere de muzică în sistem"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Listă de redare actuală"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Selectat actual"
@@ -269,10 +241,6 @@ msgstr "Selectat actual"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Opțiuni ecran principal"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Fundal"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Ascunde butoane meniu principal"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Activează fundal personalizat"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Cale fundal"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Ascunde"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Opțiuni"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Adresa fundal principal:"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Sistem"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr "Arată afișe în loc de miniaturi pentru videoclipurile muzicale"
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Versuri"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Ascunde decorul când vizualizarea este pe tot ecranul"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Submeniu „Imagini” în pagina inițială"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Meniu audio"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Nivel stabiliri"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Utilizează"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr "Ascunde - Căutare"
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Scurtături"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Alegeți-vă cântecul"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Temperatură actuală"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Ultima actualizare"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Furnizor informații"
@@ -460,18 +396,6 @@ msgstr "Utilizare memorie:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Creat"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Rezoluție"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Planificare oprire activată![/B] [COLOR=grey2] Sistemul va fi oprit automat în[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Afișează în 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Schimbare mod"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Activat"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Standard pentru costum"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Prognoză"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Hărți"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "METEO"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Alegeți tipul de identificare profil"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Nume profil"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar profil"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Opțiuni de afișare"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Ecran complet"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Decor"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Informații"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Acțiuni"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Se termină la"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Listă de redare actuală"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Fundal"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Activează fundal personalizat"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Opțiuni"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Versuri"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Meniu audio"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Utilizează"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Scurtături"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Ultima actualizare"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Rezoluție"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Activat"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Standard pentru costum"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Hărți"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Nume profil"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

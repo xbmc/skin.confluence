@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Skjul informasjon"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Visningsalt."
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Videoprosesssinformasjon"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Fullskjerm"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Plakatsvøpe"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Brukerkunstbidrag"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Bildeminiatyrer"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Bildesvøpe"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Informasjon"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr ""
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr ""
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Handlinger"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "SØKER"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Visualiseringsforvalg"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Ferdig klokken"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Systemmusikkfiler"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Nåværende spilleliste"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Nåværende valgt"
@@ -269,10 +241,6 @@ msgstr "Nåværende valgt"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Alternativer for hovedvindu"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Bakgrunn"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Skjul hovedmenyknapper"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Aktiver egendefinert bakgrunn"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Sti til bakgrunn:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Skjul"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Alternativer"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr ""
-
-msgctxt "#31114"
-msgid "System"
-msgstr "System"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr ""
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Sangtekster"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Skjul brukerkunstbidrag i fullskjermsvisualisering"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Hjemmeskjerm bilder-undermeny"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "Musikk OSD"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Nivå"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Bruk"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Snarveier"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Velg din låt"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Været nå"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Sist oppdatert"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Datatilbyder"
@@ -460,18 +396,6 @@ msgstr "Benyttet minne:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Laget"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Oppløsning"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Tidsur fastsatt![/B] [COLOR=grey2] - Systemet avsluttes automatisk om[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Se som 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Endre modus"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Aktivert"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Forvalg for drakten"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Værvarsel"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Kart"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "VÆR"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Velg hvilken type profil identifikasjon"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Profilnavn"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Profil avatar"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Visningsalt."
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Fullskjerm"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Brukerkunstbidrag"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Informasjon"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Handlinger"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Ferdig klokken"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Nåværende spilleliste"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Bakgrunn"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Aktiver egendefinert bakgrunn"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Alternativer"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Sangtekster"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "Musikk OSD"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Bruk"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Snarveier"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Sist oppdatert"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Oppløsning"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Aktivert"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Forvalg for drakten"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Kart"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Profilnavn"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"

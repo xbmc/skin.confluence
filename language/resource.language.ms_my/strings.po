@@ -49,17 +49,9 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Sembunyi maklumat"
 
-msgctxt "#31006"
-msgid "View options"
-msgstr "Pilihan paparan"
-
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Maklumat proses video"
-
-msgctxt "#31008"
-msgid "Full screen"
-msgstr "Skrin Penuh"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -142,10 +134,6 @@ msgctxt "#31028"
 msgid "Poster wrap"
 msgstr "Lilit poster"
 
-msgctxt "#31029"
-msgid "Fanart"
-msgstr "Hasil Seni Peminat"
-
 msgctxt "#31030"
 msgid "No changes"
 msgstr ""
@@ -157,10 +145,6 @@ msgstr "Lakaran kecil gambar"
 msgctxt "#31032"
 msgid "Image wrap"
 msgstr "Lilit imej"
-
-msgctxt "#31033"
-msgid "Info"
-msgstr "Maklumat"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
@@ -181,10 +165,6 @@ msgstr "Select + X"
 msgctxt "#31038"
 msgid "Select + Start"
 msgstr "Select + Start"
-
-msgctxt "#31039"
-msgid "Actions"
-msgstr "Tindakan"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -217,10 +197,6 @@ msgstr "MENCARI"
 msgctxt "#31048"
 msgid "Visualisation presets"
 msgstr "Praset pengvisualan"
-
-msgctxt "#31049"
-msgid "End time"
-msgstr "Masa tamat"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -258,10 +234,6 @@ msgctxt "#31058"
 msgid "System music files"
 msgstr "Fail muzik sistem"
 
-msgctxt "#31059"
-msgid "Current playlist"
-msgstr "Senarai main semasa"
-
 msgctxt "#31061"
 msgid "Current selected"
 msgstr "Terkini dipilih"
@@ -269,10 +241,6 @@ msgstr "Terkini dipilih"
 msgctxt "#31101"
 msgid "Home screen options"
 msgstr "Pilihan skrin utama"
-
-msgctxt "#31102"
-msgid "Background"
-msgstr "Latar Belakang"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
@@ -294,10 +262,6 @@ msgctxt "#31108"
 msgid "Hide main menu buttons"
 msgstr "Sembunyi butang menu utama"
 
-msgctxt "#31109"
-msgid "Enable custom background"
-msgstr "Benarkan latar belakang suai"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Laluan latar belakang:"
@@ -306,17 +270,9 @@ msgctxt "#31111"
 msgid "Hide"
 msgstr "Sembunyikan"
 
-msgctxt "#31112"
-msgid "Options"
-msgstr "Pilihan"
-
 msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Master laluan latar belakang:"
-
-msgctxt "#31114"
-msgid "System"
-msgstr "Sistem"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -361,10 +317,6 @@ msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
 msgstr ""
 
-msgctxt "#31128"
-msgid "Lyrics"
-msgstr "Lirik"
-
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
 msgstr "Sembunyi seni peminat dalam pengvisualan skrin penuh"
@@ -386,17 +338,9 @@ msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
 msgstr "Sub-menu \"Gambar\" laman rumah"
 
-msgctxt "#31140"
-msgid "Music OSD"
-msgstr "OSD Muzik"
-
 msgctxt "#31142"
 msgid "Settings level"
 msgstr "Aras tetapan"
-
-msgctxt "#31143"
-msgid "Use"
-msgstr "Guna"
 
 msgctxt "#31144"
 msgid "playlist"
@@ -418,10 +362,6 @@ msgctxt "#31148"
 msgid "Hide - Search"
 msgstr ""
 
-msgctxt "#31200"
-msgid "Shortcuts"
-msgstr "Pintasan"
-
 msgctxt "#31203"
 msgid "Choose your song"
 msgstr "Pilih lagu anda"
@@ -442,10 +382,6 @@ msgctxt "#31300"
 msgid "Current temperature"
 msgstr "Suhu semasa"
 
-msgctxt "#31301"
-msgid "Last updated"
-msgstr "Kemaskini terakhir"
-
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Penyedia data"
@@ -460,18 +396,6 @@ msgstr "Ingatan digunakan:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
-
-msgctxt "#31311"
-msgid "Player"
-msgstr ""
-
-msgctxt "#31312"
-msgid "Media"
-msgstr ""
-
-msgctxt "#31313"
-msgid "System"
 msgstr ""
 
 msgctxt "#31319"
@@ -494,10 +418,6 @@ msgctxt "#31326"
 msgid "Created"
 msgstr "Dicipta"
 
-msgctxt "#31327"
-msgid "Resolution"
-msgstr "Resolusi"
-
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
 msgstr "[B]Pemasa ditetapkan![/B] [COLOR=grey2] - Sistem dimatikan sendiri dalam tempoh[/COLOR]"
@@ -514,16 +434,8 @@ msgctxt "#31332"
 msgid "Signal details"
 msgstr ""
 
-msgctxt "#31333"
-msgid "Video information"
-msgstr ""
-
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
-
-msgctxt "#31335"
-msgid "Video resolution"
 msgstr ""
 
 msgctxt "#31336"
@@ -532,18 +444,6 @@ msgstr ""
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
-
-msgctxt "#31338"
-msgid "Audio channels"
-msgstr ""
-
-msgctxt "#31339"
-msgid "Audio language"
-msgstr ""
-
-msgctxt "#31340"
-msgid "Stream"
 msgstr ""
 
 msgctxt "#31341"
@@ -597,14 +497,6 @@ msgstr "Tonton menggunakan 2D"
 msgctxt "#31361"
 msgid "Change mode"
 msgstr "Ubah mod"
-
-msgctxt "#31362"
-msgid "Enabled"
-msgstr "Dibenarkan"
-
-msgctxt "#31390"
-msgid "Skin default"
-msgstr "Lalai Kulit"
 
 msgctxt "#31392"
 msgid "Arial based"
@@ -718,10 +610,6 @@ msgctxt "#31905"
 msgid "Forecast"
 msgstr "Ramalan"
 
-msgctxt "#31910"
-msgid "Maps"
-msgstr "Peta"
-
 msgctxt "#31950"
 msgid "WEATHER"
 msgstr "CUACA"
@@ -776,14 +664,93 @@ msgid "Choose kind of profile identification"
 msgstr "Pilih jenis pengenalpastian profil"
 
 #. Label for the kind of profile identification
-msgctxt "#31963"
-msgid "Profile name"
-msgstr "Nama profil"
-
-#. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
 msgstr "Avatar profil"
+
+#~ msgctxt "#31006"
+#~ msgid "View options"
+#~ msgstr "Pilihan paparan"
+
+#~ msgctxt "#31008"
+#~ msgid "Full screen"
+#~ msgstr "Skrin Penuh"
+
+#~ msgctxt "#31029"
+#~ msgid "Fanart"
+#~ msgstr "Hasil Seni Peminat"
+
+#~ msgctxt "#31033"
+#~ msgid "Info"
+#~ msgstr "Maklumat"
+
+#~ msgctxt "#31039"
+#~ msgid "Actions"
+#~ msgstr "Tindakan"
+
+#~ msgctxt "#31049"
+#~ msgid "End time"
+#~ msgstr "Masa tamat"
+
+#~ msgctxt "#31059"
+#~ msgid "Current playlist"
+#~ msgstr "Senarai main semasa"
+
+#~ msgctxt "#31102"
+#~ msgid "Background"
+#~ msgstr "Latar Belakang"
+
+#~ msgctxt "#31109"
+#~ msgid "Enable custom background"
+#~ msgstr "Benarkan latar belakang suai"
+
+#~ msgctxt "#31112"
+#~ msgid "Options"
+#~ msgstr "Pilihan"
+
+#~ msgctxt "#31114"
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgctxt "#31128"
+#~ msgid "Lyrics"
+#~ msgstr "Lirik"
+
+#~ msgctxt "#31140"
+#~ msgid "Music OSD"
+#~ msgstr "OSD Muzik"
+
+#~ msgctxt "#31143"
+#~ msgid "Use"
+#~ msgstr "Guna"
+
+#~ msgctxt "#31200"
+#~ msgid "Shortcuts"
+#~ msgstr "Pintasan"
+
+#~ msgctxt "#31301"
+#~ msgid "Last updated"
+#~ msgstr "Kemaskini terakhir"
+
+#~ msgctxt "#31327"
+#~ msgid "Resolution"
+#~ msgstr "Resolusi"
+
+#~ msgctxt "#31362"
+#~ msgid "Enabled"
+#~ msgstr "Dibenarkan"
+
+#~ msgctxt "#31390"
+#~ msgid "Skin default"
+#~ msgstr "Lalai Kulit"
+
+#~ msgctxt "#31910"
+#~ msgid "Maps"
+#~ msgstr "Peta"
+
+#~ msgctxt "#31963"
+#~ msgid "Profile name"
+#~ msgstr "Nama profil"
 
 #~ msgctxt "#31107"
 #~ msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, HD-DVD)[/COLOR]"
