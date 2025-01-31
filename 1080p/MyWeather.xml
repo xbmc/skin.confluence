@@ -122,7 +122,7 @@
 						<width>690</width>
 						<height>53</height>
 						<font>font12</font>
-						<label>$LOCALIZE[31301] - $INFO[Window.Property(Updated)]</label>
+						<label>$LOCALIZE[12014] - $INFO[Window.Property(Updated)]</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<textcolor>grey2</textcolor>
@@ -458,7 +458,7 @@
 					<width>375</width>
 					<height>53</height>
 					<font>font12</font>
-					<label>31006</label>
+					<label>14018</label>
 					<textcolor>blue</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
@@ -526,7 +526,7 @@
 					<description>Maps button</description>
 					<textwidth>353</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>31910</label>
+					<label>33035</label>
 					<onfocus>SetProperty(Weather.CurrentView,map)</onfocus>
 					<visible>!String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 				</control>

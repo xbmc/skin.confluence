@@ -32,7 +32,7 @@
 				<font>font12_title</font>
 				<textcolor>blue</textcolor>
 				<scroll>true</scroll>
-				<label>$LOCALIZE[31049]</label>
+				<label>$LOCALIZE[19127]</label>
 			</control>
 			<control type="label" id="1">
 				<description>End time from infolabel</description>

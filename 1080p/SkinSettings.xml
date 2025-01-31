@@ -147,15 +147,15 @@
 					</item>
 					<item id="2">
 						<label>513</label>
-						<label2>31112</label2>
+						<label2>33063</label2>
 					</item>
 					<item id="3">
-						<label>31102</label>
-						<label2>31112</label2>
+						<label>33068</label>
+						<label2>33063</label2>
 					</item>
 					<item id="4">
 						<label>24000</label>
-						<label2>31200</label2>
+						<label2>111</label2>
 					</item>
 				</content>
 			</control>
@@ -278,7 +278,7 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.SelectBool(31962, 31963|show_profilename, 31964|show_profileavatar, 16018|show_none)</onclick>
+						<onclick>Skin.SelectBool(31962, 20093|show_profilename, 31964|show_profileavatar, 16018|show_none)</onclick>
 						<label2>$VAR[ProfileIdentificationLabel2Var]</label2>
 					</control>
 					<control type="button" id="118">
@@ -618,7 +618,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31111] - $LOCALIZE[31114]</label>
+						<label>$LOCALIZE[31111] - $LOCALIZE[857]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuNoSystemButton)</onclick>
 						<onclick>Skin.Reset(DefaultHomeFocus)</onclick>
 						<onclick>Skin.Reset(DefaultHomeFocusItem)</onclick>
@@ -644,7 +644,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31143] $LOCALIZE[20342] $LOCALIZE[31144]</label>
+						<label>$LOCALIZE[21480] $LOCALIZE[20342] $LOCALIZE[31144]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuMovieUsePlaylist)</onclick>
 						<selected>Skin.HasSetting(HomeMenuMovieUsePlaylist)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -671,7 +671,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31143] $LOCALIZE[20343] $LOCALIZE[31144]</label>
+						<label>$LOCALIZE[21480] $LOCALIZE[20343] $LOCALIZE[31144]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuTVShowUsePlaylist)</onclick>
 						<selected>Skin.HasSetting(HomeMenuTVShowUsePlaylist)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -698,7 +698,7 @@
 						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
-						<label>$LOCALIZE[31143] $LOCALIZE[2] $LOCALIZE[31144]</label>
+						<label>$LOCALIZE[21480] $LOCALIZE[2] $LOCALIZE[31144]</label>
 						<onclick>Skin.ToggleSetting(HomeMenuMusicUsePlaylist)</onclick>
 						<selected>Skin.HasSetting(HomeMenuMusicUsePlaylist)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -963,7 +963,7 @@
 						<width>1125</width>
 						<height>68</height>
 						<font>font13_title</font>
-						<label>31102</label>
+						<label>33068</label>
 						<textcolor>blue</textcolor>
 						<shadowcolor>black</shadowcolor>
 						<align>left</align>
@@ -973,7 +973,7 @@
 						<width>1125</width>
 						<height>60</height>
 						<font>font13</font>
-						<label>31109</label>
+						<label>21389</label>
 						<textcolor>grey2</textcolor>
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
@@ -1025,7 +1025,7 @@
 							<width>1125</width>
 							<height>68</height>
 							<font>font13_title</font>
-							<label>31140</label>
+							<label>10120</label>
 							<textcolor>blue</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<align>left</align>

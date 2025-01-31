@@ -58,7 +58,7 @@
 					<texturefocus border="5">HomeSubFO.png</texturefocus>
 					<texturenofocus colordiffuse="B3FFFFFF" border="5">HomeSubNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>$LOCALIZE[31311]</label>
+					<label>$LOCALIZE[14200]</label>
 					<onfocus>SetProperty(PlayerInfoDialogFocus,10002,Home)</onfocus>
 				</control>
 				<control type="button" id="10003">
@@ -74,7 +74,7 @@
 					<texturefocus border="5">HomeSubFO.png</texturefocus>
 					<texturenofocus colordiffuse="B3FFFFFF" border="5">HomeSubNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>$LOCALIZE[31312]</label>
+					<label>$LOCALIZE[14211]</label>
 					<onfocus>SetProperty(PlayerInfoDialogFocus,10003,Home)</onfocus>
 				</control>
 				<control type="button" id="10004">
@@ -90,7 +90,7 @@
 					<texturefocus border="5">HomeSubFO.png</texturefocus>
 					<texturenofocus colordiffuse="B3FFFFFF" border="5">HomeSubNF.png</texturenofocus>
 					<pulseonselect>false</pulseonselect>
-					<label>$LOCALIZE[31313]</label>
+					<label>$LOCALIZE[14230]</label>
 					<onfocus>SetProperty(PlayerInfoDialogFocus,10004,Home)</onfocus>
 				</control>
 				<control type="image">
@@ -345,7 +345,7 @@
 					<description>Header</description>
 					<width>880</width>
 					<height>38</height>
-					<label>$LOCALIZE[31333]</label>
+					<label>$LOCALIZE[20159]</label>
 					<font>font13_title</font>
 					<textcolor>blue</textcolor>
 				</control>
@@ -360,7 +360,7 @@
 				<control type="label">
 					<width>830</width>
 					<height>38</height>
-					<label>[COLOR grey2]$LOCALIZE[31335]: [/COLOR]$INFO[VideoPlayer.VideoResolution]</label>
+					<label>[COLOR grey2]$LOCALIZE[21443]: [/COLOR]$INFO[VideoPlayer.VideoResolution]</label>
 					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
 					<visible>!String.IsEmpty(VideoPlayer.VideoResolution)</visible>
@@ -414,7 +414,7 @@
 				<control type="label">
 					<width>880</width>
 					<height>38</height>
-					<label>[COLOR grey2]$LOCALIZE[31338]: [/COLOR]$INFO[VideoPlayer.AudioChannels]</label>
+					<label>[COLOR grey2]$LOCALIZE[21444]: [/COLOR]$INFO[VideoPlayer.AudioChannels]</label>
 					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
 					<visible>!String.IsEmpty(VideoPlayer.AudioChannels)</visible>
@@ -430,7 +430,7 @@
 				<control type="label">
 					<width>880</width>
 					<height>38</height>
-					<label>[COLOR grey2]$LOCALIZE[31339]: [/COLOR]$INFO[VideoPlayer.AudioLanguage]</label>
+					<label>[COLOR grey2]$LOCALIZE[21447]: [/COLOR]$INFO[VideoPlayer.AudioLanguage]</label>
 					<font>font12</font>
 					<shadowcolor>black</shadowcolor>
 					<visible>!String.IsEmpty(VideoPlayer.AudioLanguage)</visible>

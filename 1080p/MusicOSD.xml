@@ -280,7 +280,7 @@
 			<control type="togglebutton" id="701">
 				<width>83</width>
 				<height>83</height>
-				<label>31128</label>
+				<label>24013</label>
 				<font />
 				<texturefocus>OSDLyricsFO.png</texturefocus>
 				<texturenofocus>OSDLyricsNF.png</texturenofocus>

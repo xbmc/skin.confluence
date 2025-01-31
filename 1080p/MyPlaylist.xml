@@ -26,11 +26,11 @@
 		<include>ScrollOffsetLabel</include>
 		<include content="CommonWindowHeader" condition="Window.IsActive(videoplaylist)">
 			<param name="Icon" value="icon_video" />
-			<param name="Label" value="$LOCALIZE[31059] - $LOCALIZE[14215]" />
+			<param name="Label" value="$LOCALIZE[13350] - $LOCALIZE[14215]" />
 		</include>
 		<include content="CommonWindowHeader" condition="Window.IsActive(musicplaylist)">
 			<param name="Icon" value="icon_music" />
-			<param name="Label" value="$LOCALIZE[31059] - $LOCALIZE[14216]" />
+			<param name="Label" value="$LOCALIZE[13350] - $LOCALIZE[14216]" />
 		</include>
 		<control type="group">
 			<left>-375</left>
@@ -50,7 +50,7 @@
 					<width>375</width>
 					<height>53</height>
 					<font>font12</font>
-					<label>31006</label>
+					<label>14018</label>
 					<textcolor>blue</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
