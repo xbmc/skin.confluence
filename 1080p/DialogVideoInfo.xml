@@ -58,10 +58,11 @@
 					<include>VisibleFadeEffect</include>
 					<visible>!Control.IsVisible(50) + [String.IsEqual(ListItem.DBTYPE,movie) | String.IsEqual(ListItem.DBTYPE,episode) | String.IsEqual(ListItem.DBTYPE,musicvideo)]</visible>
 					<include>VideoCodecFlaggingConditions</include>
+					<include>AspectCodecFlaggingConditions</include>
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
-					<include>AspectCodecFlaggingConditions</include>
 					<include>VideoStereoscopicsFlaggingConditions</include>
+					<include>VideoTypeFlaggingConditions</include>
 				</control>
 				<control type="group">
 					<top>135</top>
