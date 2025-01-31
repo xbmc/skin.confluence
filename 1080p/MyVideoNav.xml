@@ -11,7 +11,7 @@
 			<font>font13</font>
 			<textcolor>white</textcolor>
 			<shadowcolor>black</shadowcolor>
-			<label>$VAR[typehackflagging]</label>
+			<label>$VAR[VideoTypeFlaggingVar]</label>
 		</control>
 		<include>CommonBackground</include>
 		<include>ContentPanelBackgrounds</include>
