@@ -717,8 +717,8 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="VideoManagerLabel2">
-		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[ObjectAudioTypeVar, | ]$VAR[AudioChannelsVar, ]</value>
-		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[ObjectAudioTypeVar, | ]$VAR[AudioChannelsVar, ]</value>
+		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
+		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
 	</variable>
 	<variable name="AudioChannels">
 		<value condition="String.IsEqual(ListItem.AudioChannels,0)">0.0</value>
