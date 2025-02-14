@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2025-02-05 19:27+0000\n"
 "Last-Translator: Kai Sommerfeld <ksooo@users.noreply.kodi.weblate.cloud>\n"
@@ -49,9 +49,17 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Informationen ausblenden"
 
+msgctxt "#31006"
+msgid "Automatically close video OSD"
+msgstr ""
+
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Videoverarbeitungsinformation"
+
+msgctxt "#31008"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
 
 msgctxt "#31009"
 msgid "Total duration"
