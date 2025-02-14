@@ -293,6 +293,31 @@
 						<onclick>Skin.SelectBool(31021, 31030|TitleFormat_nothing, 31036|TitleFormat_only, 31034|TitleFormat_1st, 31035|TitleFormat_2nd)</onclick>
 						<label2>$VAR[ShowOriginalName]</label2>
 					</control>
+					<control type="radiobutton" id="119">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>31006</label>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.ToggleSetting(OSDAutoClose)</onclick>
+						<selected>Skin.HasSetting(OSDAutoClose)</selected>
+					</control>
+					<control type="button" id="120">
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<label>- $LOCALIZE[31008]</label>
+						<label2>$VAR[SkinSettingOSDAutoCloseTime]</label2>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+						<onclick>Skin.SetNumeric(OSDAutoCloseTime)</onclick>
+						<enable>Skin.HasSetting(OSDAutoClose)</enable>
+					</control>
 				</control>
 				<control type="scrollbar" id="60">
 					<left>1590</left>
