@@ -49,9 +49,17 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "隐藏信息"
 
+msgctxt "#31006"
+msgid "Automatically close video OSD"
+msgstr ""
+
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "视频处理信息"
+
+msgctxt "#31008"
+msgid "Video OSD autoclose time (seconds)"
+msgstr ""
 
 msgctxt "#31009"
 msgid "Total duration"

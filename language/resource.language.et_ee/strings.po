@@ -49,8 +49,16 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Peida informatsioon"
 
+msgctxt "#31006"
+msgid "Automatically close video OSD"
+msgstr ""
+
 msgctxt "#31007"
 msgid "Video process information"
+msgstr ""
+
+msgctxt "#31008"
+msgid "Video OSD autoclose time (seconds)"
 msgstr ""
 
 msgctxt "#31009"
