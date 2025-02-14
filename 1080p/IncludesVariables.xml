@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<!-- VARIABLES -->
+	<variable name="SkinSettingOSDAutoCloseTime">
+		<value condition="!String.IsEmpty(Skin.String(OSDAutoCloseTime))">$INFO[Skin.String(OSDAutoCloseTime)]</value>
+		<value condition="String.IsEmpty(Skin.String(OSDAutoCloseTime))">4</value>
+	</variable>
 	<variable name="VideoTypeFlaggingVar">
 		<value condition="[String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,brrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,remux)]">Blu-ray</value>
 		<value condition="String.Contains(ListItem.FilenameAndPath,hddvd)">HD DVD</value>
