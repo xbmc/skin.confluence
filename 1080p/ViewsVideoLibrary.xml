@@ -2038,8 +2038,6 @@
 					<top>344</top>
 					<width>395</width>
 					<height>526</height>
-					<width>495</width>
-					<height>660</height>
 					<aspectratio align="left" aligny="bottom">keep</aspectratio>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<texture background="true">$INFO[ListItem.Icon]</texture>
