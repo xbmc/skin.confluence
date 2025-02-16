@@ -16,7 +16,7 @@
 			<include content="CommonInfoListView">
 				<param name="control_id" value="507" />
 				<param name="view_label" value="$LOCALIZE[31040]" />
-				<param name="visible" value="Window.IsVisible(MusicPlaylist) | Window.IsVisible(10502)" />
+				<param name="visible" value="Window.IsVisible(MusicPlaylist) | Window.IsVisible(music)" />
 			</include>
 		</control>
 	</include>

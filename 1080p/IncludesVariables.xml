@@ -57,7 +57,7 @@
 		<value condition="String.IsEqual(ListItem.AudioChannels,10) | [Window.IsActive(fullscreenvideo) + String.IsEqual(VideoPlayer.AudioChannels,10)] | String.IsEqual(ListItem.MusicChannels,10) | [Window.IsActive(visualisation) + String.IsEqual(MusicPlayer.Channels,10)] | String.Contains(ListItem.Property(Stream.Channels),10)">9.1</value>
 		<value condition="Window.IsActive(fullscreenvideo)">$INFO[VideoPlayer.AudioChannels]</value>
 		<value condition="Window.IsActive(visualisation)">$INFO[MusicPlayer.Channels]</value>
-		<value condition="Container.Content(albums) | Window.IsActive(10502)">$INFO[ListItem.MusicChannels]</value>
+		<value condition="Container.Content(albums) | Window.IsActive(music)">$INFO[ListItem.MusicChannels]</value>
 		<value>$INFO[ListItem.AudioChannels]</value>
 	</variable>
 	<variable name="AudioCodecVar">
@@ -621,16 +621,6 @@
 		<value condition="![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]">DialogBack.png</value>
 		<value>DialogBack2.png</value>
 	</variable>
-	<variable name="typehackflagging">
-		<value condition="[String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,brrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,remux)]">bluray</value>
-		<value condition="String.Contains(ListItem.FilenameAndPath,hddvd)">hddvd</value>
-		<value condition="String.Contains(ListItem.FilenameAndPath,dvd)">dvd</value>
-		<value condition="String.Contains(ListItem.FilenameAndPath,uhd)">uhd</value>
-		<value condition="[String.Contains(ListItem.FilenameAndPath,pdtv) | String.Contains(ListItem.FilenameAndPath,hdtv) | String.Contains(ListItem.FilenameAndPath,dsr)]">TV</value>
-		<value condition="String.Contains(ListItem.FilenameAndPath,vhs)">vhs</value>
-		<value condition="String.Contains(ListItem.FilenameAndPath,webdl) | String.Contains(ListItem.FilenameAndPath,web-dl) | String.Contains(ListItem.FilenameAndPath,webrip)">web</value>
-		<value>none</value>
-	</variable>
 	<variable name="rating">
 		<value condition="String.Contains(listitem.mpaa,Rated G)">mpaa_general</value>
 		<value condition="String.Contains(listitem.mpaa,Rated PG-13)">mpaa_pg13</value>
@@ -639,11 +629,6 @@
 		<value condition="String.Contains(Listitem.mpaa,Rated NC)">mpaa_nc17</value>
 		<value condition="String.Contains(Listitem.mpaa,Rated NR)">mpaa_notrated</value>
 		<value condition="String.Contains(Listitem.mpaa,Not Rated)">mpaa_notrated</value>
-	</variable>
-	<variable name="videocodec">
-		<value condition="[String.StartsWith(ListItem.VideoCodec,div) | String.IsEqual(ListItem.VideoCodec,dx50)]">divx</value>
-		<value condition="String.Contains(ListItem.VideoCodec,mpeg4)">mpeg4</value>
-		<value>$INFO[ListItem.VideoCodec]</value>
 	</variable>
 	<variable name="SeekLabel">
 		<value condition="[Player.Playing + !Player.Seeking + !Player.HasPerformedSeek(3)] | Player.IsTempo">$LOCALIZE[31042]</value>
@@ -723,19 +708,6 @@
 	<variable name="VideoManagerLabel2">
 		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
 		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
-	</variable>
-	<variable name="AudioChannels">
-		<value condition="String.IsEqual(ListItem.AudioChannels,0)">0.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,1)">1.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,2)">2.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,3)">2.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,4)">4.0</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,5)">4.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,6)">5.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,7)">6.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,8)">7.1</value>
-		<value condition="String.IsEqual(ListItem.AudioChannels,10)">9.1</value>
-		<value>$INFO[ListItem.AudioChannels]</value>
 	</variable>
 	<variable name="VersionsExtrasOverlay">
 		<value condition="ListItem.HasVideoVersions + ListItem.HasVideoExtras">flagging/video/overlay_versions_extras.png</value>
