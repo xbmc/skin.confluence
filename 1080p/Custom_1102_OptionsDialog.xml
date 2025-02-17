@@ -82,7 +82,7 @@
 						<width>795</width>
 						<label>36560</label>
 						<texturefocus border="5">button-focus2.png</texturefocus>
-						<onclick>Dialog.Close(1114)</onclick>
+						<onclick>Dialog.Close(1102)</onclick>
 						<onclick>ActivateWindow(osdcmssettings)</onclick>
 						<visible>System.HasCMS</visible>
 					</control>
