@@ -184,7 +184,7 @@
 						<height>60</height>
 						<width>895</width>
 						<label>31053</label>
-						<label2>[B]$VAR[ActiveVideoPlayerAudioLanguage]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar][/B]</label2>
+						<label2>[B]$VAR[ActiveVideoPlayerAudioLanguage]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ][/B]</label2>
 						<texturefocus border="5">button-focus2.png</texturefocus>
 						<onclick>DialogSelectAudio</onclick>
 						<enable>Integer.IsGreater(VideoPlayer.AudioStreamCount,1)</enable>

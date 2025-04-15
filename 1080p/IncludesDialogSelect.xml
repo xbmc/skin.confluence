@@ -195,7 +195,7 @@
 						<textcolor>grey</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
-						<label>$INFO[ListItem.Property(stream.codecdesc)]$INFO[ListItem.Property(stream.channels), | , $LOCALIZE[10127]]$INFO[ListItem.Property(stream.description), | ]</label>
+						<label>$VAR[StreamCodecVar]$VAR[StreamAudioChannelsVar, ]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="138" width="825">
@@ -258,7 +258,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
-						<label>$INFO[ListItem.Property(stream.codecdesc)]$INFO[ListItem.Property(stream.channels), | , $LOCALIZE[10127]]$INFO[ListItem.Property(stream.description), | ]</label>
+						<label>$VAR[StreamCodecVar]$VAR[StreamAudioChannelsVar, ]</label>
 					</control>
 				</focusedlayout>
 			</control>
