@@ -68,7 +68,7 @@
 						</control>
 						<control type="label">
 							<left>135</left>
-							<top>3</top>
+							<top>20</top>
 							<width>475</width>
 							<height>45</height>
 							<font>font13</font>
@@ -78,11 +78,11 @@
 							<aligny>center</aligny>
 							<label>[B]$VAR[VideoManagerLabel][/B]</label>
 						</control>
-						<control type="textbox">
+						<control type="label">
 							<left>135</left>
-							<top>51</top>
+							<top>70</top>
 							<width>475</width>
-							<height>68</height>
+							<height>48</height>
 							<font>font12</font>
 							<textcolor>grey</textcolor>
 							<selectedcolor>selected</selectedcolor>
@@ -121,7 +121,7 @@
 						</control>
 						<control type="label">
 							<left>135</left>
-							<top>3</top>
+							<top>20</top>
 							<width>475</width>
 							<height>45</height>
 							<font>font13</font>
@@ -131,11 +131,11 @@
 							<aligny>center</aligny>
 							<label>[B]$VAR[VideoManagerLabel][/B]</label>
 						</control>
-						<control type="textbox">
+						<control type="label">
 							<left>135</left>
-							<top>51</top>
+							<top>70</top>
 							<width>475</width>
-							<height>68</height>
+							<height>48</height>
 							<font>font12</font>
 							<textcolor>grey</textcolor>
 							<selectedcolor>selected</selectedcolor>
