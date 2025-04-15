@@ -18,7 +18,7 @@
 		<value condition="String.IsEqual(ListItem.Property(Stream.Channels),10)">9.1</value>
 		<value condition="String.IsEqual(ListItem.Property(Stream.Channels),12)">7.1.4</value>
 		<value condition="String.IsEqual(ListItem.Property(Stream.Channels),16)">9.1.6</value>
-		<value>$INFO[ListItem.Property(Stream.Channels)][COLOR ff505050]|[/COLOR] ]$LOCALIZE[10127]</value>
+		<value>$INFO[ListItem.Property(Stream.Channels),, $LOCALIZE[10127]]</value>
 	</variable>
 	<variable name="StreamCodecVar">
 		<value condition="Window.IsVisible(dialogselectvideo) + String.IsEqual(ListItem.Property(stream.codec),av1)">AV1</value>
@@ -803,8 +803,8 @@
 		<value>$INFO[ListItem.Label]</value>
 	</variable>
 	<variable name="VideoManagerLabel2">
-		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[StreamAudioChannelsVar, ]</value>
-		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[StreamAudioChannelsVar, ]</value>
+		<value condition="ListItem.IsStereoscopic">3D$VAR[VideoCodecVar, | ]$VAR[VideoResolutionTypeVar, | ,]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
+		<value>$VAR[VideoCodecVar]$VAR[VideoResolutionTypeVar, | ]$VAR[VideoHDRTypeVar, | ]$INFO[ListItem.VideoAspect, | ,:1]$VAR[AudioCodecVar, | ]$VAR[AudioChannelsVar, ]</value>
 	</variable>
 	<variable name="VersionsExtrasOverlay">
 		<value condition="ListItem.HasVideoVersions + ListItem.HasVideoExtras">flagging/video/overlay_versions_extras.png</value>
