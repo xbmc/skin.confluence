@@ -15,8 +15,8 @@
 				<font>font11_title</font>
 				<textcolor>ffe0e0e0</textcolor>
 				<textoffsetx>8</textoffsetx>
-				<texturefocus border="2">$PARAM[flag_texture]</texturefocus>
-				<texturenofocus border="2">$PARAM[flag_texture]</texturenofocus>
+				<texturefocus border="32,2,2,2">$PARAM[flag_texture]</texturefocus>
+				<texturenofocus border="32,2,2,2">$PARAM[flag_texture]</texturenofocus>
 				<label>$PARAM[flag_label]</label>
 				<visible>$PARAM[flag_visible]</visible>
 			</control>
