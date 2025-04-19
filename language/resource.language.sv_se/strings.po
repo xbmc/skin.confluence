@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-04-16 16:09+0000\n"
+"PO-Revision-Date: 2025-04-19 03:33+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/sv_se/>\n"
 "Language: sv_se\n"
@@ -49,17 +49,19 @@ msgctxt "#31005"
 msgid "Hide information"
 msgstr "Dölj information"
 
+#, fuzzy
 msgctxt "#31006"
 msgid "Automatically close video OSD"
-msgstr "Automatisk stängning av video-OSD"
+msgstr "Automatisk stängning av video OSD"
 
 msgctxt "#31007"
 msgid "Video process information"
 msgstr "Videoprocess information"
 
+#, fuzzy
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr "Tid för automatisk stängning av video-OSD (sekunder)"
+msgstr "Tid för automatisk stängning av video OSD (sekunder)"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -178,6 +180,7 @@ msgctxt "#31040"
 msgid "Now playing"
 msgstr "Nu spelas"
 
+#, fuzzy
 msgctxt "#31041"
 msgid "Select + Right Stick"
 msgstr "Select + höger spak"
@@ -458,6 +461,7 @@ msgctxt "#31341"
 msgid "Pixel format"
 msgstr "Pixelformat"
 
+#, fuzzy
 msgctxt "#31342"
 msgid "Player cache"
 msgstr "Spelarcache"
