@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-04-27 01:50+0000\n"
+"PO-Revision-Date: 2025-04-27 14:10+0000\n"
 "Last-Translator: Feruk <feruk.v@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -59,7 +59,7 @@ msgstr "Сведения о видеопроцесе"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Показывать OSD до автоматического скрытия (в секундах)"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -99,15 +99,17 @@ msgstr "Недоступно"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Элемент меню для запуска по умолчанию"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
 msgstr ""
+"Нажмите «Вверх» чтобы установить \\n"
+"этот элемент по умолчанию"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Сохранения игры"
 
 msgctxt "#31021"
 msgid "Movie title format"
@@ -264,7 +266,7 @@ msgstr "Различные параметры"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, WEB-DL)[/COLOR]"
-msgstr ""
+msgstr "Не показывать метки качества из имен видеофайлов [COLOR=grey3](Blu-ray, WEB-DL)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -404,7 +406,7 @@ msgstr "Использовано памяти:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -440,7 +442,7 @@ msgstr "Сведения об альбоме"
 
 msgctxt "#31332"
 msgid "Signal details"
-msgstr ""
+msgstr "Детали сигнала"
 
 msgctxt "#31334"
 msgid "Audio information"
@@ -468,11 +470,11 @@ msgstr "Разрешение экрана"
 
 msgctxt "#31344"
 msgid "Screen rendering speed"
-msgstr ""
+msgstr "Скорость рендеринга экрана"
 
 msgctxt "#31345"
 msgid "System temperature"
-msgstr ""
+msgstr "Температура системы"
 
 msgctxt "#31351"
 msgid "Pause"
