@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-13 13:48+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
-"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/zh_cn/>\n"
+"PO-Revision-Date: 2025-05-27 15:33+0000\n"
+"Last-Translator: wabisabi926 <liwenliang926@163.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/zh_Hans/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: Weblate 5.11.4\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -51,7 +51,7 @@ msgstr "隐藏信息"
 
 msgctxt "#31006"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "自动关闭视频 OSD"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -59,7 +59,7 @@ msgstr "视频处理信息"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "视频 OSD 自动关闭时间（秒）"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -99,19 +99,19 @@ msgstr "无效的"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "设置默认启动项"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "按 \"上键 \"将此项目设置为默认值"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "游戏存档"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "电影标题格式"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -136,15 +136,15 @@ msgstr "其他选项"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr "所在地"
+msgstr "位置"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr "海报卷动"
+msgstr "海报包边"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "无变化"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -152,27 +152,27 @@ msgstr "图片缩略图"
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr "图片卷动"
+msgstr "图像包边"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "原标题（本地化标题）"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "本地化标题（原标题）"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "仅原标题"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr "选择+X"
+msgstr "Select + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr "选择+开始"
+msgstr "Select + Start"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -216,15 +216,15 @@ msgstr "排序：降序"
 
 msgctxt "#31052"
 msgid "Subtitles streams"
-msgstr ""
+msgstr "字幕流"
 
 msgctxt "#31053"
 msgid "Audio streams"
-msgstr ""
+msgstr "音频流"
 
 msgctxt "#31054"
 msgid "Video streams"
-msgstr ""
+msgstr "视频流"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -264,7 +264,7 @@ msgstr "其他选项"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, WEB-DL)[/COLOR]"
-msgstr ""
+msgstr "隐藏从视频文件名读取的标记[COLOR=grey3]（例如蓝光、WEB-DL）[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -272,7 +272,7 @@ msgstr "隐藏主菜单按钮"
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr "背景图路径："
+msgstr "背景路径："
 
 msgctxt "#31111"
 msgid "Hide"
@@ -280,7 +280,7 @@ msgstr "隐藏"
 
 msgctxt "#31113"
 msgid "Background path Master:"
-msgstr "背景图路径主配置："
+msgstr "背景路径主路径："
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -301,7 +301,7 @@ msgstr "主界面插件子菜单"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "隐藏同人画背景"
+msgstr "隐藏背景图"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -327,7 +327,7 @@ msgstr "对于音乐电视，显示海报而不是缩略图"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "全屏可视化效果隐藏同人画"
+msgstr "全屏可视化效果隐藏背景图"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -400,11 +400,11 @@ msgstr "电影详细资料"
 
 msgctxt "#31309"
 msgid "Memory used:"
-msgstr "己用内存："
+msgstr "已用内存："
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -428,7 +428,7 @@ msgstr "创建"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr "[B]时钟设置！[/B] [COLOR=grey2] - 系统自动关闭于[/COLOR]"
+msgstr "[B]计时器设置！[/B] [COLOR=grey2] - 系统自动关闭于[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
@@ -440,39 +440,39 @@ msgstr "专辑详情"
 
 msgctxt "#31332"
 msgid "Signal details"
-msgstr ""
+msgstr "单曲详情"
 
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
+msgstr "音频信息"
 
 msgctxt "#31336"
 msgid "Video bitrate"
-msgstr ""
+msgstr "视频比特率"
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
+msgstr "音频比特率"
 
 msgctxt "#31341"
 msgid "Pixel format"
-msgstr ""
+msgstr "像素格式"
 
 msgctxt "#31342"
 msgid "Player cache"
-msgstr ""
+msgstr "播放器缓存"
 
 msgctxt "#31343"
 msgid "Screen resolution"
-msgstr ""
+msgstr "屏幕分辨率"
 
 msgctxt "#31344"
 msgid "Screen rendering speed"
-msgstr ""
+msgstr "屏幕渲染速度"
 
 msgctxt "#31345"
 msgid "System temperature"
-msgstr ""
+msgstr "系统温度"
 
 msgctxt "#31351"
 msgid "Pause"
