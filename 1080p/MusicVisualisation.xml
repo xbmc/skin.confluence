@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<defaultcontrol />
+	<defaultcontrol/>
+	<onload condition="!Skin.HasSetting(HideVisualizationFanart) + System.AddonIsEnabled(script.artistslideshow)">RunScript(script.artistslideshow)</onload>
 	<controls>
 		<control type="visualisation" id="2">
 			<!-- FIX ME Music Visualization needs to have an id of 2 in this window to be able to lock or change preset -->
@@ -10,17 +11,35 @@
 			<width>1920</width>
 			<height>1080</height>
 		</control>
-		<control type="image">
-			<description>Fanart Image for Artist</description>
+		<control type="group">
 			<left>0</left>
 			<top>0</top>
 			<width>1920</width>
 			<height>1080</height>
-			<aspectratio>scale</aspectratio>
-			<texture background="true">$INFO[Player.Art(fanart)]</texture>
-			<colordiffuse>AAFFFFFF</colordiffuse>
-			<visible>!String.IsEmpty(Player.Art(fanart)) + !Skin.HasSetting(HideVisualizationFanart)</visible>
-			<fadetime>600</fadetime>
+			<visible>!Skin.HasSetting(HideVisualizationFanart)</visible>
+			<control type="image">
+				<description>Fanart Image for Artist</description>
+				<left>0</left>
+				<top>0</top>
+				<width>1920</width>
+				<height>1080</height>
+				<aspectratio>scale</aspectratio>
+				<texture background="true">$INFO[Player.Art(fanart)]</texture>
+				<colordiffuse>AAFFFFFF</colordiffuse>
+				<visible>!String.IsEmpty(Player.Art(fanart)) + String.IsEmpty(Window(Visualisation).Property(ArtistSlideshow.Image))</visible>
+				<fadetime>600</fadetime>
+			</control>
+			<control type="image">
+				<description>Fanart Image for Artist Slideshow Addon</description>
+				<left>0</left>
+				<top>0</top>
+				<width>1920</width>
+				<height>1080</height>
+				<aspectratio>scale</aspectratio>
+				<texture background="true">$INFO[Window(Visualisation).Property(ArtistSlideshow.Image)]</texture>
+				<colordiffuse>AAFFFFFF</colordiffuse>
+				<fadetime>600</fadetime>
+			</control>
 		</control>
 		<!-- media infos -->
 		<control type="group">
