@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-05-27 15:33+0000\n"
+"PO-Revision-Date: 2025-06-23 04:29+0000\n"
 "Last-Translator: wabisabi926 <liwenliang926@163.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -103,7 +103,7 @@ msgstr "设置默认启动项"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr "按 \"上键 \"将此项目设置为默认值"
+msgstr "按\"上键 \"将此项目设置为默认值"
 
 msgctxt "#31020"
 msgid "Game saves"
@@ -301,7 +301,7 @@ msgstr "主界面插件子菜单"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "隐藏背景图"
+msgstr "隐藏背景同人画"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -327,7 +327,7 @@ msgstr "对于音乐电视，显示海报而不是缩略图"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "全屏可视化效果隐藏背景图"
+msgstr "全屏可视化效果隐藏同人画"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
@@ -500,7 +500,7 @@ msgstr "下载字幕"
 
 msgctxt "#31360"
 msgid "Watch as 2D"
-msgstr "按2D模式观看"
+msgstr "按 2D 模式观看"
 
 msgctxt "#31361"
 msgid "Change mode"
@@ -592,7 +592,7 @@ msgstr "频道组"
 
 msgctxt "#31510"
 msgid "Timer set"
-msgstr "定时器设定"
+msgstr "计时器设定"
 
 msgctxt "#31511"
 msgid "Channel options"
@@ -664,7 +664,7 @@ msgstr "电台"
 
 msgctxt "#31961"
 msgid "Timeshift"
-msgstr "时光平移"
+msgstr "时移"
 
 #. Choose profile identifier
 msgctxt "#31962"
