@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-08-25 13:44+0000\n"
+"PO-Revision-Date: 2025-08-30 14:29+0000\n"
 "Last-Translator: SecularSteve <fairfull.playing@gmail.com>\n"
 "Language-Team: Bosnian (Bosnia and Herzegovina) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/bs_ba/>\n"
 "Language: bs_ba\n"
@@ -19,79 +19,79 @@ msgstr ""
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
-msgstr ""
+msgstr "Confluence skin od Jezz_X."
 
 msgctxt "Addon Description"
 msgid "Confluence is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use."
-msgstr ""
+msgstr "Confluence je kombinacija koncepata iz mnogih popularnih skinova i pokušava prihvatiti i integrirati njihove dobre ideje u skin koji bi trebao biti jednostavan za razumijevanje i korištenje korisnicima Kodija koji prvi put koriste Kodi."
 
 msgctxt "#31000"
 msgid "Change your"
-msgstr ""
+msgstr "Promijenite svoje"
 
 msgctxt "#31001"
 msgid "GAMES"
-msgstr ""
+msgstr "IGRE"
 
 msgctxt "#31002"
 msgid "[B]GAME SETTINGS[/B][CR][CR]Configure rewind support & options ·  Configure keyboard use and number of keyboard players"
-msgstr ""
+msgstr "[B]POSTAVKE IGRE[/B][CR][CR]Konfigurišite podršku i opcije za premotavanje · Konfigurišite upotrebu tastature i broj igrača koji koriste tastaturu"
 
 msgctxt "#31003"
 msgid "Power options"
-msgstr ""
+msgstr "Opcije napajanja"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr ""
+msgstr "Obrađuje se..."
 
 msgctxt "#31005"
 msgid "Hide information"
-msgstr ""
+msgstr "Sakrij informacije"
 
 msgctxt "#31006"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "Automatsko zatvaranje video OSD-a"
 
 msgctxt "#31007"
 msgid "Video process information"
-msgstr ""
+msgstr "Informacije o procesu videa"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Vrijeme automatskog zatvaranja video OSD-a (sekunde)"
 
 msgctxt "#31009"
 msgid "Total duration"
-msgstr ""
+msgstr "Ukupno trajanje"
 
 msgctxt "#31010"
 msgid "Hardware decoding"
-msgstr ""
+msgstr "Hardversko dekodiranje"
 
 msgctxt "#31011"
 msgid "Inactive"
-msgstr ""
+msgstr "Neaktivni"
 
 msgctxt "#31012"
 msgid "Decoder"
-msgstr ""
+msgstr "Dekoder"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr ""
+msgstr "Informacije o audio procesu"
 
 msgctxt "#31014"
 msgid "Memory used"
-msgstr ""
+msgstr "Korištena memorija"
 
 msgctxt "#31015"
 msgid "Minute"
-msgstr ""
+msgstr "Minut"
 
 msgctxt "#31016"
 msgid "Elapsed time"
-msgstr ""
+msgstr "Proteklo vrijeme"
 
 msgctxt "#31017"
 msgid "Unavailable"
@@ -99,33 +99,33 @@ msgstr "Nedostupno"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Postavi zadanu stavku za pokretanje"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "Pritisnite 'Gore' da biste postavili ovu stavku kao zadanu"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Sačuvane igre"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "Format naslova filma"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
 msgid "Play speed"
-msgstr ""
+msgstr "Brzina reprodukcije"
 
 # empty strings from id 31018 to 31022
 msgctxt "#31023"
 msgid "Playing"
-msgstr ""
+msgstr "Pokreče se"
 
 msgctxt "#31024"
 msgid "Page"
-msgstr ""
+msgstr "Stranica"
 
 msgctxt "#31025"
 msgid "Items"
@@ -137,69 +137,69 @@ msgstr "Razne opcije"
 
 msgctxt "#31027"
 msgid "Location"
-msgstr ""
+msgstr "Lokacija"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr ""
+msgstr "Omotavanje postera"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "Nema promjena"
 
 # empty string with id 31030
 msgctxt "#31031"
 msgid "Pic thumbs"
-msgstr ""
+msgstr "Sličice slika"
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr ""
+msgstr "Prelom slike"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "Originalni naslov (Lokalizirani naslov)"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "Lokalizirani naslov (originalni naslov)"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "Samo originalni naslov"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr ""
+msgstr "Odaberite + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
+msgstr "Odaberite + Početak"
 
 msgctxt "#31040"
 msgid "Now playing"
-msgstr ""
+msgstr "U tijeku"
 
 msgctxt "#31041"
 msgid "Select + Right Stick"
-msgstr ""
+msgstr "Odaberi + Desna palica"
 
 # empty string with id 31041
 msgctxt "#31042"
 msgid "PLAYING"
-msgstr ""
+msgstr "POKREČE SE"
 
 msgctxt "#31043"
 msgid "PAUSED"
-msgstr ""
+msgstr "PAUZIRANO"
 
 msgctxt "#31044"
 msgid "FAST FORWARD"
-msgstr ""
+msgstr "BRZO NAPRIJED"
 
 msgctxt "#31045"
 msgid "REWIND"
-msgstr ""
+msgstr "PREMOTAVANJE"
 
 msgctxt "#31046"
 msgid "SEEKING"
@@ -208,7 +208,7 @@ msgstr "TRAŽI"
 # empty string with id 31047
 msgctxt "#31048"
 msgid "Visualisation presets"
-msgstr ""
+msgstr "Unaprijed postavljene postavke vizualizacije"
 
 msgctxt "#31050"
 msgid "Sort: Ascending"
@@ -220,15 +220,15 @@ msgstr "Sortiraj: Opadajuće"
 
 msgctxt "#31052"
 msgid "Subtitles streams"
-msgstr ""
+msgstr "Titlovi za streamove"
 
 msgctxt "#31053"
 msgid "Audio streams"
-msgstr ""
+msgstr "Audio streamovi"
 
 msgctxt "#31054"
 msgid "Video streams"
-msgstr ""
+msgstr "Video streamovi"
 
 # empty strings from id 31052 to 31054
 msgctxt "#31055"
@@ -245,193 +245,193 @@ msgstr "Zatvori listu za reprodukciju"
 
 msgctxt "#31058"
 msgid "System music files"
-msgstr ""
+msgstr "Sistemske muzičke datoteke"
 
 # empty string with id 31060
 msgctxt "#31061"
 msgid "Current selected"
-msgstr ""
+msgstr "Trenutno odabrano"
 
 # empty strings from id 31062 to 31100
 msgctxt "#31101"
 msgid "Home screen options"
-msgstr ""
+msgstr "Opcije početnog ekrana"
 
 msgctxt "#31103"
 msgid "Show \"Paused\" in picture slideshow"
-msgstr ""
+msgstr "Prikaži \"Pauzirano\" u slajdšou slika"
 
 msgctxt "#31104"
 msgid "Play trailers in a window [COLOR=grey3](Video information dialogue only)[/COLOR]"
-msgstr ""
+msgstr "Reprodukuj najave u prozoru [COLOR=grey3](Samo dijalog s informacijama o videu)[/COLOR]"
 
 # empty string with id 31105
 msgctxt "#31106"
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Raznorazne Opcije"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, WEB-DL)[/COLOR]"
-msgstr ""
+msgstr "Sakrij označavanje pročitano iz naziva video datoteka [COLOR=grey3](npr. Blu-ray, WEB-DL)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr ""
+msgstr "Sakrij dugmad glavnog menija"
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr ""
+msgstr "Pozadinska putanja:"
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr ""
+msgstr "Sakrij"
 
 msgctxt "#31113"
 msgid "Background path Master:"
-msgstr ""
+msgstr "Glavni put u pozadini:"
 
 msgctxt "#31115"
 msgid "Main button playlists"
-msgstr ""
+msgstr "Glavno dugme za plejliste"
 
 msgctxt "#31116"
 msgid "Show recently added albums"
-msgstr ""
+msgstr "Prikaži nedavno dodane albume"
 
 msgctxt "#31117"
 msgid "Show recently added videos"
-msgstr ""
+msgstr "Prikaži nedavno dodane videozapise"
 
 #. In main language strings its used as submenu
 msgctxt "#31118"
 msgid "Home page \"Add-ons\" submenu"
-msgstr ""
+msgstr "Podmeni \"Dodaci\" na početnoj stranici"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr ""
+msgstr "Sakrij pozadinsku fanart sliku"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
 msgid "Home page \"Games\" submenu"
-msgstr ""
+msgstr "Podmeni \"Igre\" na početnoj stranici"
 
 # empty string with id 31121
 #. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
-msgstr ""
+msgstr "Sakrij EPG ako je RDS prisutan u prozoru kanala"
 
 # empty string with id 31123
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
-msgstr ""
+msgstr "Prikaži video \"Trenutno se reproducira\" u pozadini"
 
 msgctxt "#31125"
 msgid "Show background \"Now playing\" visualisation"
-msgstr ""
+msgstr "Prikaži vizualizaciju \"Trenutno se reproducira\" u pozadini"
 
 msgctxt "#31126"
 msgid "Show posters instead of thumbs for musicvideos"
-msgstr ""
+msgstr "Prikaži postere umjesto minijatura za muzičke spotove"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr ""
+msgstr "Sakrij fanart u vizualizaciji preko cijelog ekrana"
 
 # empty strings from id 31130 to 31131
 msgctxt "#31132"
 msgid "Lyrics add-on"
-msgstr ""
+msgstr "Dodatak za tekst pjesme"
 
 # empty string with id 31133
 #. In main language strings its used as submenu
 msgctxt "#31134"
 msgid "Home page \"Videos\" submenu"
-msgstr ""
+msgstr "Podmeni \"Video zapisi\" na početnoj stranici"
 
 msgctxt "#31135"
 msgid "Home page \"Music\" submenu"
-msgstr ""
+msgstr "Podmeni \"Muzika\" na početnoj stranici"
 
 msgctxt "#31136"
 msgid "Home page \"Pictures\" submenu"
-msgstr ""
+msgstr "Podmeni \"Slike\" na početnoj stranici"
 
 # empty string with id 31141
 msgctxt "#31142"
 msgid "Settings level"
-msgstr ""
+msgstr "Nivo postavki"
 
 msgctxt "#31144"
 msgid "playlist"
-msgstr ""
+msgstr "popis za reprodukciju"
 
 msgctxt "#31145"
 msgid "playlist path"
-msgstr ""
+msgstr "putanja liste za reprodukciju"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
-msgstr ""
+msgstr "Sakrij dugmad početnog ekrana"
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
-msgstr ""
+msgstr "Sakrij - Omiljeno"
 
 msgctxt "#31148"
 msgid "Hide - Search"
-msgstr ""
+msgstr "Sakrij - Pretraži"
 
 # empty strings from id 31201 to 31202
 msgctxt "#31203"
 msgid "Choose your song"
-msgstr ""
+msgstr "Izaberi svoju pjesmu"
 
 # empty string with id 31204
 msgctxt "#31205"
 msgid "Lyrics source"
-msgstr ""
+msgstr "Izvor teksta pjesme"
 
 msgctxt "#31208"
 msgid "Upcoming episodes"
-msgstr ""
+msgstr "Predstojeće epizode"
 
 msgctxt "#31209"
 msgid "Hide Master profile main menu buttons"
-msgstr ""
+msgstr "Sakrij dugmad glavnog menija glavnog profila"
 
 # empty strings from id 31210 to 31299
 msgctxt "#31300"
 msgid "Current temperature"
-msgstr ""
+msgstr "Trenutna temperatura"
 
 # empty string with id 31302
 msgctxt "#31303"
 msgid "Data provider"
-msgstr ""
+msgstr "Pružatelj podataka"
 
 # empty strings from id 31304 to 31307
 msgctxt "#31308"
 msgid "Movie details"
-msgstr ""
+msgstr "Detalji filma"
 
 msgctxt "#31309"
 msgid "Memory used:"
-msgstr ""
+msgstr "Korištena memorija:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 # empty strings from id 31311 to 31318
 msgctxt "#31319"
 msgid "Selected profile"
-msgstr ""
+msgstr "Odabrani profil"
 
 msgctxt "#31320"
 msgid "Last logged in"
-msgstr ""
+msgstr "Posljednji put prijavljen/a"
 
 # empty string with id 31321
 msgctxt "#31322"
@@ -441,59 +441,59 @@ msgstr "Emitovano"
 # empty strings from id 31323 to 31324
 msgctxt "#31325"
 msgid "Playlist options"
-msgstr ""
+msgstr "Opcije liste za reprodukciju"
 
 msgctxt "#31326"
 msgid "Created"
-msgstr ""
+msgstr "Kreirano"
 
 msgctxt "#31329"
 msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
-msgstr ""
+msgstr "[B]Tajmer postavljen![/B] [COLOR=grey2] - Sistem se automatski isključuje za[/COLOR]"
 
 msgctxt "#31330"
 msgid "Click button to play[CR][CR]movie trailer"
-msgstr ""
+msgstr "Kliknite na dugme za reprodukciju[CR][CR]filmskog trejlera"
 
 msgctxt "#31331"
 msgid "Album details"
-msgstr ""
+msgstr "Detalji albuma"
 
 msgctxt "#31332"
 msgid "Signal details"
-msgstr ""
+msgstr "Detalji signala"
 
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
+msgstr "Zvučne informacije"
 
 msgctxt "#31336"
 msgid "Video bitrate"
-msgstr ""
+msgstr "Brzina prijenosa videa"
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
+msgstr "Brzina prijenosa zvuka"
 
 msgctxt "#31341"
 msgid "Pixel format"
-msgstr ""
+msgstr "Format piksela"
 
 msgctxt "#31342"
 msgid "Player cache"
-msgstr ""
+msgstr "Keš memorija igrača"
 
 msgctxt "#31343"
 msgid "Screen resolution"
-msgstr ""
+msgstr "Rezolucija ekrana"
 
 msgctxt "#31344"
 msgid "Screen rendering speed"
-msgstr ""
+msgstr "Brzina renderiranja ekrana"
 
 msgctxt "#31345"
 msgid "System temperature"
-msgstr ""
+msgstr "Temperatura sistema"
 
 # empty strings from id 31332 to 31350
 msgctxt "#31351"
@@ -506,7 +506,7 @@ msgstr "Zaustavi"
 
 msgctxt "#31353"
 msgid "Fast forward"
-msgstr ""
+msgstr "Brzo naprijed"
 
 msgctxt "#31354"
 msgid "Rewind"
@@ -518,7 +518,7 @@ msgstr "Meni filma"
 
 msgctxt "#31356"
 msgid "Download subtitles"
-msgstr ""
+msgstr "Preuzmi titlove"
 
 # empty strings from id 31357 to 31359
 # Stereoscopic labels
@@ -532,16 +532,16 @@ msgstr "Promijeni način rada"
 
 msgctxt "#31392"
 msgid "Arial based"
-msgstr ""
+msgstr "Bazirano na Arial"
 
 # empty strings from id 31393 to 31410
 msgctxt "#31411"
 msgid "First run help..."
-msgstr ""
+msgstr "Pomoć pri prvom pokretanju..."
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr ""
+msgstr "Ova kartica označava da se sa strane ovog prozora nalazi meni koji sadrži dodatne opcije za ovaj odjeljak. Da biste pristupili meniju, pomaknite se lijevo pomoću daljinskog upravljača ili tastature ili postavite pokazivač miša preko kartice. [CR][CR]Kliknite na \"U redu\" da biste zatvorili ovaj dijalog. Neće se ponovo pojaviti."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -550,7 +550,7 @@ msgstr "Dostupni su lokalni titlovi"
 # empty strings from id 31414 to 31419
 msgctxt "#31420"
 msgid "Login"
-msgstr ""
+msgstr "Prijava"
 
 msgctxt "#31421"
 msgid "Select your Kodi user profile[CR]to login and continue"
@@ -558,57 +558,57 @@ msgstr "Odaberite svoj Kodi korisnički profil[CR] za prijavu i nastavak"
 
 msgctxt "#31422"
 msgid "Show or hide the login screen at startup."
-msgstr ""
+msgstr "Prikaži ili sakrij ekran za prijavu pri pokretanju."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr ""
+msgstr "Odaberite profil koji će se koristiti pri pokretanju kada je ekran za prijavu onemogućen."
 
 # empty strings from id 31424 to 31429
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
-msgstr ""
+msgstr "[B]POSTAVKE PLEJERA[/B][CR][CR]Konfigurišite radnje koje se mogu koristiti tokom reprodukcije · Konfigurišite način reprodukcije medijskog sadržaja"
 
 msgctxt "#31431"
 msgid "[B]LIBRARY SETTINGS[/B][CR][CR]Configure how the library/file views display media content ·  Configure how library lists/views are navigated · Configure the media database options"
-msgstr ""
+msgstr "[B]POSTAVKE BIBLIOTEKE[/B][CR][CR]Konfigurišite način prikaza medijskog sadržaja u prikazima biblioteke/datoteke · Konfigurišite način navigacije kroz liste/prikaze biblioteke · Konfigurišite opcije baze podataka medija"
 
 msgctxt "#31432"
 msgid "[B]PVR SETTINGS[/B][CR][CR]Configure how the channels & guide are managed  · Configure how Live TV and recordings are managed"
-msgstr ""
+msgstr "[B]PVR POSTAVKE[/B][CR][CR]Konfigurišite način upravljanja kanalima i vodičem · Konfigurišite način upravljanja TV-om uživo i snimcima"
 
 msgctxt "#31433"
 msgid "[B]ADD-ONS SETTINGS[/B][CR][CR]Configure your installed add-ons · Browse for and install add-ons from kodi.tv"
-msgstr ""
+msgstr "[B]POSTAVKE DODATAKA[/B][CR][CR]Konfigurišite instalirane dodatke · Pretražite i instalirajte dodatke sa kodi.tv"
 
 msgctxt "#31434"
 msgid "[B]SERVICES SETTINGS[/B][CR][CR]Configure & manage media sharing services · Configure web server · Configure & manage the weather service"
-msgstr ""
+msgstr "[B]POSTAVKE USLUGA[/B][CR][CR]Konfigurirajte i upravljajte uslugama dijeljenja medija · Konfigurirajte web server · Konfigurirajte i upravljajte uslugom vremenske prognoze"
 
 msgctxt "#31435"
 msgid "[B]SYSTEM SETTINGS[/B][CR][CR]Configure display · Configure audio · Configure internet access · Configure power saving· Configure logging"
-msgstr ""
+msgstr "[B]POSTAVKE SISTEMA[/B][CR][CR]Konfiguracija ekrana · Konfiguracija zvuka · Konfiguracija pristupa internetu · Konfiguracija uštede energije · Konfiguracija evidentiranja"
 
 msgctxt "#31436"
 msgid "[B]INTERFACE SETTINGS[/B][CR][CR]Configure skin · Configure region · Configure control · Configure screensaver · Configure master lock"
-msgstr ""
+msgstr "[B]POSTAVKE INTERFEJSA[/B][CR][CR]Konfiguracija skina · Konfiguracija regije · Konfiguracija kontrole · Konfiguracija čuvara ekrana · Konfiguracija glavnog zaključavanja"
 
 # empty strings from id 31437 to 31500
 msgctxt "#31501"
 msgid "Scheduled time"
-msgstr ""
+msgstr "Planirano vrijeme"
 
 msgctxt "#31503"
 msgid "Add group"
-msgstr ""
+msgstr "Dodaj grupu"
 
 msgctxt "#31504"
 msgid "Rename group"
-msgstr ""
+msgstr "Preimenuj grupu"
 
 msgctxt "#31505"
 msgid "Delete group"
-msgstr ""
+msgstr "Izbriši grupu"
 
 msgctxt "#31506"
 msgid "Available[CR]Groups"
@@ -617,45 +617,45 @@ msgstr "Dostupne[CR]Grupe"
 # empty strings from id 31507 to 31508
 msgctxt "#31509"
 msgid "Channel group"
-msgstr ""
+msgstr "Grupa kanala"
 
 msgctxt "#31510"
 msgid "Timer set"
-msgstr ""
+msgstr "Tajmer je postavljen"
 
 msgctxt "#31511"
 msgid "Channel options"
-msgstr ""
+msgstr "Opcije kanala"
 
 # empty strings from id 31512 to 31900
 msgctxt "#31901"
 msgid "36-hour forecast"
-msgstr ""
+msgstr "36-satna prognoza"
 
 msgctxt "#31902"
 msgid "Hourly forecast"
-msgstr ""
+msgstr "Satna prognoza"
 
 msgctxt "#31903"
 msgid "Weekend forecast"
-msgstr ""
+msgstr "Prognoza za vikend"
 
 msgctxt "#31904"
 msgid "Daily forecast"
-msgstr ""
+msgstr "Dnevna prognoza"
 
 msgctxt "#31905"
 msgid "Forecast"
-msgstr ""
+msgstr "Prognoza"
 
 # empty strings from id 31911 to 31949
 msgctxt "#31950"
 msgid "WEATHER"
-msgstr ""
+msgstr "VRIJEME"
 
 msgctxt "#31951"
 msgid "PICTURES"
-msgstr ""
+msgstr "SLIKE"
 
 msgctxt "#31952"
 msgid "TV"
@@ -663,49 +663,49 @@ msgstr "TV"
 
 msgctxt "#31953"
 msgid "VIDEOS"
-msgstr ""
+msgstr "VIDEO ZAPISI"
 
 msgctxt "#31954"
 msgid "MOVIES"
-msgstr ""
+msgstr "FILMOVI"
 
 msgctxt "#31955"
 msgid "TV SHOWS"
-msgstr ""
+msgstr "TV EMISIJE"
 
 msgctxt "#31956"
 msgid "MUSIC"
-msgstr ""
+msgstr "MUZIKA"
 
 msgctxt "#31957"
 msgid "ADD-ONS"
-msgstr ""
+msgstr "DODACI"
 
 msgctxt "#31958"
 msgid "PLAY DISC"
-msgstr ""
+msgstr "REPRODUKCIJA DISKA"
 
 msgctxt "#31959"
 msgid "SYSTEM"
-msgstr ""
+msgstr "SISTEM"
 
 msgctxt "#31960"
 msgid "RADIO"
-msgstr ""
+msgstr "RADIO"
 
 msgctxt "#31961"
 msgid "Timeshift"
-msgstr ""
+msgstr "Vremenski pomak"
 
 #. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
-msgstr ""
+msgstr "Odaberite vrstu identifikacije profila"
 
 #. Label for the kind of profile identification
 msgctxt "#31964"
 msgid "Profile avatar"
-msgstr ""
+msgstr "Profilni avatar"
 
 #~ msgctxt "#31006"
 #~ msgid "View options"
