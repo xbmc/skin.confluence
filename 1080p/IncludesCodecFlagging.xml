@@ -37,7 +37,7 @@
 	</include>
 	<include name="AudioCodecFlaggingConditions">
 		<include content="MediaFlag">
-			<param name="flag_visible" value="!String.IsEmpty(ListItem.AudioCodec) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.AudioCodec)] | [Window.IsActive(visualisation) + !String.IsEmpty(MusicPlayer.AudioCodec)]"/>
+			<param name="flag_visible" value="!String.IsEmpty(ListItem.AudioCodec) | [Window.IsActive(fullscreenvideo) + !String.IsEmpty(VideoPlayer.AudioCodec)] | [Window.IsActive(visualisation) + !String.IsEmpty(MusicPlayer.Codec)]"/>
 			<param name="flag_label" value="$VAR[AudioCodecVar]"/>
 		</include>
 	</include>

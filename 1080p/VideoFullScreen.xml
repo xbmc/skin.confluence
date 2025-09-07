@@ -298,19 +298,17 @@
 					</include>
 					<include content="MediaFlag">
 						<param name="flag_id" value="1"/>
-						<param name="flag_width" value="80"/>
 						<param name="flag_align" value="right"/>
 						<param name="flag_texture" value="flagging/AudioLang.png"/>
 						<param name="flag_visible" value="!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.AudioLanguage)"/>
-						<param name="flag_label" value="$INFO[VideoPlayer.AudioLanguage]"/>
+						<param name="flag_label" value="$INFO[VideoPlayer.AudioLanguage,     ]"/>
 					</include>
 					<include content="MediaFlag">
 						<param name="flag_id" value="1"/>
-						<param name="flag_width" value="80"/>
 						<param name="flag_align" value="right"/>
 						<param name="flag_texture" value="flagging/SubLang.png"/>
 						<param name="flag_visible" value="!Player.ChannelPreviewActive + !String.IsEmpty(VideoPlayer.SubtitlesLanguage) + VideoPlayer.SubtitlesEnabled"/>
-						<param name="flag_label" value="$INFO[VideoPlayer.SubtitlesLanguage]"/>
+						<param name="flag_label" value="$INFO[VideoPlayer.SubtitlesLanguage,     ]"/>
 					</include>
 				</control>
 				<control type="label" id="1">
