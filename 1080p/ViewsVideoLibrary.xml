@@ -1179,7 +1179,7 @@
 					<font>font13</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
-					<label>$INFO[Container.ShowPlot]</label>
+					<label>$VAR[SeasonPlot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 					<visible>Container.Content(Seasons)</visible>
 				</control>
@@ -1964,7 +1964,7 @@
 					<font>font13</font>
 					<align>justify</align>
 					<textcolor>white</textcolor>
-					<label>$INFO[Container.ShowPlot]</label>
+					<label>$VAR[SeasonPlot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
 				<control type="image">
