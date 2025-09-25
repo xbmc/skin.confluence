@@ -1283,7 +1283,7 @@
 					<width>90</width>
 					<height>90</height>
 					<aspectratio>keep</aspectratio>
-					<texture>$INFO[Weather.ConditionsIcon]</texture>
+					<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(Current.FanartCode)].png</texture>
 				</control>
 				<control type="label">
 					<description>Location label</description>
@@ -1296,7 +1296,7 @@
 					<font>font10</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[Window(Weather).Property(Location)]</label>
+					<label>$INFO[Weather.Data(Location)]</label>
 				</control>
 				<control type="grouplist">
 					<left>98</left>
@@ -1315,18 +1315,7 @@
 						<font>font28_title</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
-						<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
-					</control>
-					<control type="label">
-						<description>Temp Units</description>
-						<width min="0" max="150">auto</width>
-						<height>33</height>
-						<font>font10</font>
-						<aligny>center</aligny>
-						<label>$INFO[System.TemperatureUnits]</label>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<visible>!String.IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
+						<label>[B]$INFO[Weather.Data(Current.Temperature)][/B]</label>
 					</control>
 					<control type="label">
 						<description>Conditions Label</description>
@@ -1334,7 +1323,7 @@
 						<height>33</height>
 						<font>font10</font>
 						<aligny>center</aligny>
-						<label>$INFO[Window(Weather).Property(Current.Condition),  ]</label>
+						<label>$INFO[Weather.Data(Current.Condition),  ]</label>
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 					</control>

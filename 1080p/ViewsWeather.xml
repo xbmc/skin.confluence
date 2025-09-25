@@ -78,7 +78,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]$INFO[ListItem.Property(TempUnits)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]$INFO[ListItem.Property(TempUnits)]</label>
+						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]</label>
 						<visible>!String.IsEmpty(ListItem.Property(HighTemp))</visible>
 					</control>
 					<control type="textbox">
@@ -154,7 +154,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]$INFO[ListItem.Property(TempUnits)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]$INFO[ListItem.Property(TempUnits)]</label>
+						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]</label>
 						<visible>!String.IsEmpty(ListItem.Property(HighTemp))</visible>
 					</control>
 					<control type="textbox">
@@ -391,40 +391,39 @@
 	</include>
 	<include name="WeatherDefaultItem">
 		<item>
-			<label>$INFO[Window.Property(Day$PARAM[item_id].Title)]</label>
-			<icon>$INFO[Window.Property(Day$PARAM[item_id].OutlookIcon)]</icon>
-			<property name="HighTemp">$INFO[Window.Property(Day$PARAM[item_id].HighTemp)]</property>
-			<property name="LowTemp">$INFO[Window.Property(Day$PARAM[item_id].LowTemp)]</property>
-			<property name="Outlook">$INFO[Window.Property(Day$PARAM[item_id].Outlook)]</property>
-			<property name="TempUnits">$INFO[System.TemperatureUnits]</property>
-			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Day$PARAM[item_id].Outlook)) + String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
+			<label>$INFO[Weather.Data(Day$PARAM[item_id].Title)]</label>
+			<icon>$INFO[Weather.Data(Day$PARAM[item_id].OutlookIcon)]</icon>
+			<property name="HighTemp">$INFO[Weather.Data(Day$PARAM[item_id].HighTemp)]</property>
+			<property name="LowTemp">$INFO[Weather.Data(Day$PARAM[item_id].LowTemp)]</property>
+			<property name="Outlook">$INFO[Weather.Data(Day$PARAM[item_id].Outlook)]</property>
+			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Day$PARAM[item_id].Outlook)) + String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 		</item>
 	</include>
 	<include name="WeatherDailyItem">
 		<item>
-			<label>[B]$INFO[Window.Property(Daily.$PARAM[item_id].ShortDay)][/B][CR][COLOR=grey2]$INFO[Window.Property(Daily.$PARAM[item_id].ShortDate)][/COLOR]</label>
-			<label2>$INFO[Window.Property(Daily.$PARAM[item_id].HighTemperature),[COLOR=grey2]$LOCALIZE[419] :[/COLOR][B] ,[/B]]  $INFO[Window.Property(Daily.$PARAM[item_id].LowTemperature),[COLOR=grey2]$LOCALIZE[418] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Daily.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Daily.$PARAM[item_id].Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label2>
-			<thumb>resource://resource.images.weathericons.default/$INFO[Window.Property(Daily.$PARAM[item_id].OutlookIcon)]</thumb>
-			<icon>$INFO[Window.Property(Daily.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Window.Property(Daily.$PARAM[item_id].WindSpeed)] $INFO[Window.Property(Daily.$PARAM[item_id].WindDirection)]</icon>
-			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Daily.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
+			<label>[B]$INFO[Weather.Data(Daily.$PARAM[item_id].ShortDay)][/B][CR][COLOR=grey2]$INFO[Weather.Data(Daily.$PARAM[item_id].ShortDate)][/COLOR]</label>
+			<label2>$INFO[Weather.Data(Daily.$PARAM[item_id].HighTemperature),[COLOR=grey2]$LOCALIZE[419] :[/COLOR][B] ,[/B]]  $INFO[Weather.Data(Daily.$PARAM[item_id].LowTemperature),[COLOR=grey2]$LOCALIZE[418] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Daily.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Daily.$PARAM[item_id].Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label2>
+			<thumb>resource://resource.images.weathericons.default/$INFO[Weather.Data(Daily.$PARAM[item_id].FanartCode)].png</thumb>
+			<icon>$INFO[Weather.Data(Daily.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Weather.Data(Daily.$PARAM[item_id].WindSpeed)] $INFO[Weather.Data(Daily.$PARAM[item_id].WindDirection)]</icon>
+			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Daily.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 		</item>
 	</include>
 	<include name="WeatherHourlyItem">
 		<item>
-			<label>[B]$INFO[Window.Property(Hourly.$PARAM[item_id].Time)][/B][CR][COLOR=grey2]$INFO[Window.Property(Hourly.$PARAM[item_id].ShortDate)][/COLOR]</label>
-			<label2>$INFO[Window.Property(Hourly.$PARAM[item_id].Temperature),[COLOR=grey2]$LOCALIZE[401] :[/COLOR][B] ,[/B]]  $INFO[Window.Property(Hourly.$PARAM[item_id].FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Hourly.$PARAM[item_id].Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR]$INFO[Window.Property(Hourly.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[1448] :[/COLOR][B] ,[/B]]</label2>
-			<thumb>resource://resource.images.weathericons.default/$INFO[Window.Property(Hourly.$PARAM[item_id].OutlookIcon)]</thumb>
-			<icon>$INFO[Window.Property(Hourly.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Window.Property(Hourly.$PARAM[item_id].WindSpeed)] $INFO[Window.Property(Hourly.$PARAM[item_id].WindDirection)]</icon>
-			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Hourly.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
+			<label>[B]$INFO[Weather.Data(Hourly.$PARAM[item_id].Time)][/B][CR][COLOR=grey2]$INFO[Weather.Data(Hourly.$PARAM[item_id].ShortDate)][/COLOR]</label>
+			<label2>$INFO[Weather.Data(Hourly.$PARAM[item_id].Temperature),[COLOR=grey2]$LOCALIZE[401] :[/COLOR][B] ,[/B]]  $INFO[Weather.Data(Hourly.$PARAM[item_id].FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Hourly.$PARAM[item_id].Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Hourly.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[1448] :[/COLOR][B] ,[/B]]</label2>
+			<thumb>resource://resource.images.weathericons.default/$INFO[Weather.Data(Hourly.$PARAM[item_id].FanartCode)].png</thumb>
+			<icon>$INFO[Weather.Data(Hourly.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Weather.Data(Hourly.$PARAM[item_id].WindSpeed)] $INFO[Weather.Data(Hourly.$PARAM[item_id].WindDirection)]</icon>
+			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Hourly.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 		</item>
 	</include>
 	<include name="WeatherMapItem">
 		<item>
-			<label>$INFO[Window.Property(Map.$PARAM[item_id].Heading)]</label>
-			<label2>$INFO[Window.Property(Map.$PARAM[item_id].Legend)]</label2>
-			<icon>$INFO[Window.Property(Map.$PARAM[item_id].Area)]</icon>
-			<property name="Layer">$INFO[Window.Property(Map.$PARAM[item_id].Layer)]</property>
-			<visible>Weather.IsFetched + !String.IsEmpty(Window.Property(Map.$PARAM[item_id].Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
+			<label>$INFO[Weather.Data(Map.$PARAM[item_id].Heading)]</label>
+			<label2>$INFO[Weather.Data(Map.$PARAM[item_id].Legend)]</label2>
+			<icon>$INFO[Weather.Data(Map.$PARAM[item_id].Area)]</icon>
+			<property name="Layer">$INFO[Weather.Data(Map.$PARAM[item_id].Layer)]</property>
+			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Map.$PARAM[item_id].Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 		</item>
 	</include>
 	<include name="Weather36Hour">
@@ -470,7 +469,7 @@
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.1.Heading)]</label>
+						<label>$INFO[Weather.Data(36Hour.1.Heading)]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -478,7 +477,7 @@
 						<width>180</width>
 						<height>165</height>
 						<aspectratio>keep</aspectratio>
-						<texture>resource://resource.images.weathericons.default/$INFO[Window.Property(36Hour.1.OutlookIcon)]</texture>
+						<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(36Hour.1.FanartCode)].png</texture>
 					</control>
 					<control type="label">
 						<left>180</left>
@@ -490,7 +489,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.1.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.1.Temperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$INFO[Weather.Data(36Hour.1.TemperatureHeading)][CR][/COLOR]$INFO[Weather.Data(36Hour.1.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<right>135</right>
@@ -502,7 +501,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.1.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.1.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.1.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Weather.Data(36Hour.1.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.1.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.1.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
@@ -513,7 +512,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.1.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Weather.Data(36hour.1.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -535,7 +534,7 @@
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.2.Heading)]</label>
+						<label>$INFO[Weather.Data(36Hour.2.Heading)]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -543,7 +542,7 @@
 						<width>180</width>
 						<height>165</height>
 						<aspectratio>keep</aspectratio>
-						<texture>resource://resource.images.weathericons.default/$INFO[Window.Property(36Hour.2.OutlookIcon)]</texture>
+						<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(36Hour.2.FanartCode)].png</texture>
 					</control>
 					<control type="label">
 						<left>180</left>
@@ -555,7 +554,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.2.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.2.Temperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$INFO[Weather.Data(36Hour.2.TemperatureHeading)][CR][/COLOR]$INFO[Weather.Data(36Hour.2.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<right>135</right>
@@ -567,7 +566,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.2.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.2.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.2.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Weather.Data(36Hour.2.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.2.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.2.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
@@ -578,7 +577,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.2.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Weather.Data(36hour.2.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -600,7 +599,7 @@
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.3.Heading)]</label>
+						<label>$INFO[Weather.Data(36Hour.3.Heading)]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -608,7 +607,7 @@
 						<width>180</width>
 						<height>165</height>
 						<aspectratio>keep</aspectratio>
-						<texture>resource://resource.images.weathericons.default/$INFO[Window.Property(36Hour.3.OutlookIcon)]</texture>
+						<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(36Hour.3.FanartCode)].png</texture>
 					</control>
 					<control type="label">
 						<left>180</left>
@@ -620,7 +619,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$INFO[Window.Property(36Hour.3.TemperatureHeading)][CR][/COLOR]$INFO[Window.Property(36Hour.3.Temperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$INFO[Weather.Data(36Hour.3.TemperatureHeading)][CR][/COLOR]$INFO[Weather.Data(36Hour.3.Temperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<right>135</right>
@@ -632,7 +631,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(36Hour.3.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.3.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(36Hour.3.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Weather.Data(36Hour.3.FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.3.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(36Hour.3.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
@@ -643,7 +642,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(36hour.3.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
+						<label>$INFO[Weather.Data(36hour.3.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]]</label>
 					</control>
 				</control>
 			</control>
@@ -692,7 +691,7 @@
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(Weekend.1.LongDay)] - $INFO[Window.Property(Weekend.1.ShortDate)]</label>
+						<label>$INFO[Weather.Data(Weekend.1.LongDay)] - $INFO[Weather.Data(Weekend.1.ShortDate)]</label>
 					</control>
 					<control type="image">
 						<left>15</left>
@@ -700,7 +699,7 @@
 						<width>195</width>
 						<height>240</height>
 						<aspectratio>keep</aspectratio>
-						<texture>resource://resource.images.weathericons.default/$INFO[Window.Property(Weekend.1.OutlookIcon)]</texture>
+						<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(Weekend.1.FanartCode)].png</texture>
 					</control>
 					<control type="label">
 						<left>210</left>
@@ -712,7 +711,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[393][CR][/COLOR]$INFO[Window.Property(Weekend.1.HighTemperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$LOCALIZE[393][CR][/COLOR]$INFO[Weather.Data(Weekend.1.HighTemperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<left>210</left>
@@ -724,7 +723,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[391][CR][/COLOR]$INFO[Window.Property(Weekend.1.LowTemperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$LOCALIZE[391][CR][/COLOR]$INFO[Weather.Data(Weekend.1.LowTemperature),[B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>360</left>
@@ -734,7 +733,7 @@
 						<font>font12</font>
 						<textcolor>white</textcolor>
 						<align>right</align>
-						<label>$INFO[Window.Property(Weekend.1.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(Weekend.1.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(Weekend.1.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Weather.Data(Weekend.1.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(Weekend.1.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(Weekend.1.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -746,7 +745,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(Weekend.1.WindSpeed),[COLOR=grey2]$LOCALIZE[404]: [/COLOR]]$INFO[Window.Property(Weekend.1.WindDirection), - ]</label>
+						<label>$INFO[Weather.Data(Weekend.1.WindSpeed),[COLOR=grey2]$LOCALIZE[404]: [/COLOR]]$INFO[Weather.Data(Weekend.1.WindDirection), - ]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
@@ -757,7 +756,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(Weekend.1.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]][CR]</label>
+						<label>$INFO[Weather.Data(Weekend.1.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]][CR]</label>
 					</control>
 					<control type="image">
 						<left>0</left>
@@ -779,7 +778,7 @@
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(Weekend.2.LongDay)] - $INFO[Window.Property(Weekend.2.ShortDate)]</label>
+						<label>$INFO[Weather.Data(Weekend.2.LongDay)] - $INFO[Weather.Data(Weekend.2.ShortDate)]</label>
 					</control>
 					<control type="image">
 						<left>15</left>
@@ -787,7 +786,7 @@
 						<width>195</width>
 						<height>240</height>
 						<aspectratio>keep</aspectratio>
-						<texture>resource://resource.images.weathericons.default/$INFO[Window.Property(Weekend.2.OutlookIcon)]</texture>
+						<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(Weekend.2.FanartCode)].png</texture>
 					</control>
 					<control type="label">
 						<left>210</left>
@@ -799,7 +798,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[393][CR][/COLOR]$INFO[Window.Property(Weekend.2.HighTemperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$LOCALIZE[393][CR][/COLOR]$INFO[Weather.Data(Weekend.2.HighTemperature),[B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<left>210</left>
@@ -811,7 +810,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[391][CR][/COLOR]$INFO[Window.Property(Weekend.2.LowTemperature),[B] ,[/B]]</label>
+						<label>[COLOR=grey2]$LOCALIZE[391][CR][/COLOR]$INFO[Weather.Data(Weekend.2.LowTemperature),[B] ,[/B]]</label>
 					</control>
 					<control type="textbox">
 						<left>360</left>
@@ -821,7 +820,7 @@
 						<font>font12</font>
 						<textcolor>white</textcolor>
 						<align>right</align>
-						<label>$INFO[Window.Property(Weekend.2.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(Weekend.2.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Window.Property(Weekend.2.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]]</label>
+						<label>$INFO[Weather.Data(Weekend.2.Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(Weekend.2.Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]][CR][CR]$INFO[Weather.Data(Weekend.2.Precipitation),[COLOR=grey2]$LOCALIZE[33021] :[/COLOR][B] ,[/B]]</label>
 					</control>
 					<control type="label">
 						<left>0</left>
@@ -833,7 +832,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>$INFO[Window.Property(Weekend.2.WindSpeed),[COLOR=grey2]$LOCALIZE[404]: [/COLOR]]$INFO[Window.Property(Weekend.2.WindDirection), - ]</label>
+						<label>$INFO[Weather.Data(Weekend.2.WindSpeed),[COLOR=grey2]$LOCALIZE[404]: [/COLOR]]$INFO[Weather.Data(Weekend.2.WindDirection), - ]</label>
 					</control>
 					<control type="textbox">
 						<left>0</left>
@@ -844,7 +843,7 @@
 						<textcolor>white</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>center</align>
-						<label>$INFO[Window.Property(Weekend.2.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]][CR]</label>
+						<label>$INFO[Weather.Data(Weekend.2.Outlook),[COLOR=grey2]$LOCALIZE[31905]: [/COLOR]][CR]</label>
 					</control>
 				</control>
 			</control>
@@ -1307,7 +1306,7 @@
 				<label>$LOCALIZE[33050]</label>
 			</control>
 			<control type="group">
-				<visible>!String.IsEqual(Window.Property(Alerts.Count),0)</visible>
+				<visible>!String.IsEqual(Weather.Data(Alerts.Count),0)</visible>
 				<control type="textbox">
 					<left>60</left>
 					<top>176</top>
@@ -1317,7 +1316,7 @@
 					<textcolor>white</textcolor>
 					<selectedcolor>selected</selectedcolor>
 					<align>center</align>
-					<label>$INFO[Window.Property(Alerts)]</label>
+					<label>$INFO[Weather.Data(Alerts)]</label>
 					<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 				</control>
 			</control>
@@ -1331,7 +1330,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$LOCALIZE[19055]</label>
-				<visible>String.IsEqual(Window.Property(Alerts.Count),0)</visible>
+				<visible>String.IsEqual(Weather.Data(Alerts.Count),0)</visible>
 			</control>
 		</control>
 	</include>
