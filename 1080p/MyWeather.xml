@@ -40,6 +40,7 @@
 				<effect type="zoom" start="100" end="80" center="960,540" easing="in" tween="back" time="225" />
 				<effect type="fade" start="100" end="0" time="225" />
 			</animation>
+			<visible>!Weather.IsUpdating</visible>
 			<include>VisibleFadeEffect</include>
 			<control type="group">
 				<left>90</left>
@@ -122,7 +123,7 @@
 						<width>690</width>
 						<height>53</height>
 						<font>font12</font>
-						<label>$LOCALIZE[12014] - $INFO[Weather.Data(Updated)]</label>
+						<label>$LOCALIZE[12014] - $INFO[Weather.LastUpdated]</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<textcolor>grey2</textcolor>
@@ -420,6 +421,20 @@
 					<include>WeatherMaps</include>
 					<include>WeatherAlerts</include>
 				</control>
+			</control>
+		</control>
+		<control type="group">
+			<depth>DepthDialog+</depth>
+			<left>936</left>
+			<top>516</top>
+			<control type="image">
+				<description>Busy animation</description>
+				<width>48</width>
+				<height>48</height>
+				<texture>busy.png</texture>
+				<aspectratio>keep</aspectratio>
+				<animation effect="rotate" start="0" end="360" center="24,24" time="900" loop="true" condition="true">conditional</animation>
+				<visible>Weather.IsUpdating</visible>
 			</control>
 		</control>
 		<control type="group">
