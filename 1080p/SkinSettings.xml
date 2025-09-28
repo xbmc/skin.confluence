@@ -438,6 +438,19 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
+					<control type="radiobutton" id="208">
+						<description>Show Weather info</description>
+						<width>1125</width>
+						<height>60</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>31114</label>
+						<onclick>Skin.ToggleSetting(HomepageHideWeatherWidget)</onclick>
+						<selected>!Skin.HasSetting(HomepageHideWeatherWidget)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
 					<!-- Home screen buttons -->
 					<control type="label" id="210">
 						<width>1125</width>
