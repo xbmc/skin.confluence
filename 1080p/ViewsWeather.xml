@@ -31,151 +31,12 @@
 				<scrolltime>200</scrolltime>
 				<include>VisibleFadeEffect</include>
 				<visible>String.IsEmpty(Window.Property(Weather.CurrentView))</visible>
-				<itemlayout height="203" width="900" condition="String.IsEmpty(Window.Property(Daily.IsFetched))">
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>900</width>
-						<height>204</height>
-						<texture border="0,5,0,5">MenuItemNF.png</texture>
-					</control>
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>900</width>
-						<height>204</height>
-						<texture border="0,5,0,5">MenuItemNF.png</texture>
-					</control>
-					<control type="label">
-						<left>225</left>
-						<top>8</top>
-						<width>450</width>
-						<height>38</height>
-						<font>font13_title</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
-					</control>
-					<control type="image">
-						<left>690</left>
-						<top>0</top>
-						<width>203</width>
-						<height>203</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.ActualIcon]</texture>
-					</control>
-					<control type="label">
-						<left>45</left>
-						<top>53</top>
-						<width>585</width>
-						<height>45</height>
-						<font>font13</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]</label>
-						<visible>!String.IsEmpty(ListItem.Property(HighTemp))</visible>
-					</control>
-					<control type="textbox">
-						<left>45</left>
-						<top>108</top>
-						<width>600</width>
-						<height>72</height>
-						<font>font13</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
-						<label>$INFO[ListItem.Property(Outlook)]</label>
-					</control>
-				</itemlayout>
-				<focusedlayout height="203" width="900" condition="String.IsEmpty(Window.Property(Daily.IsFetched))">
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>900</width>
-						<height>204</height>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
-						<visible>!Control.HasFocus(51)</visible>
-						<include>VisibleFadeEffect</include>
-					</control>
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>900</width>
-						<height>204</height>
-						<texture border="0,2,0,2">MenuItemNF.png</texture>
-						<visible>!Control.HasFocus(51)</visible>
-						<include>VisibleFadeEffect</include>
-					</control>
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>900</width>
-						<height>204</height>
-						<texture border="10">button-focus2.png</texture>
-						<visible>Control.HasFocus(51)</visible>
-						<include>VisibleFadeEffect</include>
-					</control>
-					<control type="label">
-						<left>225</left>
-						<top>8</top>
-						<width>450</width>
-						<height>38</height>
-						<font>font13_title</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>center</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
-					</control>
-					<control type="image">
-						<left>690</left>
-						<top>0</top>
-						<width>203</width>
-						<height>203</height>
-						<aspectratio>keep</aspectratio>
-						<texture>$INFO[ListItem.ActualIcon]</texture>
-					</control>
-					<control type="label">
-						<left>45</left>
-						<top>53</top>
-						<width>585</width>
-						<height>45</height>
-						<font>font13</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
-						<aligny>center</aligny>
-						<label>[COLOR=grey2]$LOCALIZE[419] : [/COLOR]$INFO[ListItem.Property(HighTemp)]     [COLOR=grey2]$LOCALIZE[418] : [/COLOR]$INFO[ListItem.Property(LowTemp)]</label>
-						<visible>!String.IsEmpty(ListItem.Property(HighTemp))</visible>
-					</control>
-					<control type="textbox">
-						<left>45</left>
-						<top>108</top>
-						<width>600</width>
-						<height>72</height>
-						<font>font13</font>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<selectedcolor>selected</selectedcolor>
-						<align>left</align>
-						<label>$INFO[ListItem.Property(Outlook)]</label>
-					</control>
-				</focusedlayout>
 				<itemlayout height="203" width="900" condition="!String.IsEmpty(Window.Property(Daily.IsFetched))">
 					<control type="image">
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="0,5,0,5">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
@@ -227,7 +88,7 @@
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
@@ -236,7 +97,7 @@
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="10">button-focus2.png</texture>
 						<visible>Control.HasFocus(51)</visible>
 						<include>VisibleFadeEffect</include>
@@ -291,27 +152,6 @@
 						<icon />
 						<visible>!Weather.IsFetched</visible>
 					</item>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="0" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="1" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="2" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="3" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="4" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="5" />
-					</include>
-					<include content="WeatherDefaultItem">
-						<param name="item_id" value="6" />
-					</include>
 					<include content="WeatherDailyItem">
 						<param name="item_id" value="1" />
 					</include>
@@ -389,14 +229,12 @@
 			</control>
 		</control>
 	</include>
-	<include name="WeatherDefaultItem">
+	<include name="HomeWeatherDailyItem">
 		<item>
-			<label>$INFO[Weather.Data(Day$PARAM[item_id].Title)]</label>
-			<icon>$INFO[Weather.Data(Day$PARAM[item_id].OutlookIcon)]</icon>
-			<property name="HighTemp">$INFO[Weather.Data(Day$PARAM[item_id].HighTemp)]</property>
-			<property name="LowTemp">$INFO[Weather.Data(Day$PARAM[item_id].LowTemp)]</property>
-			<property name="Outlook">$INFO[Weather.Data(Day$PARAM[item_id].Outlook)]</property>
-			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Day$PARAM[item_id].Outlook)) + String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
+			<label>[B]$INFO[Weather.Data(Daily.$PARAM[item_id].LongDay)][/B]</label>
+			<label2>[B]$INFO[Weather.Data(Daily.$PARAM[item_id].HighTemperature)][/B]   $INFO[Weather.Data(Daily.$PARAM[item_id].LowTemperature)]</label2>
+			<thumb>resource://resource.images.weathericons.default/$INFO[Weather.Data(Daily.$PARAM[item_id].FanartCode)].png</thumb>
+			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Daily.$PARAM[item_id].Outlook))</visible>
 		</item>
 	</include>
 	<include name="WeatherDailyItem">
@@ -404,7 +242,7 @@
 			<label>[B]$INFO[Weather.Data(Daily.$PARAM[item_id].ShortDay)][/B][CR][COLOR=grey2]$INFO[Weather.Data(Daily.$PARAM[item_id].ShortDate)][/COLOR]</label>
 			<label2>$INFO[Weather.Data(Daily.$PARAM[item_id].HighTemperature),[COLOR=grey2]$LOCALIZE[419] :[/COLOR][B] ,[/B]]  $INFO[Weather.Data(Daily.$PARAM[item_id].LowTemperature),[COLOR=grey2]$LOCALIZE[418] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Daily.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[33022] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Daily.$PARAM[item_id].Cloudiness),[COLOR=grey2]$LOCALIZE[387] :[/COLOR][B] ,[/B]]</label2>
 			<thumb>resource://resource.images.weathericons.default/$INFO[Weather.Data(Daily.$PARAM[item_id].FanartCode)].png</thumb>
-			<icon>$INFO[Weather.Data(Daily.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Weather.Data(Daily.$PARAM[item_id].WindSpeed)] $INFO[Weather.Data(Daily.$PARAM[item_id].WindDirection)]</icon>
+			<icon>$INFO[Weather.Data(Daily.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]$INFO[Weather.Data(Daily.$PARAM[item_id].WindSpeed),[CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]]$INFO[Weather.Data(Daily.$PARAM[item_id].WindDirection), ]</icon>
 			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Daily.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 		</item>
 	</include>
@@ -413,7 +251,7 @@
 			<label>[B]$INFO[Weather.Data(Hourly.$PARAM[item_id].Time)][/B][CR][COLOR=grey2]$INFO[Weather.Data(Hourly.$PARAM[item_id].ShortDate)][/COLOR]</label>
 			<label2>$INFO[Weather.Data(Hourly.$PARAM[item_id].Temperature),[COLOR=grey2]$LOCALIZE[401] :[/COLOR][B] ,[/B]]  $INFO[Weather.Data(Hourly.$PARAM[item_id].FeelsLike),[COLOR=grey2]$LOCALIZE[402] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Hourly.$PARAM[item_id].Humidity),[COLOR=grey2]$LOCALIZE[406] :[/COLOR][B] ,[/B]][CR]$INFO[Weather.Data(Hourly.$PARAM[item_id].Precipitation),[COLOR=grey2]$LOCALIZE[1448] :[/COLOR][B] ,[/B]]</label2>
 			<thumb>resource://resource.images.weathericons.default/$INFO[Weather.Data(Hourly.$PARAM[item_id].FanartCode)].png</thumb>
-			<icon>$INFO[Weather.Data(Hourly.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]][CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]$INFO[Weather.Data(Hourly.$PARAM[item_id].WindSpeed)] $INFO[Weather.Data(Hourly.$PARAM[item_id].WindDirection)]</icon>
+			<icon>$INFO[Weather.Data(Hourly.$PARAM[item_id].Outlook),[COLOR=grey2]$LOCALIZE[33030]: [/COLOR]]$INFO[Weather.Data(Hourly.$PARAM[item_id].WindSpeed),[CR][COLOR=grey2]$LOCALIZE[383]: [/COLOR]]$INFO[Weather.Data(Hourly.$PARAM[item_id].WindDirection), ]</icon>
 			<visible>Weather.IsFetched + !String.IsEmpty(Weather.Data(Hourly.$PARAM[item_id].Outlook)) + !String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 		</item>
 	</include>
@@ -885,7 +723,7 @@
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="0,5,0,5">MenuItemNF.png</texture>
 					</control>
 					<control type="label">
@@ -937,7 +775,7 @@
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="0,2,0,2">MenuItemNF.png</texture>
 						<visible>!Control.HasFocus(52)</visible>
 						<include>VisibleFadeEffect</include>
@@ -946,7 +784,7 @@
 						<left>0</left>
 						<top>0</top>
 						<width>900</width>
-						<height>204</height>
+						<height>203</height>
 						<texture border="10">button-focus2.png</texture>
 						<visible>Control.HasFocus(52)</visible>
 						<include>VisibleFadeEffect</include>

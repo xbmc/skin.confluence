@@ -14,6 +14,7 @@
 	<include file="IncludesGames.xml" />
 	<include file="IncludesHomeRecentlyAdded.xml" />
 	<include file="IncludesHomeMenuItems.xml" />
+	<include file="IncludesHomeWeatherWidget.xml" />
 	<include file="IncludesPVR.xml" />
 	<include file="IncludesBackgroundBuilding.xml" />
 	<include file="IncludesConstants.xml" />

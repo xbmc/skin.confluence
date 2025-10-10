@@ -305,7 +305,9 @@ msgctxt "#31113"
 msgid "Background path Master:"
 msgstr ""
 
-#empty string with id 31114
+msgctxt "#31114"
+msgid "Show weather information widgets"
+msgstr ""
 
 msgctxt "#31115"
 msgid "Main button playlists"
