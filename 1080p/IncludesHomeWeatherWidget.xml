@@ -77,7 +77,7 @@
 							<texture>$INFO[ListItem.Thumb]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
-							<bordersize>5</bordersize>
+							<bordersize>25</bordersize>
 						</control>
 						<control type="label">
 							<left>23</left>
@@ -137,7 +137,7 @@
 							<texture>$INFO[ListItem.Thumb]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture infill="false" border="5">folder-focus.png</bordertexture>
-							<bordersize>5</bordersize>
+							<bordersize>25</bordersize>
 							<visible>Control.HasFocus(7000)</visible>
 						</control>
 						<control type="image">
@@ -148,7 +148,7 @@
 							<texture>$INFO[ListItem.Thumb]</texture>
 							<aspectratio>keep</aspectratio>
 							<bordertexture infill="false" border="5">button-nofocus.png</bordertexture>
-							<bordersize>5</bordersize>
+							<bordersize>25</bordersize>
 							<visible>!Control.HasFocus(7000)</visible>
 						</control>
 						<control type="label">
