@@ -282,6 +282,10 @@ msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Arka plan yolu Yöneticisi:"
 
+msgctxt "#31114"
+msgid "Show weather information widgets"
+msgstr ""
+
 msgctxt "#31115"
 msgid "Main button playlists"
 msgstr "Ana düğme çalma listeleri"

@@ -282,6 +282,10 @@ msgctxt "#31113"
 msgid "Background path Master:"
 msgstr "Caminho preferido de fundo:"
 
+msgctxt "#31114"
+msgid "Show weather information widgets"
+msgstr ""
+
 msgctxt "#31115"
 msgid "Main button playlists"
 msgstr "Botão de listas de reprodução"
