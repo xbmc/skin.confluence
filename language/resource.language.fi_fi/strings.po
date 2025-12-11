@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-05-29 14:53+0000\n"
+"PO-Revision-Date: 2025-12-11 16:13+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.14.3\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -305,7 +305,7 @@ msgstr "Aloitusnäytön \"Lisäosat\"-alivalikko"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Piilota fanitaide"
+msgstr "Piilota taustan fanart"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -331,7 +331,7 @@ msgstr "Näytä musiikkivideoille pienoiskuvien sijaan julisteet"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "Piilot fanitaide, kun visualisointi toistetaan koko ruudussa"
+msgstr "Piilota fanart, kun visualisointi toistetaan koko näytössä"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
