@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-04-04 10:13+0000\n"
+"PO-Revision-Date: 2026-04-11 14:41+0000\n"
 "Last-Translator: wabisabi926 <wabisabi926@foxmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/zh_Hans/>\n"
 "Language: zh_cn\n"
@@ -305,7 +305,7 @@ msgstr "主界面插件子菜单"
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "隐藏背景粉丝艺术图"
+msgstr "隐藏背景艺术图"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -331,7 +331,7 @@ msgstr "对于音乐电视，显示海报而不是缩略图"
 
 msgctxt "#31129"
 msgid "Hide fanart in full screen visualisation"
-msgstr "全屏可视化效果隐藏粉丝艺术图"
+msgstr "全屏可视化效果隐藏背景图"
 
 msgctxt "#31132"
 msgid "Lyrics add-on"
