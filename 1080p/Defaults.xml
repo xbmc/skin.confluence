@@ -57,9 +57,9 @@
 	<default type="progress">
 		<left>150</left>
 		<top>488</top>
-		<texturebg border="9,13,9,13">OSDProgressBack.png</texturebg>
+		<texturebg border="9,13,9,13">osdprogressback.png</texturebg>
 		<lefttexture />
-		<midtexture border="9,13,9,13">OSDProgressMid.png</midtexture>
+		<midtexture border="9,13,9,13">osdprogressmid.png</midtexture>
 		<righttexture />
 		<overlaytexture />
 	</default>
@@ -181,7 +181,7 @@
 		<sliderheight>20</sliderheight>
 		<texturesliderbar>osd_slider_bg.png</texturesliderbar>
 		<texturesliderbardisabled colordiffuse="black">osd_slider_bg.png</texturesliderbardisabled>
-		<textureslidernib>osd_slider_nibNF.png</textureslidernib>
+		<textureslidernib>osd_slider_nibnf.png</textureslidernib>
 		<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 		<font>font12</font>
 		<textcolor>white</textcolor>

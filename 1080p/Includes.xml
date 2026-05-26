@@ -561,12 +561,12 @@
 		<value condition="Control.IsVisible(6)">([COLOR=blue]$INFO[Container(6).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(6).CurrentPage]/$INFO[Container(6).NumPages][/COLOR])</value>
 	</variable>
 	<variable name="PlayerControlsRepeatImageVar">
-		<value condition="Playlist.IsRepeatOne + Control.HasFocus(704)">OSDRepeatOneFO.png</value>
-		<value condition="Playlist.IsRepeat + Control.HasFocus(704)">OSDRepeatAllFO.png</value>
-		<value condition="Control.HasFocus(704)">OSDRepeatFO.png</value>
-		<value condition="Playlist.IsRepeatOne">OSDRepeatOneNF.png</value>
-		<value condition="Playlist.IsRepeat">OSDRepeatAllNF.png</value>
-		<value>OSDRepeatNF.png</value>
+		<value condition="Playlist.IsRepeatOne + Control.HasFocus(704)">osdrepeatonefo.png</value>
+		<value condition="Playlist.IsRepeat + Control.HasFocus(704)">osdrepeatallfo.png</value>
+		<value condition="Control.HasFocus(704)">osdrepeatfo.png</value>
+		<value condition="Playlist.IsRepeatOne">osdrepeatonenf.png</value>
+		<value condition="Playlist.IsRepeat">osdrepeatallnf.png</value>
+		<value>osdrepeatnf.png</value>
 	</variable>
 	<variable name="PVRChannelMgrHeader">
 		<value condition="!String.IsEmpty(Window.Property(IsRadio))">$LOCALIZE[19199] - $LOCALIZE[19024]</value>
@@ -1375,24 +1375,24 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDChannelUPFO.png</texturefocus>
-					<texturenofocus>OSDChannelUPNF.png</texturenofocus>
+					<texturefocus>osdchannelupfo.png</texturefocus>
+					<texturenofocus>osdchannelupnf.png</texturenofocus>
 					<onclick>ChannelDown</onclick>
 				</control>
 				<control type="button" id="601">
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDChannelDownFO.png</texturefocus>
-					<texturenofocus>OSDChannelDownNF.png</texturenofocus>
+					<texturefocus>osdchanneldownfo.png</texturefocus>
+					<texturenofocus>osdchanneldownnf.png</texturenofocus>
 					<onclick>ChannelUp</onclick>
 				</control>
 				<control type="button" id="603">
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDStopFO.png</texturefocus>
-					<texturenofocus>OSDStopNF.png</texturenofocus>
+					<texturefocus>osdstopfo.png</texturefocus>
+					<texturenofocus>osdstopnf.png</texturenofocus>
 					<onclick>down</onclick>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
@@ -1400,11 +1400,11 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDPauseFO.png</texturefocus>
-					<texturenofocus>OSDPauseNF.png</texturenofocus>
+					<texturefocus>osdpausefo.png</texturefocus>
+					<texturenofocus>osdpausenf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-					<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-					<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+					<alttexturefocus>osdplayfo.png</alttexturefocus>
+					<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 					<enable>Player.PauseEnabled</enable>
 					<animation effect="fade" start="100" end="30" time="75" condition="!Player.PauseEnabled">Conditional</animation>
@@ -1413,8 +1413,8 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDRecordOffFO.png</texturefocus>
-					<texturenofocus>OSDRecordOffNF.png</texturenofocus>
+					<texturefocus>osdrecordofffo.png</texturefocus>
+					<texturenofocus>osdrecordoffnf.png</texturenofocus>
 					<onclick>PVR.ToggleRecordPlayingChannel</onclick>
 					<enable>PVR.CanRecordPlayingChannel</enable>
 					<animation effect="fade" start="100" end="30" time="75" condition="!PVR.CanRecordPlayingChannel">Conditional</animation>
@@ -1424,8 +1424,8 @@
 					<height>59</height>
 					<label />
 					<visible>RDS.HasRadiotextPlus</visible>
-					<texturefocus>OSDRadioRDSFO.png</texturefocus>
-					<texturenofocus>OSDRadioRDSNF.png</texturenofocus>
+					<texturefocus>osdradiordsfo.png</texturefocus>
+					<texturenofocus>osdradiordsnf.png</texturenofocus>
 					<onclick>ActivateWindow(PVRRadioRDSInfo)</onclick>
 				</control>
 				<control type="button" id="622">
@@ -1433,8 +1433,8 @@
 					<height>59</height>
 					<label />
 					<visible>!RDS.HasRadiotextPlus</visible>
-					<texturefocus>OSDChannelListFO.png</texturefocus>
-					<texturenofocus>OSDChannelListNF.png</texturenofocus>
+					<texturefocus>osdchannellistfo.png</texturefocus>
+					<texturenofocus>osdchannellistnf.png</texturenofocus>
 					<onclick>ActivateWindow(PVRGuideInfo)</onclick>
 				</control>
 			</control>
@@ -1458,16 +1458,16 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDPrevTrackFO.png</texturefocus>
-					<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+					<texturefocus>osdprevtrackfo.png</texturefocus>
+					<texturenofocus>osdprevtracknf.png</texturenofocus>
 					<onclick>PlayerControl(Previous)</onclick>
 				</control>
 				<control type="button" id="706">
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDRewindFO.png</texturefocus>
-					<texturenofocus>OSDRewindNF.png</texturenofocus>
+					<texturefocus>osdrewindfo.png</texturefocus>
+					<texturenofocus>osdrewindnf.png</texturenofocus>
 					<onclick>PlayerControl(Rewind)</onclick>
 					<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
 				</control>
@@ -1475,19 +1475,19 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDPauseFO.png</texturefocus>
-					<texturenofocus>OSDPauseNF.png</texturenofocus>
+					<texturefocus>osdpausefo.png</texturefocus>
+					<texturenofocus>osdpausenf.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-					<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-					<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+					<alttexturefocus>osdplayfo.png</alttexturefocus>
+					<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 					<onclick>PlayerControl(Play)</onclick>
 				</control>
 				<control type="button" id="701">
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDStopFO.png</texturefocus>
-					<texturenofocus>OSDStopNF.png</texturenofocus>
+					<texturefocus>osdstopfo.png</texturefocus>
+					<texturenofocus>osdstopnf.png</texturenofocus>
 					<onclick>down</onclick>
 					<onclick>PlayerControl(Stop)</onclick>
 				</control>
@@ -1495,8 +1495,8 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDForwardFO.png</texturefocus>
-					<texturenofocus>OSDForwardNF.png</texturenofocus>
+					<texturefocus>osdforwardfo.png</texturefocus>
+					<texturenofocus>osdforwardnf.png</texturenofocus>
 					<onclick>PlayerControl(Forward)</onclick>
 					<visible>Window.IsVisible(MusicPlaylist) | Window.IsVisible(VideoPlaylist) | Player.HasVideo</visible>
 				</control>
@@ -1504,8 +1504,8 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDNextTrackFO.png</texturefocus>
-					<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+					<texturefocus>osdnexttrackfo.png</texturefocus>
+					<texturenofocus>osdnexttracknf.png</texturenofocus>
 					<onclick>PlayerControl(Next)</onclick>
 				</control>
 				<control type="group" id="799">
@@ -1533,11 +1533,11 @@
 					<width>59</width>
 					<height>59</height>
 					<label />
-					<texturefocus>OSDRandomOffFO.png</texturefocus>
-					<texturenofocus>OSDRandomOffNF.png</texturenofocus>
+					<texturefocus>osdrandomofffo.png</texturefocus>
+					<texturenofocus>osdrandomoffnf.png</texturenofocus>
 					<usealttexture>Playlist.IsRandom</usealttexture>
-					<alttexturefocus>OSDRandomOnFO.png</alttexturefocus>
-					<alttexturenofocus>OSDRandomOnNF.png</alttexturenofocus>
+					<alttexturefocus>osdrandomonfo.png</alttexturefocus>
+					<alttexturenofocus>osdrandomonnf.png</alttexturenofocus>
 					<onclick>PlayerControl(Random)</onclick>
 					<visible>!Window.IsVisible(MusicPlaylist) + !Window.IsVisible(VideoPlaylist) + !Player.HasVideo</visible>
 				</control>

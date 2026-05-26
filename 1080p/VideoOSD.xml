@@ -36,7 +36,7 @@
 			<ondown>26</ondown>
 			<action>seek</action>
 			<texturesliderbar>seekslider2.png</texturesliderbar>
-			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
+			<textureslidernib>osd_slider_nibnf.png</textureslidernib>
 			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDSubtitleSettings) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | VideoPlayer.Content(LiveTV)]</visible>
@@ -55,8 +55,8 @@
 				<height>83</height>
 				<label>210</label>
 				<font />
-				<texturefocus>OSDChannelUPFO.png</texturefocus>
-				<texturenofocus>OSDChannelUPNF.png</texturenofocus>
+				<texturefocus>osdchannelupfo.png</texturefocus>
+				<texturenofocus>osdchannelupnf.png</texturenofocus>
 				<onclick>PlayerControl(Previous)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -65,8 +65,8 @@
 				<height>83</height>
 				<label>209</label>
 				<font />
-				<texturefocus>OSDChannelDownFO.png</texturefocus>
-				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
+				<texturefocus>osdchanneldownfo.png</texturefocus>
+				<texturenofocus>osdchanneldownnf.png</texturenofocus>
 				<onclick>PlayerControl(Next)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -75,8 +75,8 @@
 				<height>83</height>
 				<label>210</label>
 				<font />
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onclick>PlayerControl(Previous)</onclick>
 				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -85,8 +85,8 @@
 				<height>83</height>
 				<label>31354</label>
 				<font />
-				<texturefocus>OSDRewindFO.png</texturefocus>
-				<texturenofocus>OSDRewindNF.png</texturenofocus>
+				<texturefocus>osdrewindfo.png</texturefocus>
+				<texturenofocus>osdrewindnf.png</texturenofocus>
 				<enable>Player.SeekEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
 				<onclick>PlayerControl(Rewind)</onclick>
@@ -97,11 +97,11 @@
 				<label>31351</label>
 				<altlabel>208</altlabel>
 				<font />
-				<texturefocus>OSDPauseFO.png</texturefocus>
-				<texturenofocus>OSDPauseNF.png</texturenofocus>
+				<texturefocus>osdpausefo.png</texturefocus>
+				<texturenofocus>osdpausenf.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+				<alttexturefocus>osdplayfo.png</alttexturefocus>
+				<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 				<onclick>PlayerControl(Play)</onclick>
 				<enable>Player.PauseEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.PauseEnabled">Conditional</animation>
@@ -111,8 +111,8 @@
 				<height>83</height>
 				<label>31352</label>
 				<font />
-				<texturefocus>OSDStopFO.png</texturefocus>
-				<texturenofocus>OSDStopNF.png</texturenofocus>
+				<texturefocus>osdstopfo.png</texturefocus>
+				<texturenofocus>osdstopnf.png</texturenofocus>
 				<onclick>PlayerControl(Stop)</onclick>
 			</control>
 			<control type="button" id="107">
@@ -120,8 +120,8 @@
 				<height>83</height>
 				<label>31353</label>
 				<font />
-				<texturefocus>OSDForwardFO.png</texturefocus>
-				<texturenofocus>OSDForwardNF.png</texturenofocus>
+				<texturefocus>osdforwardfo.png</texturefocus>
+				<texturenofocus>osdforwardnf.png</texturenofocus>
 				<enable>Player.SeekEnabled</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
 				<onclick>PlayerControl(Forward)</onclick>
@@ -131,8 +131,8 @@
 				<height>83</height>
 				<label>209</label>
 				<font />
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<onclick>PlayerControl(Next)</onclick>
 				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -142,11 +142,11 @@
 				<label>264</label>
 				<altlabel>265</altlabel>
 				<font />
-				<texturefocus>OSDRecordOffFO.png</texturefocus>
-				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
+				<texturefocus>osdrecordofffo.png</texturefocus>
+				<texturenofocus>osdrecordoffnf.png</texturenofocus>
 				<usealttexture>PVR.IsRecordingPlayingChannel | PVR.IsPlayingActiveRecording</usealttexture>
-				<alttexturefocus>OSDRecordOnFO.png</alttexturefocus>
-				<alttexturenofocus>OSDRecordOnNF.png</alttexturenofocus>
+				<alttexturefocus>osdrecordonfo.png</alttexturefocus>
+				<alttexturenofocus>osdrecordonnf.png</alttexturenofocus>
 				<onclick>PVR.ToggleRecordPlayingChannel</onclick>
 				<enable>PVR.CanRecordPlayingChannel</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!PVR.CanRecordPlayingChannel">Conditional</animation>
@@ -157,8 +157,8 @@
 				<height>83</height>
 				<label>19019</label>
 				<font />
-				<texturefocus>OSDChannelListFO.png</texturefocus>
-				<texturenofocus>OSDChannelListNF.png</texturenofocus>
+				<texturefocus>osdchannellistfo.png</texturefocus>
+				<texturenofocus>osdchannellistnf.png</texturenofocus>
 				<onclick>ActivateWindow(PVROSDChannels)</onclick>
 				<onclick>Dialog.Close(VideoOSD)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
@@ -168,8 +168,8 @@
 				<height>83</height>
 				<label>$LOCALIZE[19029]$INFO[VideoPlayer.ChannelName, - ]</label>
 				<font />
-				<texturefocus>OSDepgFO.png</texturefocus>
-				<texturenofocus>OSDepgNF.png</texturenofocus>
+				<texturefocus>osdepgfo.png</texturefocus>
+				<texturenofocus>osdepgnf.png</texturenofocus>
 				<onclick>ActivateWindow(PVRChannelGuide)</onclick>
 				<onclick>Dialog.Close(VideoOSD)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
@@ -179,8 +179,8 @@
 				<height>83</height>
 				<label>31356</label>
 				<font/>
-				<texturefocus>OSDTeleTextFO.png</texturefocus>
-				<texturenofocus>OSDTeleTextNF.png</texturenofocus>
+				<texturefocus>osdteletextfo.png</texturefocus>
+				<texturenofocus>osdteletextnf.png</texturenofocus>
 				<onclick>ActivateWindow(Teletext)</onclick>
 				<visible>VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -202,8 +202,8 @@
 				<height>83</height>
 				<label>36501</label>
 				<font />
-				<texturefocus>OSDStereoscopicFO.png</texturefocus>
-				<texturenofocus>OSDStereoscopicNF.png</texturenofocus>
+				<texturefocus>osdstereoscopicfo.png</texturefocus>
+				<texturenofocus>osdstereoscopicnf.png</texturenofocus>
 				<onclick>SetProperty(optionsdialog_content,3d,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[36501],home)</onclick>
 				<onclick>ActivateWindow(1114)</onclick>
@@ -213,8 +213,8 @@
 				<height>83</height>
 				<label>31356</label>
 				<font />
-				<texturefocus>OSDSubtitlesFO.png</texturefocus>
-				<texturenofocus>OSDSubtitlesNF.png</texturenofocus>
+				<texturefocus>osdsubtitlesfo.png</texturefocus>
+				<texturenofocus>osdsubtitlesnf.png</texturenofocus>
 				<onclick>ActivateWindow(OSDSubtitleSettings)</onclick>
 			</control>
 			<control type="button" id="203">
@@ -222,8 +222,8 @@
 				<height>83</height>
 				<label>13395</label>
 				<font />
-				<texturefocus>OSDVideoFO.png</texturefocus>
-				<texturenofocus>OSDVideoNF.png</texturenofocus>
+				<texturefocus>osdvideofo.png</texturefocus>
+				<texturenofocus>osdvideonf.png</texturenofocus>
 				<onclick>ActivateWindow(OSDVideoSettings)</onclick>
 			</control>
 			<control type="button" id="204">
@@ -231,8 +231,8 @@
 				<height>83</height>
 				<label>13396</label>
 				<font />
-				<texturefocus>OSDAudioFO.png</texturefocus>
-				<texturenofocus>OSDAudioNF.png</texturenofocus>
+				<texturefocus>osdaudiofo.png</texturefocus>
+				<texturenofocus>osdaudionf.png</texturenofocus>
 				<onclick>ActivateWindow(OSDAudioSettings)</onclick>
 			</control>
 			<control type="button" id="205">
@@ -240,8 +240,8 @@
 				<height>83</height>
 				<label>298</label>
 				<font />
-				<texturefocus>OSDBookmarksFO.png</texturefocus>
-				<texturenofocus>OSDBookmarksNF.png</texturenofocus>
+				<texturefocus>osdbookmarksfo.png</texturefocus>
+				<texturenofocus>osdbookmarksnf.png</texturenofocus>
 				<onclick>ActivateWindow(VideoBookmarks)</onclick>
 				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
@@ -250,8 +250,8 @@
 				<height>83</height>
 				<label>31355</label>
 				<font />
-				<texturefocus>OSDDvdFO.png</texturefocus>
-				<texturenofocus>OSDDvdNF.png</texturenofocus>
+				<texturefocus>osddvdfo.png</texturefocus>
+				<texturenofocus>osddvdnf.png</texturenofocus>
 				<onclick>PlayerControl(ShowVideoMenu)</onclick>
 				<visible>!VideoPlayer.Content(LiveTV) + VideoPlayer.HasMenu</visible>
 			</control>
@@ -260,8 +260,8 @@
 				<height>83</height>
 				<label>31355</label>
 				<font/>
-				<texturefocus>OSDPresetSettingsFO.png</texturefocus>
-				<texturenofocus>OSDPresetSettingsNF.png</texturenofocus>
+				<texturefocus>osdpresetsettingsfo.png</texturefocus>
+				<texturenofocus>osdpresetsettingsnf.png</texturenofocus>
 				<onclick>SetProperty(optionsdialog_content,options,home)</onclick>
 				<onclick>SetProperty(optionsdialog_header,$LOCALIZE[33063],home)</onclick>
 				<onclick>ActivateWindow(1114)</onclick>

@@ -38,43 +38,43 @@
 			<control type="button" id="600">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(FirstProgramme)</onclick>
 			</control>
 			<control type="button" id="601">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDRewindFO.png</texturefocus>
-				<texturenofocus>OSDRewindNF.png</texturenofocus>
+				<texturefocus>osdrewindfo.png</texturefocus>
+				<texturenofocus>osdrewindnf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(-12)</onclick>
 			</control>
 			<control type="button" id="602">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDChannelDownFO.png</texturefocus>
-				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
+				<texturefocus>osdchanneldownfo.png</texturefocus>
+				<texturenofocus>osdchanneldownnf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(CurrentProgramme)</onclick>
 			</control>
 			<control type="button" id="603">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDForwardFO.png</texturefocus>
-				<texturenofocus>OSDForwardNF.png</texturenofocus>
+				<texturefocus>osdforwardfo.png</texturefocus>
+				<texturenofocus>osdforwardnf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(+12)</onclick>
 			</control>
 			<control type="button" id="604">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(LastProgramme)</onclick>
 			</control>
 			<control type="button" id="605">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDDateFO.png</texturefocus>
-				<texturenofocus>OSDDateNF.png</texturenofocus>
+				<texturefocus>osddatefo.png</texturefocus>
+				<texturenofocus>osddatenf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(SelectDate)</onclick>
 			</control>
 		</control>
@@ -112,23 +112,23 @@
 			<control type="button" id="606">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(FirstChannel)</onclick>
 			</control>
 			<control type="button" id="607">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDChannelDownFO.png</texturefocus>
-				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
+				<texturefocus>osdchanneldownfo.png</texturefocus>
+				<texturenofocus>osdchanneldownnf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(PlayingChannel)</onclick>
 				<visible>PVR.IsPlayingTV | PVR.IsPlayingRadio</visible>
 			</control>
 			<control type="button" id="608">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(FirstProgramme)</onclick>
 			</control>
 		</control>
@@ -155,22 +155,22 @@
 			<control type="button" id="609">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus flipx="true">OSDPlayFO.png</texturefocus>
-				<texturenofocus flipx="true">OSDPlayNF.png</texturenofocus>
+				<texturefocus flipx="true">osdplayfo.png</texturefocus>
+				<texturenofocus flipx="true">osdplaynf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(PreviousGroup)</onclick>
 			</control>
 			<control type="button" id="610">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDPlayFO.png</texturefocus>
-				<texturenofocus>OSDPlayNF.png</texturenofocus>
+				<texturefocus>osdplayfo.png</texturefocus>
+				<texturenofocus>osdplaynf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(NextGroup)</onclick>
 			</control>
 			<control type="button" id="611">
 				<width>83</width>
 				<height>83</height>
-				<texturefocus>OSDPlaylistFO.png</texturefocus>
-				<texturenofocus>OSDPlaylistNF.png</texturenofocus>
+				<texturefocus>osdplaylistfo.png</texturefocus>
+				<texturenofocus>osdplaylistnf.png</texturenofocus>
 				<onclick>PVR.EpgGridControl(SelectGroup)</onclick>
 			</control>
 		</control>

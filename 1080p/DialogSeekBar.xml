@@ -106,14 +106,14 @@
 					<top>0</top>
 					<width>120</width>
 					<height>75</height>
-					<texture>OSDSeekFrame.png</texture>
+					<texture>osdseekframe.png</texture>
 				</control>
 				<control type="image">
 					<left>0</left>
 					<top>5</top>
 					<width>30</width>
 					<height>66</height>
-					<texture>OSDSeekRewind.png</texture>
+					<texture>osdseekrewind.png</texture>
 					<visible>Player.Rewinding</visible>
 				</control>
 				<control type="image">
@@ -121,7 +121,7 @@
 					<top>5</top>
 					<width>30</width>
 					<height>66</height>
-					<texture>OSDSeekForward.png</texture>
+					<texture>osdseekforward.png</texture>
 					<visible>Player.Forwarding | Player.IsTempo</visible>
 				</control>
 				<control type="image">
@@ -129,7 +129,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSDPause.png</texture>
+					<texture>osdpause.png</texture>
 					<visible>Player.Paused</visible>
 				</control>
 				<control type="image">
@@ -137,7 +137,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSDPlay.png</texture>
+					<texture>osdplay.png</texture>
 					<visible>Player.Playing + !Player.IsTempo</visible>
 				</control>
 				<control type="image">
@@ -145,7 +145,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD2x.png</texture>
+					<texture>osd2x.png</texture>
 					<visible>Player.Rewinding2x</visible>
 				</control>
 				<control type="image">
@@ -153,7 +153,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD4x.png</texture>
+					<texture>osd4x.png</texture>
 					<visible>Player.Rewinding4x</visible>
 				</control>
 				<control type="image">
@@ -161,7 +161,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD8x.png</texture>
+					<texture>osd8x.png</texture>
 					<visible>Player.Rewinding8x</visible>
 				</control>
 				<control type="image">
@@ -169,7 +169,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD16x.png</texture>
+					<texture>osd16x.png</texture>
 					<visible>Player.Rewinding16x</visible>
 				</control>
 				<control type="image">
@@ -177,7 +177,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD32x.png</texture>
+					<texture>osd32x.png</texture>
 					<visible>Player.Rewinding32x</visible>
 				</control>
 				<control type="image">
@@ -185,7 +185,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD2x.png</texture>
+					<texture>osd2x.png</texture>
 					<visible>Player.Forwarding2x</visible>
 				</control>
 				<control type="image">
@@ -193,7 +193,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD4x.png</texture>
+					<texture>osd4x.png</texture>
 					<visible>Player.Forwarding4x</visible>
 				</control>
 				<control type="image">
@@ -201,7 +201,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD8x.png</texture>
+					<texture>osd8x.png</texture>
 					<visible>Player.Forwarding8x</visible>
 				</control>
 				<control type="image">
@@ -209,7 +209,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD16x.png</texture>
+					<texture>osd16x.png</texture>
 					<visible>Player.Forwarding16x</visible>
 				</control>
 				<control type="image">
@@ -217,7 +217,7 @@
 					<top>6</top>
 					<width>60</width>
 					<height>60</height>
-					<texture>OSD32x.png</texture>
+					<texture>osd32x.png</texture>
 					<visible>Player.Forwarding32x</visible>
 				</control>
 				<control type="group">
@@ -235,7 +235,7 @@
 						<top>1</top>
 						<width>60</width>
 						<height>60</height>
-						<texture>OSDClean.png</texture>
+						<texture>osdclean.png</texture>
 					</control>
 					<control type="label">
 						<description>Playspeed Label</description>
@@ -296,7 +296,7 @@
 					<width>360</width>
 					<height>23</height>
 					<info>PVR.TimeshiftProgressBufferEnd </info>
-					<midtexture border="9,13,9,13">OSDProgressMidLight.png</midtexture>
+					<midtexture border="9,13,9,13">osdprogressmidlight.png</midtexture>
 					<visible>PVR.IsTimeShift</visible>
 				</control>
 				<control type="progress" id="23">
@@ -355,7 +355,7 @@
 					<width>360</width>
 					<height>23</height>
 					<info>Player.ProgressCache</info>
-					<midtexture border="9,13,9,13">OSDProgressMidLight.png</midtexture>
+					<midtexture border="9,13,9,13">osdprogressmidlight.png</midtexture>
 					<visible>true</visible>
 				</control>
 				<control type="progress" id="23">

@@ -36,7 +36,7 @@
 			<ondown>26</ondown>
 			<action>seek</action>
 			<texturesliderbar>seekslider2.png</texturesliderbar>
-			<textureslidernib>osd_slider_nibNF.png</textureslidernib>
+			<textureslidernib>osd_slider_nibnf.png</textureslidernib>
 			<textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList) | Window.IsVisible(PVROSDChannels) | Window.IsVisible(PVRChannelGuide) | Window.IsVisible(PVRRadioRDSInfo) | Window.IsVisible(Addon)]</visible>
@@ -53,8 +53,8 @@
 				<height>83</height>
 				<label>210</label>
 				<font />
-				<texturefocus>OSDChannelUPFO.png</texturefocus>
-				<texturenofocus>OSDChannelUPNF.png</texturenofocus>
+				<texturefocus>osdchannelupfo.png</texturefocus>
+				<texturenofocus>osdchannelupnf.png</texturenofocus>
 				<onclick>PlayerControl(Previous)</onclick>
 				<visible>MusicPlayer.Content(LiveTV)</visible>
 			</control>
@@ -63,8 +63,8 @@
 				<height>83</height>
 				<label>209</label>
 				<font />
-				<texturefocus>OSDChannelDownFO.png</texturefocus>
-				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
+				<texturefocus>osdchanneldownfo.png</texturefocus>
+				<texturenofocus>osdchanneldownnf.png</texturenofocus>
 				<onclick>PlayerControl(Next)</onclick>
 				<visible>MusicPlayer.Content(LiveTV)</visible>
 			</control>
@@ -73,8 +73,8 @@
 				<height>83</height>
 				<label>210</label>
 				<font />
-				<texturefocus>OSDPrevTrackFO.png</texturefocus>
-				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
+				<texturefocus>osdprevtrackfo.png</texturefocus>
+				<texturenofocus>osdprevtracknf.png</texturenofocus>
 				<onclick>PlayerControl(Previous)</onclick>
 				<visible>!MusicPlayer.Content(LiveTV)</visible>
 			</control>
@@ -83,8 +83,8 @@
 				<height>83</height>
 				<label>31354</label>
 				<font />
-				<texturefocus>OSDRewindFO.png</texturefocus>
-				<texturenofocus>OSDRewindNF.png</texturenofocus>
+				<texturefocus>osdrewindfo.png</texturefocus>
+				<texturenofocus>osdrewindnf.png</texturenofocus>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
 				<onclick>PlayerControl(Rewind)</onclick>
 				<enable>Player.SeekEnabled</enable>
@@ -95,11 +95,11 @@
 				<label>31351</label>
 				<altlabel>208</altlabel>
 				<font />
-				<texturefocus>OSDPauseFO.png</texturefocus>
-				<texturenofocus>OSDPauseNF.png</texturenofocus>
+				<texturefocus>osdpausefo.png</texturefocus>
+				<texturenofocus>osdpausenf.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+				<alttexturefocus>osdplayfo.png</alttexturefocus>
+				<alttexturenofocus>osdplaynf.png</alttexturenofocus>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.PauseEnabled">Conditional</animation>
 				<onclick>PlayerControl(Play)</onclick>
 				<enable>Player.PauseEnabled</enable>
@@ -109,8 +109,8 @@
 				<height>83</height>
 				<label>31352</label>
 				<font />
-				<texturefocus>OSDStopFO.png</texturefocus>
-				<texturenofocus>OSDStopNF.png</texturenofocus>
+				<texturefocus>osdstopfo.png</texturefocus>
+				<texturenofocus>osdstopnf.png</texturenofocus>
 				<onclick>PlayerControl(Stop)</onclick>
 			</control>
 			<control type="button" id="604">
@@ -118,8 +118,8 @@
 				<height>83</height>
 				<label>31353</label>
 				<font />
-				<texturefocus>OSDForwardFO.png</texturefocus>
-				<texturenofocus>OSDForwardNF.png</texturenofocus>
+				<texturefocus>osdforwardfo.png</texturefocus>
+				<texturenofocus>osdforwardnf.png</texturenofocus>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Player.SeekEnabled">Conditional</animation>
 				<onclick>PlayerControl(Forward)</onclick>
 				<enable>Player.SeekEnabled</enable>
@@ -129,8 +129,8 @@
 				<height>83</height>
 				<label>209</label>
 				<font />
-				<texturefocus>OSDNextTrackFO.png</texturefocus>
-				<texturenofocus>OSDNextTrackNF.png</texturenofocus>
+				<texturefocus>osdnexttrackfo.png</texturefocus>
+				<texturenofocus>osdnexttracknf.png</texturenofocus>
 				<visible>!MusicPlayer.Content(LiveTV)</visible>
 				<onclick>PlayerControl(Next)</onclick>
 			</control>
@@ -139,8 +139,8 @@
 				<height>83</height>
 				<label>19019</label>
 				<font />
-				<texturefocus>OSDChannelListFO.png</texturefocus>
-				<texturenofocus>OSDChannelListNF.png</texturenofocus>
+				<texturefocus>osdchannellistfo.png</texturefocus>
+				<texturenofocus>osdchannellistnf.png</texturenofocus>
 				<onclick>ActivateWindow(PVROSDChannels)</onclick>
 				<visible>MusicPlayer.Content(LiveTV)</visible>
 			</control>
@@ -149,8 +149,8 @@
 				<height>83</height>
 				<label>$LOCALIZE[19029]$INFO[MusicPlayer.ChannelName, - ]</label>
 				<font />
-				<texturefocus>OSDepgFO.png</texturefocus>
-				<texturenofocus>OSDepgNF.png</texturenofocus>
+				<texturefocus>osdepgfo.png</texturefocus>
+				<texturenofocus>osdepgnf.png</texturenofocus>
 				<onclick>ActivateWindow(PVRChannelGuide)</onclick>
 				<visible>MusicPlayer.Content(LiveTV) + !RDS.HasRadiotextPlus</visible>
 			</control>
@@ -160,8 +160,8 @@
 				<height>83</height>
 				<label>209</label>
 				<font />
-				<texturefocus>OSDRadioRDSFO.png</texturefocus>
-				<texturenofocus>OSDRadioRDSNF.png</texturenofocus>
+				<texturefocus>osdradiordsfo.png</texturefocus>
+				<texturenofocus>osdradiordsnf.png</texturenofocus>
 				<onclick>ActivateWindow(PVRRadioRDSInfo)</onclick>
 				<visible>MusicPlayer.Content(LiveTV) + RDS.HasRadiotextPlus</visible>
 			</control>
@@ -187,7 +187,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatNF.png</texture>
+					<texture>osdrepeatnf.png</texture>
 					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 					<visible>!Control.HasFocus(606)</visible>
 				</control>
@@ -196,7 +196,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatFO.png</texture>
+					<texture>osdrepeatfo.png</texture>
 					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 					<visible>Control.HasFocus(606)</visible>
 				</control>
@@ -205,7 +205,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatOneNF.png</texture>
+					<texture>osdrepeatonenf.png</texture>
 					<visible>Playlist.IsRepeatOne</visible>
 					<visible>!Control.HasFocus(606)</visible>
 				</control>
@@ -214,7 +214,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatOneFO.png</texture>
+					<texture>osdrepeatonefo.png</texture>
 					<visible>Playlist.IsRepeatOne</visible>
 					<visible>Control.HasFocus(606)</visible>
 				</control>
@@ -223,7 +223,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatAllNF.png</texture>
+					<texture>osdrepeatallnf.png</texture>
 					<visible>Playlist.IsRepeat</visible>
 					<visible>!Control.HasFocus(606)</visible>
 				</control>
@@ -232,7 +232,7 @@
 					<top>0</top>
 					<width>83</width>
 					<height>83</height>
-					<texture>OSDRepeatAllFO.png</texture>
+					<texture>osdrepeatallfo.png</texture>
 					<visible>Playlist.IsRepeat</visible>
 					<visible>Control.HasFocus(606)</visible>
 				</control>
@@ -242,11 +242,11 @@
 				<height>83</height>
 				<label>$LOCALIZE[590]$INFO[Playlist.Random, : ]</label>
 				<font />
-				<texturefocus>OSDRandomOffFO.png</texturefocus>
-				<texturenofocus>OSDRandomOffNF.png</texturenofocus>
+				<texturefocus>osdrandomofffo.png</texturefocus>
+				<texturenofocus>osdrandomoffnf.png</texturenofocus>
 				<usealttexture>Playlist.IsRandom</usealttexture>
-				<alttexturefocus>OSDRandomOnFO.png</alttexturefocus>
-				<alttexturenofocus>OSDRandomOnNF.png</alttexturenofocus>
+				<alttexturefocus>osdrandomonfo.png</alttexturefocus>
+				<alttexturenofocus>osdrandomonnf.png</alttexturenofocus>
 				<visible>!MusicPlayer.Content(LiveTV)</visible>
 				<onclick>PlayerControl(Random)</onclick>
 			</control>
@@ -273,8 +273,8 @@
 				<height>83</height>
 				<label>563</label>
 				<font />
-				<texturefocus>OSDRateFO.png</texturefocus>
-				<texturenofocus>OSDRateNF.png</texturenofocus>
+				<texturefocus>osdratefo.png</texturefocus>
+				<texturenofocus>osdratenf.png</texturenofocus>
 				<onclick>setrating</onclick>
 			</control>
 			<control type="togglebutton" id="701">
@@ -282,10 +282,10 @@
 				<height>83</height>
 				<label>31128</label>
 				<font />
-				<texturefocus>OSDLyricsFO.png</texturefocus>
-				<texturenofocus>OSDLyricsNF.png</texturenofocus>
-				<alttexturefocus>OSDLyricsFO.png</alttexturefocus>
-				<alttexturenofocus>OSDLyricsNF.png</alttexturenofocus>
+				<texturefocus>osdlyricsfo.png</texturefocus>
+				<texturenofocus>osdlyricsnf.png</texturenofocus>
+				<alttexturefocus>osdlyricsfo.png</alttexturefocus>
+				<alttexturenofocus>osdlyricsnf.png</alttexturenofocus>
 				<onclick>Close</onclick>
 				<onclick>RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
 				<altclick>Skin.SetAddon(LyricScript_Path,xbmc.python.lyrics)</altclick>
@@ -299,16 +299,16 @@
 				<height>83</height>
 				<label>12006</label>
 				<font />
-				<texturefocus>OSDVizFO.png</texturefocus>
-				<texturenofocus>OSDVizNF.png</texturenofocus>
+				<texturefocus>osdvizfo.png</texturefocus>
+				<texturenofocus>osdviznf.png</texturenofocus>
 			</control>
 			<control type="button" id="702">
 				<width>83</width>
 				<height>83</height>
 				<label>$LOCALIZE[250] $LOCALIZE[21417]</label>
 				<font />
-				<texturefocus>OSDPresetSettingsFO.png</texturefocus>
-				<texturenofocus>OSDPresetSettingsNF.png</texturenofocus>
+				<texturefocus>osdpresetsettingsfo.png</texturefocus>
+				<texturenofocus>osdpresetsettingsnf.png</texturenofocus>
 				<onclick>Addon.Default.OpenSettings(xbmc.player.musicviz)</onclick>
 			</control>
 			<control type="button" id="703">
@@ -316,8 +316,8 @@
 				<height>83</height>
 				<label>31048</label>
 				<font />
-				<texturefocus>OSDPreFO.png</texturefocus>
-				<texturenofocus>OSDPreNF.png</texturenofocus>
+				<texturefocus>osdprefo.png</texturefocus>
+				<texturenofocus>osdprenf.png</texturenofocus>
 				<onclick>ActivateWindow(visualisationpresetlist)</onclick>
 				<enable>Visualisation.HasPresets</enable>
 				<animation effect="fade" start="100" end="50" time="75" condition="!Visualisation.HasPresets">Conditional</animation>
@@ -328,11 +328,11 @@
 				<label>264</label>
 				<altlabel>265</altlabel>
 				<font />
-				<texturefocus>OSDRecordOffFO.png</texturefocus>
-				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
+				<texturefocus>osdrecordofffo.png</texturefocus>
+				<texturenofocus>osdrecordoffnf.png</texturenofocus>
 				<usealttexture>PVR.IsRecordingPlayingChannel | PVR.IsPlayingActiveRecording</usealttexture>
-				<alttexturefocus>OSDRecordOnFO.png</alttexturefocus>
-				<alttexturenofocus>OSDRecordOnNF.png</alttexturenofocus>
+				<alttexturefocus>osdrecordonfo.png</alttexturefocus>
+				<alttexturenofocus>osdrecordonnf.png</alttexturenofocus>
 				<onclick>PVR.ToggleRecordPlayingChannel</onclick>
 				<visible>PVR.CanRecordPlayingChannel</visible>
 			</control>
