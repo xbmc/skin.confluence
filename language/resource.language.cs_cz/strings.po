@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Main\n"
-"Report-Msgid-Bugs-To: https://github.com/xbmc/xbmc/issues/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2024-04-12 17:30+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2026-07-09 14:55+0000\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/cs_cz/>\n"
 "Language: cs_cz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: Weblate 2026.7\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -43,7 +43,7 @@ msgstr "Možnosti napájení"
 
 msgctxt "#31004"
 msgid "Working..."
-msgstr "Zpracovávání…"
+msgstr "Probíhá zpracování…"
 
 msgctxt "#31005"
 msgid "Hide information"
@@ -51,7 +51,7 @@ msgstr "Skrýt informace"
 
 msgctxt "#31006"
 msgid "Automatically close video OSD"
-msgstr ""
+msgstr "Automaticky zavírat OSD videa"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -59,7 +59,7 @@ msgstr "Informace o zpracování videa"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr ""
+msgstr "Doba automatického zavření OSD videa (v sekundách)"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -99,19 +99,19 @@ msgstr "Nedostupné"
 
 msgctxt "#31018"
 msgid "Set default startup item"
-msgstr ""
+msgstr "Nastavit výchozí položku při spuštění"
 
 msgctxt "#31019"
 msgid "Press 'Up' to set this item as default"
-msgstr ""
+msgstr "Stisknutím tlačítka „Nahoru“ nastavíte tuto položku jako výchozí"
 
 msgctxt "#31020"
 msgid "Game saves"
-msgstr ""
+msgstr "Uložené pozice her"
 
 msgctxt "#31021"
 msgid "Movie title format"
-msgstr ""
+msgstr "Formát názvu filmu"
 
 # empty strings from id 31018 to 31021
 msgctxt "#31022"
@@ -140,11 +140,11 @@ msgstr "Umístění"
 
 msgctxt "#31028"
 msgid "Poster wrap"
-msgstr "Plakát"
+msgstr "Pás plakátů"
 
 msgctxt "#31030"
 msgid "No changes"
-msgstr ""
+msgstr "Beze změn"
 
 msgctxt "#31031"
 msgid "Pic thumbs"
@@ -152,27 +152,27 @@ msgstr "Náhledy obrázků"
 
 msgctxt "#31032"
 msgid "Image wrap"
-msgstr "Obrázkový obal"
+msgstr "Pás obrázků"
 
 msgctxt "#31034"
 msgid "Original title (Localised title)"
-msgstr ""
+msgstr "Původní název (lokalizovaný název)"
 
 msgctxt "#31035"
 msgid "Localised title (Original title)"
-msgstr ""
+msgstr "Lokalizovaný název (původní název)"
 
 msgctxt "#31036"
 msgid "Just Original title"
-msgstr ""
+msgstr "Pouze původní název"
 
 msgctxt "#31037"
 msgid "Select + X"
-msgstr ""
+msgstr "Select + X"
 
 msgctxt "#31038"
 msgid "Select + Start"
-msgstr ""
+msgstr "Select + Start"
 
 msgctxt "#31040"
 msgid "Now playing"
@@ -180,7 +180,7 @@ msgstr "Nyní se přehrává"
 
 msgctxt "#31041"
 msgid "Select + Right Stick"
-msgstr ""
+msgstr "Select + pravá páčka"
 
 msgctxt "#31042"
 msgid "PLAYING"
@@ -216,15 +216,15 @@ msgstr "Řazení: Sestupně"
 
 msgctxt "#31052"
 msgid "Subtitles streams"
-msgstr ""
+msgstr "Streamy titulků"
 
 msgctxt "#31053"
 msgid "Audio streams"
-msgstr ""
+msgstr "Zvukové streamy"
 
 msgctxt "#31054"
 msgid "Video streams"
-msgstr ""
+msgstr "Video streamy"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -264,7 +264,7 @@ msgstr "Různé možnosti"
 
 msgctxt "#31107"
 msgid "Hide flagging read from video filenames [COLOR=grey3](e.g. Blu-ray, WEB-DL)[/COLOR]"
-msgstr ""
+msgstr "Skrýt příznaky načítané z názvů videosouborů [COLOR=grey3](např. Blu-ray, WEB-DL)[/COLOR]"
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
@@ -284,7 +284,7 @@ msgstr "Cesta k pozadí pro Hlavní profil:"
 
 msgctxt "#31114"
 msgid "Show weather information widgets"
-msgstr ""
+msgstr "Zobrazovat widgety s informacemi o počasí"
 
 msgctxt "#31115"
 msgid "Main button playlists"
@@ -364,15 +364,15 @@ msgstr "cesta k seznamu stop"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
-msgstr ""
+msgstr "Skrýt tlačítka domovské obrazovky"
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
-msgstr ""
+msgstr "Skrýt - Oblíbené"
 
 msgctxt "#31148"
 msgid "Hide - Search"
-msgstr ""
+msgstr "Skrýt - Hledání"
 
 msgctxt "#31203"
 msgid "Choose your song"
@@ -408,7 +408,7 @@ msgstr "Využití paměti:"
 
 msgctxt "#31310"
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 msgctxt "#31319"
 msgid "Selected profile"
@@ -444,39 +444,39 @@ msgstr "Podrobnosti o albu"
 
 msgctxt "#31332"
 msgid "Signal details"
-msgstr ""
+msgstr "Podrobnosti signálu"
 
 msgctxt "#31334"
 msgid "Audio information"
-msgstr ""
+msgstr "Informace o zvuku"
 
 msgctxt "#31336"
 msgid "Video bitrate"
-msgstr ""
+msgstr "Datový tok videa"
 
 msgctxt "#31337"
 msgid "Audio bitrate"
-msgstr ""
+msgstr "Datový tok zvuku"
 
 msgctxt "#31341"
 msgid "Pixel format"
-msgstr ""
+msgstr "Formát pixelů"
 
 msgctxt "#31342"
 msgid "Player cache"
-msgstr ""
+msgstr "Mezipaměť přehrávače"
 
 msgctxt "#31343"
 msgid "Screen resolution"
-msgstr ""
+msgstr "Rozlišení obrazovky"
 
 msgctxt "#31344"
 msgid "Screen rendering speed"
-msgstr ""
+msgstr "Rychlost vykreslování obrazovky"
 
 msgctxt "#31345"
 msgid "System temperature"
-msgstr ""
+msgstr "Teplota systému"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -520,7 +520,7 @@ msgstr "Nápověda při prvním spuštění…"
 
 msgctxt "#31412"
 msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section. To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"OK\" to close this dialogue. It will not appear again."
-msgstr "Tato karta oznamuje, že po straně tohoto okna je skrytá nabídka, která obsahuje další možnosti pro tuto sekci. Pro přístup k nabídce se přesuňte vlevo pomocí dálkového ovladač nebo klávesnice, nebo umístěte ukazatel myši nad tuto kartu.[CR][CR]Klikněte na „OK“ pro zavření tohoto dialogového okna. Znovu se neobjeví."
+msgstr "Tato karta označuje, že na boku tohoto okna je nabídka s dalšími možnostmi pro tuto část. Nabídku otevřete přechodem doleva pomocí dálkového ovladače nebo klávesnice, případně přesunutím ukazatele myši na tuto kartu. [CR][CR]Kliknutím na „OK“ tento dialog zavřete. Znovu se už nezobrazí."
 
 msgctxt "#31413"
 msgid "Local subtitle available"
@@ -540,7 +540,7 @@ msgstr "Zobrazit nebo skrýt přihlašovací obrazovku při spuštění."
 
 msgctxt "#31423"
 msgid "Select the profile that will be used at startup when the login screen is disabled."
-msgstr "Vyberte profil, který bude použit po spuštění, když je přihlašovací obrazovka zakázána."
+msgstr "Vyberte profil, který se použije při spuštění, když je přihlašovací obrazovka zakázána."
 
 msgctxt "#31430"
 msgid "[B]PLAYER SETTINGS[/B][CR][CR]Configure actions that can be used during playback · Configure how media content is played"
@@ -632,7 +632,7 @@ msgstr "OBRÁZKY"
 
 msgctxt "#31952"
 msgid "TV"
-msgstr "TELEVIZE"
+msgstr "TV"
 
 msgctxt "#31953"
 msgid "VIDEOS"
