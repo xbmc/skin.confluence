@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-07-11 13:35+0000\n"
+"PO-Revision-Date: 2026-07-11 18:11+0000\n"
 "Last-Translator: Feruk <feruk.v@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -55,7 +55,7 @@ msgstr "Автоматически скрывать экранное меню в
 
 msgctxt "#31007"
 msgid "Video process information"
-msgstr "Сведения о видеопроцесе"
+msgstr "Декодирование видео"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
@@ -79,7 +79,7 @@ msgstr "Декодер"
 
 msgctxt "#31013"
 msgid "Audio process information"
-msgstr "Сведения о аудиопроцесе"
+msgstr "Обработка аудио"
 
 msgctxt "#31014"
 msgid "Memory used"
@@ -448,7 +448,7 @@ msgstr "Детали сигнала"
 
 msgctxt "#31334"
 msgid "Audio information"
-msgstr "Сведения о аудиоподсистеме"
+msgstr "Аудиосистема"
 
 msgctxt "#31336"
 msgid "Video bitrate"
