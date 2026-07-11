@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: KODI Main\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2026-07-10 20:46+0000\n"
+"PO-Revision-Date: 2026-07-11 13:35+0000\n"
 "Last-Translator: Feruk <feruk.v@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-confluence/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.7\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 msgctxt "Addon Summary"
 msgid "Confluence skin by Jezz_X."
@@ -51,7 +51,7 @@ msgstr "Без сведений"
 
 msgctxt "#31006"
 msgid "Automatically close video OSD"
-msgstr "Автоматически скрывать видео OSD"
+msgstr "Автоматически скрывать экранное меню видео"
 
 msgctxt "#31007"
 msgid "Video process information"
@@ -59,7 +59,7 @@ msgstr "Сведения о видеопроцесе"
 
 msgctxt "#31008"
 msgid "Video OSD autoclose time (seconds)"
-msgstr "Показывать OSD до автоматического скрытия (в секундах)"
+msgstr "Время отображения меню до скрытия (в секундах)"
 
 msgctxt "#31009"
 msgid "Total duration"
@@ -268,19 +268,19 @@ msgstr "Не показывать метки качества из имен ви
 
 msgctxt "#31108"
 msgid "Hide main menu buttons"
-msgstr "Скрыть кнопки главного меню"
+msgstr "Скрывать разделы главного меню"
 
 msgctxt "#31110"
 msgid "Background path:"
-msgstr "Путь к фоновой картинке:"
+msgstr "Путь к фоновому изображению:"
 
 msgctxt "#31111"
 msgid "Hide"
-msgstr "Скрыть"
+msgstr "Скрывать"
 
 msgctxt "#31113"
 msgid "Background path Master:"
-msgstr "Фоновый путь мастера:"
+msgstr "Мастер выбора фонового пути:"
 
 msgctxt "#31114"
 msgid "Show weather information widgets"
@@ -305,7 +305,7 @@ msgstr "Подменю «Дополнения» на главном экране
 
 msgctxt "#31119"
 msgid "Hide background fanart"
-msgstr "Скрыть фоновый фанарт"
+msgstr "Скрывать фанарт на заднем плане"
 
 #. In main language strings its used as submenu
 msgctxt "#31120"
@@ -315,7 +315,7 @@ msgstr "Подменю «Игры» на главном экране"
 #. Boolean settings value
 msgctxt "#31122"
 msgid "Hide EPG if RDS is present on channel window"
-msgstr "Скрыть EPG если на каналe присутствует RDS"
+msgstr "Скрывать телепрограмму, EPG для радиостанций с RDS"
 
 msgctxt "#31124"
 msgid "Show background \"Now playing\" video"
@@ -364,15 +364,15 @@ msgstr "путь к плейлисту"
 
 msgctxt "#31146"
 msgid "Hide home screen buttons"
-msgstr "Скрыть кнопки главного экрана"
+msgstr "Скрывать служебные кнопки"
 
 msgctxt "#31147"
 msgid "Hide - Favourites"
-msgstr "Скрыть «Избранное»"
+msgstr "Скрывать - Избранное"
 
 msgctxt "#31148"
 msgid "Hide - Search"
-msgstr "Скрыть «Поиск»"
+msgstr "Скрывать - Поиск"
 
 msgctxt "#31203"
 msgid "Choose your song"
@@ -388,7 +388,7 @@ msgstr "Будущие серии"
 
 msgctxt "#31209"
 msgid "Hide Master profile main menu buttons"
-msgstr "Скрыть кнопки главного меню главного профиля"
+msgstr "Скрывать разделы меню основного профиля"
 
 msgctxt "#31300"
 msgid "Current temperature"
@@ -673,7 +673,7 @@ msgstr "Таймшифт"
 #. Choose profile identifier
 msgctxt "#31962"
 msgid "Choose kind of profile identification"
-msgstr "Выбрать вид идентификации профиля"
+msgstr "Тип отображения профиля"
 
 #. Label for the kind of profile identification
 msgctxt "#31964"
