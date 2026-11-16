@@ -79,7 +79,7 @@
 				<top>398</top>
 				<height>38</height>
 				<width>1500</width>
-				<label>$INFO[MusicPlayer.Artist,,   ]$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
+				<label>$INFO[MusicPlayer.Artist,, - ]$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -92,7 +92,7 @@
 				<top>428</top>
 				<height>45</height>
 				<width>1500</width>
-				<label>$INFO[MusicPlayer.Title]</label>
+				<label>$INFO[Player.Title]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
@@ -481,6 +481,7 @@
 				</control>
 			</control>
 		</control>
+		<include condition="!Skin.HasSetting(HomepageHideWeatherWidget)">HomeWeatherWidget</include>
 		<include condition="!Skin.HasSetting(HomepageHideRecentlyAddedVideo) | !Skin.HasSetting(HomepageHideRecentlyAddedAlbums)">HomeRecentlyAddedInfo</include>
 		<control type="button" id="9003">
 			<description>Hidden Button to pass through navigation when recently added is disabled</description>
@@ -1283,7 +1284,7 @@
 					<width>90</width>
 					<height>90</height>
 					<aspectratio>keep</aspectratio>
-					<texture>$INFO[Weather.ConditionsIcon]</texture>
+					<texture>resource://resource.images.weathericons.default/$INFO[Weather.Data(Current.FanartCode)].png</texture>
 				</control>
 				<control type="label">
 					<description>Location label</description>
@@ -1296,7 +1297,7 @@
 					<font>font10</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
-					<label>$INFO[Window(Weather).Property(Location)]</label>
+					<label>$INFO[Weather.Data(Location)]</label>
 				</control>
 				<control type="grouplist">
 					<left>98</left>
@@ -1315,18 +1316,7 @@
 						<font>font28_title</font>
 						<textcolor>white</textcolor>
 						<shadowcolor>black</shadowcolor>
-						<label>[B]$INFO[Window(Weather).Property(Current.Temperature)][/B]</label>
-					</control>
-					<control type="label">
-						<description>Temp Units</description>
-						<width min="0" max="150">auto</width>
-						<height>33</height>
-						<font>font10</font>
-						<aligny>center</aligny>
-						<label>$INFO[System.TemperatureUnits]</label>
-						<textcolor>white</textcolor>
-						<shadowcolor>black</shadowcolor>
-						<visible>!String.IsEmpty(Window(Weather).Property(Current.Temperature))</visible>
+						<label>[B]$INFO[Weather.Data(Current.Temperature)][/B]</label>
 					</control>
 					<control type="label">
 						<description>Conditions Label</description>
@@ -1334,7 +1324,7 @@
 						<height>33</height>
 						<font>font10</font>
 						<aligny>center</aligny>
-						<label>$INFO[Window(Weather).Property(Current.Condition),  ]</label>
+						<label>$INFO[Weather.Data(Current.Condition),  ]</label>
 						<textcolor>grey2</textcolor>
 						<shadowcolor>black</shadowcolor>
 					</control>
