@@ -175,7 +175,7 @@
 					<font>font30</font>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[MusicPlayer.Title]</label>
+					<label>$INFO[Player.Title]</label>
 					<textcolor>orange</textcolor>
 					<scroll>true</scroll>
 				</control>
@@ -220,6 +220,7 @@
 						<description>Rating</description>
 						<width>258</width>
 						<height>39</height>
+						<visible>!Player.IsInternetStream</visible>
 						<control type="image">
 							<description>rating back</description>
 							<left>0</left>
