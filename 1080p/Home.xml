@@ -79,7 +79,7 @@
 				<top>398</top>
 				<height>38</height>
 				<width>1500</width>
-				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]$INFO[musicplayer.discnumber, - $LOCALIZE[427]: ]</label>
+				<label>$INFO[MusicPlayer.Artist,, - ]$INFO[MusicPlayer.Album]$INFO[musicplayer.discnumber, - $LOCALIZE[427]:]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -92,7 +92,7 @@
 				<top>428</top>
 				<height>45</height>
 				<width>1500</width>
-				<label>$INFO[MusicPlayer.Title]</label>
+				<label>$INFO[Player.Title]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13_title</font>
